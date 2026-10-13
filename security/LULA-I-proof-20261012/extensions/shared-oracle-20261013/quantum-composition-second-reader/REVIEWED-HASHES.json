@@ -1,0 +1,58 @@
+[
+  {
+    "relative_path": "QUANTUM-COMPOSITION-DRAFT.md",
+    "sha256": "71d3f23a3d161c7ade049dcf4f5d2a0467fe7a4a6a0bf97a899eb63bff708b89"
+  },
+  {
+    "relative_path": "QUANTUM-COVERAGE-THEOREM.md",
+    "sha256": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217"
+  },
+  {
+    "relative_path": "quantum-coverage-second-reader-code/SUCCESSOR-CHECK.md",
+    "sha256": "f2981cbb756d1a5c35f4b93966a7451f50de78c27be12ebeb2a75f58bb58be0c"
+  },
+  {
+    "relative_path": "quantum-coverage-second-reader-code/SUCCESSOR-CHECK.json",
+    "sha256": "e130854b9fffeb4576383288eafe91599118637095cd0c17b973e235329bbc0e"
+  },
+  {
+    "relative_path": "quantum-private-frontier/DERIVATION.md",
+    "sha256": "a70d84506c789ff567969bed77d67d1513722ff570fec004ad9ff757da863adf"
+  },
+  {
+    "relative_path": "quantum-private-second-reader/REVIEW.md",
+    "sha256": "e74df11a44c1562b6ad8b1ef4b86703dfe39a22f50e8d11850854d466287f8e8"
+  },
+  {
+    "relative_path": "DYNAMIC-QUANTUM-HIDDEN-THEOREM.md",
+    "sha256": "a8c1191851349293aee10acc7ac255ed684a22094183329d3fada24cda1dde6f"
+  },
+  {
+    "relative_path": "quantum-hidden-frontier/SECOND_READER_OF_ROOT.md",
+    "sha256": "acf2689132087e2df8b4df1689a01f71da83af505dd066a100253318177064f7"
+  },
+  {
+    "relative_path": "quantum-graph-second-reader/SECOND_READER.md",
+    "sha256": "8fb3b0f7c2f3eb43d6dbfacc84017b9b47d67f09bc5b3ffef8f357b232e3f5b2"
+  },
+  {
+    "relative_path": "quantum-graph-targets/DERIVATION.md",
+    "sha256": "1a050363698b8d8913c6032773af943ac4860efb167ec9d12d8efc45f4811af9"
+  },
+  {
+    "relative_path": "quantum-canonical-targets/RESULTS.md",
+    "sha256": "d8dcfd1baf1c8f88d337c230e88065d524ea5b7a088b1fcdc426272cbc0ecce6"
+  },
+  {
+    "relative_path": "root-canonical-quantum-review/SECOND_READER.md",
+    "sha256": "064c03268459955ada47dfe2f8cf33a78dd6ca99e5e2d242e9e5827ad8756c99"
+  },
+  {
+    "relative_path": "quantum-fors-frontier/multicall/ROOT_REVIEW.md",
+    "sha256": "2999c69cab6b4a6c9b1ae2274f6959d6bc60c94c726ff85d31ca4a6baea831d7"
+  },
+  {
+    "absolute_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+    "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "status": "ACCEPTED_MANUAL_ONE_QUERY_COMPLETION_AND_RESTRICTED_RO_CONSEQUENCE",
+  "root_claimed_blindness": false,
+  "root_subject_pins": {
+    "root-keyed-review\\ONE-QUERY-COMPLETION.md": "7def78f7f5e771e397373f7ad81c7977674669d2064a3b2ce1a31e13d31bf1f0",
+    "root-keyed-review\\one_query_completion.py": "89128e32d5a3eeb7da92c4fe22fbcbc5de725e5c235f0625480832f9981cd9c1",
+    "root-keyed-review\\ONE-QUERY-CONTROL.json": "ca4ca730962181c1b6b2312627bf53384907ef8bc07846bd4ae4d23fbe0c7668"
+  },
+  "own_pins": {
+    "INDEPENDENT-FIRST.md": "74d25d6b3a7332d866ac8c11d3a0b75b37390837b02e7abc05d72332f84a31c1",
+    "PEER-REVIEW.md": "5467b7d0df1867aa69be9b71ec0b37e933ed39736c579e591b66cee98f5b42e2",
+    "REVIEW-RECEIPT.json": "6394bf8e6fec9f8f00f85d49608db6a2660a0e8541df87d8be863eedb67ba4c9",
+    "ONE-QUERY-REVIEW.md": "00162ec1456d1e4f368ead5d6ef4934afb61e23af3511c1fbd925830186c16e9",
+    "rerun-one-query.py": "46dd8bf3c6674b00f653864439df716f9ba332f1a247b94d0a7c88f2eba33616",
+    "one-query-rerun/ONE-QUERY-CONTROL.json": "ca4ca730962181c1b6b2312627bf53384907ef8bc07846bd4ae4d23fbe0c7668"
+  },
+  "prior_peer_first_pin": "44dcb6acf797cf27875eece1a9f52f6e8faf2c365a8a391d4d5a14812b1c419b",
+  "checks": {
+    "one_standard_unconditional_Boolean_XOR_query": true,
+    "Fourier_response_exact_translation": true,
+    "scratch_zero_no_extra_input_phase": true,
+    "arbitrary_entangled_reference_linearity": true,
+    "outside_Delta_zero_plus_identity": true,
+    "independent_completion_tables": true,
+    "canonical_bottom_same_function_preserved": true,
+    "preserved_program_M_Qplus1": true,
+    "new_stopped_extractor_M_Q_no_Win_recognition": true,
+    "independent_rerun_exit0": true,
+    "rerun_byte_identical": true,
+    "negative_controls_discriminate_missing_phase_and_uncompute": true,
+    "honest_runtime_still_charged": true
+  },
+  "derived_bound": "min(1,8*(M+1)^2/2^128)",
+  "preserved_program_bound": "min(1,8*(Q+2)^2/2^128)",
+  "new_stopped_program_bound": "min(1,8*(Q+1)^2/2^128)",
+  "new_checked_declarations": 0,
+  "full_source_game_checked_declarations": 0,
+  "category_capacity_fixed_SHA_claim": false,
+  "efficient_coherent_implementation_claim": false,
+  "whole_goal_complete": false
+}

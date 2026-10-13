@@ -1,0 +1,70 @@
+{
+  "verdict": "ACCEPT_MANUAL_SINGLE_TARGET_PRE_QUERY_BOUND_AND_ACTUAL_CALLER",
+  "subject_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SINGLE-TARGET-PRE-RO.md",
+  "subject_sha256": "16b5b6f7dd49ba1a1b263e60de59c4c3e4ce078294482578139f3aa719bbf85a",
+  "actual_caller_subject_sha256": "b6b2e65a6c6cb1af262809216163916d79a1e6dfe19c085957b98a3f01d6547a",
+  "own_first_saved_before_new_single_PRE_peer_root_proofs_read": true,
+  "own_pins": {
+    "INDEPENDENT-FIRST.md": "995fea1ac5af0f0d7620e6db2f42699fa1acf70932728701fea8ad657266b0c7",
+    "controls.py": "4676bc2a6d818f57ed05182bfe893fd9ea2454cd7776c025646e9f782b29a8bd",
+    "CONTROL-RESULTS.json": "134a3f91df10f17630d9af584ddcebbce5360453de4888b0d8e841ff28cc9bd6",
+    "FINAL-SUBJECT-REVIEW.md": "236d2c10e3e8e0f85a5657806cff4e8fd15e90a96fbfc7aeb5002e21be950ada"
+  },
+  "peer_first_pins": {
+    "selected-promotion-review/quantitative-goal-audit/single-pre/INDEPENDENT-FIRST.md": "1cf6aca94fc1c6db16f0444fe0eb56c5ec04f011c30484609927ea7e62cf6b1f",
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/INDEPENDENT-FIRST.md": "618ea5b85ff695e76aa785a916e2dcee3abbd28edbc0f930cbd972b9fa14b3f2"
+  },
+  "source": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+    "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+    "anchors": "69-95;121-151;161-187;239-267;479-584;601-729"
+  },
+  "supporting_subject_pins": {
+    "FIXED-H-HIDDEN-PREDECESSORS.md": "d47b8a5ecc72a3d1ff7f52d3b3a16be6220f4acf5d0c08416f902939320dbb13",
+    "TARGET-ONLY-UD-RO.md": "4e0aeeb0b0ed72eae3dd45e506fee8bf57db176e7ed3b6ddcd5cf2393b52e9df",
+    "OUTSIDE-SIMULATOR-THEOREM.md": "907e1eb0eca18a2d14eb6e7726eee172ea9daaa6881c8c8cb70ded17f11ef0d2"
+  },
+  "query_bound": "kappa_PRE(Q,n)<=min(1,(2Q+1)^2*(2/2^n-1/2^(2n)))",
+  "checks": {
+    "correlated_planted_field_exact_full_function_challenge_joint_law": true,
+    "conditional_perpoint_mu_only_no_iid_assumption": true,
+    "common_purification_includes_mark_field_equivalent_L2_average": true,
+    "zero_prefixes_auxiliary_data_independent_marker": true,
+    "one_Boolean_query_per_complete_H_query_clean_phase_scratch": true,
+    "complete_lower_limb_offrow_invalid_extension_preserved": true,
+    "terminal_any_preimage_not_original_X_only": true,
+    "no_extra_challenger_output_test_query": true,
+    "exact_Nminus1_miss_alphabet_not_modulo_biased": true,
+    "miss_entropy_not_claimed_actual_bounded_faircoin_sampling_time": true,
+    "explicit_expected_rejection_cost_charged_in_own_first": true,
+    "no_efficient_nonbinary_simulator_claim": true,
+    "actual_B1_selector_target_then_PY_zero_public_prequeries": true,
+    "whole_source_A_prekey_rerun_after_primitive_challenge": true,
+    "no_free_O_dependent_preprocessed_A_state": true,
+    "opaque_X_in_selected_F_or_coin_never_materialized": true,
+    "other_FJ_and_outside_coefficients_independent_marker": true,
+    "source_root_counter_cache_only_Y_independent_data_or_counted_replies": true,
+    "gated_completed_response_no_private_partial_buffer_exposure": true,
+    "ghost_same_Y_service_code_not_claimed_literal_source": true,
+    "honest_service_code_independent_marker_no_free_target_answers": true,
+    "all_P_high_low_router_and_one_selected_final_call_QAplus1": true,
+    "prefix_only_remote_access_fulloutput_embedding_same_query_count": true,
+    "absorbing_partiality_and_nonzero_S_conjunction": true
+  },
+  "expected_target_miss_sampling_cost": "n*N^2/(N-1) expected fair bits via reject largest integer; almost-sure termination, unbounded worst-case sampling time; n*N entry bits and charged lookup gates",
+  "control_execution": {
+    "exit_code": 0,
+    "marker_completion_relations": 286,
+    "fullword_phase_amplitudes": 6144,
+    "clean_scratch_checks": 4,
+    "query_envelope_cases": 12,
+    "scope": "Exact tiny marker/completion/unitary/arithmetic controls, not actual source, large function generation, search attack, hardness or kernel proof"
+  },
+  "caller_premise_status": "CLOSED_MANUALLY_FOR_STATED_HJ_O_LOGICAL_INTERFACE",
+  "new_source_game_declarations": 0,
+  "new_security_kernel_declarations": 0,
+  "fixed_SHA_full_security_category_capacity": "NOT_ESTABLISHED",
+  "source_manuscript_old_numeric_bounds_prior_receipt_edits": 0,
+  "whole_goal_complete": false,
+  "builder_sha256": "9d4b8586f42b0acd0687615607c1c8482c3bb77ca5b3adf6d9866b2338739edf"
+}

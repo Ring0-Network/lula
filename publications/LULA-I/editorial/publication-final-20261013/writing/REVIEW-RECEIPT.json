@@ -1,0 +1,48 @@
+{
+  "outcome": "COMPLETE_WITHIN_SCOPE_READ_ONLY_PROSE_REVIEW",
+  "review_sha256": "7d163b04d27df9874fd062224981f70830401ab3082c9365d711e0c03656d777",
+  "findings_sha256": "dc514fdf03dbc3fb3f3f8aa32bfa8dc2a709348dcd1f0d7b03fa4a5c31129648",
+  "coverage_sha256": "1b315cd258787ffd9a2a801cae9ec93811070c770b7f2c7f39ddea0f4786df3a",
+  "baseline_pins": {
+    "LULA-I.tex": "a33849e5eccf0d1895a3a035bd6a45de312bf783db200d986d0e5cd55699c6c1",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "stability-results.tex": "e6d6dfe69236cf86e0da3010eda8f3adeb5702e3816b5acaeb24cf5b58f6ecc7",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "replay-results.tex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4",
+    "ACADEMIC_STRUCTURE.md": "bbdf688dc5d935654fcea36b26cb1ba7ddd336d5da03c6cac0d2ecb1657adaab"
+  },
+  "current_document_pins": {
+    "LULA-I.tex": "3ef61931c2feb57e05ae28171a693801c131a9b1edee59956e477384985d27c8",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "stability-results.tex": "7bf5af933b82d89dab647d784d07598276c0c56693dc795001e4da1aec9671b7",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "replay-results.tex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4",
+    "ACADEMIC_STRUCTURE.md": "bbdf688dc5d935654fcea36b26cb1ba7ddd336d5da03c6cac0d2ecb1657adaab"
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "MAJOR": 0,
+    "MINOR": 3
+  },
+  "current_unresolved_counts": {
+    "CRITICAL": 0,
+    "MAJOR": 0,
+    "MINOR": 0
+  },
+  "checks": {
+    "abstract_whitespace_words": 94,
+    "missing_reference_targets": [],
+    "unknown_citation_keys": [],
+    "cited_keys": 13,
+    "bibliography_source_records": 14,
+    "retired_workflow_matches": [],
+    "frozen_baselines_unchanged": true,
+    "current_successor_exact_patch_allowlist_passed": true,
+    "numeric_strings_math_theorems_proofs_tables_abstract_Note_preserved": true
+  },
+  "recommendations_applied_by_root": true,
+  "root_is_sole_editor": true,
+  "whole_security_proof_goal_complete": false
+}

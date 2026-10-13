@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EXACT_SOURCE_ROW_CONTROLS_ONLY",
+  "nonce_programming_worlds": 16384,
+  "ordinary_inner_marginal_for_every_nonce_assignment": true,
+  "complex_entangled_row_functions_checked": 256,
+  "row_queries_per_raw_query": 1,
+  "plus_ancillas_exactly_clean": true,
+  "guardless_outer_inner_alias_bytes": 52,
+  "post_instruction_read_counts_before_instructions": [
+    0,
+    1
+  ],
+  "repeat_old_label_uses_latest_namespace_tuple": 3,
+  "stale_old_label_tuple_negative_control": 0,
+  "scope": "Exact finite marginal/circuit/controller controls; no source signing, timings or full QROM result"
+}

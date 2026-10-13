@@ -1,0 +1,50 @@
+{
+  "verdict": "ACCEPT_CORRECTED_QPRE_ALGEBRA_AND_FINITE_RESOURCE_SCOPE",
+  "subject_pins": {
+    "chain-pre-independent/quantum-prefix/CORRECTED-SUCCESSOR.md": "d5eb3f4e6d495691c566026bcef72c4de2a614865a0050777475568461330e51",
+    "chain-pre-adapter/quantum-INDEPENDENT-DERIVATION.md": "1ceca6be12a9d65e79db7ede3ce5e26bdc31fd3ebf326c245c8351cb6112a9ba",
+    "chain-pre-independent/quantum-prefix/REVIEW.json": "9460dcadcf8a6ba2e31e3d42a59a45d457c8b3d73b57d152c30dcd69b0468d36",
+    "chain-pre-independent/quantum-prefix/SECOND-READER.md": "62ac15ed591cce4d99f5aee7548766d28bd69c776a3de8552c39fe59e168c55a"
+  },
+  "own_pins": {
+    "QPRE-INDEPENDENT-AVERAGING.md": "8f661f8923d81c9d9c263d88b1b60d1ce88afaee8bbe60ded95f62db87c2a735",
+    "QPRE-RESOURCE-REVIEW.md": "808510124e7998b98827bc5110e0d9c2c4b7a419b60b3d14dad4b61a76309501",
+    "QPRE-Averaging.lean": "0f1ba12badf33e214499e861020657cffe071ff5d7f6f268a940dec450dc28b2",
+    "QPRE-Lean.log": "8d323cf1e8b0b0fe7d5873ac88f43f02da0f750ebc37c14c4e129f22589a5ec1",
+    "QPRE-Lean-Check.json": "e76c47b4545548a1ef298172a0a0c5d6ecf2ebb36a524bc10c8b26c9ceaff1d7",
+    "QPRE-Algebra-Control.py": "b50a274eed7c58ca033fed3c9a5db559cb5f8a2f43694ee03ae0120c645e0c36",
+    "QPRE-Algebra-Control.json": "ed49648cfb442a79d77bc8ac9d82705a9cb23ab8c00eafb94c78318fa28427cc"
+  },
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "D_cut": "1016949404336128",
+  "protected_namespace": "20229886488608768",
+  "selector_pad": "36028797018963968",
+  "probability_envelope": "min(1,(sqrt(L*b_bar)+2Q*sqrt(D_cut/N))^2)",
+  "expanded_cross_term": "4Q*sqrt(L*D_cut*b_bar/N)",
+  "selected_queries": "Q coherent plus at most1 final classical call",
+  "total_coherent_handle_calls": "2Q",
+  "outside_simulation": "Finite eager same-function table;32V_b data bytes,O(32V_b) initialization,O(V_b*(b+32)) coherent lookup",
+  "extra_node_payload_bytes_max": 4096,
+  "prep_public_hashes_max": 254,
+  "checked_supporting_declarations": 7,
+  "kernel_scope": "Conditional root/Cauchy/padding/cap algebra and exact source inventory, not quantum source program",
+  "prior_classical_current_receipt_sha256": "9b37fba60f052a29674985aff553a599a2a0c26893de7104dec6d629618a12df",
+  "checks": {
+    "independent_algebra_saved_before_peer_read": true,
+    "first_draft_missing_sqrt_L_not_accepted": true,
+    "corrected_selector_cross_pure_terms": true,
+    "min_caps_do_not_imply_category": true,
+    "dummy_noncut_errors_zero_not_security_zero": true,
+    "one_selected_one_outside_xor_no_measurement": true,
+    "full256_lower_limbs_retained": true,
+    "finite_outside_lookup_not_measuring_dictionary": true,
+    "classical_prior_documents_immutable": true,
+    "existing_scalar_bounds_unchanged": true,
+    "whole_source_not_machine_checked": true
+  },
+  "source_channel_proof": "Manual peer-reviewed candidate; conditional premise of this supporting algebra/resource certificate",
+  "conventional_PRE": "OPEN",
+  "efficient_outside_simulation": "OPEN",
+  "category_capacity": "not established",
+  "whole_goal_complete": false
+}

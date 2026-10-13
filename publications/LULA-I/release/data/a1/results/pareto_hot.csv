@@ -1,0 +1,9 @@
+candidate,max_sig_bytes,sign_median_ms,verify_median_ms,evidence
+"LULA I (LULA-I), cache in memory",5720,4.5996,0.1411,measured
+SLH-DSA-SHA2-128f (OpenSSL 3.5.7),17088,12.00415,0.71895,measured
+SLH-DSA-SHA2-128s (OpenSSL 3.5.7),7856,268.61585,0.26825,measured
+"SHRINCS stateful (author C, B32)",3508,48.5204,0.11995,measured
+"SHRINCS fallback (author C, B32)",3680,471.9607,0.44835,measured
+SHRINCS stateful (third-party Go),3520,6.3414,0.0291,"measured, third-party"
+"KN 4,036 B (third-party Go)",4036,1897.7842,0.9052,"measured, third-party"
+"KN 3,952 B (own reconstruction)",3952,3613.61095,0.542,"measured, reconstruction"

@@ -1,0 +1,63 @@
+{
+  "verdict": "ACCEPT_FOR_STATED_MECHANISM_PAPER_SCOPE",
+  "review_kind": "manual technical and numerical source review; no formal-kernel certification",
+  "subject_pins": {
+    "LULA-I.tex": "3ef61931c2feb57e05ae28171a693801c131a9b1edee59956e477384985d27c8",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "stability-results.tex": "7bf5af933b82d89dab647d784d07598276c0c56693dc795001e4da1aec9671b7",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4"
+  },
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "artifact_pins": {
+    "REPORT.md": "c45db80426a497fe23cd140e4dcb2b5ade8022e2caa286d998f156de120e2a7a",
+    "audit.py": "21f0286a0f395e1ad6c1e2b498ce0e59359eeb4d9ca0da7d1b47a49053c60505",
+    "NUMERICAL-CHECKS.json": "f11a1b70c29806ad803eecc00c211817b9b5e1fd868403a1e1746a46cc1eaca1"
+  },
+  "read_scope": {
+    "tex_files": 4,
+    "tex_lines": 578,
+    "bib_files": 1,
+    "bib_lines": 130,
+    "algorithms": 5
+  },
+  "checks": {
+    "complete_live_tex_include_closure_and_bibliography_read": "PASS",
+    "honest_cache_only_and_explicit_corruption_exclusion": "PASS",
+    "termination_conditional_and_successful_keygen": "PASS",
+    "atomic_completed_call_and_shared_hash_interface": "PASS",
+    "exact_query_preservation_with_time_overhead": "PASS",
+    "reference_bound_is_premise_and_full_bound_not_claimed_here": "PASS",
+    "conditional_2pow40_objective_and_FORS_only_exponents": "PASS",
+    "no_full_128bit_or_NIST_category_claim": "PASS",
+    "no_real_SHRINCS_attack_or_common_security_ranking": "PASS",
+    "specific_integration_not_generic_novelty": "PASS",
+    "all_five_algorithm_symbols_and_source_correspondence": "PASS",
+    "two_minor_repairs_verified_live": "PASS",
+    "wire_cache_and_compression_integer_formulas": "PASS",
+    "18_B1_cells_36_values_and_raw_process_metadata": "PASS",
+    "four_auxiliary_rows_and_size_ranges": "PASS",
+    "15_restore_and_three_cold_observations": "PASS",
+    "single_worker_keygen_primary_record": "PASS",
+    "three_FORS_model_rows_220dps_binomial_and_poisson": "PASS",
+    "FIPS_draft_OpenSSL_and_pinned_Go_scope": "PASS"
+  },
+  "findings": {
+    "critical": 0,
+    "major": 0,
+    "minor_identified": 2,
+    "minor_resolved": 2,
+    "unresolved": 0,
+    "publication_technical_blockers": 0
+  },
+  "numerical_input_pins": 140,
+  "manuscript_edits_by_reviewer": 0,
+  "crypto_source_edits": 0,
+  "private_proof_edits": 0,
+  "benchmark_or_attack_runs": 0,
+  "new_source_game_declarations": 0,
+  "technical_review_complete": true,
+  "full_signature_security_established": false,
+  "original_category_established": false,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS_EXACT_SUFFIX_CLOSURE_RETAINED_MEMORY_CONTROL",
+  "model": {
+    "node_alphabet": 2,
+    "full_image_alphabet": 4,
+    "chain_nodes": 3
+  },
+  "paired_worlds": 4096,
+  "sign_amplitude_comparisons": 65536,
+  "retained_pre_disclosure_memory": true,
+  "proper_suffix_overlay_state_independent_of_hidden_x0": true,
+  "density_operators_equal_by_exact_pure_vector_equality": true,
+  "wrong_known_predecessor_hidden_successor_finder_mass": "1",
+  "claimed_uniform_mass_if_wrong": "1/2",
+  "correct_suffix_hidden_finder_mass": "0",
+  "scope": "One exact toy quantum strategy; universal invariant is manual, not established by this control alone"
+}

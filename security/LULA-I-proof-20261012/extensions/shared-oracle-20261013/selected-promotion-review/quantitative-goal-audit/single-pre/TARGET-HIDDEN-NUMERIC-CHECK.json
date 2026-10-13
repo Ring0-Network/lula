@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT32_COMPONENT_ROWS_AND_ADJACENT_GATES",
+  "root_copy_result_identical": true,
+  "rows": 32,
+  "D_H": 20229886488608768,
+  "sum_A_r": 7628143271608320,
+  "half_success_QA_crossing": [
+    99,
+    100
+  ],
+  "uncapped_sum_one_crossing": [
+    200,
+    201
+  ],
+  "root_script_sha256": "631b884678b4522ed87d4992bd05117c342f879973c0625b066891776cb5640f",
+  "result_sha256": "ab9ff5ac52f914ee28ffab1e0ae6065346a7a43c0ebaf21bc3fabbb12c214be8",
+  "checker_sha256": "cdba3cade6d319856220b4136b8facbf0fc177a664246f34907ff739c125a817",
+  "whole_goal_complete": false
+}

@@ -1,0 +1,60 @@
+{
+  "python_runtime_tested": "CPython 3.13",
+  "stdlib_only": true,
+  "analyze_exit_code": 0,
+  "verify_vectors_exit_code": 0,
+  "a1_admitted_summary_rows_recomputed": 132,
+  "a1_positive_duration_rows": 126,
+  "a1_all_retained_summary_checks_pass": true,
+  "a1_fresh_candidate_rows": 4,
+  "a1_branch_equality": [
+    {
+      "message_bytes": 32,
+      "overlap": 100,
+      "byte_identical": true
+    },
+    {
+      "message_bytes": 1024,
+      "overlap": 50,
+      "byte_identical": true
+    }
+  ],
+  "historical_summary_source_rows": 7,
+  "historical_raw_distributions_available": false,
+  "replay_raw_durations": 1000,
+  "b1_timed_jobs": 72,
+  "b1_prepared_cells": 18,
+  "b1_recomputed_pass_gates": 72,
+  "b1_all_gates_pass": true,
+  "b1_contaminated_jobs": 0,
+  "b1_sampler_rows": 12737,
+  "b1_unstable_cells": [
+    {
+      "algorithm": "slh128s",
+      "message_bytes": 1024,
+      "operation": "verify"
+    },
+    {
+      "algorithm": "slh128s",
+      "message_bytes": 65536,
+      "operation": "verify"
+    }
+  ],
+  "a1_vectors": 14,
+  "b1_vectors": 36,
+  "historical_KAT_vectors": 12,
+  "all_vector_checks_pass": true,
+  "output_hashes": {
+    "recomputed/a1/summary.csv": "9755edc9f60a001350ea0933e63d63d42818770d9907e784accc378e6aaad639",
+    "recomputed/a1/summary.md": "6e8fbac0486b4fdb81f370b521d129e00be9d4a2aef87b9e95d3125dd91e7149",
+    "recomputed/b1/STABILITY-FINDINGS.md": "97cb657258270d5c3a58066e8e59e6a2039a1f16109063844e620cf1eab1fbec",
+    "recomputed/b1/stability_by_cell.csv": "72cec8314cc90524c41238fad533a7614fa76c8ce8342254054c82f7fa3a02af",
+    "recomputed/b1/stability_by_job.csv": "37bf4f56275a9d5ac58cce70591baadbc4d9ba9f766b7df0ca899f2834654432",
+    "recomputed/data/RECOMPUTED_DATA.json": "2f8d307b36eae6b9f75dd0d8cf8dd977264c9f66b919695a07919a3c8ae002e0",
+    "recomputed/stability-audit/NUMERICAL_REVIEW.md": "9376112354c3bea47e90c29bf1682364cd36afaa42d2bd0f3f33e21c19c99a89",
+    "recomputed/stability-audit/VALIDATED_STABILITY.json": "5cee7b1b88042db8efae435bd15ae97f4215b49495ebe4bb9b1eefcfaa7eea0f",
+    "recomputed/verification/historical-independent-check.txt": "f52fed2ca2bae4be1e689b203d2e0f2326f60f4c3a251dfc37c921039402264c",
+    "recomputed/verification/VECTOR_CHECKS.json": "7c72d13d664b70860e1cdbf6354d34b1062f9e2cf56e79c933ed9f6e158f259e"
+  },
+  "scope": "Retained-data arithmetic and finite vector/byte checks; not a security reduction, common-security ranking, complete raw historical reaggregation, or real SHRINCS forgery."
+}

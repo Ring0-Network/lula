@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INDEPENDENT_INTEGER_RESOURCE_RECHECK",
+  "family_rows_checked": 64,
+  "inherited_q_rows_checked": 8,
+  "root_reexecution_source_and_results_match": true,
+  "resource_check_sha256": "6899551fb065af32f9215decb286bd6d8e0cfb57754d696618b39694e4401207",
+  "root_resource_helper_sha256": "29c261df2c2ec98b3c21ef6c45541d3d00326969bec9cac5245ceb98948ed050",
+  "inherited_t7_control_results_sha256": "ce960ff5a77aec6729886dba69e52c08c226aa1d857f205865f63a30537b8660",
+  "scope": "Integer identities only; source caps are inherited; b=598 is an example; no security or performance category."
+}

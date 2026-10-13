@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\shrincs-c-b32.exe",
+    "run",
+    "x",
+    "data/a1\\vectors\\shrincs-c.state",
+    "prepared",
+    "65536",
+    "200",
+    "data/a1\\raw\\shrincsC-stateful-65536.csv",
+    "data/a1\\raw\\shrincsC-stateful-65536.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 1800.0,
+  "start_utc": "2026-10-12T05:02:17Z",
+  "status": "completed",
+  "peak_working_set_bytes": 7315456,
+  "peak_private_bytes": 1499136,
+  "pid": 15792,
+  "exit_code": 0,
+  "wall_seconds": 9.959739500001888,
+  "end_utc": "2026-10-12T05:02:27Z"
+}

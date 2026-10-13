@@ -1,0 +1,39 @@
+{
+  "status": "OWN_DERIVED_CONDITIONAL_WRAPPER_AND_COUNTERMODELS_STANDARD_IDENTIFICATION_OPEN",
+  "own_pins": {
+    "INDEPENDENT-DERIVATION.md": "74e2106c6c18733d03864f844817d9685db07a867972721aec485bfc9ed04e57",
+    "COUNTERMODELS.py": "a1b500ed53cf378106099662e7425f36942b75fd7e973752080a7d3e4d148b7d",
+    "COUNTERMODEL-RESULTS.json": "8956235b8b69ce003fec36032db9b566e0e953c52038672bb4091b371524792b",
+    "PRIMARY-AND-STATUS.md": "35a64ee0f221a3f4b78785c209ff526e28f9f955ae49dcb07fae1633baf552aa"
+  },
+  "saved_before_new_peer_standard_proposal": true,
+  "primary_sources": [
+    {
+      "url": "https://eprint.iacr.org/2022/346",
+      "anchors": "Definitions2/7",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3"
+    },
+    {
+      "url": "https://eprint.iacr.org/2022/778",
+      "anchors": "Definition5.1;Section5.1/Algorithm5;DefinitionC.1",
+      "pdf_sha256": "1d24bcee44b6a719004cf6da5fd22275a06e2dac8a3a72acd8f8caa823a29215"
+    },
+    {
+      "url": "https://eprint.iacr.org/2025/2203",
+      "anchors": "Definitions2.2/2.3",
+      "pdf_sha256": "3c58f81a6a0b7e8e040134be1a0013b3977edefdc889e1636d4dfe79cf0e225e"
+    }
+  ],
+  "conditional_wrapper_property": "CF-BS-TCR-collection(h,Prop,Lc) with literalBE32 first-search and bottom, exact public fullh or namedglobalRO linkage",
+  "conditional_reduction": "Pr[Win AND D7_base_final AND S!=0] <=2^42 SuccProp4(B_lower)+2^21 SuccProp8(B_top)",
+  "counter_policy_separation": "Canonicalfirst0 success1;anothervalidacceptedcounter1 success0",
+  "key_chronology_separation": "Standaloneprekey2/N;public/postkey orrevealingcollection1;independenttargetkey2/N",
+  "ordinary_fallback": "CollisionresistanceofTr128 h, no selector, weakerquantitativeguarantee",
+  "control_exit": 0,
+  "new_checked_declarations": 0,
+  "source_attacks": 0,
+  "standard_identification": "OPEN",
+  "quantum_global_raw_interface": "OPEN",
+  "security_category_capacity": "not established",
+  "whole_goal_complete": false
+}

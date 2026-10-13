@@ -1,0 +1,132 @@
+{
+  "verdict": "ACCEPT_MANUAL_LAWFUL_ONE_SIDED_PRIMARY_FREE_COUNTER_ITSR_LIFT_HARDNESS_UNEVALUATED",
+  "own_new_first_saved_before_any_new_selected_probabilistic_lift_proposal_read": true,
+  "own_folder": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\message-hash-identification",
+  "own_pins": {
+    "PROBABILISTIC-LIFT-FIRST.md": "c558399bc390589efddc4176bf45a90be0df04562e5e7395798108878d4c08c8",
+    "PROBABILISTIC-LIFT-REVIEW.md": "669184e4695cf891184e3c01464d11d18c2a5e57707febc1914deeac4bbab6f5",
+    "probabilistic_lift_controls.py": "30f74e5b44ad254ac92216e8cf20e91e87ba379008ad0d368f73de29fc4950aa",
+    "PROBABILISTIC-LIFT-CONTROLS.json": "a42efba205085f1e382eee625b62266e0b64e26bf270f82a48ccc62ab4a9b73f",
+    "INDEPENDENT-FIRST.md": "b07700807df0f78be2272afd7a5372044603b92697b3760afaa8cdfac5a3a1df",
+    "CLARIFICATION.md": "77b1c53d624b8980621f2366ec7ba41e9456955b58024e3cb227b85cfdb27891",
+    "EVENT-BINDING.md": "bb8390406f4e0471b419dca1e65a91795e4d361d2caae56783e7ceeb8d870459",
+    "REVIEW.json": "4d3ff1c2b257eb5c41e2ddbf84a1edf98ee50015a2b0669b0e64e3c5d493c608"
+  },
+  "selected_pins": {
+    "COUNTER-GUESS-LIFT.md": "9c1fadb8eedc8dbf19f20800a0950836433c00f0782297d9f315fca0328433ca",
+    "COUNTER-GUESS-INPUT-COMPLETION.md": "6e871ffb0dbd9e715e4a1466ad756a649ec863b9370ae89818cc544c52ce4645",
+    "COUNTER-GUESS-MAP-CLARIFICATION.md": "d32aefb13490819ec189b27a574f2ec4daf7793c916bad640a3b1a3c0e735412",
+    "COUNTER-GUESS-SOURCE-ROUTE.md": "11802ed2fc14d754f3199103f828b7f7a37bafc31c721040ebea4347528f5b6a",
+    "counter_guess_controls.py": "faa4b74958e682e679ed1491043254f772fc6afe06b3016c1e8b1cce3e25a2fa",
+    "COUNTER-GUESS-CONTROLS.json": "ae3b8db475a9958a39d588c33430f16f326a31a524c09f25b9ecd098133547a1",
+    "compare_lift_controls.py": "5a109b1a2a6a95805e7088582d199c7220081b25d5c9005fbb0236beb9662e03",
+    "LIFT-COMPARISON-CONTROLS.json": "2eac3044cd6b75a7e54738a28bea7d43f2559685663fe843a20ea08d5856d645",
+    "PROBABILISTIC-LIFT-PEER-REVIEW.md": "c43480c9504cd91d603a65cc4098cb6143b0397178463261715e17727d959568",
+    "PROBABILISTIC-LIFT-REVIEW.json": "b3633fdc195e13bc39b914f31fb95e635900d2e963d0dddc15465c3f8d602b78"
+  },
+  "source": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+    "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  },
+  "primary_versions_rechecked": [
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.pdf",
+      "pdf_sha256": "540968e4d58cb582d5f85636beed7a10894622ed8b99a7a863f85996869743c6",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.txt",
+      "text_sha256": "bf5a7bd2f93f4c166a5a479fb24b82a0f38d40b68922826ff78cc171e7878381",
+      "anchor": "official round3 Section9.1 printed48/PDF47"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.pdf",
+      "pdf_sha256": "1169896fff4160e7a294162b8a3e061ffdf1888f3925f5614532c28bd3473c4a",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.txt",
+      "text_sha256": "ddaf6d600a05c2e9b3bef113bf995827a79f76616f09f8e7b4cef0ba90e17323",
+      "anchor": "official r3.1 Section9.1 printed49/text1911-1935"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "text_sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561",
+      "anchor": "HK22 AppendixA Definition11 printed30/PDF29"
+    }
+  ],
+  "event_anchor": {
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+  },
+  "source_event": "Win AND indexed C_cov:17 real tuple coordinates covered at one final route by completed honest responses, final message fresh among all initiated requests",
+  "precise_family": "Public SAME fixed h; total free-counter logical chosen-context H_free with key R128 sampled uniformly after chosen Enc(S,Z,M,c); virtual route297 includes chosen256 context bits plus actual41 route bits, followed by17*9 real indices; exact invalid-code completion part of family",
+  "all_label_nonabort": {
+    "target_queries": "q_distinct<=q initiated classical source signing requests",
+    "loss": "L^k, L=2^32 and k=min(17,q); L^17=2^544",
+    "inequality": "Pr_SrcFJideal_h[Win AND C_cov] <= min(1,L^k Succ_primary_ITSR_Hfree(B_all))",
+    "q0": "Coverage event impossible; no need to invoke empty witness",
+    "source_view": "Exact full source channel independent of guesses; ignore primary guessed mapped data for ALL source-facing decisions and responses",
+    "matching_event": "Only deterministic completed coverage-witness messages (d<=k) need match, with conditional probability L^-d; wrong nonwitness targets enlarge ledger",
+    "canonical_guess_abort": false
+  },
+  "own_full_abort_alternative": {
+    "loss": "L^q",
+    "targets": "q_distinct<=q",
+    "source_view": "Faithful matched source prefixes only; artificial guess abort separate from natural source bottom"
+  },
+  "own_sparse_alternative": {
+    "loss": "(Q*L)^k, Q=least power2>=q and k=min(17,q)",
+    "targets": "<=k",
+    "selectors": "Duplicates and unrealized ordinal slots retained; padded deterministic witness vector has probability Q^-k, no rejection normalization"
+  },
+  "resource_scope": "ALL actual setup/FORS/WOTS/canonical-search/final work, bytes, private F and nonce dictionaries, cache and quantum public-h circuits charged. Primary target: one inner and one outer hash plus total parsing/map; challenger costs separately charged. No finite polynomial/practical timing guarantee for native partial source claimed.",
+  "checks": {
+    "full256_inner_and_outer_same_literal_h": true,
+    "primary_oracle_returns_uniform_R_and_G_after_chosen_input": true,
+    "quantum_continuation_classical_target_signing_services": true,
+    "memoized_R_on_repeats_and_all_source_branches": true,
+    "actual_source_S_root_F_joint_distribution_retained": true,
+    "consistent_private_F_retained_not_advice_to_A": true,
+    "public_h_all_local_queries_including_prekey_chronology": true,
+    "logical_tags_decoded_no_source_hash_byte_changes": true,
+    "final_fresh_M_implies_fresh_primitive_input_even_nonce_collision": true,
+    "natural_bottom_mass_unnormalized_no_resampling": true,
+    "literal_S0_aliases_preserved_no_extra_seedzero_charge": true,
+    "source17_exposure_Ccov_not_H_G_graph_events": true,
+    "canonical_Hcan_countermodel_preserved_different_family": true,
+    "no_false_uniform297_route_entropy": true,
+    "no_old_RO_scalar_or_private_prefix_hardness_transfer": true,
+    "no_HJ_h_equals_HJ_O_identity": true
+  },
+  "own_control_execution": {
+    "exit_code": 0,
+    "worlds": 4624,
+    "scope": "Exact toy17-coordinate adaptive metadata/coverage probabilities, not source signature/SHA/quantum kernel/security run"
+  },
+  "peer_control_independent_reexecution": {
+    "copied_sources_and_results": {
+      "counter_guess_controls.py": "faa4b74958e682e679ed1491043254f772fc6afe06b3016c1e8b1cce3e25a2fa",
+      "COUNTER-GUESS-CONTROLS.json": "ae3b8db475a9958a39d588c33430f16f326a31a524c09f25b9ecd098133547a1",
+      "compare_lift_controls.py": "5a109b1a2a6a95805e7088582d199c7220081b25d5c9005fbb0236beb9662e03",
+      "LIFT-COMPARISON-CONTROLS.json": "2eac3044cd6b75a7e54738a28bea7d43f2559685663fe843a20ea08d5856d645",
+      "COUNTER-GUESS-LIFT.md": "9c1fadb8eedc8dbf19f20800a0950836433c00f0782297d9f315fca0328433ca",
+      "COUNTER-GUESS-INPUT-COMPLETION.md": "6e871ffb0dbd9e715e4a1466ad756a649ec863b9370ae89818cc544c52ce4645"
+    },
+    "both_exit_codes": [
+      0,
+      0
+    ],
+    "results_byte_identical_to_peer": true,
+    "algebra_cases": 60,
+    "adaptive_history_witness_cases": 54,
+    "completion_masses_unnormalized": [
+      "3/4",
+      "11/16",
+      "43/64",
+      "171/256"
+    ]
+  },
+  "optional18_variant": "Accepted manual bookkeeping only: filter forces virtual coordinate18=0 for final candidate and matched witnesses at same I; nonempty<=17 witness collection already covers it, so no extra message/counter guess/query/secret exposure. Tagged width459 is a different precisely specified map; no extra entropy or hardness.",
+  "actual_free_counter_family_hardness": "NOT_ESTABLISHED; exact family/adversary resource insecurity remains an additional assumption",
+  "quantitative_adequacy_fixed_h_full_security_category_capacity": "NOT_ESTABLISHED",
+  "new_source_game_security_kernel_declarations": 0,
+  "source_manuscript_scalar_root_index_prior_receipt_edits": 0,
+  "whole_goal_complete": false,
+  "builder_sha256": "ca0e5f2a6ab12d3ae62f7965bc900c9d31db56429ca3e65b02b15e10807207ab"
+}

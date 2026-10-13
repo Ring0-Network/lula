@@ -1,0 +1,30 @@
+{
+  "status": "READY_LOCAL_PRIVACY_REVIEWED_PAPER_SOURCE_PAIR_ZENODO_UPLOAD_PENDING",
+  "upload_files": {
+    "LULA-I.pdf": {
+      "bytes": 637717,
+      "sha256": "b036d61139ce8bc3d5cc0715e6e6b5e2174c80218c39d70e7bf6c5fa6cf48156"
+    },
+    "LULA-I-source.zip": {
+      "bytes": 27263,
+      "sha256": "9ee147b5b4b0df77cfcd94d07598af4bfd24f86e8986afe898f77f9389496439"
+    }
+  },
+  "source_members": [
+    "LULA-I.tex",
+    "references.bib",
+    "operating-model.tex",
+    "stability-results.tex",
+    "comparison-results.tex",
+    "replay-results.tex",
+    "LULA-I.bbl",
+    "cache_memory_tradeoff.py",
+    "README.txt"
+  ],
+  "raw_research_archive_selected_for_upload": false,
+  "all_preexisting_research_evidence_unchanged": true,
+  "new_evidence_file": "code/models/cache_memory_tradeoff.py",
+  "crypto_source_unchanged": true,
+  "repository_anonymous_status": "404; neutral requested project link, no availability claim",
+  "publication_performed": false
+}

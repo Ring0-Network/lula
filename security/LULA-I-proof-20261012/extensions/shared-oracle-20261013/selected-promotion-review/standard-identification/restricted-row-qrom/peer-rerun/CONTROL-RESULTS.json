@@ -1,0 +1,20 @@
+{
+  "scope": "Tiny exact mathematical controls only, no source/kernel/security-level verification",
+  "joint_fullword_worlds": 512,
+  "fixed_genuine_side_groups": 32,
+  "changed_fullword_pairs_per_side": 16,
+  "canonical_c0_mass": "1/2",
+  "canonical_c1_mass": "1/4",
+  "bottom_mass": "1/4",
+  "fullword_boolean_completion_mass_each": "1/8",
+  "two_query_inactive_plus_coherent_basis_tests": 32768,
+  "joint_commuting_control_state_entries": 8192,
+  "literal_inner_alias_seed_checks": 4,
+  "nonzero_inner_aliases": 0,
+  "changed_raw_length": 106,
+  "outer_raw_length": 52,
+  "primary_bound": "SPHINCS+C2022/778 TheoremE.3:8(q+1)^2*lambda",
+  "restricted_bound": "min(1,8*(2*Q+1)^2/2^128)",
+  "source_nonzero_Q_cap": "Q_A_quantum+Q_A_classical+1",
+  "script_sha256": "3a8d9ac5481fa74a1859e92082f25e840f40073629fd325d238c7a8ea092c9b5"
+}

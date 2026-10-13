@@ -1,0 +1,1009 @@
+{
+  "exclusions": [
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-abstract-review.zip",
+      "relative_source": "publications/LULA-I/LULA-I-abstract-review.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 864626,
+      "sha256": "6088d773600dd9e773f9f83f446d0bef2358c6f3216d71dca0e308297396e87c"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-campaign-evidence.zip",
+      "relative_source": "publications/LULA-I/LULA-I-campaign-evidence.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 3717530,
+      "sha256": "58c6196a86e715028ba9c6a5e05268b7925714431c70576a0a415089893bd505"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-editorial-closure.zip",
+      "relative_source": "publications/LULA-I/LULA-I-editorial-closure.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 3516679,
+      "sha256": "6abe612fe1f1f21621c04c154addf03f2de0b784d39d027d97f764999f38ce4e"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-goal-closure.zip",
+      "relative_source": "publications/LULA-I/LULA-I-goal-closure.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 2702100,
+      "sha256": "8d97c4a1b8cfc3eb6032633c61b15c17a9d3d991009746c89e9ea76ec76bc46e"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-release-audit.zip",
+      "relative_source": "publications/LULA-I/LULA-I-release-audit.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 6634117,
+      "sha256": "bb130332d6e35bb4c706edd3f0c95e30dd2eec1ca8656e5cd1dea59011679226"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-release.zip",
+      "relative_source": "publications/LULA-I/LULA-I-release.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 5508115,
+      "sha256": "1976d449bc64dbf5a6d481955b6767ef10c5d01249ec4f234ad3cc280abf4b61"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-research-package.zip",
+      "relative_source": "publications/LULA-I/LULA-I-research-package.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 9790194,
+      "sha256": "864669c79e3844c4b230ea6abb0435b404c57c55a00283cde23162406938b8c9"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-stability-evidence.zip",
+      "relative_source": "publications/LULA-I/LULA-I-stability-evidence.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 2169950,
+      "sha256": "cc4b68652b363b838a5e8805c231e1b9eb351b140f96184bd6066136005d1530"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I-writing-pass.zip",
+      "relative_source": "publications/LULA-I/LULA-I-writing-pass.zip",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 3456870,
+      "sha256": "b43b1ce5b8509861be4a32a50dc1127f4a8a81d46e1ddc1506a47bae22848fcd"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.aux",
+      "relative_source": "publications/LULA-I/LULA-I.aux",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 17448,
+      "sha256": "f54f55724b0623718712543361a90a98fc8f65aa99d8701ba933b7723b9c7a40"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.blg",
+      "relative_source": "publications/LULA-I/LULA-I.blg",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 1044,
+      "sha256": "c160af04b2cd2156b4a96aaa07e500c91e3256271e036f656adc88fec0896cfe"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.log",
+      "relative_source": "publications/LULA-I/LULA-I.log",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 119675,
+      "sha256": "5b25119fe9d610f103a7f7ed86cf9a5fe5556cbd149f1c376f0aa12e1253842d"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.out",
+      "relative_source": "publications/LULA-I/LULA-I.out",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 459,
+      "sha256": "cc851d6ee6f5e928d6f9121fb499e31994dcc11cc4158fd8042c137a58fc338e"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\qa-text.txt",
+      "relative_source": "publications/LULA-I/qa-text.txt",
+      "reason": "unselected historical archive or generated paper scratch",
+      "kind": "file",
+      "bytes": 50858,
+      "sha256": "2c0be1e322f24b54fda12cd29e19b511824508e279cef1584bb66925e436c9ef"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\baseline\\LULA-I-release.zip",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/baseline/LULA-I-release.zip",
+      "reason": "compiled/generated/archive/cache artifact",
+      "kind": "file",
+      "bytes": 5499653,
+      "sha256": "7c631e5f8c93c1e90e46cdcdbc10356660f324665d1af8d31cc3a571c3dcb1d8"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\baseline\\LULA-I-source.zip",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/baseline/LULA-I-source.zip",
+      "reason": "compiled/generated/archive/cache artifact",
+      "kind": "file",
+      "bytes": 94669,
+      "sha256": "0dcd8e4c9576cfcef95bc7e07c20ee86309d8bc65450e5a9202409de20c7abc2"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\baseline\\LULA-I.pdf",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/baseline/LULA-I.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 629642,
+      "sha256": "eec039da9ca57e4e2779a6d81ce8d1fee73cb7ea5d22f68d08b7217730f5d2de"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\baseline\\release-LULA-I.pdf",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/baseline/release-LULA-I.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 629388,
+      "sha256": "d8c725ebc67ab1b96dbf4ab4cbc64fc91d4a6c2eb90d1b11f59aff9a438d09dd"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\bibliography\\local-primary-equation-page-6.png",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/bibliography/local-primary-equation-page-6.png",
+      "reason": "generated render/build output; source/review receipt retained",
+      "kind": "file",
+      "bytes": 249506,
+      "sha256": "c8f8245a00b42f24436a030aba33f10fba46ac38a547ae2e7abda6dffe726c53"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\baseline-render",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/root/baseline-render",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\final-render",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/root/final-render",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\metadata-render",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/root/metadata-render",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\repository-render",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/root/repository-render",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\source-archive-build",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/root/source-archive-build",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\technical\\final-package\\unpacked-release",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/technical/final-package/unpacked-release",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\technical\\final-package\\main-page-01.png",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/technical/final-package/main-page-01.png",
+      "reason": "generated render/build output; source/review receipt retained",
+      "kind": "file",
+      "bytes": 69681,
+      "sha256": "f2762053c76646fad4a47ce7eba0a1fe9c23aa3c2f1a9589b374be5df842ea18"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\technical\\final-package\\repository-page-01.png",
+      "relative_source": "publications/LULA-I/editorial/publication-final-20261013/technical/final-package/repository-page-01.png",
+      "reason": "generated render/build output; source/review receipt retained",
+      "kind": "file",
+      "bytes": 68842,
+      "sha256": "257ed3f7514f951cfb9394e126b0f2d82d86a361364eb52973718b41d31f4c43"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\zenodo-release-20261013\\baseline\\LULA-I-release.zip",
+      "relative_source": "publications/LULA-I/editorial/zenodo-release-20261013/baseline/LULA-I-release.zip",
+      "reason": "compiled/generated/archive/cache artifact",
+      "kind": "file",
+      "bytes": 5500071,
+      "sha256": "6546da0a82bae701816ec45b05b7060413a3784c0109d884f76a600bae21cb29"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\zenodo-release-20261013\\baseline\\LULA-I-source.zip",
+      "relative_source": "publications/LULA-I/editorial/zenodo-release-20261013/baseline/LULA-I-source.zip",
+      "reason": "compiled/generated/archive/cache artifact",
+      "kind": "file",
+      "bytes": 26931,
+      "sha256": "0ee172e6b85b983c6cc4995ba48f826323717d0fe58eab57ce1eddf2cac7d140"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\zenodo-release-20261013\\baseline\\LULA-I.pdf",
+      "relative_source": "publications/LULA-I/editorial/zenodo-release-20261013/baseline/LULA-I.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 629671,
+      "sha256": "bc805dcfd00c4f8b489efba80311cb49fde8835618c719a4136b288484966110"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\zenodo-release-20261013\\root\\render",
+      "relative_source": "publications/LULA-I/editorial/zenodo-release-20261013/root/render",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\zenodo-release-20261013\\root\\source-archive-build",
+      "relative_source": "publications/LULA-I/editorial/zenodo-release-20261013/root/source-archive-build",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\code-review\\toy-cache-control\\target",
+      "relative_source": "security/LULA-I-proof-20261012/code-review/toy-cache-control/target",
+      "reason": "build/dependency/redundant generated working tree",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\chain-pre-independent\\outside-simulator\\zhandry-tr12-140.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/chain-pre-independent/outside-simulator/zhandry-tr12-140.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 911723,
+      "sha256": "d4794507750b1a56fb27fa729788f90daabd74f36206ac6949032f32e210eb48"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\chain-pre-independent\\outside-simulator\\zhandry-tr12-140.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/chain-pre-independent/outside-simulator/zhandry-tr12-140.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 78306,
+      "sha256": "51e87369a8638e4d1c96251d1e20bea7f64381ebf962273b27df7a27276d3d34"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\adequacy-original-criterion\\refs\\nist-pqc-final-dec-2016.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/adequacy-original-criterion/refs/nist-pqc-final-dec-2016.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 230881,
+      "sha256": "441fa7d5aacb1daeb203f1715521e176fcf78456dcc30702197c6b71b7488a0b"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\ud-polynomial\\refs\\beals-focs98.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/ud-polynomial/refs/beals-focs98.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 180723,
+      "sha256": "c2c4b4454438b83c391bcb7dea8f86a0a4134c47557b5a28baba7b80c9e64d63"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\ud-polynomial\\refs\\beals-polynomials-final.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/ud-polynomial/refs/beals-polynomials-final.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 347683,
+      "sha256": "d5eb3eb2ca6b4b58e4437f9805cd4ed20eadd0bd2499803db3d487454c00d775"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\ud-polynomial\\refs\\shadrin-markov.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/ud-polynomial/refs/shadrin-markov.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 562829,
+      "sha256": "b2826f8fd831e1f9981f69825b49df1c47b314df28ef1841b46238c2103da478"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-coverage-second-reader-code\\PRIMARY-AR-PAGES.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-coverage-second-reader-code/PRIMARY-AR-PAGES.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 11792,
+      "sha256": "93a4d8211d5f3cc3c2407ece6237fe595e648f1781771514bb8bc708bb310373"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-fors-frontier\\primary-ar-theorem-excerpt.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-fors-frontier/primary-ar-theorem-excerpt.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 7906,
+      "sha256": "79d0af571bccf3e9fe870c7a0860b945c09feb687268089894a78cd082c51a75"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-fors-frontier\\primary-arxiv-2010.15103.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-fors-frontier/primary-arxiv-2010.15103.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 754536,
+      "sha256": "9a5ea6adeba5dcdf6c80035057aaccdc704aa6ea2940af0320bcfd7eca0abc8d"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-hidden-frontier\\Jaeger-2511.16009.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-hidden-frontier/Jaeger-2511.16009.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 637570,
+      "sha256": "95609e630baf7fd7572591e5cdf2e4693d768dab51c8d2a095b9d120922d8965"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-hidden-frontier\\Jaeger-2511.16009.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-hidden-frontier/Jaeger-2511.16009.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 88847,
+      "sha256": "9ad9c02d03a905151cbd595cfaed5c85b974b0ee0708944f3ef75a19487f0ef4"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-primitive-definitions\\dm-pages.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-primitive-definitions/dm-pages.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 3704,
+      "sha256": "0265ebe67537010d6303280b94cad1207121b915ee91d7f6bc22bfc2c2f119af"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-primitive-definitions\\e4-pages.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-primitive-definitions/e4-pages.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 3095,
+      "sha256": "168ef496ce79d92463bcb0dee83b1bb83a73e6a5b1360b41c06c911d33b5e3a6"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/message-hash-identification/sphincs-round3-specification.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 962882,
+      "sha256": "540968e4d58cb582d5f85636beed7a10894622ed8b99a7a863f85996869743c6"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/message-hash-identification/sphincs-round3-specification.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 152109,
+      "sha256": "bf5a7bd2f93f4c166a5a479fb24b82a0f38d40b68922826ff78cc171e7878381"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\beals-author-polynomials.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/beals-author-polynomials.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 347683,
+      "sha256": "d5eb3eb2ca6b4b58e4437f9805cd4ed20eadd0bd2499803db3d487454c00d775"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\beals-author-polynomials.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/beals-author-polynomials.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 69883,
+      "sha256": "0479cdda83a457d4a816a746ee2bdf2f3e6d47c1d9d9f52954d4635cd2a6dbd4"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\beals-quant-ph-9802049v3.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/beals-quant-ph-9802049v3.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 215459,
+      "sha256": "afec116657493976b70df7dcb8b174c8c0be55a9337d9e035afd5f1fc4d9cd4c"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\beals-quant-ph-9802049v3.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/beals-quant-ph-9802049v3.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 72196,
+      "sha256": "87b05d07a7394437e8418069fa32ed3d82a9519311c69e66d27b92bb0ca31001"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\markov-mendeleev-translation.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/markov-mendeleev-translation.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 114051,
+      "sha256": "2dda2126cd1589360d3eaf2fd6efbfef803a3898bcd7d1d922b391e933b84260"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\markov-mendeleev-translation.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/markov-mendeleev-translation.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 57156,
+      "sha256": "549ce6c06c70188ae083e223d500941bbea7ce782da108329b7fca155915eb1c"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\shadrin-markov.pdf",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/shadrin-markov.pdf",
+      "reason": "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution",
+      "kind": "file",
+      "bytes": 562829,
+      "sha256": "b2826f8fd831e1f9981f69825b49df1c47b314df28ef1841b46238c2103da478"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\quantitative-goal-audit\\single-ud-polynomial\\shadrin-markov.txt",
+      "relative_source": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/shadrin-markov.txt",
+      "reason": "third-party extracted reference text; retain hash/citation, not full text",
+      "kind": "file",
+      "bytes": 188561,
+      "sha256": "72f2678a2aa66136f5a702c19a0c82e01d1093a20684364aa3e016ac713e9f4f"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\evidence",
+      "relative_source": "publications/LULA-I/evidence",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\figures",
+      "relative_source": "publications/LULA-I/figures",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\private",
+      "relative_source": "publications/LULA-I/private",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\qa",
+      "relative_source": "publications/LULA-I/qa",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\scripts",
+      "relative_source": "publications/LULA-I/scripts",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    },
+    {
+      "source": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\zenodo-upload",
+      "relative_source": "publications/LULA-I/zenodo-upload",
+      "reason": "outside requested current publication bundle",
+      "kind": "directory"
+    }
+  ],
+  "third_party_reference_urls_from_retained_proof_citations": [
+    {
+      "repository_path": "security/LULA-I-proof-20261012/PROOF.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/CHANGED-CHILD-EXTRACTION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/FIXED-H-GRAPH-COMPONENT.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/FIXED-H-HIDDEN-PREDECESSORS.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/MESSAGE-HASH-PRIMITIVE-COMPONENT.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/OUTSIDE-SIMULATOR-THEOREM.md",
+      "urls": [
+        "https://eccc.weizmann.ac.il/report/2012/140/download.",
+        "https://eccc.weizmann.ac.il/report/2012/140/download/"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/QUANTUM-UD-POLYNOMIAL-RO.md",
+      "urls": [
+        "https://homepages.cwi.nl/~rdewolf/publ/qc/polynomials.pdf).",
+        "https://www.damtp.cam.ac.uk/user/na/people/Alexei/papers/markov.pdf),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/RESTRICTED-CANONICAL-QROM.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/SINGLE-TARGET-PRE-RO.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/STANDARD-CANONICAL-COMPONENT.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346,",
+        "https://eprint.iacr.org/2022/778,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/TARGET-ONLY-UD-RO.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/chain-pre-adapter/outside-simulator/INDEPENDENT-DERIVATION.md",
+      "urls": [
+        "https://eccc.weizmann.ac.il/report/2012/140/download."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/chain-pre-independent/outside-simulator/CANDIDATE.json",
+      "urls": [
+        "https://eccc.weizmann.ac.il/report/2012/140/download/"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/chain-pre-independent/outside-simulator/INDEPENDENT-DERIVATION.md",
+      "urls": [
+        "https://eccc.weizmann.ac.il/report/2012/140/download/."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/keyed-target-reader/restricted-row-qrom/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/first-independent-derivation.md",
+      "urls": [
+        "https://eccc.weizmann.ac.il/report/2012/140/download/"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/adequacy-original-criterion/FIRST-PROVENANCE.json",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9711070v2",
+        "https://csrc.nist.gov/CSRC/media/Projects/Post-Quantum-Cryptography/documents/call-for-proposals-final-dec-2016.pdf",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/faqs"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/adequacy-original-criterion/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9711070v2).",
+        "https://csrc.nist.gov/CSRC/media/Projects/Post-Quantum-Cryptography/documents/call-for-proposals-final-dec-2016.pdf,",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/adequacy-original-criterion/VERDICT.json",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9711070v2",
+        "https://csrc.nist.gov/CSRC/media/Projects/Post-Quantum-Cryptography/documents/call-for-proposals-final-dec-2016.pdf",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/faqs"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/adequacy-original-criterion/VERDICT.md",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9711070v2)).",
+        "https://csrc.nist.gov/CSRC/media/Projects/Post-Quantum-Cryptography/documents/call-for-proposals-final-dec-2016.pdf),",
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/message-hash-identification/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346",
+        "https://sphincs.org/data/sphincs+-r3.1-specification.pdf"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/standard-component-review/SUBJECT-REVIEW.json",
+      "urls": [
+        "https://eprint.iacr.org/2022/346",
+        "https://eprint.iacr.org/2022/778",
+        "https://eprint.iacr.org/2025/2203"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/outside-field-check/ud-polynomial/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://homepages.cwi.nl/~rdewolf/publ/qc/focs98.pdf),",
+        "https://www.damtp.cam.ac.uk/user/na/people/Alexei/papers/markov.pdf),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/pre-start-second/private-K-polynomial/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://arxiv.org/pdf/quant-ph/9802049",
+        "https://cs.uwaterloo.ca/~s4bendav/CS860/CS860S20week5.pdf"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-canonical-targets/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-canonical-targets/RESULTS.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-coverage-second-reader-search/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-fors-frontier/DERIVATION.md",
+      "urls": [
+        "https://arxiv.org/pdf/2010.15103),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-fors-frontier/multicall/ROOT_REVIEW.md",
+      "urls": [
+        "https://arxiv.org/abs/2010.15103),",
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-graph-second-reader/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-graph-second-reader/SECOND_READER.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-graph-targets/DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-graph-targets/RESULTS.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-hidden-frontier/COMMANDS.md",
+      "urls": [
+        "https://arxiv.org/pdf/2511.16009`"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-hidden-frontier/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://arxiv.org/html/2511.16009v1),",
+        "https://kodu.ut.ee/~unruh/publications/semiclassical.html)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-hidden-frontier/PRIMARY_VERSION_NOTE.md",
+      "urls": [
+        "https://arxiv.org/html/2511.16009v1)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-private-frontier/PRIMARY-COMPARISON.md",
+      "urls": [
+        "https://arxiv.org/pdf/quant-ph/9701001),",
+        "https://kodu.ut.ee/~unruh/publications/semiclassical.html),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-private-frontier/RESULTS.md",
+      "urls": [
+        "https://arxiv.org/pdf/quant-ph/9701001)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-private-second-reader/REVIEW.md",
+      "urls": [
+        "https://arxiv.org/pdf/quant-ph/9701001),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/quantum-private-second-reader/RUNS.md",
+      "urls": [
+        "https://arxiv.org/pdf/quant-ph/9701001`;"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/restricted-row-third-review/ONE-QUERY-REVIEW.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/restricted-row-third-review/PEER-REVIEW.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/restricted-row-third-review/fixed-h-graph-identification/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-chain-pre/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-classical-joint/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-hidden-ud-pre/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-message-graph/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-outside/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-payload-private/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-polynomial-private/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-polynomial-ud/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-primitive-successors/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-quantum-pre/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-query-resource/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-selected-graph/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-standard/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-target-only-pre/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-type7/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-ud-status/QUANTUM-UD-POLYNOMIAL-RO.md",
+      "urls": [
+        "https://homepages.cwi.nl/~rdewolf/publ/qc/polynomials.pdf).",
+        "https://www.damtp.cam.ac.uk/user/na/people/Alexei/papers/markov.pdf),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-docs-before-uniform-classical/SECURITY-CRITERION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-interior-ud/DERIVATION-CANDIDATE.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-keyed-review/ONE-QUERY-COMPLETION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-preimage-criterion/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9605043)",
+        "https://arxiv.org/pdf/quant-ph/0005055),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-preimage-criterion/PRIMARY_CHECK.md",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/0005055)",
+        "https://arxiv.org/abs/quant-ph/9605043)",
+        "https://arxiv.org/pdf/quant-ph/0005055)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-ud-polynomial/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://homepages.cwi.nl/~rdewolf/publ/qc/polynomials.pdf",
+        "https://www.damtp.cam.ac.uk/user/na/people/Alexei/papers/markov.pdf"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-primitive-definitions/D7-BASE-EXTRACTION-FIRST.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-primitive-definitions/D7-BASE-EXTRACTION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/778),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-primitive-definitions/INDEPENDENT_DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),",
+        "https://eprint.iacr.org/2022/778),",
+        "https://eprint.iacr.org/2025/2203),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/message-hash-identification/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://sphincs.org/data/sphincs%2B-round3-specification.pdf,"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/parameter-repair-first/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/INDEPENDENT-FIRST.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/RESOURCE-MODEL-OBLIGATION.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/REVIEW-RECEIPT.json",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/quantitative-goal-audit/single-ud-polynomial/STATUS-PREDECESSOR-BYTES.md",
+      "urls": [
+        "https://homepages.cwi.nl/~rdewolf/publ/qc/polynomials.pdf).",
+        "https://www.damtp.cam.ac.uk/user/na/people/Alexei/papers/markov.pdf),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/standard-identification/INDEPENDENT-DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346),",
+        "https://eprint.iacr.org/2022/778),",
+        "https://eprint.iacr.org/2025/2203),"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/standard-identification/OWN-RECEIPT.json",
+      "urls": [
+        "https://eprint.iacr.org/2022/346",
+        "https://eprint.iacr.org/2022/778",
+        "https://eprint.iacr.org/2025/2203"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/standard-identification/PRIMARY-AND-STATUS.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346)",
+        "https://eprint.iacr.org/2022/778)",
+        "https://eprint.iacr.org/2025/2203)"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/selected-promotion-review/standard-identification/PROVENANCE.json",
+      "urls": [
+        "https://eprint.iacr.org/2022/346",
+        "https://eprint.iacr.org/2022/778",
+        "https://eprint.iacr.org/2025/2203"
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/wots-certification/DERIVATION.md",
+      "urls": [
+        "https://eprint.iacr.org/2022/346))."
+      ]
+    },
+    {
+      "repository_path": "security/LULA-I-proof-20261012/formal/QUANTUM.md",
+      "urls": [
+        "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization/Evaluation-Criteria/Security-%28Evaluation-Criteria%29)).",
+        "https://eprint.iacr.org/2022/346),",
+        "https://eprint.iacr.org/2022/778).",
+        "https://eprint.iacr.org/2025/2203).",
+        "https://kodu.ut.ee/~unruh/publications/semiclassical.html),",
+        "https://www.iacr.org/archive/crypto2019/116940359/116940359.pdf),"
+      ]
+    }
+  ],
+  "reason_counts": {
+    "unselected historical archive or generated paper scratch": 14,
+    "compiled/generated/archive/cache artifact": 4,
+    "third-party reference or redundant generated PDF; retain original hash/citation, not redistribution": 15,
+    "generated render/build output; source/review receipt retained": 3,
+    "build/dependency/redundant generated working tree": 9,
+    "third-party extracted reference text; retain hash/citation, not full text": 11,
+    "outside requested current publication bundle": 6
+  }
+}

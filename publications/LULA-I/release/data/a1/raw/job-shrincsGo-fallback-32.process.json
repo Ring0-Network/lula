@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\m3go_qpc.exe",
+    "bench",
+    "shrincs",
+    "data/a1\\vectors\\go-shrincs.json",
+    "fallback",
+    "32",
+    "10",
+    "data/a1\\raw\\shrincsGo-fallback-32.csv",
+    "data/a1\\raw\\shrincsGo-fallback-32.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 1800.0,
+  "start_utc": "2026-10-12T14:25:57Z",
+  "status": "completed",
+  "peak_working_set_bytes": 65101824,
+  "peak_private_bytes": 102952960,
+  "pid": 20176,
+  "exit_code": 0,
+  "wall_seconds": 21.768645899996045,
+  "end_utc": "2026-10-12T14:26:19Z"
+}

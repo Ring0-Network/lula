@@ -1,0 +1,55 @@
+{
+  "verdict": "ACCEPT_FAITHFUL_FINAL_FIXED_H_PRIVATE_PRF_ADAPTER_SUBJECT",
+  "current_index_or_combined_promotion_review": false,
+  "final_artifact": {
+    "PRIVATE-FIXED-H-REDUCTION.md": "a0bd91372f65af85521889c01d260f010ecb4af9d4da11392d21b3ebfc8b5e75"
+  },
+  "accepted_prior_review_sha256": "f38bf5e3d3650980fb34566a768779f27bb31e0d3aee245f5522c58c0077922f",
+  "subject_pins": {
+    "chain-pre-adapter/public-h-private/INDEPENDENT-DERIVATION.md": "6c44c1b3cce9cc5438f333031258b1c392069a171b1c6358e6354af6d9aab1af",
+    "chain-pre-adapter/public-h-private/CLARIFICATION.md": "020a34efad2c4553e5b4f7d47d3a8acaaa424365c84940452f1d6c4605952d6e",
+    "chain-pre-adapter/public-h-private/control.py": "093f5248b4873468d192c41c96d565f05298e33012272d36da0d7b09190b01c3",
+    "chain-pre-adapter/public-h-private/CONTROL-RESULTS.json": "168cc0b9e2bb1e1f7a98cc0360059504f53757f1ca216e628ced25f3bd85215b",
+    "chain-pre-adapter/public-h-private/PROVENANCE.json": "04cb096d72bdbaf8799a81a6a6ba3f57c308d00279eded633975c7891168547b",
+    "chain-pre-adapter/public-h-private/control-successor.py": "475b51f8d7b2c16d3afdb5095bcffa7cbca4110e2d88df1309f6f92dab4d5365",
+    "chain-pre-adapter/public-h-private/CONTROL-SUCCESSOR-RESULTS.json": "2073bfbd50c2558f1209bc7e6083d2ce1fe15ac87e7e3da9c0bc6a2dc9d87732",
+    "chain-pre-adapter/public-h-private/make_control_successor.py": "051a5bba38c91e33dc5ca2a0735bc4ff6399a5f3382f2e891c7340c3b0b7ad50",
+    "chain-pre-adapter/public-h-private/finalize_successor.py": "380aad35e7e9449a77028f5e00703ea5455505054e45c9f3bddd9aa3152f5237"
+  },
+  "successor_provenance_sha256": "b9caf4515b86f911182e9117224d43569da2672ba64d25501fac73ab08047ed5",
+  "own_first_derivation_sha256": "ce1595126df47f472fed0a7a1489840f1fabbc4e8490604e73baeaa397014cca",
+  "own_control_pins": {
+    "literal_and_gap_controls.py": "16b41338ba3af50dd441a5a366730a354fb51abd9999ff402501db4a0590e374",
+    "LITERAL-GAP-CONTROLS.json": "3229ee2ea850eb6bc0c3c2aec1824143fe078235a0009fda5a59d1a2532979d4",
+    "peer-recheck/control.py": "093f5248b4873468d192c41c96d565f05298e33012272d36da0d7b09190b01c3",
+    "peer-recheck/control-successor.py": "475b51f8d7b2c16d3afdb5095bcffa7cbca4110e2d88df1309f6f92dab4d5365",
+    "peer-recheck/CONTROL-RESULTS.json": "168cc0b9e2bb1e1f7a98cc0360059504f53757f1ca216e628ced25f3bd85215b",
+    "peer-recheck/CONTROL-SUCCESSOR-RESULTS.json": "2073bfbd50c2558f1209bc7e6083d2ce1fe15ac87e7e3da9c0bc6a2dc9d87732"
+  },
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "inherited_counts_sha256": "feff3d899edcb0b675970eaf915c221d837a47ab7357828758f0f0a40c923f89",
+  "manual_final_review_sha256": "6a4275c0130a55304e913f8a254caf4507bff81391852fcfc74a74edc272bc1d",
+  "checker_sha256": "ecca681788414cd018a26e1b6173adb735e0fedbeda45c2713d688add0765c45",
+  "checks": {
+    "faithful_exact_f_g_same_full_public_h_128bit_private": true,
+    "signed_absolute_particular_advantage_triangle_conventions_match": true,
+    "public_S_signed_averaging_correct": true,
+    "prekey_S_withheld_and_quantum_continuation_retained": true,
+    "all_zero_seed_literal_aliases_no_new_zero_charge": true,
+    "classical_private_quantum_public_interface": true,
+    "matched_absorbing_partial_services_no_native_claim": true,
+    "exact_D_cap_no_extra_plus1_needed": true,
+    "source_private_loops_rederived_public_namespace_ledger_inherited": true,
+    "private_challenger_vs_B_runtime_costs_separate": true,
+    "prefix_lower_limb_countermodel_and_OPEN_full_H_msg_graph_lemma": true,
+    "no_HJ_h_equals_HJ_O_or_RO_numeric_transplant": true,
+    "no_hardness_category_or_capacity_certificate": true
+  },
+  "new_kernel_declarations": 0,
+  "new_checked_source_game_declarations": 0,
+  "private_family_hardness": "ASSUMED_WITHOUT_NUMERICAL_CERTIFICATE",
+  "full_H_msg_adaptive_coverage_and_public_graph": "OPEN",
+  "fixed_h_full_forgery_bound": "OPEN",
+  "whole_goal_complete": false,
+  "root_source_manuscript_index_or_prior_receipt_edits": 0
+}

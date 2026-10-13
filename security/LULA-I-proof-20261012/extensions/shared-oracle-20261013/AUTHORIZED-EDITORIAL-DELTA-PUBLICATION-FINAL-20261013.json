@@ -1,0 +1,19 @@
+{
+  "authorization": "Latest user: final review and correction of the complete mechanism manuscript/PDF, claims, references, figures and public package, preserving conditional scientific limits.",
+  "patches_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\publication-final-20261013\\root\\PATCHES.json",
+  "patches_sha256": "e2b804b2e8bdf6d4b9a4c606dab71638998c6a295b330dd08257671493b52356",
+  "paper_changes": {
+    "LULA-I.tex": {
+      "before": "a33849e5eccf0d1895a3a035bd6a45de312bf783db200d986d0e5cd55699c6c1",
+      "after": "3ef61931c2feb57e05ae28171a693801c131a9b1edee59956e477384985d27c8"
+    },
+    "LULA-I.pdf": {
+      "before": "eec039da9ca57e4e2779a6d81ce8d1fee73cb7ea5d22f68d08b7217730f5d2de",
+      "after": "bc805dcfd00c4f8b489efba80311cb49fde8835618c719a4136b288484966110"
+    },
+    "stability-results.tex": {
+      "before": "e6d6dfe69236cf86e0da3010eda8f3adeb5702e3816b5acaeb24cf5b58f6ecc7",
+      "after": "7bf5af933b82d89dab647d784d07598276c0c56693dc795001e4da1aec9671b7"
+    }
+  }
+}

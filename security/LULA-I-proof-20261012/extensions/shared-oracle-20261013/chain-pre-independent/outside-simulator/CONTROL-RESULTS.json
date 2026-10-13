@@ -1,0 +1,57 @@
+{
+  "status": "COMPUTED_TOY_FIELD_AND_QUERY_CONTROLS_NOT_FULL_SOURCE_KERNEL_PROOF",
+  "deterministic_tower_moduli": [
+    {
+      "m": 2,
+      "tower_trace_one_constants": [
+        1
+      ],
+      "binary_modulus_hex": "0x7",
+      "irreducible": true
+    },
+    {
+      "m": 4,
+      "tower_trace_one_constants": [
+        1,
+        2
+      ],
+      "binary_modulus_hex": "0x13",
+      "irreducible": true
+    },
+    {
+      "m": 8,
+      "tower_trace_one_constants": [
+        1,
+        2,
+        8
+      ],
+      "binary_modulus_hex": "0x17b",
+      "irreducible": true
+    },
+    {
+      "m": 16,
+      "tower_trace_one_constants": [
+        1,
+        2,
+        8,
+        128
+      ],
+      "binary_modulus_hex": "0x178e7",
+      "irreducible": true
+    }
+  ],
+  "encoded_byte_words": 65793,
+  "leadingzero_codes": [
+    0,
+    1,
+    257
+  ],
+  "gf4_two_wise_full_output_pair_checks": 6,
+  "gf4_full_domain_family_seed_count": 256,
+  "one_quantum_query_phase_density_exact": true,
+  "compiled_honest_queries": 3,
+  "compiled_adversarial_queries": 1,
+  "wrong_adversary_only_two_wise_parity_success": "1",
+  "correct_full_budget_family_parity_success": "1/2",
+  "random_function_parity_success": "1/2"
+}

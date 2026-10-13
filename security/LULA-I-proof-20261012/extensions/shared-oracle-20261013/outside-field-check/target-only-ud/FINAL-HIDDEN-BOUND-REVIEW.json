@@ -1,0 +1,76 @@
+{
+  "verdict": "ACCEPT_MANUAL_RANDOM_ORACLE_HIDDEN_COMPONENT_WITH_AUDITED_PRE_CALLER",
+  "subject_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\TARGET-ONLY-HIDDEN-BOUND.md",
+  "subject_sha256": "b6b2e65a6c6cb1af262809216163916d79a1e6dfe19c085957b98a3f01d6547a",
+  "review_md_sha256": "aeebdfd62f09f27572974bc5b3d65c6a3929e1cc39bad99aed1533e9263c8051",
+  "single_PRE_subject_sha256": "16b5b6f7dd49ba1a1b263e60de59c4c3e4ce078294482578139f3aa719bbf85a",
+  "single_PRE_third_review": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\target-only-ud\\single-pre-third\\FINAL-SUBJECT-REVIEW.json",
+    "sha256": "891216829de5b0f3df0e138878085198727592edc78574fa91e48e5a2a609a29"
+  },
+  "prior_target_only_subject_and_receipt_pins": {
+    "TARGET-ONLY-UD-RO.md": "4e0aeeb0b0ed72eae3dd45e506fee8bf57db176e7ed3b6ddcd5cf2393b52e9df",
+    "outside-field-check/target-only-ud/FINAL-SUBJECT-REVIEW.json": "36ef17cc915cb610a1aae908f79d8fbdecd702eb15cc2c2eb93e17c3de849d58"
+  },
+  "source": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+    "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+    "anchors": "69-95;121-151;161-187;239-267;479-584;601-729"
+  },
+  "model": "Ideal-private HJ[O], shared full256 random oracle, S!=0; no actual SHA assignment",
+  "inequality": "Pr[Win AND H_final AND S!=0]<=min(1,D_H*min(1,(2R+1)^2*(2/N-1/N^2))+12*A_H*R/sqrt(N)), R=Q_A+1,N=2^128",
+  "constants": {
+    "N": "340282366920938463463374607431768211456",
+    "D_H": 20229886488608768,
+    "A_H": 7628143271608320,
+    "mu": "680564733841876926926749214863536422911/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+    "UD_slope": "682009155/137438953472"
+  },
+  "checks": {
+    "no_primitive_prequeries_whole_source_prekey_counted_after_challenge": true,
+    "caller_zero_state_marker_independent_not_assumed_from_name": true,
+    "opaque_X_never_read_generated_root_cache_counter_Y_only": true,
+    "all_unrelated_services_independent_or_target_query_counted": true,
+    "actual_final_target_verification_reply_reused_in_QAplus1": true,
+    "fullword_lower_allP_aliases_and_nonzero_branch_preserved": true,
+    "exact_wholemark_PRE_constant_valid_for_caller_R": true,
+    "valid_PRE_and_active_UD_selector_conditioning_correct": true,
+    "outside_2Tall_field_table_time_storage_circuit_costs_retained": true,
+    "32_quantitative_rows_reexecuted_byte_identical_all_caps1": true,
+    "half_QA99_100_and_cap_QA200_201_exact_including_PRE": true,
+    "sufficient_crossings_not_attacks_or_categories": true,
+    "stronger_old_direct_hidden_theorem_preserved_no_replacement": true,
+    "old_kappa_OPEN_receipt_immutable_separate_successor": true
+  },
+  "root_quantitative_pins": {
+    "quantitative.py": "631b884678b4522ed87d4992bd05117c342f879973c0625b066891776cb5640f",
+    "QUANTITATIVE-RESULTS.json": "ab9ff5ac52f914ee28ffab1e0ae6065346a7a43c0ebaf21bc3fabbb12c214be8"
+  },
+  "independent_root_quantitative_reexecution": {
+    "exit_code": 0,
+    "rows": 32,
+    "byte_identical_results": true,
+    "pins": {
+      "quantitative.py": "631b884678b4522ed87d4992bd05117c342f879973c0625b066891776cb5640f",
+      "QUANTITATIVE-RESULTS.json": "ab9ff5ac52f914ee28ffab1e0ae6065346a7a43c0ebaf21bc3fabbb12c214be8"
+    }
+  },
+  "independent_endpoint_values": {
+    "99": "1712416340160041514976328929648518980296512208486935973326892939478289/3450873173395281893717377931138512726225554486085193277581262111899648",
+    "100": "1729540503561641930291853696811490221221673116624910103144866206206521/3450873173395281893717377931138512726225554486085193277581262111899648",
+    "200": "3441956843721683478420888510601216767602240171283316454634648702865321/3450873173395281893717377931138512726225554486085193277581262111899648",
+    "201": "3459081007123283894067944439714040057604690604238510451846471086070265/3450873173395281893717377931138512726225554486085193277581262111899648"
+  },
+  "preserved_old_direct_subject_pins": {
+    "DYNAMIC-QUANTUM-HIDDEN-THEOREM.md": "a8c1191851349293aee10acc7ac255ed684a22094183329d3fada24cda1dde6f",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607"
+  },
+  "old_direct_theorem_scope": "Inherited previously reviewed comparison; not newly recertified or numerically changed here",
+  "material_correction_required": false,
+  "new_source_game_declarations": 0,
+  "new_security_kernel_declarations": 0,
+  "source_manuscript_old_scalar_prior_receipt_edits": 0,
+  "full_fixed_SHA_security_category_capacity_parameter_repair": "NOT_ESTABLISHED",
+  "whole_goal_complete": false,
+  "builder_sha256": "9d4b8586f42b0acd0687615607c1c8482c3bb77ca5b3adf6d9866b2338739edf"
+}

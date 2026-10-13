@@ -1,0 +1,7 @@
+{
+  "original_independent_data_sha256": "9859f7e201402d8b53539bb16144add8016c7f889d923add947289dad94e50fd",
+  "original_crosscheck_source_sha256": "ca209c53a339ddd761fc20b01296ebb8df4df21b419c046e01e453fa9831d06a",
+  "adapted_crosscheck_sha256": "81a702e2b9730fbca0670a477c297ba733385ba772a5b6edcf8b382de1ea5da9",
+  "adaptation": "Historical quantum-total-null status assertion replaced by current category-unestablished assertion; classical mathematical comparisons unchanged.",
+  "independence": "This run is by root using a previously independent peer dataset, not a new blind derivation."
+}

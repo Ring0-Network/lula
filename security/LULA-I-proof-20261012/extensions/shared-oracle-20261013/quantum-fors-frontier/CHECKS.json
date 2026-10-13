@@ -1,0 +1,56 @@
+{
+  "status": "PASS_EXACT_FIRST_CALL_CONTROLS_NOT_FULL_QROM",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "primary_pdf_sha256": "9a5ea6adeba5dcdf6c80035057aaccdc704aa6ea2940af0320bcfd7eca0abc8d",
+  "prequery_correlation_worlds": 16384,
+  "original_table_match_probability": "1/4",
+  "reprogrammed_fresh_table_match_probability": "1/16",
+  "concrete_prequery_correlation_advantage": "3/16",
+  "verified_primary_one_point_bound_for_toy": "5/8",
+  "unused_nonce_after_adaptive_label_cases": 128,
+  "row_lookup_basis_function_cases": 8192,
+  "row_lookup_outside_dummy_cases": 4096,
+  "row_queries_per_raw_query": 1,
+  "row_ancilla_exactly_clean": true,
+  "zero_ancilla_cleanup_negative_control_trace_distance": "1/2",
+  "average_toy_full_namespace_query_mass": "3/14",
+  "counter_space_factor_in_namespace_mass": false,
+  "toy_guard_probability": "1/4",
+  "toy_guarded_point_pmax": "1/12",
+  "toy_exhaustion_probability": "1/8",
+  "toy_latent_accepted_coordinate_uniform": true,
+  "route_filtered_completed_coordinate_probability": 1,
+  "generic_one_Grover_query_success": 1,
+  "invalid_two_classical_candidate_union": "1/2",
+  "first_call_loss_candidates": [
+    {
+      "log2_prequeries": 0,
+      "inner_primary_AR_loss": "5.4210108624275221701842007982024944956249983171528e-20",
+      "row_primary_AR_loss": "2.9387358770557187699218413430556141945553000604853e-39",
+      "guard_loss": "2.9387358770557187699218413430556141945466638919302e-39",
+      "candidate_first_call_distance_nonzero": "5.4210108624275221707719479736136382496093665857639e-20",
+      "candidate_first_call_distance_uniform_seed": "5.4210108624275221710658215613192101266015507200695e-20",
+      "meaning": "Single first-call comparison loss; not a full QROM advantage bound."
+    },
+    {
+      "log2_prequeries": 32,
+      "inner_primary_AR_loss": "0.0000000000000035527136788005072402428631059850682938285222622898",
+      "row_primary_AR_loss": "1.9259299443872358530559779425849275040012390822986e-34",
+      "guard_loss": "2.9387358770557187699218413430556141945466638919302e-39",
+      "candidate_first_call_distance_nonzero": "0.0000000000000035527136788005072404354590391596689348528899783897",
+      "candidate_first_call_distance_uniform_seed": "0.000000000000003552713678800507240435461977895545990571659900231",
+      "meaning": "Single first-call comparison loss; not a full QROM advantage bound."
+    },
+    {
+      "log2_prequeries": 64,
+      "inner_primary_AR_loss": "0.00000000023283064368097468321838761085018632002174854278564",
+      "row_primary_AR_loss": "1.2621774483536188886587657044604234270346471606349e-29",
+      "guard_loss": "2.9387358770557187699218413430556141945466638919302e-39",
+      "candidate_first_call_distance_nonzero": "0.00000000023283064368097468323100938533666124478539191860017",
+      "candidate_first_call_distance_uniform_seed": "0.00000000023283064368097468323100938533959998066244763737009",
+      "meaning": "Single first-call comparison loss; not a full QROM advantage bound."
+    }
+  ],
+  "quantum_FORS_total": null,
+  "scope": "Finite controls and first-call candidate arithmetic; no real signatures, cryptographic timings or full quantum source-security result."
+}

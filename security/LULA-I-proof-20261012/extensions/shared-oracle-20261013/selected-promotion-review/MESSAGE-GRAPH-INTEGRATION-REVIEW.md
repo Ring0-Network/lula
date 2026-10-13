@@ -1,0 +1,17 @@
+# Message, graph and symbolic-composition current-index integration review
+
+Verdict: ACCEPTED within the explicit manual, symbolic scope. This is an independent current-index review, not a new security theorem or a statement that the original goal is complete.
+
+I checked all 145 accepted absolute evidence pins (138 internal and seven external), four promoted final artifacts, ten named receipts/control records, the six current documents and their immutable predecessor copies. The prior PRIMITIVE-INTEGRATION-REVIEW.json document map equals root-docs-before-message-graph exactly. Its historical subject, artifact, control, provenance and backup pins remain unchanged. The six deltas were read in full: all changes are append-only, with the same scoped successor paragraphs. Existing source, scalar calculators and earlier RO/QROM theorems retain their pinned bytes.
+
+The ordinary component is the exact reviewed total rank-encoded family, with an ex-ante message ceiling. Dense and sparse constructed adversaries retain separate target-query and runtime hypotheses. The dense maximum loss 2^544 is a reduction loss, not security bits. Source exposures remain 17 real indexed secrets; the optional eighteenth coordinate is public hash bookkeeping. The tagged 297-bit route label does not create 297 bits of route entropy.
+
+The graph contribution uses the newly constructed within-class programs and selectors 55, 55, 21, 41 and 42 for the five distinct payload classes. It does not replace the coefficients of old common-56-bit particular adversaries. Other-tweak challenge chronology, the same full public hash and complete source/challenger costs remain obligations of the accepted programs. The graph second reader's receipt accepts the graph final artifact and an older composition candidate only; acceptance of the actual final composition is separately bound by FINAL-COMPOSITION-SUBJECT-REVIEW.json. The receipt chain does not conflate these subjects.
+
+The composition retains particular signed private-hop advantages, the completed-response source witness cover, distinct coverage alternatives and one outer seed-zero charge. The full hidden-predecessor term epsilon_H is explicitly OPEN. The separately reviewed uniform-start candidate and pending interior UD work are not premises of this accepted cut. No numerical fixed-hash advantage, 128-bit level, category, capacity, or source-game kernel theorem follows from this integration.
+
+I read the three DigestProjection.lean declarations and their pinned check record. Their claims are same-word prefix preservation and zero values at filter/route slices after zeroing the lower limb. The standard axiom sets are exactly {Quot.sound, propext}. The independent reexecution is separately pinned by the field reader's evidence. These helpers do not establish preservation of the full two-stage H_msg function when its inner digest changes. The cumulative count is 47 supporting declarations, with three added helpers and zero newly checked whole-source/game declarations.
+
+MESSAGE-GRAPH-check-integration.py verifies the final hashes, prior receipt mapping, precise subject bindings, scope flags and append-only deltas. Its generated MESSAGE-GRAPH-MANUAL-DIFF.txt records the full review surface. No correction is required for this integration. All writes made for this task are confined to selected-promotion-review.
+
+Outcome: ACCEPTED_SCOPED_MESSAGE_GRAPH_FIXED_H_SYMBOLIC_CURRENT_INDEX; whole_goal_complete = false.

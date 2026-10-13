@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SCOPED_EXACT_FINITE_OBSERVER_CONTROLS",
+  "model": {
+    "node_alphabet": 4,
+    "counters_per_row": 2,
+    "accepted": [
+      1,
+      2
+    ]
+  },
+  "iid_row_assignments": 16,
+  "row_weight": "1/16",
+  "joint_worlds": 524288,
+  "outside_payload_memory_groups": 32768,
+  "remaining_hidden_coordinate_guess_probability": "1/4",
+  "unused_master_guess_probability": "1/4",
+  "unequal_query_weight_support_mass": "1/4",
+  "negative_child_counter_independence_refuted": true,
+  "negative_seed_fixture_support_mass": "1",
+  "negative_hidden_working_value_guess_probability": "1",
+  "scope": "Exact finite sampler/factorization identities only; no full source or quantum theorem mechanization.",
+  "script_sha256": "0cde4439a6d956c63004436ca353ebbef4afb97eaf52978b2cfe0451d55868be"
+}

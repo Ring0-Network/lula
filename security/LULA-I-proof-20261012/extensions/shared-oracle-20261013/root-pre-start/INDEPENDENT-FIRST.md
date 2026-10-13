@@ -1,0 +1,35 @@
+# Uniform-start PRE: FORS secrets and WOTS position zero
+
+**PROVED — manual candidate awaiting independent derivation/review.** This file closes neither the whole hidden-predecessor term nor actual SHA hardness. Root derived this source-interface route and has received a brief independently proposed matching route status, but has not read any new complete peer PRE-start derivation. The source is fixed at ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210. Work is only in the ideal-private HJ[h] game; h is one public full algorithm, not a programmed oracle.
+
+## 1. Target class and ordinary challenge
+
+**PROVED / COMPUTED.** The private ideal F map has independent uniform128-bit values. Its valid secret namespace has N_D=19,212,937,084,272,640 labels: WOTS chain starts plus17*512 real FORS leaves at each of2^41 instances. Each label maps injectively to its FIRST public hash tweak: WOTS type5(j,t,kp,i) to type0(j,t,kp,i,position0), and FORS type6(0,t,kp,global_leaf) to type3(0,t,kp,height0,global_leaf). Both first public functions have128-bit payloads and128-bit outputs. No earlier chain image is needed to define their input distribution.
+
+**CITED — primary challenge.** HK22 Definition3 SM-PRE samples a uniform hidden input X for a chosen tweak and returns Th(P,T,X), then reveals P. Definition7 adds other-tweak collection access. This candidate needs one challenge and no target-cone collection query before it. X remains unknown to B. PRE accepts ANY returned input with the challenge image, including X itself.
+
+**PROVED — model.** Th_128^h(P,T,X)=prefix128 h(P16||zero48||T22||X16). Its public h is locally computable at all raw words, classically or coherently. After the target phase P is the source S. All source h values are computed by this same algorithm. An unknown complete lower128 target limb is not needed by genuine typed operations, which return Node16; public adversarial evaluations on guessed inputs still compute the actual full h and are never overwritten.
+
+## 2. Explicit opaque-start simulator
+
+**PROVED — candidate program.** Sample55 selector bits and choose a valid private F label, or a dummy nonwinning branch. Submit its first public tweak T to the ordinary PRE challenger. Receive image Y, retain an OPAQUE selected F handle whose latent value is the challenger's uniform X, sample every other F label independently and retain a lazy independent J. After P release run A's source pre-key phase with P/pk withheld until source setup, followed by the same honest cache/source/final interface. No private map or seed-bearing fixture is exposed.
+
+**PROVED — genuine evaluation rules.** Every genuine FORS use of the selected secret as its designated leaf hash returns Y instead of materializing X. Every genuine WOTS computation at that selected chain starts at known position1 value Y and evaluates all later positions with the actual h. Public keys, endpoints, trees, roots, canonical child counters and authentication paths need only those known images. A signature position e>=1 likewise returns the value reached from Y. This is an explicit simulator rewrite of internal unobserved work, not an attempt to execute the unchanged Rust code with a fake zero secret. All other private labels/calls are evaluated normally and all output bytes remain exact.
+
+**PROVED — stop guard.** If an honest signing response would serialize the selected FORS secret or the selected WOTS value at position0, stop the reduction with failure BEFORE supplying that response. Internal private-label retrieval for an image-only tree computation does not trigger the guard. On every source winning path where that selected label is the final unexposed-start witness, no such earlier completed disclosure occurs. A source request which later fails is already nonwinning under the absorbing atomic partial convention. The guard is an event-preserving stopped reduction; it does not claim transcript equality on the stopped exposure branches or impose a new source rejection rule.
+
+**PROVED — challenge/source coupling.** Couple source F at the selected label to the challenger X; all other F/J values have their original independent law. For each selected label, X is uniform independently of P and other labels, and Y is the true first image under the same h. The opaque evaluation rules give identical public endpoint/tree/signature/cache values until the guard. Source A's complete quantum public-h evaluation continues on that same fixed algorithm; no query history, programming or no-hit condition is used. Possible collisions of X with values at other labels are retained, not conditioned away.
+
+## 3. Extraction, loss and exact open boundary
+
+**PROVED — extraction program.** In the final reached verifier trace, if a call at the selected first-hash tweak has input V and prefix image Y, output V to the ordinary PRE game. Root acceptance and source freshness may be checked first. B need not recognize V=X: PRE allows alternative preimages, which may add success. The final candidate is classical. A global first-unexposed-H witness rule is fixed independently of the selector.
+
+**PROVED — proposed one-sided inequality.** Let H_start_final mean that the canonical FIRST H_final witness is one of these uniform starts/FORS secrets, and retain Win and S!=0. A valid selector hits that witness with probability2^-55; its source path has not stopped and supplies a preimage. Therefore
+
+`Pr_HJ[h][Win AND H_start_final AND S!=0] <= 2^55 Succ_SM-PRE(Th_128^h;B_start,p=1)`.
+
+B can locally fail on P=0 to match the original nonzero component. The unconditional primitive success includes that failure; any full union pays source seed-zero once externally. Extra target preimages/root-valid alternative branches can enlarge B success, so no equality is claimed. Dummy exact-p syntax registers one fixed challenge and returns failure if necessary.
+
+**PROVED / COMPUTED — charges.** One PRE challenge, at most one unknown label, no challenge-tweak preparatory query, source setup/signing/extraction/public-h work and all other F/J/cache/Seen/message storage are charged. The rewritten known-image shortcut reduces local operations but can safely retain the previously reviewed full source work cap. Target-challenger hashing/storage is charged separately. Current classical/quantum A's time/circuit/register resources remain part of B. No full graph/cache generation or timing measurement is required for this finite analytic program.
+
+**OPEN.** An interior predecessor at position>0 is h-derived; replacing it by the challenger's uniform hidden X would sever an earlier actual h link. The start-image program does not solve that problem and must not be applied to those nodes. A lawful guarded undetectability/PRE hybrid or an explicit stronger source-derived-input property remains needed. Actual SM-PRE hardness, numeric adequacy, full-security level/category and capacity are not established. This candidate changes no source, paper, old scalar or core document and adds zero whole-source/game kernel declarations.

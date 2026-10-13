@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "historical-inputs\\M-measure\\M3-LULA-I-shrincs-kn-2026-10-11\\tools\\go\\bin\\go.exe",
+    "build",
+    "-p=1",
+    "-trimpath",
+    "-buildvcs=false",
+    "-o",
+    "data/a1\\build\\m3go_qpc.exe",
+    "./cmd/m3bench"
+  ],
+  "cwd": "data/a1\\sources\\hashsig-go\\go",
+  "logical_cpu": 4,
+  "affinity_mask": 16,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 900,
+  "start_utc": "2026-10-12T04:16:55Z",
+  "status": "completed",
+  "peak_working_set_bytes": 31768576,
+  "peak_private_bytes": 57765888,
+  "pid": 17852,
+  "exit_code": 0,
+  "wall_seconds": 2.5245284999982687,
+  "end_utc": "2026-10-12T04:16:57Z"
+}

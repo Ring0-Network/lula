@@ -1,0 +1,88 @@
+{
+  "status": "ACCEPT_SCOPED_MANUAL_PRIVATE_P_SOURCE_ONE_SIDED_LEMMA",
+  "subject_sha256": "72e214e7194c8892502212690ef98ea1996f21b3138708154de6ff0de600544b",
+  "pins": {
+    "subject": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SOURCE-PRIVATE-P-POLYNOMIAL-QROM.md",
+      "sha256": "72e214e7194c8892502212690ef98ea1996f21b3138708154de6ff0de600544b"
+    },
+    "own_blind_first": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\INDEPENDENT-FIRST.md",
+      "sha256": "67fcfac99d1d87db4b954e8f5b232e33dc835f154c13d39cc4140a6dee94ed5f"
+    },
+    "first_provenance": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\FIRST-PROVENANCE.json",
+      "sha256": "ff6f289419bee35de79822feb22fc6e16a71afcf56c100d8e13a9e8c819c62dd"
+    },
+    "peer_review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\PEER-REVIEW.json",
+      "sha256": "98255f4032f6723a9a40ca81bbaff83b70c8c911d2d3c9746607404522c5f139"
+    },
+    "own_controls": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\controls.py",
+      "sha256": "2c373a2617349a0a06f1ca1a6ae7656a8a51c006be55d618323819a57c460560"
+    },
+    "own_results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\CONTROL-RESULTS.json",
+      "sha256": "60763a9eb904371db26d48648d378c6b52d6147dedd175fdc6d956ccebd9ef0e"
+    },
+    "root_candidate": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-ud-polynomial\\PRIVATE-P-CANDIDATE.md",
+      "sha256": "6b451f36526ac4e49ade0eca99622d27f0f05bda473d5563c398f8967319b1db"
+    },
+    "old_private_derivation": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-private-frontier\\DERIVATION.md",
+      "sha256": "a70d84506c789ff567969bed77d67d1513722ff570fec004ad9ff757da863adf"
+    },
+    "old_stopped_reader": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-private-rare-second-reader\\SECOND_READER.md",
+      "sha256": "85652fd075637efeca2cb3ed34207b4ed8b6dd0c7f688c6b9b77fd8813d0009e"
+    },
+    "UD_polynomial": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\QUANTUM-UD-POLYNOMIAL-RO.md",
+      "sha256": "5200165e5a66c138cf0e186f60c072699f3e5123a0dfdf869d00734a0c38450f"
+    },
+    "UD_final_review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\ud-polynomial\\FINAL-SUBJECT-REVIEW.json",
+      "sha256": "16a68aeb759098f9592737b07fb1c182153d12dfdda586a8a6107442fc5f734c"
+    },
+    "K_separate_subject": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SOURCE-PRIVATE-K-POLYNOMIAL-QROM.md",
+      "sha256": "0e09f51fced6f4a5fc26c8121bfc4f5a91dc3de3af4e93fe4465491e3d03ca73"
+    },
+    "release_source": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+      "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+    }
+  },
+  "checks": {
+    "blind_first_before_new_peer": "PASS",
+    "exact_singleton_zero_full256_all_suffix_laws": "PASS",
+    "same_marker_independent_joint_local_auxiliaries": "PASS",
+    "source_nonzero_S_literal_disjointness": "PASS",
+    "blind_source_roots_cache_partiality_no_P_read": "PASS",
+    "prekey_queries_counted": "PASS",
+    "all_interpolation_tables_pathwise_caps_and_totalization": "PASS",
+    "one_query_full_pair_completion": "PASS",
+    "decision_QA_only_no_terminal_marker_query": "PASS",
+    "actual_eligible_first_B_source_blind_equality": "PASS",
+    "outer_stream_shared_nomination_and_initiated_cap": "PASS",
+    "zero_unflagged_first_nominee_independence": "PASS",
+    "unnormalized_physical_CQ_block_deletion": "PASS",
+    "common_stopped_purification_packed_slots": "PASS",
+    "distinct_key_dependent_B_projector": "PASS",
+    "one_sided_source_gap_with_inner_and_outer_caps": "PASS",
+    "zero_seed_once_separate_composition": "PASS",
+    "finite_controls_actual_exit_zero": "PASS",
+    "costs_charged_and_old_scalars_unchanged": "PASS"
+  },
+  "control_exit_code": 0,
+  "new_source_game_declarations": 0,
+  "new_kernel_declarations": 0,
+  "whole_goal_complete": false,
+  "complete_quantitative_composition_reviewed": false,
+  "fixed_SHA_hardness_claim": false,
+  "old_scalar_changes": false,
+  "source_counts_scope": "inherited reviewed premises, no new source count audit",
+  "review_md_sha256": "a1323a48fa092d8cd64231609a40a46740d1ba8418df0dcc8d3352625b14c408"
+}

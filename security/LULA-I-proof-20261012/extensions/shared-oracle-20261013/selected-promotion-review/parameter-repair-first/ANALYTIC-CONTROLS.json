@@ -1,0 +1,551 @@
+{
+  "status": "SOURCE_PARAMETER_ANALYTIC_CONTROLS_NOT_REPAIR_CERTIFICATE",
+  "script_sha256": "50dd4b185ae0389f9b5974e4c1ea8ce707c2c7dd28462b39722aa42f8e701e09",
+  "independent_first_sha256": "869736c449aaff9ed24eb68e352fcff46bad784be4085b013c70c6db0ab7f842",
+  "toy_coefficient_antichain_cases": 42,
+  "invalid_geometry_cases": 6,
+  "rows": [
+    {
+      "name": "original",
+      "parameters": {
+        "a": 9,
+        "k": 18,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5720,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 3017,
+      "G_final": 3217,
+      "prospective_joint_constant": 6242,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16703,
+        16703,
+        16703,
+        16703,
+        8602517503
+      ],
+      "FORS_pk_compressions": 26100,
+      "FORS_sign_compressions": 26117,
+      "all_prepared_addressed_sign_compressions": 29266,
+      "top_only_cache_addressed_sign_bounded_mean_display": "96340.703361151168687785019738144713",
+      "addressed_verify_compressions": 3262,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283762.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741859,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 143.26253858106296
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 132.56341994411804
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 125.90253038476634
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "height42_top22",
+      "parameters": {
+        "a": 9,
+        "k": 18,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          22
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5736,
+      "top_cache_payload_bytes": 150994928,
+      "H_final": 3017,
+      "G_final": 3218,
+      "prospective_joint_constant": 6243,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16703,
+        16703,
+        16703,
+        16703,
+        17205035007
+      ],
+      "FORS_pk_compressions": 26100,
+      "FORS_sign_compressions": 26117,
+      "all_prepared_addressed_sign_compressions": 29266,
+      "top_only_cache_addressed_sign_bounded_mean_display": "96340.703361151168687785019738144713",
+      "addressed_verify_compressions": 3263,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283761.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741858,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 147.60975398145607
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 138.29407185711065
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 132.56341994410715
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "k19_one_more_real",
+      "parameters": {
+        "a": 9,
+        "k": 19,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5880,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 3018,
+      "G_final": 3227,
+      "prospective_joint_constant": 6253,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16703,
+        16703,
+        16703,
+        16703,
+        8602517503
+      ],
+      "FORS_pk_compressions": 27635,
+      "FORS_sign_compressions": 27653,
+      "all_prepared_addressed_sign_compressions": 30802,
+      "top_only_cache_addressed_sign_bounded_mean_display": "97876.703361151168687785019738144713",
+      "addressed_verify_compressions": 3272,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283762.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741859,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 150.01666763537847
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 138.83503133753518
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 131.87963919631284
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "a10_more_leaves",
+      "parameters": {
+        "a": 10,
+        "k": 18,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5992,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 3017,
+      "G_final": 3234,
+      "prospective_joint_constant": 6259,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16703,
+        16703,
+        16703,
+        16703,
+        8602517503
+      ],
+      "FORS_pk_compressions": 52212,
+      "FORS_sign_compressions": 52229,
+      "all_prepared_addressed_sign_compressions": 55378,
+      "top_only_cache_addressed_sign_bounded_mean_display": "122452.70336115116868778501973814471",
+      "addressed_verify_compressions": 3279,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283762.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741859,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -4194264,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 161.217440437369
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 150.49551236022504
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 143.81639960730234
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "four_layers_merged_bottom",
+      "parameters": {
+        "a": 9,
+        "k": 18,
+        "hs": [
+          10,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5204,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 2777,
+      "G_final": 2976,
+      "prospective_joint_constant": 5760,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        534527,
+        16703,
+        16703,
+        8602517503
+      ],
+      "FORS_pk_compressions": 26100,
+      "FORS_sign_compressions": 26117,
+      "all_prepared_addressed_sign_compressions": 28993,
+      "top_only_cache_addressed_sign_bounded_mean_display": "597123.02752086337651583876480360853",
+      "addressed_verify_compressions": 3012,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283762.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741859,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 143.26253858106296
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 132.56341994411804
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 125.90253038476634
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "lower_ell31_same_target",
+      "parameters": {
+        "a": 9,
+        "k": 18,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          31,
+          31,
+          31,
+          31,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          2040
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5656,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 2957,
+      "G_final": 3157,
+      "prospective_joint_constant": 6122,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16191,
+        16191,
+        16191,
+        16191,
+        8602517503
+      ],
+      "FORS_pk_compressions": 26100,
+      "FORS_sign_compressions": 26117,
+      "all_prepared_addressed_sign_compressions": 29262,
+      "top_only_cache_addressed_sign_bounded_mean_display": "98340.650703860077036677823701806392",
+      "addressed_verify_compressions": 3202,
+      "top_row_acceptance": [
+        "1777026088990694504701284686261999",
+        "1329227995784915872903807060280344576"
+      ],
+      "top_setup_completion_log2_display": "0.0",
+      "top_row_failure_union_log2_upper_display": "-8283762.20357785165122686468853",
+      "top_row_failure_union_exact_power_two_upper_exponent": -5741859,
+      "canonical_bounded_evaluation_means_display": [
+        "1078.66267596501925916945592545",
+        "1078.66267596501925916945592545",
+        "1078.66267596501925916945592545",
+        "1078.66267596501925916945592545",
+        "748.007023655957393625999604712"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 143.26253858106296
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 132.56341994411804
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 125.90253038476634
+        }
+      ],
+      "full_security_certified": false
+    },
+    {
+      "name": "extreme_top_target",
+      "parameters": {
+        "a": 9,
+        "k": 18,
+        "hs": [
+          5,
+          5,
+          5,
+          5,
+          21
+        ],
+        "ls": [
+          32,
+          32,
+          32,
+          32,
+          16
+        ],
+        "ss": [
+          240,
+          240,
+          240,
+          240,
+          4080
+        ]
+      },
+      "source_geometry_valid": true,
+      "signature_bytes": 5720,
+      "top_cache_payload_bytes": 75497456,
+      "H_final": 977,
+      "G_final": 1177,
+      "prospective_joint_constant": 2162,
+      "full_theorem_generalization": "OPEN",
+      "subtree_compressions": [
+        16703,
+        16703,
+        16703,
+        16703,
+        8602517503
+      ],
+      "FORS_pk_compressions": 26100,
+      "FORS_sign_compressions": 26117,
+      "all_prepared_addressed_sign_compressions": 31306,
+      "top_only_cache_addressed_sign_bounded_mean_display": "98380.703361151168687785019738144713",
+      "addressed_verify_compressions": 1222,
+      "top_row_acceptance": [
+        "1",
+        "340282366920938463463374607431768211456"
+      ],
+      "top_setup_completion_log2_display": "-201326592.0",
+      "top_row_failure_union_log2_upper_display": "21.0",
+      "top_row_failure_union_exact_power_two_upper_exponent": 21,
+      "canonical_bounded_evaluation_means_display": [
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "65.6758402877921719462549345362",
+        "4294967295.99999999999999999997"
+      ],
+      "FORS_filter_union_failure_power_two_upper_exponent_at_q40": -8388568,
+      "FORS_component_only": [
+        {
+          "log2_q": 38,
+          "FORS_per_candidate_exponent": 143.26253858106296
+        },
+        {
+          "log2_q": 40,
+          "FORS_per_candidate_exponent": 132.56341994411804
+        },
+        {
+          "log2_q": 41,
+          "FORS_per_candidate_exponent": 125.90253038476634
+        }
+      ],
+      "full_security_certified": false
+    }
+  ],
+  "cost_scope": "Compression counts/finite-counter expectation and logical payload only;exclude message prehash,outer FORS grind,allocation/RSS and physical runtime.",
+  "setup_scope": "Top canonical row completion only,not entire setup;union failure bound is explicitly an upper bound.",
+  "fixed_n": 16,
+  "new_parameter_set_adopted": false,
+  "full_security_or_category_certified": false,
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false,
+  "exit_code": 0
+}

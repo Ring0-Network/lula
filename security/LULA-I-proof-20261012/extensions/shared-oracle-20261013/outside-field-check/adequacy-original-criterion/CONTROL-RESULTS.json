@@ -1,0 +1,367 @@
+{
+  "status": "PASS_EXACT_CRITERION_AND_NO_CROSSING_CONTROLS",
+  "script_sha256": "d5d5c4fb057d5a3afdc511e283441544d7bfc84e1977ac168310efded8adabee",
+  "classical_floor_rows": [
+    {
+      "qlog": 24,
+      "Q": "0",
+      "classical_envelope_lower_floor": "16780337/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 24,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "6459231281/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 24,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 30,
+      "Q": "0",
+      "classical_envelope_lower_floor": "1073744945/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 30,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "7516195889/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 30,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 38,
+      "Q": "0",
+      "classical_envelope_lower_floor": "274877910065/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 38,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "281320361009/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 38,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 40,
+      "Q": "0",
+      "classical_envelope_lower_floor": "1099511630897/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 40,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "1105954081841/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 40,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 41,
+      "Q": "0",
+      "classical_envelope_lower_floor": "2199023258673/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 41,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "2205465709617/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 41,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 44,
+      "Q": "0",
+      "classical_envelope_lower_floor": "17592186047537/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 44,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "17598628498481/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 44,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 50,
+      "Q": "0",
+      "classical_envelope_lower_floor": "1125899906845745/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 50,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "1125906349296689/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 50,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 64,
+      "Q": "0",
+      "classical_envelope_lower_floor": "18446744073709554737/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 64,
+      "Q": "4294967296",
+      "classical_envelope_lower_floor": "18446744080152005681/170141183460469231731687303715884105728",
+      "floor_greater_than_2_minus_128": true
+    },
+    {
+      "qlog": 64,
+      "Q": "340282366920938463463374607431768211456",
+      "classical_envelope_lower_floor": "1",
+      "floor_greater_than_2_minus_128": true
+    }
+  ],
+  "quantum_floor_rows": [
+    {
+      "qlog": 24,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 24,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 24,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 30,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 30,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 30,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 38,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 38,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 38,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 40,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 40,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 40,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 41,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 41,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 41,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 44,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 44,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 44,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 50,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 50,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 50,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 64,
+      "Q": "4294967296",
+      "quantum_h_floor": "1/4611686018427387904",
+      "all_three_envelopes_cap_one": false
+    },
+    {
+      "qlog": 64,
+      "Q": "9223372036854775808",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    },
+    {
+      "qlog": 64,
+      "Q": "18446744073709551616",
+      "quantum_h_floor": "1",
+      "all_three_envelopes_cap_one": true
+    }
+  ],
+  "quantum_Q0_envelope_lower_floor": "82844193/340282366920938463463374607431768211456",
+  "necessary_h_2_minus_64_Q_pass": "2147483620",
+  "necessary_h_2_minus_64_Q_fail": "2147483621",
+  "ideal_search_rows": [
+    {
+      "N": 4,
+      "distinct_test_budget": 0,
+      "success": "0"
+    },
+    {
+      "N": 4,
+      "distinct_test_budget": 1,
+      "success": "1/4"
+    },
+    {
+      "N": 4,
+      "distinct_test_budget": 2,
+      "success": "1/2"
+    },
+    {
+      "N": 4,
+      "distinct_test_budget": 4,
+      "success": "1"
+    },
+    {
+      "N": 16,
+      "distinct_test_budget": 0,
+      "success": "0"
+    },
+    {
+      "N": 16,
+      "distinct_test_budget": 1,
+      "success": "1/16"
+    },
+    {
+      "N": 16,
+      "distinct_test_budget": 8,
+      "success": "1/2"
+    },
+    {
+      "N": 16,
+      "distinct_test_budget": 16,
+      "success": "1"
+    },
+    {
+      "N": 256,
+      "distinct_test_budget": 0,
+      "success": "0"
+    },
+    {
+      "N": 256,
+      "distinct_test_budget": 1,
+      "success": "1/256"
+    },
+    {
+      "N": 256,
+      "distinct_test_budget": 128,
+      "success": "1/2"
+    },
+    {
+      "N": 256,
+      "distinct_test_budget": 256,
+      "success": "1"
+    }
+  ],
+  "loose_upper_bound_does_not_determine_actual_risk": true,
+  "strict_vs_nonstrict_threshold_negative": true,
+  "source_valid_forgery_or_attack_constructed": false,
+  "scope": "Algebraic controls of sufficient envelopes and an abstract search benchmark; no source attack/optimality/category conclusion",
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false
+}

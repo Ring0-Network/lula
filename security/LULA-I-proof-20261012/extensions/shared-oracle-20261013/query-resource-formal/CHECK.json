@@ -1,0 +1,25 @@
+{
+  "outcome": "CHECKED_ORDER_COMPONENT_NOT_FULL_CRYPTOSYSTEM",
+  "tool": "Lean 4.28.0",
+  "tool_commit": "7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+  "environment": "WSL Ubuntu-24.04; existing pinned Mathlib project",
+  "command": "cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/query-resource-formal/QueryThreshold.lean",
+  "exit_code": 0,
+  "source_sha256": "a209d49f4d1fb89238a9df4abce29c26500fb835c1b6775ada39f65f3a587b70",
+  "derivation_sha256": "563b24e74fce13bb58e597a1262db15552eecb4949410ebe8a6ea716749c181c",
+  "declarations": [
+    "LulaQueryThreshold.cap_monotone",
+    "LulaQueryThreshold.minimum_monotone",
+    "LulaQueryThreshold.cap_preserves_strict_failure",
+    "LulaQueryThreshold.certified_prefix",
+    "LulaQueryThreshold.failed_suffix",
+    "LulaQueryThreshold.adjacent_boundary",
+    "LulaQueryThreshold.no_certified_budget_if_zero_fails"
+  ],
+  "axioms_per_declaration": ["propext", "Classical.choice", "Quot.sound"],
+  "custom_axioms": [],
+  "admissions": [],
+  "independent_kernel_check": "NOT_RUN",
+  "formalization_boundary": "Generic ordered caps/minima and integer threshold consequences; manual source-envelope monotonicity is not mechanized here.",
+  "stdout": "'LulaQueryThreshold.cap_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.minimum_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.cap_preserves_strict_failure' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.certified_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.failed_suffix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.adjacent_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaQueryThreshold.no_certified_budget_if_zero_fails' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

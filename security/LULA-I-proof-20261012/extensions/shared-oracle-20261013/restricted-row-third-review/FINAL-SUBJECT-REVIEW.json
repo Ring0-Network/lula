@@ -1,0 +1,32 @@
+{
+  "status": "ACCEPTED_FINAL_MANUAL_RESTRICTED_CANONICAL_QROM_COMPONENT",
+  "pins": {
+    "final_subject": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\RESTRICTED-CANONICAL-QROM.md",
+      "sha256": "c27b22d2d7881404117ff787776b73c8d1bf7c3a1b2c8858a710cd3878e9f7e1"
+    },
+    "final_review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\FINAL-SUBJECT-REVIEW.md",
+      "sha256": "0607ef7e5315cd7d9f7b03f7f472f5bea815cceb51e3586d80afe095fa7e0d47"
+    },
+    "base_receipt": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\REVIEW-RECEIPT.json",
+      "sha256": "003e3f102ebfb903ca268c5ab64f01e1a974dc43b682c33641e6e20cc904ae44"
+    },
+    "successor_receipt": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\ONE-QUERY-RECEIPT.json",
+      "sha256": "44a7687c99f550610d70920e0dd4658c8b4f6fe74d47dec9bb7db6b9f9af5704"
+    },
+    "source": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+      "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+    }
+  },
+  "unconditional_bound": "min(1,(1-1/N)*(2^42*tau4+2^21*tau8)*min(1,8*(Q+1)^2/N))",
+  "new_extractor_M": "Q",
+  "old_adapter_M": "Q+1",
+  "full_execution_resources_separate_from_M": true,
+  "old_scalar_changes": 0,
+  "new_game_kernel_declarations": 0,
+  "scope": "Manual restricted linked fullRO component and source-event accounting; no complete signature-security or fixed-SHA claim."
+}

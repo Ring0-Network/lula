@@ -1,0 +1,484 @@
+{
+  "status": "PASSED_INDEPENDENT_POSITIVE_FRACTION_CERTIFICATE_REVIEW",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-parameter-uniform-classical\\uniform_bounds.py",
+        "--out",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\parameter-uniform-classical\\positive-certificate-replay\\BASELINE-CERTIFICATES.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"COMPUTED_EXACT_RATIONAL_GUARDED_CLASSICAL_UPPER_CERTIFICATES\", \"rows\": 24, \"controls\": {\"exact_small_binomial_inequalities\": 756, \"negative_guard_cases\": 5, \"baseline_counts_bytes_recovered\": true}, \"half_success_passes\": 10, \"whole_goal_complete\": false}",
+      "stderr": "",
+      "output_sha256": "f71d161493ab8ca605fd07f44dc619dcdcb382987427034d5fbf9d3cf217b904",
+      "byte_identical": true
+    },
+    {
+      "argv": [
+        "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-parameter-uniform-classical\\uniform_bounds.py",
+        "--params",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-parameter-uniform-classical\\height63-illustration.json",
+        "--out",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\parameter-uniform-classical\\positive-certificate-replay\\HEIGHT63-CERTIFICATES.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"COMPUTED_EXACT_RATIONAL_GUARDED_CLASSICAL_UPPER_CERTIFICATES\", \"rows\": 24, \"controls\": {\"exact_small_binomial_inequalities\": 756, \"negative_guard_cases\": 5, \"baseline_counts_bytes_recovered\": true}, \"half_success_passes\": 16, \"whole_goal_complete\": false}",
+      "stderr": "",
+      "output_sha256": "0e568cbed7f9a1b8117ed12f5de729742718e0e20f05820a0cb9c47845979ee1",
+      "byte_identical": true
+    }
+  ],
+  "rows": [
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "BASELINE-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 24,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 30,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 38,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 40,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 41,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 44,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 50,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 64,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 125,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": true
+    },
+    {
+      "certificate": "HEIGHT63-CERTIFICATES.json",
+      "log2_q": 64,
+      "log2_Q": 128,
+      "positive_moment_checked": true,
+      "finite_binomial_moment_no_larger": true,
+      "complete_exact_sum_checked": true,
+      "half_success": false
+    }
+  ],
+  "independent_exact_rows": 48,
+  "independent_small_binomial_cases": 756,
+  "independent_counter_cases": 55,
+  "Stirling_method": "closed form inclusion-exclusion / j!, not root recurrence",
+  "maximum_height_row": {
+    "q": "2^64",
+    "Q": "2^125",
+    "uncapped_numerator": "657883711894870355144124059615393505313558007659273828354467341728651312521281291342953526885510497907095393856340707341919664879480004300262256825752539686529747812517097848385589244375240951089526573202458446434830111443410877586427653608436565172375159734998743082221815585885071684543125529404891404328930004603052429760844678802839793029969073376274725529222417262855304728704931217307016058210646067742413047929685386793173870179256309648586554351255815317709183551585910193992065983042908773782814369188492615713952416439321882792180557798254610263080580736537035139634547874194609470963713",
+    "uncapped_denominator": "1751908409537131537220509645351687597690304110853111572994449976845956819751541616602568796259317428464425605223064365804210081422215355425149431390635151955247955156636234741221447435733643262808668929902091770092492911737768377135426590363166295684370498604708288556044687341394398676292971255828404734517580702346564613427770683056761383955397564338690628093211465848244049196353703022640400205739093118270803778352768276670202698397214556629204420309965547056893233608758387329699097930255380715679250799950923553703740673620901978370802540218870279314810722790539899334271514365444369275682816"
+  },
+  "all_q_0_through_2pow64_at_Q125": "Follows by monotonicity of every nonnegative coefficient and bridge term, not interpolation of eight samples",
+  "no_signatures_caches_or_attacks_generated": true,
+  "whole_goal_complete": false
+}

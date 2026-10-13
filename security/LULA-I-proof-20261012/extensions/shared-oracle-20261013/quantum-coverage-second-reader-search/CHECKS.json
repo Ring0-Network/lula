@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXACT_COVERAGE_SEARCH_FACTOR_AND_ONLINE_PATCH_CONTROLS",
+  "coverage_datasets": 64,
+  "mean_raw_coverage": "17/128",
+  "occupancy_formula": "17/128",
+  "inner_exact_density": "3/8",
+  "inner_union_density_cap": "7/16",
+  "inner_full_value_mixture_uniform": true,
+  "online_challenge_dependent_patch_worlds": 27648,
+  "plus_basis_vectors_checked": 884736,
+  "raw_basis_terms_checked": 1769472,
+  "patch_labels_generated_as_state_not_independent_advice": true,
+  "negative_fixed_label_condition": {
+    "Pr_B0_1_given_patch2": "1",
+    "unconditional_Pr_B0_1": "1/4"
+  },
+  "negative_unguarded_inner_outer_alias": {
+    "exact_byte_equality": true,
+    "bytes": 52,
+    "requires_Ui_lower_equal_S": true
+  },
+  "outer_bound": "min(1,8*(Q+2)^2*E[p(Tq)]) under exogenous-template premise",
+  "inner_bound": "min(1,8*(Q+2)^2*(1/N+q/N^2)) with fresh unpatched finalI",
+  "source_bridge_reviewed_here": false,
+  "full_QROM_security": null
+}

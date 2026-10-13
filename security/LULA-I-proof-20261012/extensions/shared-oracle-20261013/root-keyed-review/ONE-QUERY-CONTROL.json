@@ -1,0 +1,44 @@
+{
+  "status": "EXACT_FINITE_CONTROL_PASS",
+  "arithmetic": "Q(sqrt(2)); Fraction pairs; no floats",
+  "worlds": 1024,
+  "clean_basis_states_checked": 8192,
+  "inactive_delta_zero_basis_checks": 2048,
+  "boolean_queries_per_raw_xor": 1,
+  "scratch_returned_zero_and_no_extra_phase": true,
+  "negative_omit_known_phase": {
+    "f": [
+      0,
+      0
+    ],
+    "r0": [
+      0,
+      1
+    ],
+    "r1": [
+      0,
+      0
+    ],
+    "x": 1,
+    "y": 0
+  },
+  "negative_omit_uncompute": {
+    "f": [
+      0,
+      0
+    ],
+    "r0": [
+      0,
+      0
+    ],
+    "r1": [
+      0,
+      1
+    ],
+    "x": 1,
+    "y": 0
+  },
+  "source_sha256": "89128e32d5a3eeb7da92c4fe22fbcbc5de725e5c235f0625480832f9981cd9c1",
+  "proof_sha256": "7def78f7f5e771e397373f7ad81c7977674669d2064a3b2ce1a31e13d31bf1f0",
+  "scope": "synthetic exact circuit control; general algebra is manual; no actual source forgery or complete game theorem"
+}

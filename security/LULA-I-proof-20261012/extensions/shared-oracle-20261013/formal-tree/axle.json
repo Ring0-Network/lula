@@ -1,0 +1,96 @@
+{
+  "check": {
+    "okay": true,
+    "content": "import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\nnamespace LulaTree\n\nabbrev Node (n : Nat) := { bytes : List UInt8 // bytes.length = n }\n\ntheorem split_fixed_left {A : Type} (left right otherLeft otherRight : List A)\n    (hlen : left.length = otherLeft.length)\n    (he : left ++ right = otherLeft ++ otherRight) :\n    left = otherLeft \u2227 right = otherRight := by\n  induction left generalizing otherLeft with\n  | nil =>\n      cases otherLeft with\n      | nil => exact \u27e8rfl, he\u27e9\n      | cons b bs => simp at hlen\n  | cons a xs ih =>\n      cases otherLeft with\n      | nil => simp at hlen\n      | cons b bs =>\n          simp only [List.length_cons, Nat.succ.injEq] at hlen\n          simp only [List.cons_append, List.cons.injEq] at he\n          rcases ih bs hlen he.2 with \u27e8hl, hr\u27e9\n          exact \u27e8by simpa [hl] using congrArg (fun v => v :: bs) he.1, hr\u27e9\n\ntheorem cancel_prefix {A : Type} (header left right : List A)\n    (he : header ++ left = header ++ right) : left = right := by\n  induction header with\n  | nil => exact he\n  | cons a xs ih =>\n      simp only [List.cons_append, List.cons.injEq] at he\n      exact ih he.2\n\ndef frame {Addr : Type} {n : Nat} (header : Addr \u2192 List UInt8)\n    (address : Addr) (left right : Node n) : List UInt8 :=\n  header address ++ (left.val ++ right.val)\n\ntheorem frame_children_injective {Addr : Type} {n : Nat}\n    (header : Addr \u2192 List UInt8) (address : Addr)\n    (left right otherLeft otherRight : Node n)\n    (he : frame header address left right = frame header address otherLeft otherRight) :\n    left = otherLeft \u2227 right = otherRight := by\n  have hc := cancel_prefix (header address) (left.val ++ right.val)\n    (otherLeft.val ++ otherRight.val) he\n  have hl : left.val.length = otherLeft.val.length := left.property.trans otherLeft.property.symm\n  rcases split_fixed_left left.val right.val otherLeft.val otherRight.val hl hc with \u27e8h\u2081, h\u2082\u27e9\n  exact \u27e8Subtype.ext h\u2081, Subtype.ext h\u2082\u27e9\n\nstructure Step (Addr : Type) (n : Nat) where\n  address : Addr\n  currentOnRight : Bool\n  sibling : Node n\n  deriving DecidableEq\n\ndef input {Addr : Type} {n : Nat} (header : Addr \u2192 List UInt8)\n    (s : Step Addr n) (current : Node n) : List UInt8 :=\n  if s.currentOnRight then frame header s.address s.sibling current\n  else frame header s.address current s.sibling\n\ndef schedule {Addr : Type} {n : Nat} (path : List (Step Addr n)) : List (Addr \u00d7 Bool) :=\n  path.map (fun s => (s.address, s.currentOnRight))\n\ndef root {Addr : Type} {n : Nat} (H : List UInt8 \u2192 Node n)\n    (header : Addr \u2192 List UInt8) : Node n \u2192 List (Step Addr n) \u2192 Node n\n  | current, [] => current\n  | current, s :: rest => root H header (H (input header s current)) rest\n\ndef trace {Addr : Type} {n : Nat} (H : List UInt8 \u2192 Node n)\n    (header : Addr \u2192 List UInt8) : Node n \u2192 List (Step Addr n) \u2192 List (Addr \u00d7 List UInt8)\n  | _, [] => []\n  | current, s :: rest =>\n      (s.address, input header s current) :: trace H header (H (input header s current)) rest\n\ntheorem same_root_agreement_or_witness {Addr : Type} {n : Nat}\n    (H : List UInt8 \u2192 Node n) (header : Addr \u2192 List UInt8)\n    (path\u2081 path\u2082 : List (Step Addr n)) (leaf\u2081 leaf\u2082 : Node n)\n    (hs : schedule path\u2081 = schedule path\u2082)\n    (hr : root H header leaf\u2081 path\u2081 = root H header leaf\u2082 path\u2082) :\n    (leaf\u2081 = leaf\u2082 \u2227 path\u2081 = path\u2082) \u2228\n      \u2203 address x y,\n        (address, x) \u2208 trace H header leaf\u2081 path\u2081 \u2227\n        (address, y) \u2208 trace H header leaf\u2082 path\u2082 \u2227\n        x \u2260 y \u2227 H x = H y := by\n  induction path\u2081 generalizing path\u2082 leaf\u2081 leaf\u2082 with\n  | nil =>\n      cases path\u2082 with\n      | nil => exact Or.inl \u27e8hr, rfl\u27e9\n      | cons t ts => simp [schedule] at hs\n  | cons s ss ih =>\n      cases path\u2082 with\n      | nil => simp [schedule] at hs\n      | cons t ts =>\n          simp only [schedule, List.map_cons, List.cons.injEq, Prod.mk.injEq] at hs\n          rcases hs with \u27e8\u27e8ha, hd\u27e9, htail\u27e9\n          have hr' : root H header (H (input header s leaf\u2081)) ss =\n              root H header (H (input header t leaf\u2082)) ts := hr\n          rcases ih ts (H (input header s leaf\u2081)) (H (input header t leaf\u2082)) htail hr' with\n            \u27e8hparent, hrest\u27e9 | \u27e8a, x, y, hx, hy, hne, heq\u27e9\n          \u00b7 by_cases hi : input header s leaf\u2081 = input header t leaf\u2082\n            \u00b7 rcases s with \u27e8a, d, sib\u2081\u27e9\n              rcases t with \u27e8b, e, sib\u2082\u27e9\n              simp only at ha hd\n              subst b\n              subst e\n              cases d <;> simp only [input, Bool.false_eq_true, \u2193reduceIte] at hi\n              \u00b7 rcases frame_children_injective header a leaf\u2081 sib\u2081 leaf\u2082 sib\u2082 hi with \u27e8hleaf, hsib\u27e9\n                exact Or.inl \u27e8hleaf, by simp [hsib, hrest]\u27e9\n              \u00b7 rcases frame_children_injective header a sib\u2081 leaf\u2081 sib\u2082 leaf\u2082 hi with \u27e8hsib, hleaf\u27e9\n                exact Or.inl \u27e8hleaf, by simp [hsib, hrest]\u27e9\n            \u00b7 exact Or.inr \u27e8s.address, input header s leaf\u2081, input header t leaf\u2082,\n                by simp [trace],\n                by simp only [trace, List.mem_cons]; exact Or.inl (by simp [ha]), hi, hparent\u27e9\n          \u00b7 exact Or.inr \u27e8a, x, y,\n              by simp only [trace, List.mem_cons]; exact Or.inr hx,\n              by simp only [trace, List.mem_cons]; exact Or.inr hy, hne, heq\u27e9\n\ntheorem changed_leaf_or_path_yields_witness {Addr : Type} {n : Nat}\n    (H : List UInt8 \u2192 Node n) (header : Addr \u2192 List UInt8)\n    (path\u2081 path\u2082 : List (Step Addr n)) (leaf\u2081 leaf\u2082 : Node n)\n    (hs : schedule path\u2081 = schedule path\u2082)\n    (hr : root H header leaf\u2081 path\u2081 = root H header leaf\u2082 path\u2082)\n    (hd : leaf\u2081 \u2260 leaf\u2082 \u2228 path\u2081 \u2260 path\u2082) :\n    \u2203 address x y,\n      (address, x) \u2208 trace H header leaf\u2081 path\u2081 \u2227\n      (address, y) \u2208 trace H header leaf\u2082 path\u2082 \u2227\n      x \u2260 y \u2227 H x = H y := by\n  rcases same_root_agreement_or_witness H header path\u2081 path\u2082 leaf\u2081 leaf\u2082 hs hr with\n    \u27e8hleaf, hpath\u27e9 | hw\n  \u00b7 rcases hd with hn | hn\n    \u00b7 exact False.elim (hn hleaf)\n    \u00b7 exact False.elim (hn hpath)\n  \u00b7 exact hw\n\n#print axioms split_fixed_left\n#print axioms cancel_prefix\n#print axioms frame_children_injective\n#print axioms same_root_agreement_or_witness\n#print axioms changed_leaf_or_path_yields_witness\nend LulaTree\n\n",
+    "lean_messages": {
+      "errors": [],
+      "warnings": [],
+      "infos": [
+        "-:134:0-134:6: info: 'LulaTree.split_fixed_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:135:0-135:6: info: 'LulaTree.cancel_prefix' depends on axioms: [propext]\n",
+        "-:136:0-136:6: info: 'LulaTree.frame_children_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:137:0-137:6: info: 'LulaTree.same_root_agreement_or_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:138:0-138:6: info: 'LulaTree.changed_leaf_or_path_yields_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+      ]
+    },
+    "tool_messages": {
+      "errors": [],
+      "warnings": [
+        "Mathlib.Tactic is a required import but is missing from the header imports. You may experience inconsistent and incorrect behavior. We highly recommend adding `import Mathlib.Tactic` to the header imports.",
+        "Note: you are not using the default header. Expected 'import Mathlib\n', got 'import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\n'. You may experience significant slowdowns. We encourage you to use the cached default header if possible, which will significantly speed up execution. Please enable `ignoreImports` to automatically override imports with the default header."
+      ],
+      "infos": []
+    },
+    "failed_declarations": [],
+    "timings": {
+      "parse_ms": 7473,
+      "total_ms": 7533
+    },
+    "info": {
+      "request_id": "9718f15b-6ba5-46b2-b048-eecb46adb0d4",
+      "environment": "lean-4.28.0",
+      "total_request_time_ms": 7663,
+      "queue_time_ms": 4,
+      "execution_time_ms": 7659,
+      "cached_response": false,
+      "_executor_commit_sha": "4e4d05b692e56b4d928ac95c4f783f411eadabba",
+      "_executor_docker_image_id": "sha256:bef56e9c4dd4d8de7bfc8916c6d6199f6936e841100716b1b5ea9012b37cb86c",
+      "_executor_artifact_sha256": "c280cb9b47af4f5a8a952128ae00698ec9022c089500b7b23a511a6c9ba7a8da",
+      "environment_wait_time_us": 11,
+      "environment_total_time_us": 7655927,
+      "environment_pool_size": 64,
+      "_predicted_warmness": "warm",
+      "_actual_env_warm_state": "warm"
+    }
+  },
+  "statement_comparison": {
+    "okay": true,
+    "content": "import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\nnamespace LulaTree\n\nabbrev Node (n : Nat) := { bytes : List UInt8 // bytes.length = n }\n\ntheorem split_fixed_left {A : Type} (left right otherLeft otherRight : List A)\n    (hlen : left.length = otherLeft.length)\n    (he : left ++ right = otherLeft ++ otherRight) :\n    left = otherLeft \u2227 right = otherRight := by\n  induction left generalizing otherLeft with\n  | nil =>\n      cases otherLeft with\n      | nil => exact \u27e8rfl, he\u27e9\n      | cons b bs => simp at hlen\n  | cons a xs ih =>\n      cases otherLeft with\n      | nil => simp at hlen\n      | cons b bs =>\n          simp only [List.length_cons, Nat.succ.injEq] at hlen\n          simp only [List.cons_append, List.cons.injEq] at he\n          rcases ih bs hlen he.2 with \u27e8hl, hr\u27e9\n          exact \u27e8by simpa [hl] using congrArg (fun v => v :: bs) he.1, hr\u27e9\n\ntheorem cancel_prefix {A : Type} (header left right : List A)\n    (he : header ++ left = header ++ right) : left = right := by\n  induction header with\n  | nil => exact he\n  | cons a xs ih =>\n      simp only [List.cons_append, List.cons.injEq] at he\n      exact ih he.2\n\ndef frame {Addr : Type} {n : Nat} (header : Addr \u2192 List UInt8)\n    (address : Addr) (left right : Node n) : List UInt8 :=\n  header address ++ (left.val ++ right.val)\n\ntheorem frame_children_injective {Addr : Type} {n : Nat}\n    (header : Addr \u2192 List UInt8) (address : Addr)\n    (left right otherLeft otherRight : Node n)\n    (he : frame header address left right = frame header address otherLeft otherRight) :\n    left = otherLeft \u2227 right = otherRight := by\n  have hc := cancel_prefix (header address) (left.val ++ right.val)\n    (otherLeft.val ++ otherRight.val) he\n  have hl : left.val.length = otherLeft.val.length := left.property.trans otherLeft.property.symm\n  rcases split_fixed_left left.val right.val otherLeft.val otherRight.val hl hc with \u27e8h\u2081, h\u2082\u27e9\n  exact \u27e8Subtype.ext h\u2081, Subtype.ext h\u2082\u27e9\n\nstructure Step (Addr : Type) (n : Nat) where\n  address : Addr\n  currentOnRight : Bool\n  sibling : Node n\n  deriving DecidableEq\n\ndef input {Addr : Type} {n : Nat} (header : Addr \u2192 List UInt8)\n    (s : Step Addr n) (current : Node n) : List UInt8 :=\n  if s.currentOnRight then frame header s.address s.sibling current\n  else frame header s.address current s.sibling\n\ndef schedule {Addr : Type} {n : Nat} (path : List (Step Addr n)) : List (Addr \u00d7 Bool) :=\n  path.map (fun s => (s.address, s.currentOnRight))\n\ndef root {Addr : Type} {n : Nat} (H : List UInt8 \u2192 Node n)\n    (header : Addr \u2192 List UInt8) : Node n \u2192 List (Step Addr n) \u2192 Node n\n  | current, [] => current\n  | current, s :: rest => root H header (H (input header s current)) rest\n\ndef trace {Addr : Type} {n : Nat} (H : List UInt8 \u2192 Node n)\n    (header : Addr \u2192 List UInt8) : Node n \u2192 List (Step Addr n) \u2192 List (Addr \u00d7 List UInt8)\n  | _, [] => []\n  | current, s :: rest =>\n      (s.address, input header s current) :: trace H header (H (input header s current)) rest\n\ntheorem same_root_agreement_or_witness {Addr : Type} {n : Nat}\n    (H : List UInt8 \u2192 Node n) (header : Addr \u2192 List UInt8)\n    (path\u2081 path\u2082 : List (Step Addr n)) (leaf\u2081 leaf\u2082 : Node n)\n    (hs : schedule path\u2081 = schedule path\u2082)\n    (hr : root H header leaf\u2081 path\u2081 = root H header leaf\u2082 path\u2082) :\n    (leaf\u2081 = leaf\u2082 \u2227 path\u2081 = path\u2082) \u2228\n      \u2203 address x y,\n        (address, x) \u2208 trace H header leaf\u2081 path\u2081 \u2227\n        (address, y) \u2208 trace H header leaf\u2082 path\u2082 \u2227\n        x \u2260 y \u2227 H x = H y := by\n  induction path\u2081 generalizing path\u2082 leaf\u2081 leaf\u2082 with\n  | nil =>\n      cases path\u2082 with\n      | nil => exact Or.inl \u27e8hr, rfl\u27e9\n      | cons t ts => simp [schedule] at hs\n  | cons s ss ih =>\n      cases path\u2082 with\n      | nil => simp [schedule] at hs\n      | cons t ts =>\n          simp only [schedule, List.map_cons, List.cons.injEq, Prod.mk.injEq] at hs\n          rcases hs with \u27e8\u27e8ha, hd\u27e9, htail\u27e9\n          have hr' : root H header (H (input header s leaf\u2081)) ss =\n              root H header (H (input header t leaf\u2082)) ts := hr\n          rcases ih ts (H (input header s leaf\u2081)) (H (input header t leaf\u2082)) htail hr' with\n            \u27e8hparent, hrest\u27e9 | \u27e8a, x, y, hx, hy, hne, heq\u27e9\n          \u00b7 by_cases hi : input header s leaf\u2081 = input header t leaf\u2082\n            \u00b7 rcases s with \u27e8a, d, sib\u2081\u27e9\n              rcases t with \u27e8b, e, sib\u2082\u27e9\n              simp only at ha hd\n              subst b\n              subst e\n              cases d <;> simp only [input, Bool.false_eq_true, \u2193reduceIte] at hi\n              \u00b7 rcases frame_children_injective header a leaf\u2081 sib\u2081 leaf\u2082 sib\u2082 hi with \u27e8hleaf, hsib\u27e9\n                exact Or.inl \u27e8hleaf, by simp [hsib, hrest]\u27e9\n              \u00b7 rcases frame_children_injective header a sib\u2081 leaf\u2081 sib\u2082 leaf\u2082 hi with \u27e8hsib, hleaf\u27e9\n                exact Or.inl \u27e8hleaf, by simp [hsib, hrest]\u27e9\n            \u00b7 exact Or.inr \u27e8s.address, input header s leaf\u2081, input header t leaf\u2082,\n                by simp [trace],\n                by simp only [trace, List.mem_cons]; exact Or.inl (by simp [ha]), hi, hparent\u27e9\n          \u00b7 exact Or.inr \u27e8a, x, y,\n              by simp only [trace, List.mem_cons]; exact Or.inr hx,\n              by simp only [trace, List.mem_cons]; exact Or.inr hy, hne, heq\u27e9\n\ntheorem changed_leaf_or_path_yields_witness {Addr : Type} {n : Nat}\n    (H : List UInt8 \u2192 Node n) (header : Addr \u2192 List UInt8)\n    (path\u2081 path\u2082 : List (Step Addr n)) (leaf\u2081 leaf\u2082 : Node n)\n    (hs : schedule path\u2081 = schedule path\u2082)\n    (hr : root H header leaf\u2081 path\u2081 = root H header leaf\u2082 path\u2082)\n    (hd : leaf\u2081 \u2260 leaf\u2082 \u2228 path\u2081 \u2260 path\u2082) :\n    \u2203 address x y,\n      (address, x) \u2208 trace H header leaf\u2081 path\u2081 \u2227\n      (address, y) \u2208 trace H header leaf\u2082 path\u2082 \u2227\n      x \u2260 y \u2227 H x = H y := by\n  rcases same_root_agreement_or_witness H header path\u2081 path\u2082 leaf\u2081 leaf\u2082 hs hr with\n    \u27e8hleaf, hpath\u27e9 | hw\n  \u00b7 rcases hd with hn | hn\n    \u00b7 exact False.elim (hn hleaf)\n    \u00b7 exact False.elim (hn hpath)\n  \u00b7 exact hw\n\n#print axioms split_fixed_left\n#print axioms cancel_prefix\n#print axioms frame_children_injective\n#print axioms same_root_agreement_or_witness\n#print axioms changed_leaf_or_path_yields_witness\nend LulaTree\n\n",
+    "lean_messages": {
+      "errors": [],
+      "warnings": [],
+      "infos": [
+        "-:134:0-134:6: info: 'LulaTree.split_fixed_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:135:0-135:6: info: 'LulaTree.cancel_prefix' depends on axioms: [propext]\n",
+        "-:136:0-136:6: info: 'LulaTree.frame_children_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:137:0-137:6: info: 'LulaTree.same_root_agreement_or_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "-:138:0-138:6: info: 'LulaTree.changed_leaf_or_path_yields_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+      ]
+    },
+    "tool_messages": {
+      "errors": [],
+      "warnings": [
+        "Mathlib.Tactic is a required import but is missing from the header imports. You may experience inconsistent and incorrect behavior. We highly recommend adding `import Mathlib.Tactic` to the header imports.",
+        "Note: you are not using the default header. Expected 'import Mathlib\n', got 'import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\n'. You may experience significant slowdowns. We encourage you to use the cached default header if possible, which will significantly speed up execution. Please enable `ignoreImports` to automatically override imports with the default header."
+      ],
+      "infos": []
+    },
+    "failed_declarations": [],
+    "negation": null,
+    "timings": {
+      "candidate_ms": 234,
+      "declarations_ms": 100,
+      "formal_statement_ms": 1468,
+      "total_ms": 1802
+    },
+    "info": {
+      "request_id": "87dd41ac-c918-4c92-be67-fe5742e629ba",
+      "environment": "lean-4.28.0",
+      "total_request_time_ms": 1938,
+      "queue_time_ms": 8,
+      "execution_time_ms": 1929,
+      "cached_response": false,
+      "_executor_commit_sha": "4e4d05b692e56b4d928ac95c4f783f411eadabba",
+      "_executor_docker_image_id": "sha256:bef56e9c4dd4d8de7bfc8916c6d6199f6936e841100716b1b5ea9012b37cb86c",
+      "_executor_artifact_sha256": "c280cb9b47af4f5a8a952128ae00698ec9022c089500b7b23a511a6c9ba7a8da",
+      "environment_wait_time_us": 517,
+      "environment_total_time_us": 1926601,
+      "environment_pool_size": 64,
+      "_predicted_warmness": "warm",
+      "_actual_env_warm_state": "warm"
+    }
+  },
+  "transmitted_source_sha256": "402996a51c0bcc4b9258c9598dc81b8aec3c174b842f648e3e72f9beaa6ad523",
+  "statement_only_sha256": "0da0aedc0c44aea262d853131532071080d33bfbfe142e84c2f7544937bb6a0c",
+  "compare_template_contains_placeholders_only": true
+}

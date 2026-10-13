@@ -1,0 +1,89 @@
+{
+  "outcome": "PROGRESS_REVIEWED_CLASSICAL_RO_TOTAL_FULL_GOAL_ACTIVE",
+  "requirements_complete": false,
+  "checks": {
+    "immutable_composition_draft": true,
+    "mechanized_sources_match_successful_receipts": true,
+    "root_numeric_inputs_current_and_all16_rows_checked": true,
+    "frozen_security_packet_and_crypto_unchanged": true,
+    "intervening_authorized_editorial_cut_explicitly_pinned": true
+  },
+  "mechanized_components": [
+    {
+      "lane": "root-formal",
+      "source_sha256": "f4bb3f768cf63722a8f108708617f6d31cc264bc19fad13a1e148c2284206b8f",
+      "last_checked_exit_code": 0,
+      "scope": "Existing exact declarations only; complete RO composition is manual, not mechanized."
+    },
+    {
+      "lane": "formal-tree",
+      "source_sha256": "402996a51c0bcc4b9258c9598dc81b8aec3c174b842f648e3e72f9beaa6ad523",
+      "last_checked_exit_code": 0,
+      "scope": "Existing exact declarations only; complete RO composition is manual, not mechanized."
+    },
+    {
+      "lane": "wots-certification",
+      "source_sha256": "453643faa6f720424819e0b48562bd857fd99929faa93c023b8baa074e4388d1",
+      "last_checked_exit_code": 0,
+      "scope": "Existing exact declarations only; complete RO composition is manual, not mechanized."
+    }
+  ],
+  "numeric_outputs": {
+    "bounds-QH64": {
+      "sha256": "5b303c3d0f18ea9ffd59886bcc5b6746a6fc5b1adace95b6feee4f095bc5e03a",
+      "rows": 8
+    },
+    "bounds-QH128": {
+      "sha256": "3f21a5f43b59a80c47d567cbf545c75a596e82f9bc3690f844ff89d6c6dcd085",
+      "rows": 8
+    }
+  },
+  "independent_numeric_receipt_sha256": "91832b2e36d268beb56b96f458aec7d92f385f8baa5f5c707f0810086cf3bcdd",
+  "fresh_controls": {
+    "root-recheck-hidden": {
+      "original": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\hidden-values\\control.py",
+      "source_sha256": "1ee8f066f09529c10a550b29e5a0209f4510851a07f5cd7374311f2183ba077c",
+      "unmodified_copy_sha256": "1ee8f066f09529c10a550b29e5a0209f4510851a07f5cd7374311f2183ba077c",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\angel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-recheck-hidden\\control.py"
+      ]
+    },
+    "root-recheck-quantum-graph": {
+      "original": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-graph-targets\\control.py",
+      "source_sha256": "d767056627f484608aa5663a45fe873156ca0089059689752aebc170f4502d6e",
+      "unmodified_copy_sha256": "d767056627f484608aa5663a45fe873156ca0089059689752aebc170f4502d6e",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\angel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-recheck-quantum-graph\\control.py"
+      ]
+    },
+    "root-canonical-quantum-review": {
+      "original": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-canonical-targets\\control.py",
+      "source_sha256": "49d8bea2d8facae9eb66e6d0aa1c6bb88157c952732b4c2d9eeb4b79e7d176a9",
+      "unmodified_copy_sha256": "49d8bea2d8facae9eb66e6d0aa1c6bb88157c952732b4c2d9eeb4b79e7d176a9",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\angel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-canonical-quantum-review\\control.py"
+      ]
+    }
+  },
+  "artifacts": {
+    "PROOF.md": "364f30fd683e59b56cf888881985e457e117089e966a93590fe01eec0ca57b76",
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "bounds.py": "ed3d5f09cdc4bea7109be91109c5bcfb28fb9a9fb8194397e45ffc5392353d8d",
+    "TERM-TABLE.md": "2d3e1887c438590f53d1c37257b0993fc66f1c93a85aa43a0f4ca4550bd1556d",
+    "OPEN.md": "f8d3fdb026e6680f4fded76fbbf9fe060b4d3bc84facbb6292534d336d9e1be8",
+    "REQUIREMENT-MAP.md": "dd40e3179a6069376fd11c6a4bdfc050ce4d1efcc742d05b125c9cde38d64cf9"
+  },
+  "remaining": "Classical level1/capacity certification, efficient generic primitive reductions, full QROM/private/disclosure/FORS composition, source refinement and broader cache APIs are not established."
+}

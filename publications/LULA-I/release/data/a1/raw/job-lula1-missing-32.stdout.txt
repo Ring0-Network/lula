@@ -1,0 +1,1 @@
+{"candidate":"LULA-I","scenario":"missing","message_bytes":32,"repetitions":2,"all_verify":true,"negative_tests":"PASS"}

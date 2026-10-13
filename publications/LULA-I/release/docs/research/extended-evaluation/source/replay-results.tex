@@ -1,0 +1,10 @@
+\begin{table}[t]
+\caption{Publication replay: one full-parameter 32-byte-message fixture, 1,000 valid verifications, logical CPU 0 and BelowNormal priority. All raw durations are retained; no selected minimum over repetitions is used.}
+\label{tab:replay}
+\centering\small
+\begin{tabular}{lrrrrr}\toprule
+Operation & Min & Median & p95 & p99 & Max\\\midrule
+Verification (ms) & 0.1334 & 0.1360 & 0.1465 & 0.1847 & 0.8732\\\bottomrule
+\end{tabular}
+\end{table}
+\Cref{tab:replay} reports the final run, which retained every raw duration. An earlier exploratory execution recorded a 33.069 ms verification maximum; its aggregate is also preserved. The rerun added raw-duration retention without establishing a new latency guarantee. Neither sample certifies a worst-case elapsed-latency bound.

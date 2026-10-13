@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\shrincs-c-b32.exe",
+    "run",
+    "x",
+    "data/a1\\vectors\\shrincs-c.state",
+    "prepared",
+    "65536",
+    "3",
+    "data/a1\\raw\\SMOKE-cpu4-shrincs-prepared-65536.csv",
+    "data/a1\\raw\\SMOKE-cpu4-shrincs-prepared-65536.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 4,
+  "affinity_mask": 16,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 900.0,
+  "start_utc": "2026-10-12T04:15:12Z",
+  "status": "completed",
+  "peak_working_set_bytes": 7319552,
+  "peak_private_bytes": 1503232,
+  "pid": 26588,
+  "exit_code": 0,
+  "wall_seconds": 0.4160507000051439,
+  "end_utc": "2026-10-12T04:15:13Z"
+}

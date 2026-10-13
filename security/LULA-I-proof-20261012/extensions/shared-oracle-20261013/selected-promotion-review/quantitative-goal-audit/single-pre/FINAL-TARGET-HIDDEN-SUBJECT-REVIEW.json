@@ -1,0 +1,78 @@
+{
+  "verdict": "ACCEPT_EXACT_TARGET_ONLY_RANDOM_ORACLE_HIDDEN_COMPONENT_BOUND",
+  "subject": "TARGET-ONLY-HIDDEN-BOUND.md",
+  "subject_sha256": "b6b2e65a6c6cb1af262809216163916d79a1e6dfe19c085957b98a3f01d6547a",
+  "subject_pins": {
+    "TARGET-ONLY-HIDDEN-BOUND.md": "b6b2e65a6c6cb1af262809216163916d79a1e6dfe19c085957b98a3f01d6547a",
+    "TARGET-ONLY-UD-RO.md": "4e0aeeb0b0ed72eae3dd45e506fee8bf57db176e7ed3b6ddcd5cf2393b52e9df",
+    "SINGLE-TARGET-PRE-RO.md": "16b5b6f7dd49ba1a1b263e60de59c4c3e4ce078294482578139f3aa719bbf85a",
+    "FIXED-H-HIDDEN-PREDECESSORS.md": "d47b8a5ecc72a3d1ff7f52d3b3a16be6220f4acf5d0c08416f902939320dbb13"
+  },
+  "premise_receipt_pins": {
+    "outside-field-check/target-only-ud/FINAL-SUBJECT-REVIEW.json": "36ef17cc915cb610a1aae908f79d8fbdecd702eb15cc2c2eb93e17c3de849d58",
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/FINAL-SUBJECT-REVIEW.json": "303718debb7fb4e848a6d7b228006a51dd68eb8c6556ce5b370e4eac3396e04f",
+    "selected-promotion-review/quantitative-goal-audit/single-pre/FINAL-SUBJECT-REVIEW.json": "81817a2bddf1829834aed483fec1880cbf8eb5aa511d61333762146d71d0b38a"
+  },
+  "own_pins": {
+    "FINAL-TARGET-HIDDEN-SUBJECT-REVIEW.md": "5a69223ce7020224c6f217657d22887f5252409db21a221909a6980f500c42d6",
+    "root_quantitative.py": "631b884678b4522ed87d4992bd05117c342f879973c0625b066891776cb5640f",
+    "QUANTITATIVE-RESULTS.json": "ab9ff5ac52f914ee28ffab1e0ae6065346a7a43c0ebaf21bc3fabbb12c214be8",
+    "check_target_hidden.py": "cdba3cade6d319856220b4136b8facbf0fc177a664246f34907ff739c125a817",
+    "TARGET-HIDDEN-NUMERIC-CHECK.json": "edc2df3923fa3152d577de15a2114bf0ecb4c9db6a3e505dcf78930249447e28",
+    "make_target_hidden_receipt.py": "799f80cd076539ac7ad85c4be3ab9786fb7f5346d9e1942b84b1e3240fc0025d"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "CLASSICAL-PRE-REDUCTION.md": "2df727576b70753a920b8c4757c2e4cfe6d3438ff881811d7d60c74563bfc162",
+    "QUANTUM-PRE-REDUCTION.md": "59ca1bd7385d28b3983e4c8a5194d0d98b05223bb26e57976766a018d39f50a2",
+    "TYPE7-REDUCTION-PROGRAM.md": "9de49e85de06364ffc007bd02de46fb5de4a7ad3abf84f29065b2d12710586bf"
+  },
+  "checks": {
+    "exact_final_caller_and_PRE_subject_receipt_pins": true,
+    "source_prekey_after_primitive_challenge_preserved_not_discarded": true,
+    "opaque_input_Y_designated_edge_all_other_metadata_ghost_independent": true,
+    "ghost_services_analytical_algorithm_not_false_source_law_claim": true,
+    "atomic_response_gate_no_partial_secret_exposure": true,
+    "allP_fullword_literal_alias_router": true,
+    "nonzero_inner_bytes_outer_length_other_tweak_honest_exclusions": true,
+    "R_QAplus1_final_selected_reply_reused": true,
+    "outside_all_honest_storage_circuit_work_retained": true,
+    "PRE_valid_selector_D_H_weight": true,
+    "UD_active_condition_before_abs_and_P": true,
+    "primary_HK_Lemma3_12R_sqrtN_exact_random_family": true,
+    "single_PRE_stronger_kappa_used": true,
+    "seedzero_unconditional_local_failure_no_recharge": true,
+    "copied_root_script_only_executed_authorized_folder": true,
+    "root_result_byte_identical": true,
+    "independent_exact32_rational_rows_and_resource_caps": true,
+    "adjacent99_100_half_crossing": true,
+    "uncapped200_201_one_crossing_not_capped_probability_failure": true,
+    "old_stronger_direct_hidden_bound_and_scalar_tables_preserved": true,
+    "finite_RO_not_actual_fixed_h_hardness": true,
+    "no_efficient_nonbinary_table_or_category_claim": true
+  },
+  "model": "Ideal-private HJ[O] complete shared random oracle, scoped atomic logical services",
+  "bound": "min(1,D_H*kappa(Q_A+1)+12*sum_A_r*(Q_A+1)/2^64)",
+  "all32_requested_component_caps": 1,
+  "half_crossing_QA": [
+    99,
+    100
+  ],
+  "uncapped_one_crossing_QA": [
+    200,
+    201
+  ],
+  "caller_premise_scope": "Exact reviewed manual target-only interface; inherited source/resource obligations, not new full-source kernel verification",
+  "current_index_review": false,
+  "new_source_game_checked_declarations": 0,
+  "new_source_game_declarations": 0,
+  "fixed_h_hardness_established": false,
+  "whole_goal_complete": false
+}

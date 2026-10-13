@@ -1,0 +1,457 @@
+{
+  "scope": "Classical source certificate conditional on the pinned manual uniform theorem; no retuned QROM source proof",
+  "theorem_sha256": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "own_blind_first_sha256": "5acd2d5b3da04ce286e0a324d0d9c2581af23174c9c3ccc27b26d8a3a526e1cc",
+  "parameters": {
+    "nbytes": 16,
+    "r": 17,
+    "a": 10,
+    "d": 5,
+    "heights": [
+      10,
+      10,
+      11,
+      11,
+      21
+    ],
+    "lw": [
+      4,
+      4,
+      4,
+      4,
+      8
+    ],
+    "ell": [
+      32,
+      32,
+      32,
+      32,
+      16
+    ],
+    "S": [
+      240,
+      240,
+      240,
+      240,
+      2040
+    ],
+    "top_only_cache": true
+  },
+  "terminal_counts": {
+    "H": 3017,
+    "G": 3256,
+    "C": 6281
+  },
+  "touchard17_at_2": 18880288847750,
+  "pf_all_upper": {
+    "numerator": 18880288847750,
+    "denominator_power_of_two": 180
+  },
+  "probability_upper_common_denominator_power": 256,
+  "rows": [
+    {
+      "log2_signing_queries": 24,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831305206171462410362562581621565537211695259996517329251",
+      "upper_decimal_rounded_display_only": "1.626303258729243e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229101230980417945",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.626303258729243e-19",
+        "full_word_bridge": "2.6727647100934111e-51",
+        "finite_outer_bottom": "0",
+        "coverage": "2.1895291115157227e-47"
+      }
+    },
+    {
+      "log2_signing_queries": 24,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283839119384116106433889057257003827964652227672546375993538",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229101230980417945",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "6.1629758220391547e-33",
+        "finite_outer_bottom": "0",
+        "coverage": "5.0487103952583996e-29"
+      }
+    },
+    {
+      "log2_signing_queries": 24,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229101230980417945",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "4.9303806576313238e-32",
+        "finite_outer_bottom": "0",
+        "coverage": "4.0389683162067197e-28"
+      }
+    },
+    {
+      "log2_signing_queries": 30,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831305206890795247486366521419652469160628772844236375724",
+      "upper_decimal_rounded_display_only": "1.6263032587913658e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229100749176990162",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263032587913658e-19",
+        "full_word_bridge": "1.7105694145087893e-49",
+        "finite_outer_bottom": "0",
+        "coverage": "1.4013091552209324e-45"
+      }
+    },
+    {
+      "log2_signing_queries": 30,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283839119753181663935771053168723952139508963104234248886379",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229100749176990162",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "3.944304526105059e-31",
+        "finite_outer_bottom": "0",
+        "coverage": "3.2311989193133342e-27"
+      }
+    },
+    {
+      "log2_signing_queries": 30,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577229100749176990162",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "3.1554436208840472e-30",
+        "finite_outer_bottom": "0",
+        "coverage": "2.5849591354506674e-26"
+      }
+    },
+    {
+      "log2_signing_queries": 38,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831305393232254007176530054683809696103217415553263415952",
+      "upper_decimal_rounded_display_only": "1.6263032748841282e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228975695780877957",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263032748841282e-19",
+        "full_word_bridge": "4.3790577336415757e-47",
+        "finite_outer_bottom": "0",
+        "coverage": "3.5943305224512084e-43"
+      }
+    },
+    {
+      "log2_signing_queries": 38,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283839215545064674891946745176294330932482533282592008278732",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228975695780877957",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "1.0097419586828951e-28",
+        "finite_outer_bottom": "0",
+        "coverage": "8.2879619079975231e-25"
+      }
+    },
+    {
+      "log2_signing_queries": 38,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228975695780877957",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "8.0779356694631609e-28",
+        "finite_outer_bottom": "0",
+        "coverage": "6.6303695263980185e-24"
+      }
+    },
+    {
+      "log2_signing_queries": 40,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831305954448882742243376492211079580403328389089898026990",
+      "upper_decimal_rounded_display_only": "1.6263033233517422e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228596135110091475",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263033233517422e-19",
+        "full_word_bridge": "1.7516231326084571e-46",
+        "finite_outer_bottom": "0",
+        "coverage": "1.4461402816868367e-42"
+      }
+    },
+    {
+      "log2_signing_queries": 40,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283839506290426584052368861881159682927987719250429179974417",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228596135110091475",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "4.0389678347315804e-28",
+        "finite_outer_bottom": "0",
+        "coverage": "3.3345724588699146e-24"
+      }
+    },
+    {
+      "log2_signing_queries": 40,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228596135110091475",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "3.2311742677852644e-27",
+        "finite_outer_bottom": "0",
+        "coverage": "2.6676579670959316e-23"
+      }
+    },
+    {
+      "log2_signing_queries": 41,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831306702737721055665840680797485170997735751834708252023",
+      "upper_decimal_rounded_display_only": "1.6263033879752276e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228083212046559269",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263033879752276e-19",
+        "full_word_bridge": "3.5032463696217857e-46",
+        "finite_outer_bottom": "0",
+        "coverage": "2.9147036220658928e-42"
+      }
+    },
+    {
+      "log2_signing_queries": 41,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283839899189515534556693179582919677080357050365904255418290",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228083212046559269",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "8.0779356694631609e-28",
+        "finite_outer_bottom": "0",
+        "coverage": "6.7208489708704717e-24"
+      }
+    },
+    {
+      "log2_signing_queries": 41,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577228083212046559269",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "6.4623485355705287e-27",
+        "finite_outer_bottom": "0",
+        "coverage": "5.3766791766963773e-23"
+      }
+    },
+    {
+      "log2_signing_queries": 44,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18831317178781457443580612114602417797643785623731156361315",
+      "upper_decimal_rounded_display_only": "1.6263042927040226e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577220080724133560371",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263042927040226e-19",
+        "full_word_bridge": "2.8025982650319892e-45",
+        "finite_outer_bottom": "0",
+        "coverage": "2.5830481855643276e-41"
+      }
+    },
+    {
+      "log2_signing_queries": 44,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573283846028795965124452013288794419454857702381093914996088471",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577220080724133560371",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "6.4623485355705287e-27",
+        "finite_outer_bottom": "0",
+        "coverage": "5.9561036011456212e-23"
+      }
+    },
+    {
+      "log2_signing_queries": 44,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410577220080724133560371",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "5.169878828456423e-26",
+        "finite_outer_bottom": "0",
+        "coverage": "4.764882880916497e-22"
+      }
+    },
+    {
+      "log2_signing_queries": 50,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "18832071453930477374835981875429476348547314350864117529933",
+      "upper_decimal_rounded_display_only": "1.6263694331772611e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410572452175640280022030",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "1.6263694331772611e-19",
+        "full_word_bridge": "1.7937167725570285e-43",
+        "finite_outer_bottom": "0",
+        "coverage": "1.3695814994812943e-38"
+      }
+    },
+    {
+      "log2_signing_queries": 50,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43422033463993573287496693925925509048713158429337878831890644528843837658837",
+      "upper_decimal_rounded_display_only": "0.375",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410572452175640280022030",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "4.1359030627651384e-25",
+        "finite_outer_bottom": "0",
+        "coverage": "3.1580399261273509e-20"
+      }
+    },
+    {
+      "log2_signing_queries": 50,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56713727820156410572452175640280022030",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "3.3087224502121107e-24",
+        "finite_outer_bottom": "0",
+        "coverage": "2.5264319409018807e-19"
+      }
+    },
+    {
+      "log2_signing_queries": 64,
+      "log2_oracle_queries": 64,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "31411823958862676712240968531845553530735011112206475460609",
+      "upper_decimal_rounded_display_only": "2.7127780633169215e-19",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56634585399309094080309278630043758147",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "2.7105054312137611e-19",
+        "full_word_bridge": "4.4081038155835782e-39",
+        "finite_outer_bottom": "0",
+        "coverage": "2.2726321031601317e-22"
+      }
+    },
+    {
+      "log2_signing_queries": 64,
+      "log2_oracle_queries": 125,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "43482712372865669717201941778913028421557749772508882940982419920818171543553",
+      "upper_decimal_rounded_display_only": "0.37552403328475864",
+      "certifies_success_below_half": true,
+      "sufficient_half_query_budget_from_moment_upper": "56634585399309094080309278630043758147",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "0.375",
+        "full_word_bridge": "6.7762635780344027e-21",
+        "finite_outer_bottom": "0",
+        "coverage": "0.00052403328475864042"
+      }
+    },
+    {
+      "log2_signing_queries": 64,
+      "log2_oracle_queries": 128,
+      "status": "COMPUTED_EXACT_OUTWARD_CLASSICAL_SOURCE_CERTIFICATE",
+      "upper_numerator_at_denominator_2pow256": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "upper_decimal_rounded_display_only": "1",
+      "certifies_success_below_half": false,
+      "sufficient_half_query_budget_from_moment_upper": "56634585399309094080309278630043758147",
+      "component_upper_decimals_rounded_display_only": {
+        "scalar": "3",
+        "full_word_bridge": "5.4210108624275222e-20",
+        "finite_outer_bottom": "0",
+        "coverage": "0.0041922662780691233"
+      }
+    }
+  ],
+  "costs": {
+    "status": "COMPUTED_EXACT_ANALYTIC_COUNTS_NO_EXECUTION",
+    "signature_bytes": 6344,
+    "logical_top_cache_bytes": 75497456,
+    "top_cold_subtree_tail_compressions": 8602517503,
+    "top_only_keygen_fixed_tail_compressions": 2250573348863,
+    "baseline_top_only_keygen_fixed_tail_compressions": 43631247359,
+    "top_only_keygen_fixed_ratio": "11086568221/214932253",
+    "top_keygen_additional_trials": "sum of 2^21 canonical top-row trial counts, one tail compression each",
+    "top_keygen_additional_prefix": "one prefix compression per constructed Ctx, outside source optimized-tail report",
+    "cached_sign_fixed_tail_compressions": 3262542,
+    "cached_sign_fixed_breakdown": {
+      "FORS": 52229,
+      "four_uncached_subtrees": 3207164,
+      "five_WOTS_signature_chains": 3144,
+      "five_redundant_accepted_digest_evaluations": 5
+    },
+    "cached_sign_variable_cost": "message nonce/inner full SHA blocks; outer trials; four lower canonical-row trial counts; Ctx prefix if newly constructed",
+    "row_success_coefficients_over_2pow128": [
+      "5181241160064611531897369560287267312",
+      "5181241160064611531897369560287267312",
+      "5181241160064611531897369560287267312",
+      "5181241160064611531897369560287267312",
+      "454918678781617793203528879683071744"
+    ],
+    "row_success_lower_bounds": [
+      "2^-8",
+      "2^-8",
+      "2^-8",
+      "2^-8",
+      "2^-12"
+    ],
+    "counter_cap": 4294967296,
+    "trials_caution": "fixed costs require completion; no resampling, timing, whole-game success conditioning or free modulus/graph generation"
+  },
+  "display_caution": "Floating decimal displays are rounded illustrations only. Certificate values are exact integer numerators over 2^256.",
+  "uniform_classical_tiny_target_obstruction": "Strict target guards imply t_i>=1, hence C_p=r(a+2)+2 sum(t_i)+h+2d+4>=11. Thus this envelope cannot certify <=1/N even at Q=q=0; not an actual success lower bound.",
+  "toy_algebra_and_certificate_checks": 745,
+  "conditional_QROM_obstruction": "If current positive component formulas are extended uniformly unchanged, e_floor at Q=2^61 is >1/2, regardless of parameters. This is an upper-envelope limitation, not success lower bound.",
+  "new_source_game_kernel_declarations": 0,
+  "whole_goal_complete": false,
+  "original_128_category_target": "NOT_ESTABLISHED",
+  "minimality": "NOT_CLAIMED"
+}

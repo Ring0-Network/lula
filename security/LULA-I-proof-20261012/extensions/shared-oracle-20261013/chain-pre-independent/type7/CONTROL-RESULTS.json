@@ -1,0 +1,30 @@
+{
+  "status": "COMPUTED_FINITE_ROW_DISINTEGRATION_NOT_FULL_SOURCE_PROOF",
+  "fullimage_worlds": 32768,
+  "accept_prefixes": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "row_counts": {
+    "failure": 13824,
+    "2": 4608,
+    "1": 6144,
+    "0": 8192
+  },
+  "success_fraction": "37/64",
+  "failure_fraction": "27/64",
+  "changed_base_tests": 606208,
+  "changed_base_wins": 37888,
+  "fresh_changed_base_collision_fraction": "1/16",
+  "counter_only_witnesses_excluded": 1408,
+  "target_fullimage_uniform_given_counter": true,
+  "source_lower_accept_count": 5181241160064611531897369560287267312,
+  "source_top_accept_count": 454918678781617793203528879683071744,
+  "source_prefix_space": 340282366920938463463374607431768211456,
+  "row_namespace": 2269959421952,
+  "fixed_selector_loss": 4398046511104,
+  "prep_public_max": 17392,
+  "prep_private_max": 8704
+}

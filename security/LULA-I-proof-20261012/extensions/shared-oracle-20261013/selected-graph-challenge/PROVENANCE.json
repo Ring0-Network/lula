@@ -1,0 +1,27 @@
+{
+  "outcome": "SOURCE_FIRST_SCOPED_ADDRESSED_RO_ADAPTER_PENDING_SECOND_READING",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "command": "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -I -B control.py",
+  "control_exit_code": 0,
+  "artifacts": [
+    {
+      "file": "INDEPENDENT_DERIVATION.md",
+      "sha256": "5aec62289171609df8d35c5ddd1ad3caa2f248351341d4422af6ce2addfb30f0"
+    },
+    {
+      "file": "RESOURCE-AND-SCOPE-ADDENDUM.md",
+      "sha256": "d06544adc48d877a2cfac760a81e332dfada2200ae05bf9a6d1d1b0a8af9d6e8"
+    },
+    {
+      "file": "control.py",
+      "sha256": "73bd3dbc76f64d906bb278436756ad68ce5ff3e50791f3672b4be85ffb79a70c"
+    },
+    {
+      "file": "CONTROL-RESULTS.json",
+      "sha256": "49232bff7487238c3ff83875712e5b90dbf3e366c8d609877723fd40754e7141"
+    }
+  ],
+  "standard_spr_tcr_identification": "OPEN",
+  "efficient_lazy_full_forest_simulation": "OPEN",
+  "source_and_manuscript_changed": false
+}

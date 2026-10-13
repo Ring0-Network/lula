@@ -1,0 +1,49 @@
+{
+  "verdict": "ACCEPT_LOCALIZED_COMBINED_CLASSICAL_RO_RELATIVE_PRE_MANUAL",
+  "subject_pins": {
+    "chain-pre-adapter/INDEPENDENT_DERIVATION.md": "61a8c1d673008b83ba61887d762ad0e51501de039ef870b8b5a43eae7b73e0fa",
+    "chain-pre-adapter/FORS-LOCALIZED-SUCCESSOR.md": "2026eba89ac1e884785e9c38b09c9bb347d7efd35f99cc534b988db1c71d1c0b",
+    "chain-pre-independent/COMBINED-REVIEW.json": "35e2d8722c70409cf762f447a883b8cf5c762a4eee58da32f510e64ae62604f4",
+    "chain-pre-independent/COMBINED-SECOND-READER.md": "2adfff2145211d668337e12132e5de761f962a31a1643167881c6dd43bd6423b"
+  },
+  "own_pins": {
+    "PRE-INDEPENDENT-RESOURCES.md": "04f6295920927cf5c407de640d4d475ca460dfb91fc6fed6d0e3cd23afbf9ac6",
+    "PRE-COMBINED-RESOURCE-REVIEW.md": "48ebb6f7123ce0f70fcc3c7137cb588794df8fac27270bb531e6031921b951a8",
+    "PRE-positive-control.py": "fa4b64c058c96ed73b330a51e09d254b23c74843170812a2deaaae588cf79a68",
+    "PRE-CONTROL-RESULTS.json": "0cdf85ae824f789814f06bb39088c8656a78cb29ab06d860fc6076c6de4a5c8d"
+  },
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "protected_namespace": "20229886488608768",
+  "padded_selector_loss": "36028797018963968",
+  "selector_bits": 55,
+  "selected_handle_cap": "Q_H+1",
+  "public_cap": "Q_H+H_setup+q*H_mode+3224+254",
+  "private_F_distinct_cap": "min(N_D,1+2181038080+q*U_mode)",
+  "FORS_preparation_hashes": 0,
+  "WOTS_preparation_hashes_max": 254,
+  "private_J_cap": "q",
+  "bound": "Pr_HJ[H | fixed nonzero S] <= 2^55 Pr_PRE[B_combined wins]",
+  "challenge_target": "full256 image; full256 equality winning predicate",
+  "outside_functions": "locally controlled independent random restrictions, not externally fixed evaluation-only Raw_out",
+  "checks": {
+    "combined_namespace_source_derived": true,
+    "pad55_controls_WOTS50_historical_special_case": true,
+    "first_hit_coupling_is_inequality_not_equality": true,
+    "selected_unknown_predecessor_output_never_emitted": true,
+    "no_selected_secret_completed_response": true,
+    "prekey_partiality_observer_scope_preserved": true,
+    "FORS_leaf_shortcut_uses_image_not_unknown_secret": true,
+    "source_final_selected_domain_at_most_once": true,
+    "no_all_coordinate_ghost_initialization": true,
+    "source_scalars_unchanged": true,
+    "prefix_only_optional_extension_not_promoted": true,
+    "no_coherent_stop_claim": true,
+    "conventional_PRE_fixed_SHA_category_still_open": true
+  },
+  "control_exit_code": 0,
+  "ordinary_control_worlds": 512,
+  "control_protocols": 3,
+  "q_resource_columns": 8,
+  "machine_checked_new_declarations": 0,
+  "whole_goal_complete": false
+}

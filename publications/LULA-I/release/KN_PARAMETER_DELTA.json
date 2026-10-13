@@ -1,0 +1,43 @@
+{
+  "base_repository": "BlockstreamResearch/shrincs-c",
+  "base_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+  "base_configuration": "SHRINCS_B32",
+  "changes": [
+    {
+      "symbol": "R_LEN",
+      "base_value": 32,
+      "reconstruction_value": 0
+    },
+    {
+      "symbol": "HSL",
+      "base_value": 32,
+      "reconstruction_value": 44
+    }
+  ],
+  "unchanged_from_B32": [
+    "N=16",
+    "W=256",
+    "L=16",
+    "SWN=2040",
+    "HSF=210",
+    "D=4",
+    "T=109571",
+    "B=17",
+    "K=11",
+    "M_MAX=111",
+    "margin=10"
+  ],
+  "own_driver_constants": {
+    "KK": 8,
+    "AA": 16,
+    "HH": 44,
+    "DD": 4,
+    "HP": 11,
+    "FORS_PRF_T": 32,
+    "FORS_TREE_T": 33,
+    "FORS_ROOTS_T": 34,
+    "KN_HMSG_T": 35
+  },
+  "license": "Apache-2.0 for authored delta/driver; no grant for omitted upstream source/header",
+  "distribution_decision": "REFERENCE_NUMERIC_DELTA_ONLY; no deleted/context/base code. External C dependency remains omitted and license unresolved."
+}

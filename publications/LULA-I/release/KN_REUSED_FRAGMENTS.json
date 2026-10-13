@@ -1,0 +1,390 @@
+{
+  "headers": [
+    {
+      "file": "a1/adapters/kn3952-include/address.h",
+      "bytes": 895,
+      "sha256": "b99ab1f907f7ad05061d272bf4d80995b1c7c64efdc48707ff15be3bcc801a2f",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/address.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "b99ab1f907f7ad05061d272bf4d80995b1c7c64efdc48707ff15be3bcc801a2f",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/constants.h",
+      "bytes": 2085,
+      "sha256": "0254634d16404d3391f0c269b848480f0d025392dd160a2f8e581cc14a760ba9",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/constants.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "2da7946eb1a28450da7314254646fbd34cf3ea6c981f5668f0c4f95b20c9d8f7",
+      "relation": "modified derivative of upstream header",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/hash.h",
+      "bytes": 545,
+      "sha256": "2e6d7386793feb1d171ccbf20e8b943dae66c331e5db843b9c4058dabffa303c",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/hash.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "2e6d7386793feb1d171ccbf20e8b943dae66c331e5db843b9c4058dabffa303c",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/pors_fp.h",
+      "bytes": 1680,
+      "sha256": "5c305bd8db6a16cd1a6ce34ba439debfda802bfa124f026cc368528c159a6721",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/pors_fp.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "5c305bd8db6a16cd1a6ce34ba439debfda802bfa124f026cc368528c159a6721",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/shrincs.h",
+      "bytes": 1364,
+      "sha256": "76368ae998968ddee9c141f2197407b144bb1c7f60452887b78d50dc390a271d",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/shrincs.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "76368ae998968ddee9c141f2197407b144bb1c7f60452887b78d50dc390a271d",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/uxmss.h",
+      "bytes": 817,
+      "sha256": "65d00db3dfcb70fb00230240b15fabbc0b9a7b3336844f1be8840e9428ef1b27",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/uxmss.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "65d00db3dfcb70fb00230240b15fabbc0b9a7b3336844f1be8840e9428ef1b27",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/wots_c.h",
+      "bytes": 1257,
+      "sha256": "a2fb97edf1c6ff9cf99ce2c1fab8673326b4f32e208aa0a476a05dc921f1caad",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/wots_c.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "a2fb97edf1c6ff9cf99ce2c1fab8673326b4f32e208aa0a476a05dc921f1caad",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    },
+    {
+      "file": "a1/adapters/kn3952-include/xmss.h",
+      "bytes": 872,
+      "sha256": "406885d71aa4e2a6b0a03af12eebe8737dae47a0fb33b05b9ef36bf099d1eee3",
+      "origin": "BlockstreamResearch/shrincs-c",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/include/xmss.h",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "upstream_file_sha256": "406885d71aa4e2a6b0a03af12eebe8737dae47a0fb33b05b9ef36bf099d1eee3",
+      "relation": "unchanged copy after LF normalization",
+      "distribution_decision": "EXCLUDE_COPIED_OR_FULL_DERIVED_HEADER"
+    }
+  ],
+  "linked_unmodified_modules": [
+    {
+      "file": "a1/sources/shrincs-c/src/address.c",
+      "bytes": 1276,
+      "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "distribution_decision": "EXCLUDE; required external implementation dependency"
+    },
+    {
+      "file": "a1/sources/shrincs-c/src/hash.c",
+      "bytes": 1483,
+      "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "distribution_decision": "EXCLUDE; required external implementation dependency"
+    },
+    {
+      "file": "a1/sources/shrincs-c/src/wots_c.c",
+      "bytes": 8240,
+      "sha256": "f50926e5163ec40b097d828ff90bb76eabd80eabb1567866aa6717f063bf3a5b",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "distribution_decision": "EXCLUDE; required external implementation dependency"
+    },
+    {
+      "file": "a1/sources/shrincs-c/src/xmss.c",
+      "bytes": 2733,
+      "sha256": "b83157e65ab5d591ba8f11ea0724574e89a74cf19b0b50b799ef0898395e7a3e",
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "distribution_decision": "EXCLUDE; required external implementation dependency"
+    }
+  ],
+  "direct_external_calls": [
+    {
+      "function": "SHA256_Finalize",
+      "kn_lines": [
+        46,
+        50,
+        54,
+        58,
+        86
+      ],
+      "upstream": {
+        "file": "src/hash.c",
+        "line": 8,
+        "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "SHA256_Finalize_32",
+      "kn_lines": [
+        64
+      ],
+      "upstream": {
+        "file": "src/hash.c",
+        "line": 15,
+        "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "prf_msg",
+      "kn_lines": [
+        103
+      ],
+      "upstream": {
+        "file": "src/hash.c",
+        "line": 26,
+        "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setKeyPairAddress",
+      "kn_lines": [
+        45,
+        49,
+        53,
+        57
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 25,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setLayerAddress",
+      "kn_lines": [
+        96,
+        111,
+        127,
+        130,
+        144,
+        154,
+        157
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 3,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setTreeAddress",
+      "kn_lines": [
+        96,
+        111,
+        127,
+        130,
+        144,
+        154,
+        157
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 9,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setTreeHeight",
+      "kn_lines": [
+        49,
+        53,
+        84
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 43,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setTreeIndex",
+      "kn_lines": [
+        45,
+        49,
+        53,
+        84
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 49,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "setTypeAndClear",
+      "kn_lines": [
+        45,
+        49,
+        53,
+        57,
+        62,
+        84
+      ],
+      "upstream": {
+        "file": "src/address.c",
+        "line": 18,
+        "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "sha256_add_to_ctx",
+      "kn_lines": [
+        40,
+        41,
+        42,
+        46,
+        46,
+        50,
+        50,
+        54,
+        54,
+        54,
+        58,
+        58,
+        63,
+        63,
+        63,
+        64,
+        85,
+        85,
+        85
+      ],
+      "upstream": {
+        "file": "src/hash.c",
+        "line": 3,
+        "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "wots_pk_gen",
+      "kn_lines": [
+        78
+      ],
+      "upstream": {
+        "file": "src/wots_c.c",
+        "line": 39,
+        "sha256": "f50926e5163ec40b097d828ff90bb76eabd80eabb1567866aa6717f063bf3a5b"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "wots_sign",
+      "kn_lines": [
+        76
+      ],
+      "upstream": {
+        "file": "src/wots_c.c",
+        "line": 168,
+        "sha256": "f50926e5163ec40b097d828ff90bb76eabd80eabb1567866aa6717f063bf3a5b"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "xmss_pk_from_sig",
+      "kn_lines": [
+        159
+      ],
+      "upstream": {
+        "file": "src/xmss.c",
+        "line": 41,
+        "sha256": "b83157e65ab5d591ba8f11ea0724574e89a74cf19b0b50b799ef0898395e7a3e"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    },
+    {
+      "function": "xmss_root",
+      "kn_lines": [
+        97
+      ],
+      "upstream": {
+        "file": "src/xmss.c",
+        "line": 27,
+        "sha256": "b83157e65ab5d591ba8f11ea0724574e89a74cf19b0b50b799ef0898395e7a3e"
+      },
+      "commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "relation": "external call; body not included in reconstruction"
+    }
+  ],
+  "inline_context_and_algorithm_relation": {
+    "init_ctx": "Same seed-plus-zero SHA256 prefix design as shrincs_restore; supplied C hash helpers are external calls. No complete upstream function is pasted here.",
+    "layer_sign": "Own one-pass height-11 tree/authpath loop; calls external wots_sign/wots_pk_gen and addressed hash helpers, retaining their provenance.",
+    "fors_sk/fors_leaf_from_sk/fors_node/fors_roots_compress/h_msg/split/sign/verify": "Own plain-FORS/domain choices and orchestration, using upstream address/hash helpers and verification primitive rather than claiming to implement them independently."
+  },
+  "OpenSSL_ABI_shim": {
+    "generator": "M3/scripts/prepare_native.py lines9-39",
+    "source": "OpenSSL3.5.7 include/openssl/sha.h and rand.h",
+    "relation": "Explicitly sourced SHA256_CTX layout and API declarations; wrappers add Windows dllimport/C++ guards. Preserve OpenSSL Apache attribution, do not claim wholly original ABI declarations."
+  },
+  "limits": "All four campaign .c bodies and linked address/hash/wots/xmss source were read completely. No complete upstream function body was found pasted in the four wrappers. This is bounded source/provenance review, not a legal ownership determination for all possible external fragments."
+}

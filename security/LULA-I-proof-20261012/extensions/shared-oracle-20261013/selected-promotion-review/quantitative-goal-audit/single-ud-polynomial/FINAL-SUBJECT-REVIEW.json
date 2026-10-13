@@ -1,0 +1,83 @@
+{
+  "verdict": "ACCEPT_EXACT_MANUAL_QUADRATIC_ONE_TARGET_UD_RO_AND_SCOPED_CALLER",
+  "subject": "QUANTUM-UD-POLYNOMIAL-RO.md",
+  "subject_sha256": "55971b61f6fd7cba54fe589c100d61351e67f7373182515593cf2c63d83bb7d5",
+  "own_pins": {
+    "INDEPENDENT-FIRST.md": "6eade370c61bfaf4b9c907b69d0cbabc692a82b446414c3d4dbd5ed977c50baa",
+    "FINAL-SUBJECT-REVIEW.md": "f21a84f8a5de251720f63bd5f5d90150547cb48de377e8ff2734f27644a7e8eb",
+    "root_controls.py": "7459bff0b41c249f757f7c65c8a9e657e54e9d54aa756018d97abedad018ad6c",
+    "CONTROLS.json": "555e1d3350a64140dc7bf61bc6cc75badd1edb9b774950de7c632f467bf77266",
+    "independent_controls.py": "7fc0a578516d757f0173b524249279b0ed208771023de7037f5e0d120ae56957",
+    "INDEPENDENT-CONTROLS.json": "015a7b8a7c2e217985f92d925ee486b14ef3d20461ee79a733a8b1335e15688c",
+    "make_receipt.py": "a3e52d87b4ec28f65f6db3489405d6a65f2e398d10b552e8196a0b655c1c3069"
+  },
+  "primary_pins": {
+    "beals-quant-ph-9802049v3.pdf": "afec116657493976b70df7dcb8b174c8c0be55a9337d9e035afd5f1fc4d9cd4c",
+    "beals-quant-ph-9802049v3.txt": "87b05d07a7394437e8418069fa32ed3d82a9519311c69e66d27b92bb0ca31001",
+    "beals-author-polynomials.pdf": "d5eb3eb2ca6b4b58e4437f9805cd4ed20eadd0bd2499803db3d487454c00d775",
+    "beals-author-polynomials.txt": "0479cdda83a457d4a816a746ee2bdf2f3e6d47c1d9d9f52954d4635cd2a6dbd4",
+    "beals-theorem-4-12.png": "e65738de19b042dc2df9476130f82c5a41b9cb85b2e3fce97415c874ff5dc622",
+    "markov-mendeleev-translation.pdf": "2dda2126cd1589360d3eaf2fd6efbfef803a3898bcd7d1d922b391e933b84260",
+    "markov-mendeleev-translation.txt": "549ce6c06c70188ae083e223d500941bbea7ce782da108329b7fca155915eb1c"
+  },
+  "primary_anchors": {
+    "beals_v3": "Lemmas3.2,4.1,4.2",
+    "beals_author": "Lemma4.2/3.2 and Theorem4.12 printed12, visually inspected",
+    "markov_original_translation": "ProblemNo.2 conclusion printed16,2d^2 L/(b-a)"
+  },
+  "peer_first_pins": {
+    "root-ud-polynomial/INDEPENDENT-FIRST.md": "47948b1a0de321f611403cfae86a7043ab551d3c6063c1898f82ed6fd8c17bdf",
+    "outside-field-check/ud-polynomial/INDEPENDENT-FIRST.md": "752691deda14cf0cfd743f4bc427e328c4bf51aab51936b2b1fce8a68137b007"
+  },
+  "premise_pins": {
+    "TARGET-ONLY-UD-RO.md": "4e0aeeb0b0ed72eae3dd45e506fee8bf57db176e7ed3b6ddcd5cf2393b52e9df",
+    "FIXED-H-HIDDEN-PREDECESSORS.md": "d47b8a5ecc72a3d1ff7f52d3b3a16be6220f4acf5d0c08416f902939320dbb13",
+    "SINGLE-TARGET-PRE-RO.md": "16b5b6f7dd49ba1a1b263e60de59c4c3e4ce078294482578139f3aa719bbf85a",
+    "outside-field-check/target-only-ud/FINAL-SUBJECT-REVIEW.json": "36ef17cc915cb610a1aae908f79d8fbdecd702eb15cc2c2eb93e17c3de849d58"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "CLASSICAL-PRE-REDUCTION.md": "2df727576b70753a920b8c4757c2e4cfe6d3438ff881811d7d60c74563bfc162",
+    "QUANTUM-PRE-REDUCTION.md": "59ca1bd7385d28b3983e4c8a5194d0d98b05223bb26e57976766a018d39f50a2",
+    "TYPE7-REDUCTION-PROGRAM.md": "9de49e85de06364ffc007bd02de46fb5de4a7ad3abf84f29065b2d12710586bf"
+  },
+  "bound": "min(1,(1-1/N)*4Q^2/(N-4Q^2)) if4Q^2<N, else1",
+  "checks": {
+    "own_first_saved_before_new_peer_root_derivations": true,
+    "primary_Beals_degree_symmetrization_read": true,
+    "primary_grid_theorem_formula_visually_verified": true,
+    "original_Markov_derivative_normalization_verified": true,
+    "same_joint_conditional_aux_law_not_separate_independence_only": true,
+    "iid_ideal_planted_real_exact_laws_not_marginals_only": true,
+    "one_ordinary_Boolean_fullword_completion": true,
+    "degree2Q_grid0_1_and_signed_binomial_difference": true,
+    "centering_nearest_grid_Markov_denominator_retained": true,
+    "Qzero0_valid_branch_and_largeQ_cap1": true,
+    "fullword_ALLP_literal_aliases_and_lower_limb_preserved": true,
+    "actual_opaque_Y_source_caller_same_code_and_coins": true,
+    "completed_response_gates_partial_noncompletion_no_hiddenX_advice": true,
+    "source_prekey_chronology_no_unknown_prequest": true,
+    "remote_QAplus1_final_reply_reuse_outside_honest_work_charged": true,
+    "active_condition_before_parameter_and_absolute": true,
+    "one_source_seedzero_charge_not_component_recharge": true,
+    "root_controls_copy_reexec_exit0_identical": true,
+    "independent66_binomial37_grid5_phase_and_negative_controls": true,
+    "exact32_rows_and_two_uncapped_adjacent_crossings": true,
+    "old_stronger_directH_full_source_scalars_preserved": true,
+    "exactNminus1_resource_boundary_no_efficiency_or_cost_lower_claim": true,
+    "privateK_separate_candidate_not_read_or_accepted": true,
+    "no_SHA_category_capacity_repair_or_whole_goal_closure": true
+  },
+  "caller_scope": "Manual exact primitive/source-interface premises, not full source kernel refinement",
+  "new_source_game_checked_declarations": 0,
+  "new_source_game_declarations": 0,
+  "actual_fixed_h_hardness_established": false,
+  "whole_goal_complete": false
+}

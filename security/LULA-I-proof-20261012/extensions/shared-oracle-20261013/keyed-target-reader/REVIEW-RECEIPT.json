@@ -1,0 +1,22 @@
+{
+  "verdict": "ACCEPTED named CF-BS-TCR-collection(h,Prop,Lc) manual conditional wrapper; no quantified published-bound or full-security certification",
+  "first_saved_before_new_peer_read": true,
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "peer_subject_sha256": "74e2106c6c18733d03864f844817d9685db07a867972721aec485bfc9ed04e57",
+  "peer_clarification_sha256": "649ab0c00afa293ba64f0624338c49f2dd9c921fd2ac70d225143d308b58d289",
+  "primary_hk22_corrected_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+  "control_execution_exit_code": 0,
+  "control_python_mode": "Python3.13 -I -B",
+  "artifacts": {
+    "INDEPENDENT-FIRST.md": "503b8eadc99e1495551b2e04e10c736317b5f129a827e2a3c9469160ed8361d4",
+    "PEER-REVIEW.md": "253d70b38ba266d7a047dbedc43e486a1bbda75fce561a803d6bd22f8d25b60b",
+    "controls.py": "4469c117282babdfc136856dfcd34d5f858933659e158ed06e4eb07cfffc42f9",
+    "CONTROL-RESULTS.json": "79607619a0a3b5e6e7761f2a7793496f8785638909627ca22c19a20cb33d379d"
+  },
+  "open": [
+    "quantitative theorem applicability for exact finite canonical BE32 instance",
+    "full coherent globalRaw linkage in external QROM route",
+    "complete simulator resources in any claimed bound",
+    "conventional private primitive identity and full original security goal"
+  ]
+}

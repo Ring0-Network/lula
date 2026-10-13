@@ -1,0 +1,67 @@
+{
+  "verdict": "ACCEPT_CORRECTED_SELECTED_GRAPH_AND_CHANGED_CHILD_CURRENT_INDEX",
+  "review_scope": "Manual source-model review and hash integration; not full source or quantum mechanization.",
+  "documents": {
+    "PROOF.md": "b0c47fa7cb794cb8ee6ef26f9735576de00c78ccc276e7bf56b90d47e73909f8",
+    "OPEN.md": "945a2fe3a31713f57b5445dabf0e455487d5745b1311239e319e3949be04979f",
+    "TERM-TABLE.md": "e543e2cf26c2d1f57af819a48d944d876d173080ead59013ce260cb591529d83",
+    "REQUIREMENT-MAP.md": "692a32d89527c94440eb3e65aaf7e9146597dc5decf6570a44fc2f5affbeff30",
+    "HANDOFF.md": "fa973f9c53aa434db180eae1e0814891641bdba19c895618ee1d22d80fb08c06",
+    "SECURITY-CRITERION.md": "5e8137919a1785c89dbb2247e74d07df35a38830c622f56bdc9390c52977eef3"
+  },
+  "promoted_artifacts": {
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+  },
+  "subject_pins": {
+    "selected-graph-challenge/LOCALIZED-FINAL-SUCCESSOR.md": "db2de01bb6dbb5f4f7d6398f12e4763d258c54820a0b3186475cbf8e0c4e14df",
+    "selected-graph-challenge/LOCALIZED-SEED-SCOPE-CLARIFICATION.md": "7b95a336d715c093ca3f9831bcad9278d051de628bd875b896afc5a65ed65704",
+    "selected-primitive-definitions/D7-BASE-EXTRACTION.md": "bf9af934dc0c16b96e28dedcafb71cfc6590dc17f826ada2562d99f71eaf9776",
+    "selected-graph-challenge/D7-BASE-SECOND-READER.md": "a29f246ae1ba8730d2e84a9bc33f8ae8de3eca447ee6654b60b8d943c5562acf",
+    "selected-primitive-definitions/LOCALIZED-SECOND-READER.md": "e4de88f8e6126522486455e588456d1665fb0aa3e18cc1469c7900c488babfba"
+  },
+  "initial_subject_review_sha256": "8181253e018926432dda938e013d0e037ef6de577f708cfaff1a97632eada50f",
+  "promotion_sha256": "4c69248fa380817711205944e641f196867150c4d457d9d2c6d6a3880c6737f0",
+  "prior_review_receipts": {
+    "cache-payload-source/INTEGRATION-FINAL-REVIEW.json": "2a3cd3abb8f42191e69e4cd31c8d8a221c02ef6f61d8fdc347ec58e8f7ac1e33",
+    "selected-graph-resources/REVIEW-RECEIPT.json": "db9ad6a8897ee313a04043eaa3eca72cc3b588861b4a4cbdb6ead16b02d1885c"
+  },
+  "prior_doc_backups": {
+    "root-docs-before-selected-graph/PROOF.md": "cfe7434d48d21f562b552918806d0ac42000f8a46722bd8dd32829617c937ca5",
+    "root-docs-before-selected-graph/OPEN.md": "f33c75f2973dfd942a59829754af3498a016d34b28cb8679038214f22845b89f",
+    "root-docs-before-selected-graph/TERM-TABLE.md": "207936ee69c60054601af57f2e2a72a312d40d987094474c7e44d36c316ef186",
+    "root-docs-before-selected-graph/REQUIREMENT-MAP.md": "a6d6bb3414954bdf5b7f826f6b138738127e791e106a2010077903f7fc388a74",
+    "root-docs-before-selected-graph/HANDOFF.md": "e708f662580cb29889a5f6c83d5b828adf98132de9255730fa0283e2c3e3aa36",
+    "root-docs-before-selected-graph/SECURITY-CRITERION.md": "d476a4f02d1ff9a797f958871bcc5bb89ef8ee79f5df7516f3169340d758a81e"
+  },
+  "preserved_scalar_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81"
+  },
+  "checks": {
+    "conditional_nonzero_seed_identity_controls_all_selected_claims": true,
+    "exact_padded_selector_loss_2_pow_56": true,
+    "selected_classical_handle_cap_QH_plus_2q_plus_4_nonzero_seed": true,
+    "only_Win_and_final_classical_G_not_everraw_or_quantum_history": true,
+    "quantum_two_handle_cost_and_no_history_extraction": true,
+    "one_global_seed_zero_charge": true,
+    "D7_base_requires_exposed_successful_row_and_base_inequality": true,
+    "counter_insensitive_descent_preserves_pointwise_cover": true,
+    "D7_base_subset_old_D7_full": true,
+    "all_old_scalar_theorem_and_calculator_hashes_unchanged": true,
+    "old_integration_document_pins_match_immutable_backup": true,
+    "conventional_primitive_category_capacity_and_full_source_check_not_claimed_closed": true,
+    "manual_results_do_not_add_checked_declarations": true,
+    "uniform_nonzero_S_is_semantic_game_not_deterministic_coin_runtime_claim": true
+  },
+  "manual_review_sha256": "ed2675e6435021b39da146e21f96c90cfa635599480f3bfba05a3aedd5671614",
+  "integration_manual_review_sha256": "3abb383181406ddf05c017df0f0584fbc46abd9ca22f7293a9bedbe9a1b35b22",
+  "checker_sha256": "49c573d08c4ef5318f9499df310c001f6c1df50f946d4567cf4a02856d2f19a1",
+  "new_machine_checked_declarations": 0,
+  "security_level_category": "not established",
+  "whole_goal_complete": false
+}

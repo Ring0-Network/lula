@@ -1,0 +1,32 @@
+{
+  "status": "MANUAL_COMPLETE_WOTS_EVIDENCE_SPLIT_WITH_CHECKED_COMPONENTS",
+  "declarations": {
+    "LulaWots.cancel_header": [
+      "propext"
+    ],
+    "LulaWots.raw_value_injective": [
+      "propext"
+    ],
+    "LulaWots.chain_start_equal_or_witness": [
+      "propext"
+    ],
+    "LulaWots.changed_chain_start_witness": [
+      "propext"
+    ],
+    "LulaWots.run_append": [],
+    "LulaWots.last_step_preimage": [],
+    "LulaWots.sum_monotone": [
+      "propext"
+    ],
+    "LulaWots.fixed_sum_antichain": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "source_sha256": "453643faa6f720424819e0b48562bd857fd99929faa93c023b8baa074e4388d1",
+  "quantitative_primitive_embedding": "OPEN",
+  "unexposed_key_reduction": "OPEN",
+  "complete_EUF_CMA": "OPEN",
+  "QROM": "OPEN",
+  "mechanized_scope": "Labelled suffix merger, raw-input injection, last-step preimage dataflow, fixed-sum antichain; not whole WOTS algorithm/source refinement"
+}

@@ -1,0 +1,130 @@
+{
+  "verdict": "ACCEPT_MANUAL_CONDITIONAL_REGISTERED_CONTEXT_CTAC_COVERAGE_ADAPTER_PRIMARY_ITSR_TRANSFER_OPEN",
+  "own_first_saved_before_new_peer_proposal": true,
+  "own_subject_pins": {
+    "INDEPENDENT-FIRST.md": "b07700807df0f78be2272afd7a5372044603b92697b3760afaa8cdfac5a3a1df",
+    "CLARIFICATION.md": "77b1c53d624b8980621f2366ec7ba41e9456955b58024e3cb227b85cfdb27891",
+    "EVENT-BINDING.md": "bb8390406f4e0471b419dca1e65a91795e4d361d2caae56783e7ceeb8d870459",
+    "PEER-REVIEW.md": "94ad8952566f64bd4d443384a37d9b71ee31c72c1a9a2bd8f45c2f9793d0aed1",
+    "controls.py": "8b982db26e6ab041b3dfcfbe31a38d409e3d059b31a80671acb1eed6b615dd7b",
+    "CONTROL-RESULTS.json": "2c2503c53a4fb5635e99db815b70312ec2de032b3fccd99f9923acf7f985ad2f"
+  },
+  "peer_subject_pins": {
+    "selected-promotion-review/message-hash-identification/INDEPENDENT-FIRST.md": "540ae17ba73ff61d178c3f8c96601bff18db857138c078f54b22ba10dfeb609f",
+    "selected-promotion-review/message-hash-identification/CONTEXT-LIFT-CLARIFICATION.md": "514cc20605b3f6f3306ebf4cca87a32846b6ca596e27ba21434c345d809e5f41",
+    "selected-promotion-review/message-hash-identification/controls.py": "2a69722d33113b2e8f3306412e958188af222cd1a37ee1699b531a9653c80257",
+    "selected-promotion-review/message-hash-identification/CONTROL-RESULTS.json": "b217e4289c32cdef7cdf3fc41dd97a796ed233617068fc6e6168f5e7ed19a726",
+    "selected-promotion-review/message-hash-identification/PEER-REVIEW.md": "4abcff0dcef23c0ef865acbcc9050ca29f7da139602ff9848c97f051f7085726",
+    "selected-promotion-review/message-hash-identification/REVIEW-CLARIFICATION.md": "bed30f332a8345df8f95671aa51fad1459bc0df2e22ab16f7cc2f1c3bbd013d6",
+    "selected-promotion-review/message-hash-identification/rerun-peer.py": "5b6480f85a261c679be20e0f8ec0315ebcb5c6f796a7d1d081fe6d94f88f2127",
+    "selected-promotion-review/message-hash-identification/peer-rerun/CONTROL-RESULTS.json": "578d7aea2a86f2d5af9492566e2d7f11e25248d9465da3e0e60bf74e5e311b0e",
+    "selected-promotion-review/message-hash-identification/archive-and-rerun-peer-successor.py": "32b470b1f8a808f1098d3dfd3f4b81f2e408b10c57736b35a7d2f3ba69d8b77b",
+    "selected-promotion-review/message-hash-identification/peer-rerun-successor/CONTROL-RESULTS.json": "2c2503c53a4fb5635e99db815b70312ec2de032b3fccd99f9923acf7f985ad2f"
+  },
+  "peer_review_receipt_sha256": "5e755851cca232f5b543b25c9515679816baa16e3a4987f03e26616d25c8aae5",
+  "primary_versions": [
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.pdf",
+      "pdf_sha256": "540968e4d58cb582d5f85636beed7a10894622ed8b99a7a863f85996869743c6",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.txt",
+      "text_sha256": "bf5a7bd2f93f4c166a5a479fb24b82a0f38d40b68922826ff78cc171e7878381",
+      "anchor": "official round3 Section9.1 printed48/PDF47"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.pdf",
+      "pdf_sha256": "1169896fff4160e7a294162b8a3e061ffdf1888f3925f5614532c28bd3473c4a",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.txt",
+      "text_sha256": "ddaf6d600a05c2e9b3bef113bf995827a79f76616f09f8e7b4cef0ba90e17323",
+      "anchor": "official r3.1 Section9.1 printed49/text1911-1935"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "text_sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561",
+      "anchor": "HK22 AppendixA Definition11 printed30/PDF29"
+    }
+  ],
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "event_anchor": {
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+  },
+  "event": "Win AND indexed C_cov:17 real tuples at one final route, exposed by completed honest responses across restored branches",
+  "conditional_inequality": "Pr_SrcFJideal_h[Win AND C_cov] <= Succ_RC_CTAC_SR_h(B_cov)",
+  "control_execution": {
+    "own_controls_exit_code": 0,
+    "peer_controls_reexecuted_exit_code": 0,
+    "peer_reexecution_byte_identical_results": true,
+    "own_control_results_sha256": "2c2503c53a4fb5635e99db815b70312ec2de032b3fccd99f9923acf7f985ad2f",
+    "peer_copied_source_sha256": "2a69722d33113b2e8f3306412e958188af222cd1a37ee1699b531a9653c80257",
+    "peer_reexecution_results_sha256": "b217e4289c32cdef7cdf3fc41dd97a796ed233617068fc6e6168f5e7ed19a726"
+  },
+  "projection_helper_pins": {
+    "root-message-hash/DigestProjection.lean": "d7c171ccc604367805bb060d2968f94d2cc798c0674ccec80721157f0601d234",
+    "root-message-hash/DigestProjection.log": "c92436eb9bc457e616e1696f827a3467cf2351681dfbd1a8c7a451088d7176da",
+    "root-message-hash/PROJECTION-CHECK.json": "969ae70453cb14eec933df70432f4f9deec199fdcfab5de3eda1758b2dffcedf",
+    "outside-field-check/message-hash-identification/DigestProjection-recheck.log": "af7a2ecb7843f01afca0f91b581104a90561beb52658989e403724fc87ac8f90"
+  },
+  "projection_helper_independent_reexecution": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--cd",
+      "/root/jolt-lean-20261001/mathlib",
+      "--",
+      "/usr/bin/env",
+      "PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin",
+      "/root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake",
+      "env",
+      "lean",
+      "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-message-hash/DigestProjection.lean"
+    ],
+    "exit_code": 0,
+    "checked_declarations": 3,
+    "axiom_sets": [
+      [
+        "Quot.sound",
+        "propext"
+      ],
+      [
+        "Quot.sound",
+        "propext"
+      ],
+      [
+        "Quot.sound",
+        "propext"
+      ]
+    ],
+    "scope": "Same-word prefix and bit slices only; no two-stage hash-prefix identity, SHA assumption, source/game/security refinement."
+  },
+  "checks": {
+    "primary_nonce_return_and_versions_explicit": true,
+    "full256_same_h_two_stage_literal_frames": true,
+    "real17_indices_filter153_to161_route162_to202": true,
+    "memoized_classical_J_first_label_caching": true,
+    "source_joint_S_root_F_retained_no_uniform_root_replacement": true,
+    "retained_F_not_advice_or_extra_oracle_to_A": true,
+    "logical_context_tags_decoded_away_from_source_hash_bytes": true,
+    "lifted_route_parameters_not_source41_RO_numerics": true,
+    "prekey_source_chronology_quantum_continuation": true,
+    "canonical_target_arbitrary_valid_final_counter_gap": true,
+    "Win_freshness_and_indexed_Ccov_from_completed_responses": true,
+    "separate_H_G_public_graph_events_not_bounded_here": true,
+    "no_commit_needed_under_absorbing_partiality": true,
+    "finite_bottom_unnormalized_no_extra_seedzero_charge": true,
+    "honest_local_and_challenger_hash_runtime_bytes_circuits_charged": true,
+    "no_uniform_lowerbits_or_HJ_h_equals_HJ_O": true,
+    "own_and_peer_finite_controls_passed": true,
+    "three_projection_helpers_only_bit_function_facts": true
+  },
+  "ordinary_primary_ITSR_quantitative_or_exact_transfer": "OPEN",
+  "named_CTAC_property_hardness": "ASSUMED_WITHOUT_NUMERICAL_CERTIFICATE",
+  "new_supporting_projection_declarations_reviewed": 3,
+  "potential_cumulative_supporting_declarations_if_promoted": 47,
+  "new_source_game_security_checked_declarations": 0,
+  "fixed_h_full_security_category_capacity": "not established",
+  "root_source_manuscript_core_numeric_or_prior_receipt_edits": 0,
+  "whole_goal_complete": false,
+  "review_builder_sha256": "4333824a2c0895398514f7082d6e990cad5e8bf7a7a47a146034ecd9f5628b35"
+}

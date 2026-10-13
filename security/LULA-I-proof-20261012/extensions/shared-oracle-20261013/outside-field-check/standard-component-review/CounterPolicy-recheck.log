@@ -1,0 +1,4 @@
+'LulaCounterPolicy.both_policies_accepted' depends on axioms: [propext]
+'LulaCounterPolicy.canonical_policy_collision' does not depend on any axioms
+'LulaCounterPolicy.later_policy_no_changed_base_collision' depends on axioms: [propext]
+'LulaCounterPolicy.no_finite_factor_from_zero_success' depends on axioms: [propext]

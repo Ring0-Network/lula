@@ -1,0 +1,135 @@
+{
+  "outcome": "SCOPED_PROOFS_AND_COMPUTATIONS_DELIVERED_FULL_SECURITY_OPEN",
+  "full_EUF_CMA": "not established",
+  "full_QROM": "not established",
+  "certified_classical_signing_limit": null,
+  "certified_quantum_signing_limit": null,
+  "source_and_manuscript_unchanged": true,
+  "root_numeric_replay_matches_independent_output": true,
+  "Lean_checked_declarations": 7,
+  "Aristotle_independent_antichain_rechecked": true,
+  "EasyCrypt_checked_lemmas": 3,
+  "K": "UNCHECKED",
+  "review_corrections_applied": [
+    "total-versus-partial oracle wording",
+    "actual prepared setup PRF invocation bound",
+    "round quantum exponent from unrounded numeric value"
+  ],
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 29063,
+      "sha256": "3389a5ddf019eca28a0b8ac3a5f9c1977307cf5d480e757c0e52f0eed25b0a0c"
+    },
+    {
+      "path": "bounds.py",
+      "bytes": 361,
+      "sha256": "2bb8d35a5eaa73841ddfc92666fbeaa1438f362e030adfcb86c5ce3e67ead7f7"
+    },
+    {
+      "path": "TERM-TABLE.md",
+      "bytes": 1143,
+      "sha256": "b18b407753236d2e7ba28f562ea2505d037adcb2c32e9f05d0531e3b21f102b6"
+    },
+    {
+      "path": "OPEN.md",
+      "bytes": 3179,
+      "sha256": "5b1e3781c216b969a23e2d209367b81c456dc08a39007ed19096d41fc69cc770"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3537,
+      "sha256": "abe74e369f8ec5ae72f084aff304a1f8ec6c74fbbeab62d977a67f7d05e40537"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3304,
+      "sha256": "6d23e2cb82ae277443228105400ea43fe62888aeec60aefc0e7dafc9856d17a1"
+    },
+    {
+      "path": "OBJECTIVE.txt",
+      "bytes": 11357,
+      "sha256": "655c5344c76c16d6e22d15ab169847385154a147dd28d0d31f1bbe86b465ee2f"
+    },
+    {
+      "path": "BASELINE.json",
+      "bytes": 1974,
+      "sha256": "2fa6c79648b081f083a51ecc7f3fba467b83113cdd8f98efa80478eee0939b5f"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 345,
+      "sha256": "27f57979d982a11f123ad92c42ffc093e8a47674c9407ad4cb627ec081093047"
+    },
+    {
+      "path": "code-review/INDEPENDENT_CODE_GAME.md",
+      "bytes": 25174,
+      "sha256": "2aa3137201e71665abd853abadfb56638da383b7dadf31db27bfe53ed96f0a4d"
+    },
+    {
+      "path": "code-review/SOURCE_AND_COUNTS.json",
+      "bytes": 3896,
+      "sha256": "877319f593ac481d296ee5a309105a1ddfc9f0b664c24cca723d33cb161d771e"
+    },
+    {
+      "path": "code-review/SECOND_READER.md",
+      "bytes": 8017,
+      "sha256": "e51e67337c735e145a97de33313b04d2cb2a97150984135ea6113738db1c070c"
+    },
+    {
+      "path": "code-review/ROOT_PROOF_REVIEW.md",
+      "bytes": 5140,
+      "sha256": "0bff36998bc6ec09eec328aac50944ebb4a51e40e15d7f89de11bfdba08c5890"
+    },
+    {
+      "path": "numerics/bounds.py",
+      "bytes": 14134,
+      "sha256": "a482536e402e39c970f675abcd3d595e6a3bd43a3ce94d1c2e1dfd4d6fdc0385"
+    },
+    {
+      "path": "numerics/bounds.json",
+      "bytes": 40746,
+      "sha256": "137002c0092a63e923840f3534e6bd68534b4b8bbdb4a44a959f0e5b7010a5d3"
+    },
+    {
+      "path": "numerics/ROOT_NUMERIC_REVIEW.md",
+      "bytes": 5374,
+      "sha256": "75f8844472118ee3134ba4923c1d4da7dcc8d8f02f85ede57bc25a5d2f37ea76"
+    },
+    {
+      "path": "numerics/ORIGINAL_CROSSCHECK.json",
+      "bytes": 4908,
+      "sha256": "a62121de6c6bf00e85e76b3ddcd91369f6b2ef210aeec29d0e70700aacb9789d"
+    },
+    {
+      "path": "formal/FORMAL_REPORT.md",
+      "bytes": 7614,
+      "sha256": "7e8afdb08ddb76705ef83ac3822f8789ce25aff4100e612e1910f0663ea83201"
+    },
+    {
+      "path": "formal/FORMAL_STATUS.json",
+      "bytes": 1235,
+      "sha256": "b088fd3f0880ae5208ab57049eded4607d5dbd31960db4eeff39349a17d73a55"
+    },
+    {
+      "path": "formal/QUANTUM.md",
+      "bytes": 10545,
+      "sha256": "6adaa8182b49cae28b22b7f9332addce9bae7d2f54ef24241b76dbab56197b42"
+    },
+    {
+      "path": "formal/LulaLemmas.lean",
+      "bytes": 4340,
+      "sha256": "9cb58d17c5c5d90e98f7bce0a0f2d1e364f89c17827f5a389ff8216ffbc9dbbd"
+    },
+    {
+      "path": "formal/CacheModel.ec",
+      "bytes": 928,
+      "sha256": "8de755f99c03f7cd6da8cbb20d7386568c6cf54aff39a173ebf317465839e9d5"
+    },
+    {
+      "path": "formal/CacheSemantics.k",
+      "bytes": 1551,
+      "sha256": "26c80acf9e71d7299e43300740403277a063beb4e83aff6551e587f330800224"
+    }
+  ]
+}

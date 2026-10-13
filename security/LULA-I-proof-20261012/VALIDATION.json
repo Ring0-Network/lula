@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SCOPED_DELIVERY_CHECKS",
+  "source_files_unchanged": 9,
+  "component_numeric_output_sha256": "137002c0092a63e923840f3534e6bd68534b4b8bbdb4a44a959f0e5b7010a5d3",
+  "namespace_and_cache_counts_independently_agree": true,
+  "all_full_security_totals_remain_null": true,
+  "complete_security": "OPEN / not established"
+}

@@ -1,0 +1,1 @@
+{"operation":"keygen_and_cache_preparation","candidate":"LULA-I","secs":2216.1179199,"hash_calls":45198621044,"cache_bytes":75497456,"fixture_bytes":75497573,"persist_ns":23907725800,"pk_hex":"8881430daec9a6ebde84e3d7be935ec0ac39eef4940c8711a7970141179097b4"}

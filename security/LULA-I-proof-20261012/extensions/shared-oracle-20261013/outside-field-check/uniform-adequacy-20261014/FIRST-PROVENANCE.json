@@ -1,0 +1,46 @@
+{
+  "status": "BLIND_UNIFORM_ADEQUACY_FIRST_SAVED",
+  "first_sha256": "5acd2d5b3da04ce286e0a324d0d9c2581af23174c9c3ccc27b26d8a3a526e1cc",
+  "pins": {
+    "original1": {
+      "path": "C:\\Users\\angel\\.codex\\attachments\\032bcc59-5956-41c6-88fb-1d3d3779005f\\pasted-text-1.txt",
+      "sha256": "655c5344c76c16d6e22d15ab169847385154a147dd28d0d31f1bbe86b465ee2f"
+    },
+    "original2": {
+      "path": "C:\\Users\\angel\\.codex\\attachments\\7ca7dd75-961c-425a-94a2-2bc006720d14\\pasted-text-1.txt",
+      "sha256": "ccdcfbc8b10de3d10546573ea9d92c0f906b182dcb34ba2eb100225bb206a1e8"
+    },
+    "own_criterion": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\adequacy-original-criterion\\VERDICT.json",
+      "sha256": "ccaaa11cb6b83830dc4b4cdf8e8e7d9b99c512d7fe961dfe36c26951379f959c"
+    },
+    "own_current_calculator": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\current-deliverables\\bounds.py",
+      "sha256": "83c67dc2af5c47553a4cd91d9735e1beeba1a69666064d95861985267d83812e"
+    },
+    "baseline": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\current-deliverables\\baseline.json",
+      "sha256": "32344a0f93c96a1249b186b8064d04c6b1e751a7521169facc9083f1613433ad"
+    },
+    "baseline_results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\current-deliverables\\results.json",
+      "sha256": "73a57604c2e9feb2233218e7595557cab516ac4b51fed5895b5840915ba19848"
+    },
+    "baseline_thresholds": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\polynomial-query-thresholds\\FINAL-CERTIFICATE.json",
+      "sha256": "be21d2f1257cc5c201e14a38079ea68cdbd270cc3e60b9f27df09f1181ed00aa"
+    },
+    "classical_joint": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\CLASSICAL-JOINT-RO-THEOREM.md",
+      "sha256": "4fa7c3b63a268bd7535a753813d109a2f768f0089df44b54223a6e34cfaf35f0"
+    },
+    "quantum_polynomial": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\QUANTUM-POLYNOMIAL-PRIVATE-COMPOSITION.md",
+      "sha256": "1a9c1896814c51e6f0810e52baf69f2845996b276edcdcea8b44b8d371973c28"
+    }
+  },
+  "root_uniform_theorem_read": false,
+  "candidate_source_uniform_validity": "ASSUMED dependency, not inferred from geometry",
+  "whole_goal_complete": false,
+  "new_source_game_declarations": 0
+}

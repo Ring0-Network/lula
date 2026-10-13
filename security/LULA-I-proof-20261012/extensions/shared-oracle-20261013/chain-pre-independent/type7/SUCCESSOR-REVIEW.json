@@ -1,0 +1,19 @@
+{
+  "status": "ACCEPTED_SCOPED_RO_QROM_RELATIVE_MANUAL",
+  "previous_receipt_sha256": "5fac9a95a70c6d0506f3572a65337aebe9ae6b4a313e6c4594f886b37d119714",
+  "subjects": {
+    "INDEPENDENT-DERIVATION.md": "32f107c9ea5e73452dbb3970694cb8c23b8baf6fc56dbc69353c252a548cf708",
+    "CLARIFICATION.md": "31740556330a19f11f07124304c08e9e4164040eedceb3bbbbbcffe324ec2b9d",
+    "control.py": "44534f2712e53e072511aa4c3dade379cb03abb677684183e7f72296772537ac",
+    "CONTROL-RESULTS.json": "82bb59e84449257cbac2602b2794b97be3ed37506a3442332e1cc6dcb20fc80b"
+  },
+  "clarification_read": true,
+  "event_scope": "Original FINAL D7_base remains unchanged; broader classical event named D7_base_public",
+  "stopped_simulator_law": "faithful source prefix, with exact unflagged comparator",
+  "bottom_failure": "B-local zero selected-event contribution, not source abort or success conditioning",
+  "independent_control_recheck_exit": 0,
+  "independent_recheck_sha256": "82bb59e84449257cbac2602b2794b97be3ed37506a3442332e1cc6dcb20fc80b",
+  "conventional_S_TCR_identification": "OPEN",
+  "previous_receipts_unchanged": true,
+  "numeric_changes": false
+}

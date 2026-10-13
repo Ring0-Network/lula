@@ -1,0 +1,17 @@
+{
+  "status": "PASS_FINITE_DYNAMIC_OVERLAY_CONTROL_ONLY",
+  "secret_pairs": 1024,
+  "output_bits": 2,
+  "quantum_queries": 2,
+  "remaining_secret_ghost_states_equal_per_known_value": true,
+  "averaged_second_query_hidden_weight": 0.013671874999999998,
+  "bound_weight": 0.03125,
+  "purified_averaged_vector_gap": 0.26364293822697604,
+  "bound_vector_gap_2Q_over_sqrtN": 0.7071067811865475,
+  "one_final_ghost_genuine_input_probability": 0.031249999999999997,
+  "one_final_real_genuine_input_probability": 0.031086206436157223,
+  "square_root_probability_gap": 0.00046388681081749317,
+  "static_after_reveal_known_point_discrepancy": "3/4",
+  "non_suffix_closed_successor_acquisition": "1",
+  "scope": "Finite retained-state, predictable-FORS-reveal model and invalid-variant controls; not full source or QROM security"
+}

@@ -1,0 +1,1289 @@
+{
+  "parameters": {
+    "n_bytes": 16,
+    "h": 41,
+    "a": 9,
+    "k": 18,
+    "k_real": 17
+  },
+  "seed": 2026101217,
+  "dependency": {
+    "mpmath": "1.3.0"
+  },
+  "formula_scope": "independent honest occupancy / fixed-instance random digest coverage",
+  "rows": [
+    {
+      "log2_signatures": 24,
+      "q": "16777216",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "1.9484096265078172406853566416905903e-54",
+      "FORS_binomial_bits": 178.4218201076853,
+      "FORS_poisson_per_try": "1.9484096650424638701238550087599137e-54",
+      "FORS_poisson_bits": 178.4218200791524,
+      "binomial_poisson_difference_bits": 2.8532895157695748e-08,
+      "binomial_positive_check": {
+        "lower": "1.9484096265078172406853566416905903e-54",
+        "upper": "1.9484096265078172406853566416905903e-54",
+        "bits": 178.4218201076853,
+        "method": "positive occupancy recurrence",
+        "stop": 320,
+        "omitted_tail_upper": "1.2581245509681498222862204502470496e-2308",
+        "weighted_relative_tail_upper": "1.2611693558576291284059918032987396e-2257"
+      },
+      "poisson_positive_check": {
+        "lower": "1.9484096650424638701238550087599137e-54",
+        "upper": "1.9484096650424638701238550087599137e-54",
+        "bits": 178.4218200791524,
+        "method": "positive occupancy recurrence",
+        "stop": 320,
+        "omitted_tail_upper": "1.2581245509681498222862204502470496e-2308",
+        "weighted_relative_tail_upper": "1.2611693309148687121610106631760629e-2257"
+      },
+      "precision_relative_error_160_vs_220_dps": "1.3995257714171034542355834283010529e-106",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 178.4218201076853,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 146.4218201076853,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 114.4218201076853,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 50.421820107685306,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 30,
+      "q": "1073741824",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "3.1319889223835161684179653959861131e-51",
+      "FORS_binomial_bits": 167.77125372932468,
+      "FORS_poisson_per_try": "3.1319889260226006753181695745825163e-51",
+      "FORS_poisson_bits": 167.7712537276484,
+      "binomial_poisson_difference_bits": 1.676284000495798e-09,
+      "binomial_positive_check": {
+        "lower": "3.1319889223835161684179653959861131e-51",
+        "upper": "3.1319889223835161684179653959861131e-51",
+        "bits": 167.77125372932468,
+        "method": "positive occupancy recurrence",
+        "stop": 320,
+        "omitted_tail_upper": "7.6433991836187961000959533044156229e-1729",
+        "weighted_relative_tail_upper": "4.76646450561022927172027907359694e-1681"
+      },
+      "poisson_positive_check": {
+        "lower": "3.1319889260226006753181695745825163e-51",
+        "upper": "3.1319889260226006753181695745825163e-51",
+        "bits": 167.7712537276484,
+        "method": "positive occupancy recurrence",
+        "stop": 320,
+        "omitted_tail_upper": "7.6433991836187961000959533044156229e-1729",
+        "weighted_relative_tail_upper": "4.7664645000720337209832776096856462e-1681"
+      },
+      "precision_relative_error_160_vs_220_dps": "1.2528398568250673738104729288333415e-110",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 167.77125372932468,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 135.77125372932468,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 103.77125372932468,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 39.771253729324684,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 38,
+      "q": "274877906944",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "7.4761607717669124708707974235274358e-44",
+      "FORS_binomial_bits": 143.26253858106296,
+      "FORS_poisson_per_try": "7.4761607720083656323982633768492383e-44",
+      "FORS_poisson_bits": 143.26253858101634,
+      "binomial_poisson_difference_bits": 4.661160346586257e-11,
+      "binomial_positive_check": {
+        "lower": "7.4761607717669124708707974235274358e-44",
+        "upper": "7.4761607717669124708707974235274358e-44",
+        "bits": 143.26253858106296,
+        "method": "positive occupancy recurrence",
+        "stop": 321,
+        "omitted_tail_upper": "2.9105151560418656733409723043467424e-959",
+        "weighted_relative_tail_upper": "7.60363519148983350295788445042767e-919"
+      },
+      "poisson_positive_check": {
+        "lower": "7.4761607720083656323982633768492383e-44",
+        "upper": "7.4761607720083656323982633768492383e-44",
+        "bits": 143.26253858101634,
+        "method": "positive occupancy recurrence",
+        "stop": 321,
+        "omitted_tail_upper": "2.9105151560418656733409723043467424e-959",
+        "weighted_relative_tail_upper": "7.6036351912442633751777772445915845e-919"
+      },
+      "precision_relative_error_160_vs_220_dps": "1.0319753434120542216931620423905395e-116",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 143.26253858106296,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 111.26253858106296,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 79.26253858106296,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 15.262538581062955,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 40,
+      "q": "1099511627776",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "1.2428945080634255885082367685045647e-40",
+      "FORS_binomial_bits": 132.56341994411804,
+      "FORS_poisson_per_try": "1.2428945080821844299346354180290769e-40",
+      "FORS_poisson_bits": 132.56341994409627,
+      "binomial_poisson_difference_bits": 2.177102942368947e-11,
+      "binomial_positive_check": {
+        "lower": "1.2428945080634255885082367685045647e-40",
+        "upper": "1.2428945080634255885082367685045647e-40",
+        "bits": 132.56341994411804,
+        "method": "positive occupancy recurrence",
+        "stop": 324,
+        "omitted_tail_upper": "5.3916099818151528432159125641130094e-774",
+        "weighted_relative_tail_upper": "8.4725519160435004556834289028865236e-737"
+      },
+      "poisson_positive_check": {
+        "lower": "1.2428945080821844299346354180290769e-40",
+        "upper": "1.2428945080821844299346354180290769e-40",
+        "bits": 132.56341994409627,
+        "method": "positive occupancy recurrence",
+        "stop": 324,
+        "omitted_tail_upper": "5.3916099818151528432159125641130094e-774",
+        "weighted_relative_tail_upper": "8.4725519159156253570033076716556917e-737"
+      },
+      "precision_relative_error_160_vs_220_dps": "8.06209436693761575556268158245033e-120",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 132.56341994411804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 100.56341994411804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 68.56341994411804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 4.5634199441180385,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 41,
+      "q": "2199023255552",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "1.2576558758022075010577609925317154e-38",
+      "FORS_binomial_bits": 125.90253038476634,
+      "FORS_poisson_per_try": "1.257655875815386741776249556041959e-38",
+      "FORS_poisson_bits": 125.90253038475123,
+      "binomial_poisson_difference_bits": 1.510613856225973e-11,
+      "binomial_positive_check": {
+        "lower": "1.2576558758022075010577609925317154e-38",
+        "upper": "1.2576558758022075010577609925317154e-38",
+        "bits": 125.90253038476634,
+        "method": "positive occupancy recurrence",
+        "stop": 329,
+        "omitted_tail_upper": "5.9331371348549603420397219771444782e-689",
+        "weighted_relative_tail_upper": "9.2140932106105573029260925285210172e-654"
+      },
+      "poisson_positive_check": {
+        "lower": "1.257655875815386741776249556041959e-38",
+        "upper": "1.257655875815386741776249556041959e-38",
+        "bits": 125.90253038475123,
+        "method": "positive occupancy recurrence",
+        "stop": 329,
+        "omitted_tail_upper": "5.9331371348549603420397219771444782e-689",
+        "weighted_relative_tail_upper": "9.2140932105140008801713410753681294e-654"
+      },
+      "precision_relative_error_160_vs_220_dps": "4.0668450394867256947462230886762347e-122",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 125.90253038476634,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 93.90253038476634,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 61.90253038476634,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 44,
+      "q": "17592186044416",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "2.1986832751036906725211014300844953e-30",
+      "FORS_binomial_bits": 98.5212030506804,
+      "FORS_poisson_per_try": "2.1986832751110443202659020487829469e-30",
+      "FORS_poisson_bits": 98.52120305067557,
+      "binomial_poisson_difference_bits": 4.831690603168681e-12,
+      "binomial_positive_check": {
+        "lower": "2.1986832751036906725211014300844953e-30",
+        "upper": "2.1986832751036906725211014300844953e-30",
+        "bits": 98.5212030506804,
+        "method": "positive occupancy recurrence",
+        "stop": 368,
+        "omitted_tail_upper": "6.1345689824032577538324484646206432e-458",
+        "weighted_relative_tail_upper": "5.4494342952562402574874395852037158e-431"
+      },
+      "poisson_positive_check": {
+        "lower": "2.1986832751110443202659020487829469e-30",
+        "upper": "2.1986832751110443202659020487829469e-30",
+        "bits": 98.52120305067557,
+        "method": "positive occupancy recurrence",
+        "stop": 368,
+        "omitted_tail_upper": "6.1345689824032577538324484646206432e-458",
+        "weighted_relative_tail_upper": "5.4494342952380142489170481515711021e-431"
+      },
+      "precision_relative_error_160_vs_220_dps": "9.719257783751531090193196149372587e-131",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 98.5212030506804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 66.5212030506804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 34.5212030506804,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 50,
+      "q": "1125899906842624",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "0.00000087622627842824275473338422170308745",
+      "FORS_binomial_bits": 20.122193181815444,
+      "FORS_poisson_per_try": "0.00000087622627842827349849900119912776998",
+      "FORS_poisson_bits": 20.122193181815394,
+      "binomial_poisson_difference_bits": 4.973799150320701e-14,
+      "binomial_positive_check": {
+        "lower": "0.00000087622627842824275473338422170308745",
+        "upper": "0.00000087622627842824275473338422170308745",
+        "bits": 20.122193181815444,
+        "method": "positive occupancy recurrence",
+        "stop": 1264,
+        "omitted_tail_upper": "1.2756476552158004422519151289548968e-170",
+        "weighted_relative_tail_upper": "2.8434428274196045618164141159807299e-167"
+      },
+      "poisson_positive_check": {
+        "lower": "0.00000087622627842827349849900119912776998",
+        "upper": "0.00000087622627842827349849900119912776998",
+        "bits": 20.122193181815394,
+        "method": "positive occupancy recurrence",
+        "stop": 1264,
+        "omitted_tail_upper": "1.2756476552158004422519151289548968e-170",
+        "weighted_relative_tail_upper": "2.8434428274195047951899346296969609e-167"
+      },
+      "precision_relative_error_160_vs_220_dps": "4.3112192058284062678375111710112875e-156",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 20.122193181815444,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    },
+    {
+      "log2_signatures": 64,
+      "q": "18446744073709551616",
+      "component_status": "COMPUTED fixed-instance model; NOT established adaptive EUF bound",
+      "FORS_binomial_per_try": "0.001953125",
+      "FORS_binomial_bits": 9.0,
+      "FORS_poisson_per_try": "0.001953125",
+      "FORS_poisson_bits": 9.0,
+      "binomial_poisson_difference_bits": 0.0,
+      "binomial_positive_check": {
+        "lower": "0.001953125",
+        "upper": "0.001953125",
+        "bits": 9.0,
+        "method": "Chernoff saturation interval",
+        "omitted_tail_upper": "1.6956796797468351836192292038545093e-455391",
+        "saturation_deficit_upper": "3.0906737953203426993260886524366638e-3557"
+      },
+      "poisson_positive_check": {
+        "lower": "0.001953125",
+        "upper": "0.001953125",
+        "bits": 9.0,
+        "method": "Chernoff saturation interval",
+        "omitted_tail_upper": "1.6956796797468351836192292038545093e-455391",
+        "saturation_deficit_upper": "3.0906737953203426993260886524366638e-3557"
+      },
+      "precision_relative_error_160_vs_220_dps": "0.0",
+      "conditional_union_budget": [
+        {
+          "log2_Q_H": 0,
+          "bits_advantage_upper_bound": 9.0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 32,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 64,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        },
+        {
+          "log2_Q_H": 128,
+          "bits_advantage_upper_bound": 0,
+          "caveat": "ONLY if a reduction supplies this per-query upper bound; no such reduction established here"
+        }
+      ],
+      "total_euf_probability": null,
+      "total_euf_bits": null,
+      "total_status": "OPEN / not established",
+      "WOTS_different_message_reuse_event_reference": 0,
+      "WOTS_all_other_attack_terms": null,
+      "PRF_term": null,
+      "tree_term": null,
+      "H_msg_term": null
+    }
+  ],
+  "exact_count_validation": {
+    "random_dp_ie_checks": 300,
+    "toy_all_pair_checks": 1936,
+    "toy_antichain_checks": 44,
+    "mismatches": 0
+  },
+  "WOTS_hypothetical_reuse_statistics": [
+    {
+      "w": 16,
+      "ell": 32,
+      "S": 240,
+      "j": 2,
+      "slice_count": "5181241160064611531897369560287267312",
+      "slice_bits": 121.9627091511123,
+      "acceptance_bits": 6.037290848887693,
+      "inclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 33.84242040115285,
+        "median_sample_bits": 38.51325881139565,
+        "minimum_sample_bits": 29.281246464154716,
+        "maximum_sample_bits": 55.91796186138049,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "exclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 33.84242040115285,
+        "median_sample_bits": 38.51325881139565,
+        "minimum_sample_bits": 29.281246464154716,
+        "maximum_sample_bits": 55.91796186138049,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "examples": [
+        {
+          "j": 2,
+          "vectors": [
+            [
+              12,
+              11,
+              11,
+              3,
+              1,
+              7,
+              6,
+              6,
+              2,
+              10,
+              12,
+              8,
+              13,
+              5,
+              9,
+              12,
+              9,
+              6,
+              4,
+              11,
+              14,
+              9,
+              2,
+              8,
+              5,
+              1,
+              4,
+              11,
+              6,
+              5,
+              7,
+              10
+            ],
+            [
+              15,
+              0,
+              5,
+              11,
+              4,
+              1,
+              12,
+              3,
+              14,
+              3,
+              9,
+              0,
+              2,
+              12,
+              9,
+              11,
+              7,
+              6,
+              11,
+              14,
+              2,
+              11,
+              4,
+              5,
+              6,
+              13,
+              6,
+              7,
+              9,
+              15,
+              4,
+              9
+            ]
+          ],
+          "covered_inclusive": "610264664894150921242274081",
+          "distinct_observed": 2,
+          "covered_excluding_observed": "610264664894150921242274079"
+        },
+        {
+          "j": 2,
+          "vectors": [
+            [
+              12,
+              7,
+              11,
+              4,
+              0,
+              1,
+              4,
+              2,
+              9,
+              9,
+              4,
+              12,
+              12,
+              14,
+              10,
+              4,
+              15,
+              6,
+              2,
+              12,
+              3,
+              8,
+              12,
+              2,
+              0,
+              9,
+              12,
+              5,
+              7,
+              15,
+              3,
+              14
+            ],
+            [
+              3,
+              14,
+              9,
+              15,
+              13,
+              7,
+              9,
+              12,
+              13,
+              7,
+              2,
+              10,
+              6,
+              6,
+              7,
+              5,
+              8,
+              3,
+              12,
+              3,
+              7,
+              2,
+              5,
+              13,
+              5,
+              9,
+              11,
+              4,
+              3,
+              15,
+              0,
+              2
+            ]
+          ],
+          "covered_inclusive": "1145427533686300113149280133",
+          "distinct_observed": 2,
+          "covered_excluding_observed": "1145427533686300113149280131"
+        }
+      ]
+    },
+    {
+      "w": 16,
+      "ell": 32,
+      "S": 240,
+      "j": 3,
+      "slice_count": "5181241160064611531897369560287267312",
+      "slice_bits": 121.9627091511123,
+      "acceptance_bits": 6.037290848887693,
+      "inclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 22.160421191329394,
+        "median_sample_bits": 24.818485221239538,
+        "minimum_sample_bits": 17.145163443747077,
+        "maximum_sample_bits": 36.11440049655857,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "exclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 22.160421191329394,
+        "median_sample_bits": 24.818485221239538,
+        "minimum_sample_bits": 17.145163443747077,
+        "maximum_sample_bits": 36.11440049655857,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "examples": [
+        {
+          "j": 3,
+          "vectors": [
+            [
+              11,
+              7,
+              3,
+              9,
+              8,
+              4,
+              3,
+              7,
+              1,
+              5,
+              14,
+              10,
+              6,
+              12,
+              9,
+              12,
+              11,
+              8,
+              13,
+              12,
+              13,
+              5,
+              0,
+              4,
+              8,
+              9,
+              5,
+              8,
+              1,
+              9,
+              1,
+              12
+            ],
+            [
+              14,
+              11,
+              4,
+              12,
+              5,
+              4,
+              8,
+              13,
+              9,
+              7,
+              13,
+              0,
+              15,
+              15,
+              4,
+              9,
+              14,
+              10,
+              8,
+              12,
+              0,
+              5,
+              7,
+              7,
+              4,
+              0,
+              8,
+              2,
+              8,
+              2,
+              8,
+              2
+            ],
+            [
+              5,
+              11,
+              3,
+              9,
+              10,
+              1,
+              11,
+              5,
+              14,
+              11,
+              8,
+              1,
+              6,
+              11,
+              8,
+              12,
+              12,
+              0,
+              11,
+              7,
+              15,
+              14,
+              7,
+              4,
+              1,
+              8,
+              7,
+              9,
+              4,
+              6,
+              9,
+              0
+            ]
+          ],
+          "covered_inclusive": "758970681503292060900532035865",
+          "distinct_observed": 3,
+          "covered_excluding_observed": "758970681503292060900532035862"
+        },
+        {
+          "j": 3,
+          "vectors": [
+            [
+              15,
+              12,
+              9,
+              10,
+              12,
+              8,
+              9,
+              4,
+              8,
+              14,
+              3,
+              1,
+              13,
+              7,
+              11,
+              12,
+              5,
+              3,
+              9,
+              5,
+              2,
+              6,
+              7,
+              6,
+              0,
+              8,
+              2,
+              12,
+              0,
+              8,
+              4,
+              15
+            ],
+            [
+              3,
+              6,
+              13,
+              11,
+              1,
+              8,
+              14,
+              15,
+              11,
+              2,
+              0,
+              2,
+              7,
+              11,
+              2,
+              10,
+              10,
+              6,
+              11,
+              13,
+              4,
+              7,
+              4,
+              7,
+              10,
+              11,
+              0,
+              1,
+              13,
+              10,
+              15,
+              2
+            ],
+            [
+              1,
+              11,
+              13,
+              12,
+              12,
+              5,
+              6,
+              6,
+              10,
+              15,
+              3,
+              6,
+              7,
+              1,
+              7,
+              8,
+              3,
+              14,
+              14,
+              13,
+              11,
+              1,
+              10,
+              4,
+              1,
+              0,
+              3,
+              9,
+              11,
+              13,
+              2,
+              8
+            ]
+          ],
+          "covered_inclusive": "12568014096321295983332920949662",
+          "distinct_observed": 3,
+          "covered_excluding_observed": "12568014096321295983332920949659"
+        }
+      ]
+    },
+    {
+      "w": 256,
+      "ell": 16,
+      "S": 2040,
+      "j": 2,
+      "slice_count": "454918678781617793203528879683071744",
+      "slice_bits": 118.45309199339304,
+      "acceptance_bits": 9.546908006606955,
+      "inclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 25.74195448001073,
+        "median_sample_bits": 27.82695528420098,
+        "minimum_sample_bits": 21.742566128856527,
+        "maximum_sample_bits": 41.09702902911196,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "exclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 25.74195448001073,
+        "median_sample_bits": 27.82695528420098,
+        "minimum_sample_bits": 21.742566128856527,
+        "maximum_sample_bits": 41.09702902911196,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "examples": [
+        {
+          "j": 2,
+          "vectors": [
+            [
+              249,
+              14,
+              198,
+              243,
+              66,
+              142,
+              0,
+              53,
+              58,
+              95,
+              104,
+              116,
+              205,
+              244,
+              82,
+              171
+            ],
+            [
+              190,
+              199,
+              134,
+              74,
+              241,
+              136,
+              101,
+              241,
+              58,
+              34,
+              67,
+              40,
+              173,
+              111,
+              126,
+              115
+            ]
+          ],
+          "covered_inclusive": "1730852981319666722592536027679",
+          "distinct_observed": 2,
+          "covered_excluding_observed": "1730852981319666722592536027677"
+        },
+        {
+          "j": 2,
+          "vectors": [
+            [
+              63,
+              123,
+              20,
+              44,
+              242,
+              195,
+              143,
+              159,
+              70,
+              232,
+              98,
+              27,
+              209,
+              199,
+              115,
+              101
+            ],
+            [
+              90,
+              61,
+              195,
+              155,
+              34,
+              201,
+              148,
+              55,
+              248,
+              79,
+              125,
+              180,
+              44,
+              68,
+              255,
+              102
+            ]
+          ],
+          "covered_inclusive": "18111711442989994496511299975416",
+          "distinct_observed": 2,
+          "covered_excluding_observed": "18111711442989994496511299975414"
+        }
+      ]
+    },
+    {
+      "w": 256,
+      "ell": 16,
+      "S": 2040,
+      "j": 3,
+      "slice_count": "454918678781617793203528879683071744",
+      "slice_bits": 118.45309199339304,
+      "acceptance_bits": 9.546908006606955,
+      "inclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 19.433939535717105,
+        "median_sample_bits": 20.550993907139627,
+        "minimum_sample_bits": 16.449598793556568,
+        "maximum_sample_bits": 26.901305596932833,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "exclusive": {
+        "samples": 128,
+        "bits_of_sample_mean": 19.433939535717105,
+        "median_sample_bits": 20.550993907139627,
+        "minimum_sample_bits": 16.449598793556568,
+        "maximum_sample_bits": 26.901305596932833,
+        "meaning": "Monte Carlo sample statistic over independently uniform hypothetical reused encodings; NOT a security bound"
+      },
+      "examples": [
+        {
+          "j": 3,
+          "vectors": [
+            [
+              181,
+              69,
+              158,
+              166,
+              154,
+              17,
+              122,
+              223,
+              199,
+              89,
+              163,
+              126,
+              3,
+              205,
+              83,
+              82
+            ],
+            [
+              52,
+              101,
+              206,
+              95,
+              216,
+              42,
+              205,
+              235,
+              153,
+              191,
+              193,
+              50,
+              14,
+              37,
+              230,
+              20
+            ],
+            [
+              36,
+              33,
+              148,
+              187,
+              189,
+              91,
+              84,
+              205,
+              116,
+              9,
+              134,
+              250,
+              121,
+              188,
+              12,
+              237
+            ]
+          ],
+          "covered_inclusive": "31527855104726640452096210154047",
+          "distinct_observed": 3,
+          "covered_excluding_observed": "31527855104726640452096210154044"
+        },
+        {
+          "j": 3,
+          "vectors": [
+            [
+              100,
+              77,
+              191,
+              242,
+              28,
+              202,
+              94,
+              13,
+              234,
+              121,
+              21,
+              149,
+              188,
+              247,
+              126,
+              7
+            ],
+            [
+              210,
+              0,
+              137,
+              162,
+              50,
+              6,
+              221,
+              189,
+              147,
+              156,
+              168,
+              135,
+              83,
+              251,
+              97,
+              28
+            ],
+            [
+              28,
+              253,
+              161,
+              132,
+              136,
+              38,
+              206,
+              171,
+              211,
+              69,
+              28,
+              128,
+              154,
+              97,
+              12,
+              216
+            ]
+          ],
+          "covered_inclusive": "331338957168942795144454493921800",
+          "distinct_observed": 3,
+          "covered_excluding_observed": "331338957168942795144454493921797"
+        }
+      ]
+    }
+  ],
+  "toy_validation": {
+    "confidence": "99.9% Wilson intervals, fixed seed; model validation, not a EUF experiment",
+    "FORS": {
+      "h": 8,
+      "a": 3,
+      "k": 4,
+      "q": 256,
+      "trials": 30000,
+      "successes": 26,
+      "exact": 0.0008520255722148485,
+      "measured": 0.0008666666666666666,
+      "ci": [
+        0.00045951589669302796,
+        0.0016339807265551936
+      ],
+      "formula_within_interval": true
+    },
+    "WOTS": {
+      "w": 4,
+      "ell": 8,
+      "S": 12,
+      "hypothetical_two_signature_cohort": 64,
+      "trials": 30000,
+      "successes": 185,
+      "exact_conditional_on_cohort": 0.006024837493896484,
+      "measured": 0.006166666666666667,
+      "ci": [
+        0.00484720875760806,
+        0.007842463505876807
+      ],
+      "formula_within_interval": true
+    }
+  },
+  "inventories": {
+    "layers": [
+      {
+        "layer": 0,
+        "height": 5,
+        "below": 0,
+        "subtrees": 68719476736,
+        "wots_keys": 2199023255552,
+        "total_merkle_positions": 4329327034368,
+        "internal_merkle_nodes": 2130303778816,
+        "secret_chain_starts": 70368744177664,
+        "distinct_honest_child_messages_per_address": 1
+      },
+      {
+        "layer": 1,
+        "height": 5,
+        "below": 5,
+        "subtrees": 2147483648,
+        "wots_keys": 68719476736,
+        "total_merkle_positions": 135291469824,
+        "internal_merkle_nodes": 66571993088,
+        "secret_chain_starts": 2199023255552,
+        "distinct_honest_child_messages_per_address": 1
+      },
+      {
+        "layer": 2,
+        "height": 5,
+        "below": 10,
+        "subtrees": 67108864,
+        "wots_keys": 2147483648,
+        "total_merkle_positions": 4227858432,
+        "internal_merkle_nodes": 2080374784,
+        "secret_chain_starts": 68719476736,
+        "distinct_honest_child_messages_per_address": 1
+      },
+      {
+        "layer": 3,
+        "height": 5,
+        "below": 15,
+        "subtrees": 2097152,
+        "wots_keys": 67108864,
+        "total_merkle_positions": 132120576,
+        "internal_merkle_nodes": 65011712,
+        "secret_chain_starts": 2147483648,
+        "distinct_honest_child_messages_per_address": 1
+      },
+      {
+        "layer": 4,
+        "height": 21,
+        "below": 20,
+        "subtrees": 1,
+        "wots_keys": 2097152,
+        "total_merkle_positions": 4194303,
+        "internal_merkle_nodes": 2097151,
+        "secret_chain_starts": 33554432,
+        "distinct_honest_child_messages_per_address": 1
+      }
+    ],
+    "FORS_instances": 2199023255552,
+    "FORS_real_trees_per_instance": 17,
+    "FORS_leaf_secrets_total": 19140298416324608,
+    "WOTS_chain_secrets_total": 72638667948032,
+    "total_PRF_secret_input_universe": 19212937084272640,
+    "top_cache_nodes": 4194303,
+    "top_cache_counters": 2097152,
+    "top_cache_bytes": 75497456,
+    "note": "Whole universe cardinalities, NOT reduction oracle-query counts or proven security loss factors"
+  },
+  "verdict": "not established: full reference EUF-CMA and QROM bounds are OPEN",
+  "script_sha256": "a482536e402e39c970f675abcd3d595e6a3bd43a3ce94d1c2e1dfd4d6fdc0385"
+}

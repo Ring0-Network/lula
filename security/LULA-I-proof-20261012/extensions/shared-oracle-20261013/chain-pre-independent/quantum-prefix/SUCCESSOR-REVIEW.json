@@ -1,0 +1,19 @@
+{
+  "status": "ACCEPTED_SCOPED_FINITE_QROM_RELATIVE_MANUAL",
+  "previous_receipt_sha256": "9460dcadcf8a6ba2e31e3d42a59a45d457c8b3d73b57d152c30dcd69b0468d36",
+  "subjects": {
+    "quantum-INDEPENDENT-DERIVATION.md": "1ceca6be12a9d65e79db7ede3ce5e26bdc31fd3ebf326c245c8351cb6112a9ba",
+    "quantum-CLARIFICATION.md": "5d5d9ecdd0a4cdff65ca19596557293bbbdfac1f7113c5722bc5859793ddace9",
+    "quantum-RESOURCE-CLARIFICATION.md": "a40da999ae0f2cb6bd2e38e21203eb025c982696fd49a19792a2ee8492081bcd",
+    "quantum-control.py": "e81af2bd0584d0d50e8f863f0ff5bcb5e2d9717e9626fd5d87498041ff212453",
+    "quantum-CONTROL-RESULTS.json": "786c569b6447e35cd1ad3bc1c26fc6248669a64ec2ec95bf6e1b6d1b38977fb0"
+  },
+  "review_sha256": "8e84d9316d176b9746dfc9b2f12c3c665928b471d7d36b2460f8cbd38211dd71",
+  "independent_recheck_exit": 0,
+  "recheck_results_sha256": "786c569b6447e35cd1ad3bc1c26fc6248669a64ec2ec95bf6e1b6d1b38977fb0",
+  "all_outside_raw_calls_share_fixed_table": true,
+  "eager_init_bits": "256 V_b",
+  "efficient_outside_simulator": "OPEN",
+  "conventional_quantum_PRE_identification": "OPEN",
+  "core_numeric_changes": false
+}

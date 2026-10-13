@@ -1,0 +1,15 @@
+{
+  "verdict": "ACCEPT_SCOPED_MANUAL_B_ONLY_REPLACEMENT",
+  "own_first_saved_before_peer_read": true,
+  "own_first_sha256": "939f4c5fc75e4f8be5dbbb56d45dd8a70f9d6c839e03625776ca271691df7c9e",
+  "peer_subjects": {
+    "chain-pre-independent/outside-simulator/INDEPENDENT-DERIVATION.md": "5555569b844c8a30ee5d58bdca9121e84a45fe5dd62474d0f0fb64df5c009680",
+    "chain-pre-independent/outside-simulator/CLARIFICATION.md": "4e0ae20f94a1af80b5a86cd14bab4b8873589a62f4c15eb519757bf3e64f01c7",
+    "chain-pre-independent/outside-simulator/ROUTES-CLARIFICATION.md": "383dc9c6b0de9417fe44ca6c66dc69874143aba970b98511df745e256461ede4",
+    "outside-field-check/first-independent-derivation.md": "c6b1b31b95100e10d484e06ba839d2b36d2e1393d18add5e7710d6bf52364a69",
+    "outside-field-check/SECOND-READER.json": "331f0e648cdf7bc5b3496f4ab4e151071f2bd64cc488b0d6e26bdd2dab820dbf"
+  },
+  "review_sha256": "349e433339aa10b7fe63e44c1cb2ef4789ddd8007b52a1b8af05b7cd36b01257",
+  "scope": "B-only bounded-query success equality; inherited source call caps; no conventional SHA identification",
+  "new_resource_metric": "gate-record emission vs serialized indexed wire-label bitwork distinguished"
+}

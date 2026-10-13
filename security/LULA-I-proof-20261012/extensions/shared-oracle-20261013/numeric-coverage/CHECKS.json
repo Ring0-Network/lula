@@ -1,0 +1,222 @@
+{
+  "status": "PASS_MODEL_SCOPED_CHECKS",
+  "seed": 20261013017,
+  "parameters": {
+    "B": 2,
+    "t": 2,
+    "K_real": 2,
+    "q_exposures": 2,
+    "M_raw_candidates": 2
+  },
+  "coverage_expectation": {
+    "exhaustive": {
+      "numerator": "17",
+      "denominator": "128",
+      "decimal": 0.1328125
+    },
+    "coverage_state_dp": {
+      "numerator": "17",
+      "denominator": "128",
+      "decimal": 0.1328125
+    },
+    "occupancy": {
+      "numerator": "17",
+      "denominator": "128",
+      "decimal": 0.1328125
+    },
+    "finite_moment": {
+      "numerator": "17",
+      "denominator": "128",
+      "decimal": 0.1328125
+    }
+  },
+  "late_phase": {
+    "exact": {
+      "numerator": "503",
+      "denominator": "2048",
+      "decimal": 0.24560546875
+    },
+    "dp_exact": {
+      "numerator": "503",
+      "denominator": "2048",
+      "decimal": 0.24560546875
+    },
+    "jensen_upper": {
+      "numerator": "4063",
+      "denominator": "16384",
+      "decimal": 0.24798583984375
+    },
+    "union_upper": {
+      "numerator": "17",
+      "denominator": "64",
+      "decimal": 0.265625
+    },
+    "second_moment_pT": {
+      "numerator": "41",
+      "denominator": "2048",
+      "decimal": 0.02001953125
+    },
+    "exhaustive_joint_trials": 16384,
+    "joint_successes": 4024
+  },
+  "transcript_pT_distribution": [
+    {
+      "p": {
+        "numerator": "1",
+        "denominator": "16",
+        "decimal": 0.0625
+      },
+      "count": 8
+    },
+    {
+      "p": {
+        "numerator": "1",
+        "denominator": "8",
+        "decimal": 0.125
+      },
+      "count": 48
+    },
+    {
+      "p": {
+        "numerator": "1",
+        "denominator": "4",
+        "decimal": 0.25
+      },
+      "count": 8
+    }
+  ],
+  "coverage_state_count": 34,
+  "first_accept": {
+    "C": 4,
+    "joint_trials": 65536,
+    "failure": {
+      "numerator": "1",
+      "denominator": "16",
+      "decimal": 0.0625
+    },
+    "accepted_tuple_uniform_conditioned_on_success": true,
+    "counter_and_tuple_factorization_checked": true
+  },
+  "preview_countermodel": {
+    "L": 2,
+    "probability": {
+      "numerator": "15",
+      "denominator": "128",
+      "decimal": 0.1171875
+    },
+    "single_independent_exposure": {
+      "numerator": "1",
+      "denominator": "16",
+      "decimal": 0.0625
+    },
+    "gain_factor": {
+      "numerator": "15",
+      "denominator": "8",
+      "decimal": 1.875
+    },
+    "joint_trials": 1024,
+    "scope": "q=1 chosen exposure after L previews; NOT a real signer attack and previews incur oracle cost"
+  },
+  "correlated_query_countermodel": {
+    "expected_realized_coverage": {
+      "numerator": "1",
+      "denominator": "16",
+      "decimal": 0.0625
+    },
+    "dependent_target_success": {
+      "numerator": "1",
+      "denominator": "2",
+      "decimal": 0.5
+    },
+    "violation_factor": {
+      "numerator": "8",
+      "denominator": "1",
+      "decimal": 8.0
+    },
+    "marginal_exposure_uniform": true,
+    "scope": "X is chosen as the tuple of already queried Y; violates fresh independent streams, not a LULA forgery"
+  },
+  "monte_carlo": {
+    "rows": [
+      {
+        "model": "independent_late",
+        "trials": 30000,
+        "successes": 7246,
+        "empirical": 0.24153333333333332,
+        "exact": {
+          "numerator": "503",
+          "denominator": "2048",
+          "decimal": 0.24560546875
+        },
+        "wilson_ci999": [
+          0.23349618742958034,
+          0.24975698292013693
+        ],
+        "exact_within_ci": true
+      },
+      {
+        "model": "adaptive_interleaved",
+        "trials": 30000,
+        "successes": 7246,
+        "empirical": 0.24153333333333332,
+        "exact": {
+          "numerator": "503",
+          "denominator": "2048",
+          "decimal": 0.24560546875
+        },
+        "wilson_ci999": [
+          0.23349618742958034,
+          0.24975698292013693
+        ],
+        "exact_within_ci": true
+      },
+      {
+        "model": "preview_selected_exposure",
+        "trials": 30000,
+        "successes": 3525,
+        "empirical": 0.1175,
+        "exact": {
+          "numerator": "15",
+          "denominator": "128",
+          "decimal": 0.1171875
+        },
+        "wilson_ci999": [
+          0.11151994860069506,
+          0.12375605472184889
+        ],
+        "exact_within_ci": true
+      },
+      {
+        "model": "correlated_point_reuse",
+        "trials": 30000,
+        "successes": 15133,
+        "empirical": 0.5044333333333333,
+        "exact": {
+          "numerator": "1",
+          "denominator": "2",
+          "decimal": 0.5
+        },
+        "wilson_ci999": [
+          0.4949348882718295,
+          0.513928579402079
+        ],
+        "exact_within_ci": true
+      }
+    ],
+    "late_interleaved_pathwise_equal": true,
+    "early_success_stops": 3684,
+    "schedule_counts": {
+      "candidate/candidate/exposure": 1786,
+      "candidate/candidate/exposure/exposure": 13255,
+      "candidate/exposure": 886,
+      "candidate/exposure/exposure": 1012,
+      "candidate/exposure/exposure/candidate": 13061
+    },
+    "note": "Coverage-only toy experiments. Shared oracle reuse/preview controls are deliberately different interfaces."
+  },
+  "LULA_source_bound": null,
+  "LULA_adaptive_Bad_bound": null,
+  "LULA_total_euf_bound": null,
+  "missing_lemma": "Source-bound coupling to independent fresh streams until a charged shared-input/prequery/inner-collision/secret-R bad event",
+  "script_sha256": "f4bfdb390e5ff303d7863a96d684841670b00f6bc4c8cc5ab1875f695fc4a4e1"
+}

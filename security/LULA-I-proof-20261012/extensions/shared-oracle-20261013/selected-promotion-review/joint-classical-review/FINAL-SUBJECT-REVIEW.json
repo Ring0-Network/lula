@@ -1,0 +1,58 @@
+{
+  "status": "ACCEPTED_MANUAL_CLASSICAL_JOINT_RO_FINAL_SUBJECT",
+  "subject": "CLASSICAL-JOINT-RO-THEOREM.md",
+  "subject_sha256": "4fa7c3b63a268bd7535a753813d109a2f768f0089df44b54223a6e34cfaf35f0",
+  "checks": {
+    "exact_corrected_subject_rechecked": true,
+    "source_shared_full_raw_REAL_marginal_explicit": true,
+    "same_safe_graph_row_private_coverage_world": true,
+    "full256_lower_limbs_retained": true,
+    "no_complete_function_identity_claim": true,
+    "atomic_inflight_unsigned_J_scope_explicit": true,
+    "knownpoint_install_firstbad_and_forward_exposure_verified": true,
+    "no_surplus_row_or_full_secret_advice": true,
+    "deterministic_candidate_padding_only": true,
+    "fixed6241_uniform6242_once_seedzero": true,
+    "honest_cache_only_transfer_zero_event_query_loss": true,
+    "eight_q_16_rows_and_8_adjacent_crossings_verified": true,
+    "exact_rational_intervals_and_exhaustion_enclosed": true,
+    "historical_source_and_scalar_pins_unchanged": true,
+    "manual_scope_not_source_kernel_or_category_certificate": true
+  },
+  "source_subjects": {
+    "pre-start-second/interior-ud/quantitative-boundary/joint-classical/INDEPENDENT-FIRST.md": "ed747c50d39d6c301d55bb25fec8a590b48cb089f166b75360dc42d149123ab9",
+    "pre-start-second/interior-ud/quantitative-boundary/joint-classical/CONDITIONING-CLARIFICATION.md": "264fe13beb57743491165aad5090cc2bd088e5cff2f13a0ce5592be1bbc99302"
+  },
+  "provenance_pins": {
+    "selected-promotion-review/joint-classical-review/INDEPENDENT-FIRST.md": "95eb6761332435bbb9044c97ab997fa5d1eb4aa4840a5f678001006ed5969c93",
+    "selected-promotion-review/joint-classical-review/PEER-REVIEW.md": "0756bb0d3af275dc566458d655a2307478b783b8f9696844d328dc9ade6139e3",
+    "selected-promotion-review/joint-classical-review/independent_controls.py": "96e672743ec2d4d635ed1860adc5f8b5661f4776b2c4bbffe29e9226206f5fcb",
+    "selected-promotion-review/joint-classical-review/INDEPENDENT-CONTROLS.json": "fafd54987b2ed4d59e29156f6a4283d0cb4cfaf3d2c7ce9a0830b998d15d3b3e",
+    "selected-promotion-review/joint-classical-review/peer-reexecution/BYTE-ROLE-CONTROLS.json": "23d5d26a54f888b59989ce250bf89979c07fce84706ccc5f6910e619c38ac60b",
+    "selected-promotion-review/joint-classical-review/FINAL-TECHNICAL-CANDIDATE-REVIEW.json": "53f3facb555f3f41f22e0e95d323d208575e82ca64bda64da15980bc16fa44c2",
+    "selected-promotion-review/joint-classical-review/FINAL-SUBJECT-REVIEW.md": "13dc54a233c5c622c817c1bab887bf54fe3c7738103e3343cf7c535f02017bed",
+    "selected-promotion-review/joint-classical-review/joint_numerics.py": "d6bfc0e01c3dfde0ef3acf82c6ace5cb18395960d4ca82f9b97f9ab35d30c27d",
+    "selected-promotion-review/joint-classical-review/JOINT-NUMERICS.json": "719d2e69ede7d75abbbaa2f89ca3100c948756c4696af178ee4fecf66faeb342",
+    "selected-promotion-review/joint-classical-review/JOINT-NUMERICS.md": "098c6999ac04fa27430857e3c8c0d469c5b3a0365e68b2b3a5c40a333ce623af",
+    "selected-promotion-review/joint-classical-review/finalize_subject.py": "750e08a3561c222871ce4e8aaa5cbc885e0d0119c482caa9ea29e72ac4ca2143"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "C:/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/publications/LULA-I/release/code/lula1/src/lib.rs": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  },
+  "numerical_input_pins": {
+    "classical-composition-numeric/OWN-BOUNDS.json": "9859f7e201402d8b53539bb16144add8016c7f889d923add947289dad94e50fd"
+  },
+  "initial_draft_sha256": "c0b0a26e7a4024cbc86668b6470b1f6214f915cce9a47f30ea2b21448069c343",
+  "changes_requested": "REAL marginal and atomic unsigned-J scope explicit; observable-prefix agreement replaces complete-function identity. Constants unchanged.",
+  "prior_supporting_declarations": 47,
+  "new_checked_declarations": 0,
+  "new_source_game_declarations": 0,
+  "core_index_promotion_reviewed": false,
+  "security_level_or_category_established": false,
+  "whole_goal_complete": false
+}

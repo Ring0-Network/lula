@@ -1,0 +1,129 @@
+{
+  "status": "BIBLIOGRAPHY_AND_CITATIONS_PASS_PUBLIC_DEPOSIT_PENDING",
+  "input_pins": {
+    "LULA-I.tex": "a33849e5eccf0d1895a3a035bd6a45de312bf783db200d986d0e5cd55699c6c1",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "stability-results.tex": "e6d6dfe69236cf86e0da3010eda8f3adeb5702e3816b5acaeb24cf5b58f6ecc7",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4",
+    "LULA-I.bbl": "19566ca1f8eb3f5bf07597926eb20134153c28228cf8b1ca122ed28e0a80fd52",
+    "release\\README.md": "e6044b189f988a25324a1641bdda4f35de86297284a5f410dde7768269046225",
+    "release\\LICENSE": "08cde3e1946ef6fe9bc44c76cc64b5c967e3f6d0168461edaa2581917403e366"
+  },
+  "all_bib_entries_read": 14,
+  "all_compiled_references_read": 13,
+  "all_active_citations_read": 20,
+  "undefined_cites": [],
+  "uncited_entries": [
+    "shrincsdraft"
+  ],
+  "all14_bib_urls_anonymous_http200": true,
+  "repo_anonymous_status": 404,
+  "repo_api_anonymous_status": 404,
+  "repo_visibility_content_license_publicly_verified": false,
+  "bibliography_repairs_required": [],
+  "necessary_missing_sources": [],
+  "narrow_unverified_locator": "Fluhrer/Dang \u00a75 Equation1 full-PDF numbering (landing/version verified; web PDF403)",
+  "required_publication_actions": [
+    "Do not claim a public artifact deposit until anonymous availability is verified",
+    "Use contact-bearing main PDF for ePrint, not email-free repository copy"
+  ],
+  "root_only_editor": true,
+  "protected_files_edited": false,
+  "external_submission_or_login_performed": false,
+  "source_kernel_or_128_category_claim_added": false,
+  "metadata": [
+    [
+      "fips205",
+      "NIST; FIPS205;2024; Stateless Hash-Based Digital Signature Standard; DOI10.6028/NIST.FIPS.205",
+      "https://csrc.nist.gov/pubs/fips/205/final",
+      "Official date13August2024 and corporate author match."
+    ],
+    [
+      "kn",
+      "Mikhail Kudinov, Jonas Nick;2025; Hash-based Signature Schemes for Bitcoin; ePrint2025/2203",
+      "https://eprint.iacr.org/2025/2203",
+      "Official ePrint author order/title/year and preprint status match. Cached primary text has \u00a75 WOTS+C and \u00a713 Parameters."
+    ],
+    [
+      "sphincsc",
+      "Andreas H\u00fclsing, Mikhail Kudinov, Eyal Ronen, Eylon Yogev; IEEE S&P2023;1435\u20131453; DOI10.1109/SP46215.2023.10179381",
+      "https://api.crossref.org/works/10.1109/SP46215.2023.10179381",
+      "IEEE-deposited DOI metadata confirms current published order. ePrint2022/778 lists Kudinov first; do NOT replace the published author order with that preprint order."
+    ],
+    [
+      "gravity",
+      "Jean-Philippe Aumasson, Guillaume Endignoux; CT-RSA2018; LNCS10808;219\u2013242; editorNigel P.Smart; DOI10.1007/978-3-319-76953-0_12",
+      "https://link.springer.com/chapter/10.1007/978-3-319-76953-0_12",
+      "Publisher confirms authors,editor,volume,pages,year and DOI; ePrint2017/933 revision9January2018 matches."
+    ],
+    [
+      "variable",
+      "Zhen Qin, Siwei Sun, Fangyu Zheng;2025; Extending the SPHINCS+ Framework: Varying the Tree Heights and Chain Lengths; ePrint2025/2236",
+      "https://eprint.iacr.org/2025/2236",
+      "Revision6September2026 matches; current page also calls it a major revision of an ASIACRYPT2026 publication. Existing preprint identification remains appropriate; do not invent a proceedings DOI."
+    ],
+    [
+      "sphincs",
+      "Bernstein, H\u00fclsing, K\u00f6lbl, Niederhagen, Rijneveld, Schwabe; CCS2019;2129\u20132146; DOI10.1145/3319535.3363229",
+      "https://api.crossref.org/works/10.1145/3319535.3363229",
+      "ACM-deposited title/author order/year/venue/pages/DOI and ePrint2019/1086 match."
+    ],
+    [
+      "xmss",
+      "H\u00fclsing, Butin, Gazdag, Rijneveld, Mohaisen; May2018; XMSS: eXtended Merkle Signature Scheme; Informational RFC8391; DOI10.17487/RFC8391",
+      "https://www.rfc-editor.org/info/rfc8391/",
+      "RFC metadata and cited \u00a74.1/4.1.9 align."
+    ],
+    [
+      "reset",
+      "Thomas Ristenpart, Scott Yilek; NDSS2010; When Good Randomness Goes Bad: Virtual Machine Reset Vulnerabilities and Hedging Deployed Cryptography",
+      "https://www.ndss-symposium.org/ndss2010/accepted-papers/",
+      "Official2010 program and linked PDF confirm title/authors/venue/year; Internet Society publisher matches. No DOI invented; the2017 URL upload path is not the publication year."
+    ],
+    [
+      "openssl",
+      "OpenSSL Project;2026 living documentation; EVP_SIGNATURE-SLH-DSA; OpenSSL3.5",
+      "https://docs.openssl.org/3.5/man7/EVP_SIGNATURE-SLH-DSA/",
+      "Official history says introduced in3.5; copyright spans2024\u20132026. deterministic default0 generates DRBG randomness, supporting the hedged/default description. A live manual does not itself prove measured runtime3.5.7; that is recorded experimental provenance."
+    ],
+    [
+      "shrincsc",
+      "Blockstream Research; SHRINCS C Implementation; commit345b0a64ce8d00c16c35952375dea6d13ec48c85;19May2026",
+      "https://api.github.com/repos/BlockstreamResearch/shrincs-c/commits/345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "Primary GitHub commit and anonymous tree URL verify pin/date/content, including SHRINCS_B32 build macro. Citation labels it experimental, correctly."
+    ],
+    [
+      "shrincsdraft",
+      "conduition, Ethan Heilman, Mikhail Kudinov, Oleksandr Kurbatov, Jonas Nick, remix7531; SHRINCS: A Compact Hash-Based Signature Scheme; Draft; commita5891ec5b360a732c097e1d6af1ae59515a2560a;27September2026",
+      "https://github.com/SHRINCS/shrincs-bip/blob/a5891ec5b360a732c097e1d6af1ae59515a2560a/SHRINCS.md",
+      "All names/order/title/status match pinned document header; GitHub API date matches. Uncited and absent from BBL. Leaving unused entry has no PDF effect; no citation inflation requested."
+    ],
+    [
+      "hashsiggo",
+      "andrepatta; hashsig Go implementation; commitda711b11f03c4af0d610996f89848e9e15770b73;20April2026",
+      "https://api.github.com/repos/andrepatta/hashsig/commits/da711b11f03c4af0d610996f89848e9e15770b73",
+      "Primary GitHub commit/tree and MIT LICENSE verified. Pinned go/wotsc/wots.go303\u2013388 starts at0 and returns the smallest valid counter in serial/parallel code, supporting manuscript91. Descriptive title is a repository citation, not an invented paper title."
+    ],
+    [
+      "sp800230",
+      "Quynh Dang, Dustin Moody; April2026; Additional SLH-DSA Parameter Sets for Limited-Signature Use Cases; NIST SP800-230 ipd; DOI10.6028/NIST.SP.800-230.ipd",
+      "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-230.ipd.pdf",
+      "PDF cover and suggested citation list Dang then Moody: current bibliography is CORRECT despite reversed order on landing-page metadata. PDF Table1 confirms3856 bytes; \u00a73 permits caching. Retain Initial Public Draft status."
+    ],
+    [
+      "fluhrer",
+      "Scott Fluhrer, Quynh Dang;2024; Smaller Sphincs+; ePrint2024/018; revised16January2025",
+      "https://eprint.iacr.org/2024/018",
+      "Official landing title/authors/year/revision match. Current PDF download was403 through web; do not label the valid landing URL broken. The manuscript states its own additional occupancy assumptions; detailed equation numbering was not independently revalidated in this pass."
+    ]
+  ],
+  "report_sha256": "5d4c850898e5eff2fb0fda74aa5f3826e12da2263d01932a06f9a1fba112efb2",
+  "evidence_pins": {
+    "BIB-URL-CHECKS.json": "cbd77b43fca9a8641829fe00d0416e20861a610bb96f8b0c0d30c8fd563e77bc",
+    "BIBLIOGRAPHY-URL-AUDIT.md": "5d4c850898e5eff2fb0fda74aa5f3826e12da2263d01932a06f9a1fba112efb2",
+    "LOCAL-CITATION-INVENTORY.json": "464d07c8cba7908b7be2fb8bda2f48206327708a3427f1d01415fa0bba6d5738",
+    "PRIMARY-URL-CHECKS.json": "2342aaa76e88619749065a375e5038f404fd020164af32e2e844ea389650519f",
+    "RELEASE-TEXT-EXPOSURE-SCAN.json": "a4e4ed1e20924825e7d5e0ebea265e7b91dd1861ca70427bab083fce3ebc99fa"
+  }
+}

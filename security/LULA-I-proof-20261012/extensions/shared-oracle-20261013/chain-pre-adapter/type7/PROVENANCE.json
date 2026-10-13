@@ -1,0 +1,62 @@
+{
+  "status": "READY_FOR_ROOT_PROMOTION_SCOPED_CLASSICAL_QROM_ROW_INTERFACE_MANUAL",
+  "subjects": {
+    "INDEPENDENT-DERIVATION.md": "32f107c9ea5e73452dbb3970694cb8c23b8baf6fc56dbc69353c252a548cf708",
+    "CLARIFICATION.md": "31740556330a19f11f07124304c08e9e4164040eedceb3bbbbbcffe324ec2b9d",
+    "control.py": "44534f2712e53e072511aa4c3dade379cb03abb677684183e7f72296772537ac",
+    "CONTROL-RESULTS.json": "82bb59e84449257cbac2602b2794b97be3ed37506a3442332e1cc6dcb20fc80b"
+  },
+  "original_saved_before_peer": "INDEPENDENT-DERIVATION.md",
+  "scope_clarification": "Original final D7_base preserved; optional broader classical event D7_base_public; actual stop faithful prefix, unflagged comparator exact law; bottom B-local zero selected contribution",
+  "independent_reader_receipt": {
+    "path": "chain-pre-independent/type7/SUCCESSOR-REVIEW.json",
+    "sha256": "449609b4ead61fb1c9946d97867b57ca0bc00625b76af897b51d2e5617bf27cf"
+  },
+  "previous_reader_receipt": {
+    "path": "chain-pre-independent/type7/REVIEW.json",
+    "sha256": "5fac9a95a70c6d0506f3572a65337aebe9ae6b4a313e6c4594f886b37d119714"
+  },
+  "additional_resource_reader": {
+    "path": "selected-promotion-review/T7-REVIEW.json",
+    "sha256": "773653e00caf9381dfc8f26987b22e41e36378f9f2fa1a8b88f28259c515ffe7"
+  },
+  "own_peer_reader_sha256": "2a319c88b584ecf7acc4c211e55a308e194e8678d05f6508f1071e159fd0b3ef",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "bound": "Pr_HJ[Win AND D7_base_final | fixed nonzero S] <= 2^42 Pr_firstAcceptedRowCollision[B wins]",
+  "resources": {
+    "rows": 2269959421952,
+    "selector_bits": 42,
+    "selected_target_registrations": 1,
+    "challenger_counter_evaluations_max": 4294967296,
+    "selected_handle": "Q adversarial+1 final classical",
+    "child_public_max": 17392,
+    "child_F_distinct_max": 8704,
+    "outside_init": "256 V_b bits,32 V_bbytes,O(32 V_b)writes"
+  },
+  "controls": {
+    "own_worlds": 8192,
+    "own_exit": 0,
+    "peer_reexecuted_worlds": 32768,
+    "peer_exit": 0,
+    "own_independent_recheck_exit": 0
+  },
+  "preserved_classical_provenance": "b87d89348a7e3720ac35cdef05db3fb69bce6845b23323b7f8c856b8112098b1",
+  "preserved_quantum_provenance": "61a808273fc5f172b8f4690fe4246729aeb581559feaf9c1a5dbff1234a7d3dd",
+  "open": [
+    "conventional shared-seed keyed S-TCR identification",
+    "efficient local quantum outside oracle realization",
+    "level/category certification"
+  ],
+  "core_scalar_numeric_changes": false,
+  "new_kernel_declarations": 0,
+  "files": {
+    "CLARIFICATION.md": "31740556330a19f11f07124304c08e9e4164040eedceb3bbbbbcffe324ec2b9d",
+    "CONTROL-RESULTS.json": "82bb59e84449257cbac2602b2794b97be3ed37506a3442332e1cc6dcb20fc80b",
+    "control.py": "44534f2712e53e072511aa4c3dade379cb03abb677684183e7f72296772537ac",
+    "finalize.py": "84b03e554095866ba8e950c978dff68cb6ac5bb89c9bc4f7dd3d977cb357b827",
+    "INDEPENDENT-DERIVATION.md": "32f107c9ea5e73452dbb3970694cb8c23b8baf6fc56dbc69353c252a548cf708",
+    "peer-recheck/CONTROL-RESULTS.json": "e0c832196a4752f5c6185644989e755a34cf1c7b60907b8e1c7ac0afe5217fbe",
+    "peer-recheck/control.py": "ddaacc03360da372b2e92d491ec03bbeec7f7bed66442a75685963ad58fc3273",
+    "PEER-SECOND-READER.md": "2a319c88b584ecf7acc4c211e55a308e194e8678d05f6508f1071e159fd0b3ef"
+  }
+}

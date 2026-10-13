@@ -1,0 +1,13 @@
+# Explicit residual budgets for the ordinary composition
+
+This addendum supplements, without changing, independent-first b70fe2a0. No new target-only or activation peer proposal has been read.
+
+For a chosen success ceiling rho=1/2, all summands of the accepted symbolic composition are nonnegative. Hence a sufficient envelope can be <=rho only if each selected available component envelope is <=rho. This is a restriction on that envelope, not a necessary condition for actual source security.
+
+At every requested q, k=17. The dense ordinary coverage route alone requires nu_dense<=2^-545 to fit even the entire1/2 budget, because its loss is2^544. At q40, the sparse route's loss is2^1224, so its corresponding success must be<=2^-1225. Direct RC-CTAC can avoid those losses only if its *different*, construction-specific advantage is independently bounded. No equality of these three particular successes is available. A numerical bound on a standard family's maximum insecurity can be far too weak after either lifting factor, while the specifically constructed adversary might have much smaller success. That smaller particular success would need proof; a property name does not supply it.
+
+The hidden component likewise requires pi_PRE+sum254 delta_r<=2^-56 when allotted the full1/2 budget, and each equally allocated delta_r<=2^-56/254. Its interface closure does not meet that quantitative obligation by itself. The other one-target graph and canonical-row maxima also carry55/55/21/41/42 or42/21 selector losses. These are useful ordinary-program identities, not evidence that substituting a generic query bound will yield a useful full-source bound.
+
+The total rank-encoded H_free family's context tag is fixed/chosen metadata, not extra entropy. Therefore neither a450-bit serialized output nor a297-bit tagged route label justifies an extremely small nu_dense. Likewise, replacing the true q target cap by the sparse k cap without its loss/resources is invalid. I make no actual-family attack or universal lower-bound claim here; this is exact nonnegative algebra and a warning against unsupported numerical hypotheses.
+
+A concrete next scientific gate is thus: for q38/40/41, compute which *lawfully applicable* quantitative component instantiations leave any positive residual rho budget at the full constructed resources. If every available lifted ordinary maximum is vacuous, use the sharper direct source RO/QROM composition or prove a direct source-specific coverage bound rather than claiming adequacy from the legal lift. This check should precede a target-only UD optimization being advertised as completion of the entire numerical goal.

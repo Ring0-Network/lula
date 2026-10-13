@@ -1,0 +1,24 @@
+{
+  "status": "OWN_DERIVED_CANONICAL_COLLECTION_SPECIALIZATION_AND_COUNTERMODELS_STANDARD_IDENTIFICATION_PENDING",
+  "original_receipt_sha256": "d1b76e9e939cca50f8e00598df797805be579c5b97090be395beaa2dab1291cb",
+  "files": {
+    "INDEPENDENT-DERIVATION.md": "74e2106c6c18733d03864f844817d9685db07a867972721aec485bfc9ed04e57",
+    "CLARIFICATION.md": "649ab0c00afa293ba64f0624338c49f2dd9c921fd2ac70d225143d308b58d289",
+    "QUANTITATIVE-SCOPE.md": "6dc217953bcee82a0f9a8fe96e8e507c3207e2a12e297390c035a3ed6ebd1bb5",
+    "COUNTERMODELS.py": "a1b500ed53cf378106099662e7425f36942b75fd7e973752080a7d3e4d148b7d",
+    "COUNTERMODEL-RESULTS.json": "8956235b8b69ce003fec36032db9b566e0e953c52038672bb4091b371524792b",
+    "PRIMARY-AND-STATUS.md": "35a64ee0f221a3f4b78785c209ff526e28f9f955ae49dcb07fae1633baf552aa"
+  },
+  "original_derivation_immutable": true,
+  "counter_policy_precision": "Canonicalfirstpolicyislegal;countermodelrefutesuniversalinvariance,notadoptingexplicitcanonicalinstantiation",
+  "r_precision": "r=securityparameterisconstructionchoice,notformalC1constraint",
+  "collection_definition": "Permitsother-tweakchildcomputationbeforeparameterrelease",
+  "quantitative_scope": "Publishedcollectiongenericbounddiscussionisconjectural;exactcitedgame/budget/selectionpolicyrequiresaudit",
+  "conditional_wrapper": "CF-BS-TCRcollectionwithliteralBE32firstpolicyandunconditionedbottom;Prop4/8split",
+  "countermodel_exit": 0,
+  "new_checked_declarations": 0,
+  "source_attacks": 0,
+  "prior_core_receipts_modified": false,
+  "conventional_quantitative_security": "not established",
+  "whole_goal_complete": false
+}

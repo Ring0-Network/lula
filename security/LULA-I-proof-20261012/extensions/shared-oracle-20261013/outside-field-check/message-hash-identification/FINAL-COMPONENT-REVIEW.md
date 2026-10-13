@@ -1,0 +1,11 @@
+# Final subject fidelity: direct message-hash component
+
+**Verdict: ACCEPT_FAITHFUL_DIRECT_NAMED_MESSAGE_HASH_COVERAGE_COMPONENT.** I read the actual root `MESSAGE-HASH-PRIMITIVE-COMPONENT.md` SHA256 `1406428b0f8ab96e0b5aa923a372c0773067fbc4d79f0f6c2065fd17edfb0dff` against the independently accepted first540ae/b077, controlling context/event/partiality clarifications and reviewer receipt4d3ff1.
+
+The root artifact faithfully states the direct RC-CTAC-SR named additional property and the conditional source program. It preserves one fixed full h, both256-bit message-hash stages,17 real indices, zero9 filter and41 actual route bits; it handles memoized J on first unique labels, source-derived S/root/F and retained F for exact source signature auxiliaries. Logical tags do not alter literal h words and do not introduce independently uniform root/route assumptions. Pre-key quantum continuation and withheld parameters remain correct.
+
+Its final event is Win AND indexed C_cov from CHANGED-CHILD Section5, with completed honest response tuples across branches, source freshness and final acceptance. It does not bound bare old-message coverage or H/G replacement events. The primitive's early registered-target superset supports the one-sided bound without fabricated source exposure, Commit API or completion normalization. Finite source bottom and S=0 aliases remain part of the same unnormalized experiment.
+
+The artifact remains the PRIOR DIRECT-PROPERTY statement. It does not contain or claim the later ordinary counter-guess lift's2^544 bound, nor claim primary ITSR transfer or actual hardness. The exact-law canonical/free-counter mismatch and canonical-family countermodel remain correctly described. The new reviewed lossy H_free route is a separate successor family/program and does not falsify those earlier distinctions.
+
+Runtime/hash bytes, challenger versus B work, private/cache storage and coherent public-h circuit costs remain charged. The artifact introduces zero whole-source/game kernel declarations. Projection helpers, if separately promoted, retain their same-word-only scope. No source/manuscript/scalar/index/old-receipt file was changed by this subject review. No correction to the root direct component is required for its stated scope.

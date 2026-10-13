@@ -1,0 +1,96 @@
+{
+  "status": "PASS_SCOPED_ORDINARY_WORLD_STOPPED_PREFIX_AND_RESOURCE_CONTROLS",
+  "script_sha256": "fa4b64c058c96ed73b330a51e09d254b23c74843170812a2deaaae588cf79a68",
+  "ordinary_worlds": 512,
+  "prekey_atomic_disclosure_postkey_policies": [
+    {
+      "policy": 0,
+      "worlds": 512,
+      "source_events": 448,
+      "selected_success_sum": 584,
+      "selected_first_hit_couplings": 448,
+      "complete_response_reads_before_stops": 912
+    },
+    {
+      "policy": 1,
+      "worlds": 512,
+      "source_events": 464,
+      "selected_success_sum": 748,
+      "selected_first_hit_couplings": 464,
+      "complete_response_reads_before_stops": 1316
+    },
+    {
+      "policy": 2,
+      "worlds": 512,
+      "source_events": 416,
+      "selected_success_sum": 560,
+      "selected_first_hit_couplings": 416,
+      "complete_response_reads_before_stops": 1032
+    }
+  ],
+  "prefix_fullword_factorization_functions": 16,
+  "prefix_survival_checks": 16,
+  "protected_namespace": 20229886488608768,
+  "padded_selector_loss": 36028797018963968,
+  "selected_handle_cap": "Q_H+1",
+  "public_cap": "Q_H+H_setup+q*H_mode+3224+254",
+  "q_resource_rows": [
+    {
+      "q_exponent": 24,
+      "hot_honest_public_plus_254": 369296587590995349,
+      "cold_honest_public_plus_254": 584976788478758293,
+      "hot_F_distinct_cap": 217197838337,
+      "cold_F_distinct_cap": 563166882824193
+    },
+    {
+      "q_exponent": 30,
+      "hot_honest_public_plus_254": 23067525475762965909,
+      "cold_honest_public_plus_254": 36871058332579794325,
+      "hot_F_distinct_cap": 13763256254465,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 38,
+      "hot_honest_public_plus_254": 5902989675554597244309,
+      "cold_honest_public_plus_254": 9436694086899705318805,
+      "hot_F_distinct_cap": 3522837436432385,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 40,
+      "hot_honest_public_plus_254": 23611931680497909894549,
+      "cold_honest_public_plus_254": 37746749325878342192533,
+      "hot_F_distinct_cap": 14091343202615297,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 41,
+      "hot_honest_public_plus_254": 47223854353755660094869,
+      "cold_honest_public_plus_254": 75493489644516524690837,
+      "hot_F_distinct_cap": 19212937084272640,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 44,
+      "hot_honest_public_plus_254": 377790771779364162899349,
+      "cold_honest_public_plus_254": 603947854105451079667093,
+      "hot_F_distinct_cap": 19212937084272640,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 50,
+      "hot_honest_public_plus_254": 24178608826423176364821909,
+      "cold_honest_public_plus_254": 38652662095292739037957525,
+      "hot_F_distinct_cap": 19212937084272640,
+      "cold_F_distinct_cap": 19212937084272640
+    },
+    {
+      "q_exponent": 64,
+      "hot_honest_public_plus_254": 396142326864551706024971603349,
+      "cold_honest_public_plus_254": 633285215621710620861625535893,
+      "hot_F_distinct_cap": 19212937084272640,
+      "cold_F_distinct_cap": 19212937084272640
+    }
+  ],
+  "scope": "Finite controls only, not a complete source, conventional primitive or quantum theorem."
+}

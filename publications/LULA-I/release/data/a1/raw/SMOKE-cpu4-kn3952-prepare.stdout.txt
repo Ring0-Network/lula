@@ -1,0 +1,1 @@
+{"candidate":"kn3952-recon","keygen_ns":496900300,"sig_bytes":3952,"pk_bytes":32}

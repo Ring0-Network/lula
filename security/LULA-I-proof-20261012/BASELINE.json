@@ -1,0 +1,38 @@
+[
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.tex",
+    "sha256": "d33229794b2b69644aa77851e09e146dda53480f8b2e70721c06b81d91587ebe"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\comparison-results.tex",
+    "sha256": "05d99ebc818f76c9346889f140151ce2e83dfc5ddc60a79a7ea4ba02fc7942fc"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\stability-results.tex",
+    "sha256": "16fad92cd4a3bd62344d863033adca1bc435a1fefee91bf99a13bf2b2ea4c438"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\operating-model.tex",
+    "sha256": "624733b8c2fbd29466a4859657760644e2f3a84a82ecfea12d956a96b0501528"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\replay-results.tex",
+    "sha256": "c17258eda1b482df26c494651a3288e5376c23f00d84f25f10255208237d0600"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\references.bib",
+    "sha256": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\LULA-I.pdf",
+    "sha256": "e9cd344778430b1c51caf4c652f80019714adfa001365edc71ef75ffe1da9100"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R6\\R6A-state-as-accelerator\\work\\rust\\src\\lib.rs",
+    "sha256": "c5b16f35ec9e3a826e5d8100dbbc4d3a8287e3e52fd567a24e95f03bb7243ab5"
+  },
+  {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+    "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  }
+]

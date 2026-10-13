@@ -1,0 +1,17 @@
+{
+  "status": "PASS_STAGED_AUTHORIZED_SNAPSHOT",
+  "staged_files": 2334,
+  "source_payload_files": 2325,
+  "unique_staged_blobs_scanned": 1831,
+  "source_vs_copy_vs_staged_SHA256_all_equal": true,
+  "credential_pattern_hits": [],
+  "gh_account": "ring0code",
+  "gh_id": 341783300,
+  "repository_private": true,
+  "expected_author_and_committer": "ring0code <341783300+ring0code@users.noreply.github.com>",
+  "global_gitconfig_sha256": "aec80179de621068e3c3c7f4b66e57f20c42c9797449a91c0f3aa6bc3c110365",
+  "global_config_unchanged": true,
+  "crypto_source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "proof_benchmark_or_attack_runs": 0,
+  "whole_security_goal_complete": false
+}

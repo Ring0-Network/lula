@@ -1,0 +1,43 @@
+\subsection{Signing-query reference points and a coverage model}\label{sec:operating}
+The author-selected conditional use objective for the fixed LULA I parameter set is $q_{\mathrm{sig}}=2^{40}$ signing queries across all restored branches. It is not a certified signing capacity: the full reference-signer bound remains open. \Cref{tab:security-model} distinguishes this objective, published SLH-DSA query targets, and additional analytical scenarios.
+
+The model considers a generic classical FORS coverage attack, following the occupancy analysis of Fluhrer and Dang~\cite[Section~5, Equation~(1)]{fluhrer}. It assumes independent uniform address and tree-index selections. For LULA I, with $\rho=2^{-41}$, $r=1-2^{-9}$ and $N$ exposures at one address, coverage of the 17 real trees has probability $(1-r^N)^{17}$. A raw candidate must also satisfy the nine-bit zero condition. Expanding the power gives
+\[
+ p_{\mathrm{raw}}=2^{-9}\sum_{j=0}^{17}(-1)^j\binom{17}{j}\,\mathbb E[r^{jN}].
+\]
+For Binomial occupancy, $N\sim\mathrm{Bin}(q_{\mathrm{sig}},\rho)$ and $\mathbb E[r^{jN}]=(1-\rho+\rho r^j)^{q_{\mathrm{sig}}}$. The Poisson approximation uses $\lambda=q_{\mathrm{sig}}\rho$ and $\mathbb E[r^{jN}]=\exp(\lambda(r^j-1))$. Both evaluations agree at the displayed precision for LULA I. The other rows apply the same Poisson occupancy method to their published FORS parameters, without LULA I's extra zero condition.
+
+\begin{table}[!htbp]
+\caption{Classical FORS coverage-model exponent $-\log_2 p_{\mathrm{raw}}$ per raw digest candidate, at the query count in the first column. LULA I includes its nine-bit forced condition (FORS+C). These derived component exponents are neither measured attacks nor full-signature security bounds. Independent uniform selections are premises; the LULA I hypertree term and full reference-signer bound remain open. S: source; D: derived; P: unestablished premise.}\label{tab:security-model}
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{P{12mm}P{31mm}rP{43mm}}\toprule
+$q_{\mathrm{sig}}$ & Construction & Exponent & Query-count status\\\midrule
+$2^{24}$\textsuperscript{D} & LULA I\textsuperscript{S} &178.4\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{30}$\textsuperscript{D} & LULA I\textsuperscript{S} &167.8\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{38}$\textsuperscript{D} & LULA I\textsuperscript{S} &143.3\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{40}$\textsuperscript{S} & LULA I\textsuperscript{S} &132.6\textsuperscript{D}&Author's conditional objective\textsuperscript{S/P}\\
+$2^{41}$\textsuperscript{D} & LULA I\textsuperscript{S} &125.9\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{42}$\textsuperscript{D} & LULA I\textsuperscript{S} &118.1\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{44}$\textsuperscript{D} & LULA I\textsuperscript{S} &98.5\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{50}$\textsuperscript{D} & LULA I\textsuperscript{S} &20.1\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{56}$\textsuperscript{D} & LULA I\textsuperscript{S} &9.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{64}$\textsuperscript{D} & LULA I\textsuperscript{S} &9.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\\midrule
+$2^{24}$\textsuperscript{S} & Draft SHA2-128-24\textsuperscript{S} &128.6\textsuperscript{D}&Published draft target\textsuperscript{S}\\
+$2^{30}$\textsuperscript{D} & Draft SHA2-128-24\textsuperscript{S} &95.9\textsuperscript{D}&Scenario beyond draft target\textsuperscript{D}\\
+$2^{40}$\textsuperscript{D} & Draft SHA2-128-24\textsuperscript{S} &36.1\textsuperscript{D}&Scenario beyond draft target\textsuperscript{D}\\
+$2^{64}$\textsuperscript{D} & Draft SHA2-128-24\textsuperscript{S} &0.0\textsuperscript{D}&Scenario beyond draft target\textsuperscript{D}\\\midrule
+$2^{24}$\textsuperscript{D} & SHA2-128s\textsuperscript{S} &207.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{30}$\textsuperscript{D} & SHA2-128s\textsuperscript{S} &201.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{40}$\textsuperscript{D} & SHA2-128s\textsuperscript{S} &191.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{64}$\textsuperscript{S} & SHA2-128s\textsuperscript{S} &133.7\textsuperscript{D}&Published parameter target\textsuperscript{S}\\\midrule
+$2^{24}$\textsuperscript{D} & SHA2-128f\textsuperscript{S} &240.0\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{30}$\textsuperscript{D} & SHA2-128f\textsuperscript{S} &233.9\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{40}$\textsuperscript{D} & SHA2-128f\textsuperscript{S} &218.3\textsuperscript{D}&Model scenario\textsuperscript{D}\\
+$2^{64}$\textsuperscript{S} & SHA2-128f\textsuperscript{S} &131.4\textsuperscript{D}&Published parameter target\textsuperscript{S}\\\bottomrule
+\end{tabular}
+\smallskip\par\raggedright\footnotesize SHA2-128s/128f denote the SLH-DSA-SHA2 parameter sets in FIPS~205~\cite{fips205}; SHA2-128-24 is the SP~800-230 initial public draft set~\cite[Table~1 and Section~3]{sp800230}, not a final standard or a measured campaign row. Selection assumptions are premises\textsuperscript{P}; a source target does not prove the same security for an auxiliary implementation. The displayed LULA I exponent conditional on an accepted candidate would be nine less. Entries rounded to 9.0 or 0.0 are not exact equalities at finite query counts. A component exponent above 128 does not establish 128-bit security for the whole signature scheme.
+\end{table}
+
+The LULA I raw-candidate exponent crosses 128 near $q_{\mathrm{sig}}=2^{40.7014}$ (approximately $1.788\cdot10^{12}$ queries) under this model. This numerical crossing is not a full reference-signer security threshold or a certified signing capacity. The exponent decreases by about 34.0 between $2^{40}$ and $2^{44}$ queries and approaches nine as coverage saturates. The author-selected conditional objective remains $2^{40}$; the other rows are analytical scenarios for the same parameters.
+
+This model does not establish the assumed selection distributions for the complete deterministic signer or account for every forgery strategy, adversarial hash-query budget, hash derivation and hypertree obligation. It therefore supplies neither a security-normalized ranking nor a capacity certificate. The construction and measured parameter set are unchanged.

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-13T07:04:06.805954+00:00",
+  "status": "PASS_CONDITIONAL_PROBABILITY_AND_ABSTRACT_AMPLIFICATION",
+  "source_to_abstract_binding": "OUTSIDE_AUDIT_NOT_VALIDATED",
+  "reviewed_successor_sha256": "b403d39ccf66455acb6c5dc6776a98fdca397ec6e087ac80578d0049cd3b7249",
+  "finite_full_image_worlds": 68256,
+  "control_exit_code": 0,
+  "successor_check_exit_code": 0,
+  "protected_pin_checks": {
+    "bounds.py": true,
+    "QUANTUM-RO-THEOREM.md": true,
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": true
+  },
+  "actual_source_forgery_claim": "NOT_VALIDATED_BY_THIS_LANE"
+}

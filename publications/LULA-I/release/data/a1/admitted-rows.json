@@ -1,0 +1,4292 @@
+[
+  {
+    "cell": "kn3952-recon-fresh-32",
+    "operation": "fixture_load",
+    "N": 3,
+    "min_ms": 0.4504,
+    "median_ms": 0.6135,
+    "p95_ms": 0.8427,
+    "p99_ms": 0.8427,
+    "max_observed_ms": 0.8427,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-fresh-32-0.csv",
+      "kn3952-recon-fresh-32-1.csv",
+      "kn3952-recon-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn3952-recon-fresh-32",
+    "operation": "sign",
+    "N": 3,
+    "min_ms": 3338.6153,
+    "median_ms": 5577.5132,
+    "p95_ms": 8266.5818,
+    "p99_ms": 8266.5818,
+    "max_observed_ms": 8266.5818,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-fresh-32-0.csv",
+      "kn3952-recon-fresh-32-1.csv",
+      "kn3952-recon-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn3952-recon-fresh-32",
+    "operation": "verify",
+    "N": 3,
+    "min_ms": 0.6959,
+    "median_ms": 0.7787,
+    "p95_ms": 1.0178,
+    "p99_ms": 1.0178,
+    "max_observed_ms": 1.0178,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-fresh-32-0.csv",
+      "kn3952-recon-fresh-32-1.csv",
+      "kn3952-recon-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn3952-recon-hot-1024",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 4.1536,
+    "median_ms": 4.1536,
+    "p95_ms": 4.1536,
+    "p99_ms": 4.1536,
+    "max_observed_ms": 4.1536,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-1024",
+    "operation": "sign",
+    "N": 20,
+    "min_ms": 2086.219,
+    "median_ms": 3241.90485,
+    "p95_ms": 4856.8458,
+    "p99_ms": 5543.975,
+    "max_observed_ms": 5543.975,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-1024",
+    "operation": "verify",
+    "N": 20,
+    "min_ms": 0.4819,
+    "median_ms": 0.7122,
+    "p95_ms": 1.2588,
+    "p99_ms": 1.2597,
+    "max_observed_ms": 1.2597,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-32",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 0.5091,
+    "median_ms": 0.5091,
+    "p95_ms": 0.5091,
+    "p99_ms": 0.5091,
+    "max_observed_ms": 0.5091,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-32",
+    "operation": "sign",
+    "N": 20,
+    "min_ms": 2635.0744,
+    "median_ms": 3613.61095,
+    "p95_ms": 4098.2465,
+    "p99_ms": 4128.4731,
+    "max_observed_ms": 4128.4731,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-32",
+    "operation": "verify",
+    "N": 20,
+    "min_ms": 0.4505,
+    "median_ms": 0.542,
+    "p95_ms": 1.0078,
+    "p99_ms": 1.1183,
+    "max_observed_ms": 1.1183,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-65536",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 0.4836,
+    "median_ms": 0.4836,
+    "p95_ms": 0.4836,
+    "p99_ms": 0.4836,
+    "max_observed_ms": 0.4836,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-65536",
+    "operation": "sign",
+    "N": 12,
+    "min_ms": 2051.9088,
+    "median_ms": 3381.5474,
+    "p95_ms": 5127.7103,
+    "p99_ms": 5127.7103,
+    "max_observed_ms": 5127.7103,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn3952-recon-hot-65536",
+    "operation": "verify",
+    "N": 12,
+    "min_ms": 0.5136,
+    "median_ms": 0.6705,
+    "p95_ms": 1.2482,
+    "p99_ms": 1.2482,
+    "max_observed_ms": 1.2482,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3952,
+    "sig_bytes_max": 3952,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn3952-recon-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn3952-recon",
+        "hot",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary reconstructed implementation row only; 3952B/PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-fresh-32",
+    "operation": "fixture_load",
+    "N": 3,
+    "min_ms": 0.9395,
+    "median_ms": 1.0119,
+    "p95_ms": 1.0145,
+    "p99_ms": 1.0145,
+    "max_observed_ms": 1.0145,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-fresh-32-0.csv",
+      "kn4036-fresh-32-1.csv",
+      "kn4036-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn4036-fresh-32",
+    "operation": "sign",
+    "N": 3,
+    "min_ms": 1729.5237,
+    "median_ms": 2011.2452,
+    "p95_ms": 2170.5962,
+    "p99_ms": 2170.5962,
+    "max_observed_ms": 2170.5962,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-fresh-32-0.csv",
+      "kn4036-fresh-32-1.csv",
+      "kn4036-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn4036-fresh-32",
+    "operation": "verify",
+    "N": 3,
+    "min_ms": 1.0444,
+    "median_ms": 1.0627,
+    "p95_ms": 1.2353,
+    "p99_ms": 1.2353,
+    "max_observed_ms": 1.2353,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-fresh-32-0.csv",
+      "kn4036-fresh-32-1.csv",
+      "kn4036-fresh-32-2.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "kn4036-missing-32",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 0.8995,
+    "median_ms": 0.8995,
+    "p95_ms": 0.8995,
+    "p99_ms": 0.8995,
+    "max_observed_ms": 0.8995,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "kn4036-missing-32",
+    "operation": "sign",
+    "N": 2,
+    "min_ms": 2131.5227,
+    "median_ms": 2155.68365,
+    "p95_ms": 2179.8446,
+    "p99_ms": 2179.8446,
+    "max_observed_ms": 2179.8446,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "kn4036-missing-32",
+    "operation": "verify",
+    "N": 2,
+    "min_ms": 1.0885,
+    "median_ms": 1.0892,
+    "p95_ms": 1.0899,
+    "p99_ms": 1.0899,
+    "max_observed_ms": 1.0899,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "kn4036-prepared-1024",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 5.2829,
+    "median_ms": 5.2829,
+    "p95_ms": 5.2829,
+    "p99_ms": 5.2829,
+    "max_observed_ms": 5.2829,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-1024",
+    "operation": "sign",
+    "N": 12,
+    "min_ms": 1168.4149,
+    "median_ms": 2061.76455,
+    "p95_ms": 3000.875,
+    "p99_ms": 3000.875,
+    "max_observed_ms": 3000.875,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-1024",
+    "operation": "verify",
+    "N": 12,
+    "min_ms": 0.828,
+    "median_ms": 0.9103,
+    "p95_ms": 1.6559,
+    "p99_ms": 1.6559,
+    "max_observed_ms": 1.6559,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-1024.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-32",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 0.8181,
+    "median_ms": 0.8181,
+    "p95_ms": 0.8181,
+    "p99_ms": 0.8181,
+    "max_observed_ms": 0.8181,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-32",
+    "operation": "sign",
+    "N": 12,
+    "min_ms": 1084.5978,
+    "median_ms": 1897.7842,
+    "p95_ms": 4450.3156,
+    "p99_ms": 4450.3156,
+    "max_observed_ms": 4450.3156,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-32",
+    "operation": "verify",
+    "N": 12,
+    "min_ms": 0.8826,
+    "median_ms": 0.9052,
+    "p95_ms": 1.781,
+    "p99_ms": 1.781,
+    "max_observed_ms": 1.781,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-32.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-65536",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 1.0936,
+    "median_ms": 1.0936,
+    "p95_ms": 1.0936,
+    "p99_ms": 1.0936,
+    "max_observed_ms": 1.0936,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-65536",
+    "operation": "sign",
+    "N": 12,
+    "min_ms": 1754.4913,
+    "median_ms": 12121.97205,
+    "p95_ms": 78265.1877,
+    "p99_ms": 78265.1877,
+    "max_observed_ms": 78265.1877,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "kn4036-prepared-65536",
+    "operation": "verify",
+    "N": 12,
+    "min_ms": 0.9861,
+    "median_ms": 1.3099,
+    "p95_ms": 11.912,
+    "p99_ms": 11.912,
+    "max_observed_ms": 11.912,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4036,
+    "sig_bytes_max": 4036,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "kn4036-prepared-65536.csv"
+    ],
+    "identities": [
+      [
+        "kn4036",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "adapter timing only; no authorimplementation equivalence or optimizedimplementation claim",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "auxiliary third-party KN4036 row only; QPC, PK32B, no author equivalence or security certification"
+  },
+  {
+    "cell": "lula1-fresh-32",
+    "operation": "fixture_load",
+    "N": 10,
+    "min_ms": 5906.1469,
+    "median_ms": 6185.6047,
+    "p95_ms": 8333.1988,
+    "p99_ms": 8333.1988,
+    "max_observed_ms": 8333.1988,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-fresh-32-0.csv",
+      "lula1-fresh-32-1.csv",
+      "lula1-fresh-32-2.csv",
+      "lula1-fresh-32-3.csv",
+      "lula1-fresh-32-4.csv",
+      "lula1-fresh-32-5.csv",
+      "lula1-fresh-32-6.csv",
+      "lula1-fresh-32-7.csv",
+      "lula1-fresh-32-8.csv",
+      "lula1-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "lula1-fresh-32",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 3.8459,
+    "median_ms": 3.95925,
+    "p95_ms": 5.2812,
+    "p99_ms": 5.2812,
+    "max_observed_ms": 5.2812,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-fresh-32-0.csv",
+      "lula1-fresh-32-1.csv",
+      "lula1-fresh-32-2.csv",
+      "lula1-fresh-32-3.csv",
+      "lula1-fresh-32-4.csv",
+      "lula1-fresh-32-5.csv",
+      "lula1-fresh-32-6.csv",
+      "lula1-fresh-32-7.csv",
+      "lula1-fresh-32-8.csv",
+      "lula1-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 96438,
+    "hash_calls_max": 96438,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "lula1-fresh-32",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.1323,
+    "median_ms": 0.13685,
+    "p95_ms": 0.1828,
+    "p99_ms": 0.1828,
+    "max_observed_ms": 0.1828,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-fresh-32-0.csv",
+      "lula1-fresh-32-1.csv",
+      "lula1-fresh-32-2.csv",
+      "lula1-fresh-32-3.csv",
+      "lula1-fresh-32-4.csv",
+      "lula1-fresh-32-5.csv",
+      "lula1-fresh-32-6.csv",
+      "lula1-fresh-32-7.csv",
+      "lula1-fresh-32-8.csv",
+      "lula1-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "fresh",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 3265,
+    "hash_calls_max": 3265,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "lula1-hot-1024",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 7006.3106,
+    "median_ms": 7006.3106,
+    "p95_ms": 7006.3106,
+    "p99_ms": 7006.3106,
+    "max_observed_ms": 7006.3106,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "lula1-hot-1024",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 3.676,
+    "median_ms": 3.9195,
+    "p95_ms": 4.242,
+    "p99_ms": 4.8426,
+    "max_observed_ms": 12.1617,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 96176,
+    "hash_calls_max": 99941,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-hot-1024",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.1249,
+    "median_ms": 0.1312,
+    "p95_ms": 0.1422,
+    "p99_ms": 0.1787,
+    "max_observed_ms": 0.2787,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-1024.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 3280,
+    "hash_calls_max": 3280,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-hot-32",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 6552.7463,
+    "median_ms": 6552.7463,
+    "p95_ms": 6552.7463,
+    "p99_ms": 6552.7463,
+    "max_observed_ms": 6552.7463,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "lula1-hot-32",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 4.1511,
+    "median_ms": 4.5996,
+    "p95_ms": 5.3316,
+    "p99_ms": 5.718,
+    "max_observed_ms": 30.5303,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 96167,
+    "hash_calls_max": 99882,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-hot-32",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.1287,
+    "median_ms": 0.1411,
+    "p95_ms": 0.1661,
+    "p99_ms": 0.1902,
+    "max_observed_ms": 5.6289,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 3265,
+    "hash_calls_max": 3265,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-hot-65536",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 6354.0267,
+    "median_ms": 6354.0267,
+    "p95_ms": 6354.0267,
+    "p99_ms": 6354.0267,
+    "max_observed_ms": 6354.0267,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "lula1-hot-65536",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 3.685,
+    "median_ms": 3.96825,
+    "p95_ms": 4.6958,
+    "p99_ms": 5.2486,
+    "max_observed_ms": 10.7777,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 98215,
+    "hash_calls_max": 102536,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-hot-65536",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.1506,
+    "median_ms": 0.161,
+    "p95_ms": 0.1885,
+    "p99_ms": 0.2282,
+    "max_observed_ms": 0.3875,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-hot-65536.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 4288,
+    "hash_calls_max": 4288,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "lula1-missing-32",
+    "operation": "fixture_load",
+    "N": 1,
+    "min_ms": 0.2346,
+    "median_ms": 0.2346,
+    "p95_ms": 0.2346,
+    "p99_ms": 0.2346,
+    "max_observed_ms": 0.2346,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "lula1-missing-32",
+    "operation": "sign",
+    "N": 2,
+    "min_ms": 330789.4178,
+    "median_ms": 338489.23195,
+    "p95_ms": 346189.0461,
+    "p99_ms": 346189.0461,
+    "max_observed_ms": 346189.0461,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 8602614270,
+    "hash_calls_max": 8602614321,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "lula1-missing-32",
+    "operation": "verify",
+    "N": 2,
+    "min_ms": 0.1251,
+    "median_ms": 0.13255,
+    "p95_ms": 0.14,
+    "p99_ms": 0.14,
+    "max_observed_ms": 0.14,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 5720,
+    "sig_bytes_max": 5720,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "lula1-missing-32.csv"
+    ],
+    "identities": [
+      [
+        "LULA-I",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 3265,
+    "hash_calls_max": 3265,
+    "publication_use": "two individual observations; one process/key, not independent recovery distribution",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "two individual ordered signs in one process; do not use pooled median as recovery distribution"
+  },
+  {
+    "cell": "shrincsC-detected-loss-1024",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 114.7802,
+    "median_ms": 114.7802,
+    "p95_ms": 114.7802,
+    "p99_ms": 114.7802,
+    "max_observed_ms": 114.7802,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-1024",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 424.2703,
+    "median_ms": 518.23765,
+    "p95_ms": 621.4161,
+    "p99_ms": 621.4161,
+    "max_observed_ms": 621.4161,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-1024",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.4466,
+    "median_ms": 0.4549,
+    "p95_ms": 0.5611,
+    "p99_ms": 0.5611,
+    "max_observed_ms": 0.5611,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-32",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 101.6767,
+    "median_ms": 101.6767,
+    "p95_ms": 101.6767,
+    "p99_ms": 101.6767,
+    "max_observed_ms": 101.6767,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-32",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 442.8573,
+    "median_ms": 509.2492,
+    "p95_ms": 646.663,
+    "p99_ms": 646.663,
+    "max_observed_ms": 646.663,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-32",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.4637,
+    "median_ms": 0.4728,
+    "p95_ms": 0.5104,
+    "p99_ms": 0.5104,
+    "max_observed_ms": 0.5104,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-65536",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 103.3004,
+    "median_ms": 103.3004,
+    "p95_ms": 103.3004,
+    "p99_ms": 103.3004,
+    "max_observed_ms": 103.3004,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-65536",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 638.6057,
+    "median_ms": 1749.81,
+    "p95_ms": 5669.1919,
+    "p99_ms": 5669.1919,
+    "max_observed_ms": 5669.1919,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-detected-loss-65536",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.4712,
+    "median_ms": 0.48255,
+    "p95_ms": 0.8569,
+    "p99_ms": 0.8569,
+    "max_observed_ms": 0.8569,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-detected-loss-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "missing",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "exclude same-key recovery; existing provenance found changed public key"
+  },
+  {
+    "cell": "shrincsC-exhaustion-0",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 5.8955,
+    "median_ms": 5.8955,
+    "p95_ms": 5.8955,
+    "p99_ms": 5.8955,
+    "max_observed_ms": 5.8955,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-0.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-0",
+    "operation": "sign",
+    "N": 8,
+    "min_ms": 85.3839,
+    "median_ms": 560.13485,
+    "p95_ms": 2159.4664,
+    "p99_ms": 2159.4664,
+    "max_observed_ms": 2159.4664,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-0.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-0",
+    "operation": "verify",
+    "N": 8,
+    "min_ms": 0.2102,
+    "median_ms": 0.48465,
+    "p95_ms": 0.8638,
+    "p99_ms": 0.8638,
+    "max_observed_ms": 0.8638,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-0.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-1",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.5269,
+    "median_ms": 0.5269,
+    "p95_ms": 0.5269,
+    "p99_ms": 0.5269,
+    "max_observed_ms": 0.5269,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-1.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-1",
+    "operation": "sign",
+    "N": 8,
+    "min_ms": 72.6749,
+    "median_ms": 370.60665,
+    "p95_ms": 861.0486,
+    "p99_ms": 861.0486,
+    "max_observed_ms": 861.0486,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-1.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-1",
+    "operation": "verify",
+    "N": 8,
+    "min_ms": 0.1814,
+    "median_ms": 0.4208,
+    "p95_ms": 1.4887,
+    "p99_ms": 1.4887,
+    "max_observed_ms": 1.4887,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-1.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-2",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.6961,
+    "median_ms": 0.6961,
+    "p95_ms": 0.6961,
+    "p99_ms": 0.6961,
+    "max_observed_ms": 0.6961,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-2.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-2",
+    "operation": "sign",
+    "N": 8,
+    "min_ms": 68.7123,
+    "median_ms": 376.59815,
+    "p95_ms": 730.123,
+    "p99_ms": 730.123,
+    "max_observed_ms": 730.123,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-2.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-exhaustion-2",
+    "operation": "verify",
+    "N": 8,
+    "min_ms": 0.1767,
+    "median_ms": 0.42375,
+    "p95_ms": 1.1638,
+    "p99_ms": 1.1638,
+    "max_observed_ms": 1.1638,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3636,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 4,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-exhaustion-2.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "exhaustion",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "transition observations separated by q=207..210 vs fallback q=211; exclude mixed N8 distribution from generic ranking"
+  },
+  {
+    "cell": "shrincsC-fallback-1024",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.5645,
+    "median_ms": 0.5645,
+    "p95_ms": 0.5645,
+    "p99_ms": 0.5645,
+    "max_observed_ms": 0.5645,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-fallback-1024",
+    "operation": "sign",
+    "N": 20,
+    "min_ms": 431.4233,
+    "median_ms": 497.5613,
+    "p95_ms": 676.7104,
+    "p99_ms": 799.2942,
+    "max_observed_ms": 799.2942,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fallback-1024",
+    "operation": "verify",
+    "N": 20,
+    "min_ms": 0.4445,
+    "median_ms": 0.4468,
+    "p95_ms": 0.4539,
+    "p99_ms": 0.5115,
+    "max_observed_ms": 0.5115,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fallback-32",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.5117,
+    "median_ms": 0.5117,
+    "p95_ms": 0.5117,
+    "p99_ms": 0.5117,
+    "max_observed_ms": 0.5117,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-fallback-32",
+    "operation": "sign",
+    "N": 20,
+    "min_ms": 423.8663,
+    "median_ms": 471.9607,
+    "p95_ms": 553.5376,
+    "p99_ms": 616.7417,
+    "max_observed_ms": 616.7417,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fallback-32",
+    "operation": "verify",
+    "N": 20,
+    "min_ms": 0.4443,
+    "median_ms": 0.44835,
+    "p95_ms": 0.4934,
+    "p99_ms": 0.5369,
+    "max_observed_ms": 0.5369,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fallback-65536",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.4995,
+    "median_ms": 0.4995,
+    "p95_ms": 0.4995,
+    "p99_ms": 0.4995,
+    "max_observed_ms": 0.4995,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-fallback-65536",
+    "operation": "sign",
+    "N": 20,
+    "min_ms": 432.7521,
+    "median_ms": 3558.3468,
+    "p95_ms": 9576.3668,
+    "p99_ms": 10182.0994,
+    "max_observed_ms": 10182.0994,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fallback-65536",
+    "operation": "verify",
+    "N": 20,
+    "min_ms": 0.4895,
+    "median_ms": 0.49685,
+    "p95_ms": 0.5469,
+    "p99_ms": 0.565,
+    "max_observed_ms": 0.565,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 3680,
+    "sig_bytes_max": 3680,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-fresh-32",
+    "operation": "fixture_load_or_restore",
+    "N": 10,
+    "min_ms": 0.3868,
+    "median_ms": 0.4528,
+    "p95_ms": 0.6385,
+    "p99_ms": 0.6385,
+    "max_observed_ms": 0.6385,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fresh-32-0.csv",
+      "shrincsC-fresh-32-1.csv",
+      "shrincsC-fresh-32-2.csv",
+      "shrincsC-fresh-32-3.csv",
+      "shrincsC-fresh-32-4.csv",
+      "shrincsC-fresh-32-5.csv",
+      "shrincsC-fresh-32-6.csv",
+      "shrincsC-fresh-32-7.csv",
+      "shrincsC-fresh-32-8.csv",
+      "shrincsC-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "shrincsC-fresh-32",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 44.4628,
+    "median_ms": 46.24285,
+    "p95_ms": 48.2949,
+    "p99_ms": 48.2949,
+    "max_observed_ms": 48.2949,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fresh-32-0.csv",
+      "shrincsC-fresh-32-1.csv",
+      "shrincsC-fresh-32-2.csv",
+      "shrincsC-fresh-32-3.csv",
+      "shrincsC-fresh-32-4.csv",
+      "shrincsC-fresh-32-5.csv",
+      "shrincsC-fresh-32-6.csv",
+      "shrincsC-fresh-32-7.csv",
+      "shrincsC-fresh-32-8.csv",
+      "shrincsC-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "shrincsC-fresh-32",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.1057,
+    "median_ms": 0.1077,
+    "p95_ms": 0.1324,
+    "p99_ms": 0.1324,
+    "max_observed_ms": 0.1324,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-fresh-32-0.csv",
+      "shrincsC-fresh-32-1.csv",
+      "shrincsC-fresh-32-2.csv",
+      "shrincsC-fresh-32-3.csv",
+      "shrincsC-fresh-32-4.csv",
+      "shrincsC-fresh-32-5.csv",
+      "shrincsC-fresh-32-6.csv",
+      "shrincsC-fresh-32-7.csv",
+      "shrincsC-fresh-32-8.csv",
+      "shrincsC-fresh-32-9.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "first signature in each of ten processes; separate fixtureload and sign latency",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "first signature after fixture load; paired costs in AUDIT; do not infer independent keys or regeneration"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-1024",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.8171,
+    "median_ms": 0.8171,
+    "p95_ms": 0.8171,
+    "p99_ms": 0.8171,
+    "max_observed_ms": 0.8171,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-1024",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 47.4145,
+    "median_ms": 49.11955,
+    "p95_ms": 57.7757,
+    "p99_ms": 67.6588,
+    "max_observed_ms": 148.443,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-1024",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.1074,
+    "median_ms": 0.10935,
+    "p95_ms": 0.1232,
+    "p99_ms": 0.2117,
+    "max_observed_ms": 0.266,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-32",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.4031,
+    "median_ms": 0.4031,
+    "p95_ms": 0.4031,
+    "p99_ms": 0.4031,
+    "max_observed_ms": 0.4031,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-32",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 47.2433,
+    "median_ms": 49.32615,
+    "p95_ms": 63.3211,
+    "p99_ms": 92.2528,
+    "max_observed_ms": 117.133,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-32",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.1075,
+    "median_ms": 0.1102,
+    "p95_ms": 0.1222,
+    "p99_ms": 0.1673,
+    "max_observed_ms": 0.199,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-65536",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.4561,
+    "median_ms": 0.4561,
+    "p95_ms": 0.4561,
+    "p99_ms": 0.4561,
+    "max_observed_ms": 0.4561,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-65536",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 44.3337,
+    "median_ms": 45.87115,
+    "p95_ms": 53.1784,
+    "p99_ms": 71.8488,
+    "max_observed_ms": 157.4664,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-silent-rollback-65536",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.1392,
+    "median_ms": 0.14195,
+    "p95_ms": 0.1538,
+    "p99_ms": 0.1639,
+    "max_observed_ms": 0.193,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 324,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-silent-rollback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "restored",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "unsafe state-reuse timing scenario only; not rollbacksecurity evidence"
+  },
+  {
+    "cell": "shrincsC-stateful-1024",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.6594,
+    "median_ms": 0.6594,
+    "p95_ms": 0.6594,
+    "p99_ms": 0.6594,
+    "max_observed_ms": 0.6594,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-stateful-1024",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 45.8105,
+    "median_ms": 47.93425,
+    "p95_ms": 52.8847,
+    "p99_ms": 61.0687,
+    "max_observed_ms": 145.4306,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-stateful-1024",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.1065,
+    "median_ms": 0.11685,
+    "p95_ms": 0.1358,
+    "p99_ms": 0.2158,
+    "max_observed_ms": 0.4067,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-stateful-32",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.4997,
+    "median_ms": 0.4997,
+    "p95_ms": 0.4997,
+    "p99_ms": 0.4997,
+    "max_observed_ms": 0.4997,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-stateful-32",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 45.5954,
+    "median_ms": 48.5204,
+    "p95_ms": 59.0493,
+    "p99_ms": 71.8295,
+    "max_observed_ms": 96.6704,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-stateful-32",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.1064,
+    "median_ms": 0.11995,
+    "p95_ms": 0.1423,
+    "p99_ms": 0.2731,
+    "max_observed_ms": 0.6423,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-stateful-65536",
+    "operation": "fixture_load_or_restore",
+    "N": 1,
+    "min_ms": 0.4925,
+    "median_ms": 0.4925,
+    "p95_ms": 0.4925,
+    "p99_ms": 0.4925,
+    "max_observed_ms": 0.4925,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "shrincsC-stateful-65536",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 45.6323,
+    "median_ms": 47.2438,
+    "p95_ms": 55.2644,
+    "p99_ms": 102.3878,
+    "max_observed_ms": 125.6854,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsC-stateful-65536",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.14,
+    "median_ms": 0.15285,
+    "p95_ms": 0.1629,
+    "p99_ms": 0.2329,
+    "max_observed_ms": 0.2702,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 324,
+    "sig_bytes_max": 3508,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsC-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-c-b32",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls"
+  },
+  {
+    "cell": "shrincsGo-fallback-1024",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 97.2126,
+    "median_ms": 97.2126,
+    "p95_ms": 97.2126,
+    "p99_ms": 97.2126,
+    "max_observed_ms": 97.2126,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-1024",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 921.5133,
+    "median_ms": 1529.76195,
+    "p95_ms": 3651.0137,
+    "p99_ms": 3651.0137,
+    "max_observed_ms": 3651.0137,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-1024",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.8263,
+    "median_ms": 0.882,
+    "p95_ms": 1.0584,
+    "p99_ms": 1.0584,
+    "max_observed_ms": 1.0584,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-32",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 92.0127,
+    "median_ms": 92.0127,
+    "p95_ms": 92.0127,
+    "p99_ms": 92.0127,
+    "max_observed_ms": 92.0127,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-32",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 997.4777,
+    "median_ms": 1784.56665,
+    "p95_ms": 4775.5645,
+    "p99_ms": 4775.5645,
+    "max_observed_ms": 4775.5645,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-32",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.8356,
+    "median_ms": 0.91475,
+    "p95_ms": 1.3927,
+    "p99_ms": 1.3927,
+    "max_observed_ms": 1.3927,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-65536",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 107.8628,
+    "median_ms": 107.8628,
+    "p95_ms": 107.8628,
+    "p99_ms": 107.8628,
+    "max_observed_ms": 107.8628,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-65536",
+    "operation": "sign",
+    "N": 10,
+    "min_ms": 945.7536,
+    "median_ms": 12173.5964,
+    "p95_ms": 41824.5445,
+    "p99_ms": 41824.5445,
+    "max_observed_ms": 41824.5445,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-fallback-65536",
+    "operation": "verify",
+    "N": 10,
+    "min_ms": 0.8944,
+    "median_ms": 0.93795,
+    "p95_ms": 1.0184,
+    "p99_ms": 1.0184,
+    "max_observed_ms": 1.0184,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 4064,
+    "sig_bytes_max": 4064,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-fallback-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "fallback",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-1024",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 111.4616,
+    "median_ms": 111.4616,
+    "p95_ms": 111.4616,
+    "p99_ms": 111.4616,
+    "max_observed_ms": 111.4616,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-1024",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 5.8943,
+    "median_ms": 6.30035,
+    "p95_ms": 7.253,
+    "p99_ms": 8.5857,
+    "max_observed_ms": 9.1792,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-1024",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.015,
+    "median_ms": 0.0287,
+    "p95_ms": 0.0412,
+    "p99_ms": 0.0681,
+    "max_observed_ms": 1.8315,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-1024.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-32",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 109.0049,
+    "median_ms": 109.0049,
+    "p95_ms": 109.0049,
+    "p99_ms": 109.0049,
+    "max_observed_ms": 109.0049,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-32",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 5.9192,
+    "median_ms": 6.3414,
+    "p95_ms": 7.5896,
+    "p99_ms": 14.8199,
+    "max_observed_ms": 21.0081,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-32",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.0163,
+    "median_ms": 0.0291,
+    "p95_ms": 0.0421,
+    "p99_ms": 0.056,
+    "max_observed_ms": 0.3762,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-32.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-65536",
+    "operation": "key_restore_and_state_init",
+    "N": 1,
+    "min_ms": 94.5878,
+    "median_ms": 94.5878,
+    "p95_ms": 94.5878,
+    "p99_ms": 94.5878,
+    "max_observed_ms": 94.5878,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-65536",
+    "operation": "sign",
+    "N": 200,
+    "min_ms": 5.9534,
+    "median_ms": 6.33755,
+    "p95_ms": 7.3938,
+    "p99_ms": 11.7743,
+    "max_observed_ms": 38.0432,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "shrincsGo-stateful-65536",
+    "operation": "verify",
+    "N": 200,
+    "min_ms": 0.0426,
+    "median_ms": 0.0568,
+    "p95_ms": 0.0715,
+    "p99_ms": 0.1114,
+    "max_observed_ms": 0.1777,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 336,
+    "sig_bytes_max": 3520,
+    "sig_bytes_unique_count": 200,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "shrincsGo-stateful-65536.csv"
+    ],
+    "identities": [
+      [
+        "shrincs-go",
+        "prepared",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "label exact native/thirdparty configuration; validity limited to implementation and bounded negative controls",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "parser diagnostic cohort; existing appended/byte0 negative controls fail, not primary"
+  },
+  {
+    "cell": "slh128f-1024",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 5.666,
+    "median_ms": 5.666,
+    "p95_ms": 5.666,
+    "p99_ms": 5.666,
+    "max_observed_ms": 5.666,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-1024",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-1024",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 12.0108,
+    "median_ms": 13.92535,
+    "p95_ms": 18.3389,
+    "p99_ms": 25.6338,
+    "max_observed_ms": 36.2875,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128f-1024",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.6837,
+    "median_ms": 0.823,
+    "p95_ms": 1.018,
+    "p99_ms": 1.5491,
+    "max_observed_ms": 2.7436,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128f-32",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 4.1207,
+    "median_ms": 4.1207,
+    "p95_ms": 4.1207,
+    "p99_ms": 4.1207,
+    "max_observed_ms": 4.1207,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-32",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-32",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 10.5224,
+    "median_ms": 12.00415,
+    "p95_ms": 14.1805,
+    "p99_ms": 21.7612,
+    "max_observed_ms": 44.0679,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128f-32",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.6153,
+    "median_ms": 0.71895,
+    "p95_ms": 0.847,
+    "p99_ms": 1.0242,
+    "max_observed_ms": 3.9129,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128f-65536",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 4.5777,
+    "median_ms": 4.5777,
+    "p95_ms": 4.5777,
+    "p99_ms": 4.5777,
+    "max_observed_ms": 4.5777,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-65536",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128f-65536",
+    "operation": "sign",
+    "N": 1000,
+    "min_ms": 10.6421,
+    "median_ms": 11.4978,
+    "p95_ms": 13.6258,
+    "p99_ms": 16.3784,
+    "max_observed_ms": 383.0052,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128f-65536",
+    "operation": "verify",
+    "N": 1000,
+    "min_ms": 0.6593,
+    "median_ms": 0.74055,
+    "p95_ms": 0.8971,
+    "p99_ms": 1.0839,
+    "max_observed_ms": 17.3501,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 17088,
+    "sig_bytes_max": 17088,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128f-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128f",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-1024",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 36.9542,
+    "median_ms": 36.9542,
+    "p95_ms": 36.9542,
+    "p99_ms": 36.9542,
+    "max_observed_ms": 36.9542,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-1024",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-1024",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 249.4244,
+    "median_ms": 259.7942,
+    "p95_ms": 327.0802,
+    "p99_ms": 362.2446,
+    "max_observed_ms": 373.3144,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-1024",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.2278,
+    "median_ms": 0.2616,
+    "p95_ms": 0.3113,
+    "p99_ms": 0.3796,
+    "max_observed_ms": 0.4293,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-1024.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "1024"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-32",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 43.1931,
+    "median_ms": 43.1931,
+    "p95_ms": 43.1931,
+    "p99_ms": 43.1931,
+    "max_observed_ms": 43.1931,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-32",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-32",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 251.9145,
+    "median_ms": 268.61585,
+    "p95_ms": 330.9756,
+    "p99_ms": 367.9053,
+    "max_observed_ms": 408.3735,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-32",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.2336,
+    "median_ms": 0.26825,
+    "p95_ms": 0.3206,
+    "p99_ms": 0.362,
+    "max_observed_ms": 0.5002,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-32.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "32"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-65536",
+    "operation": "keygen",
+    "N": 1,
+    "min_ms": 51.5772,
+    "median_ms": 51.5772,
+    "p95_ms": 51.5772,
+    "p99_ms": 51.5772,
+    "max_observed_ms": 51.5772,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 0,
+    "sig_bytes_max": 0,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-65536",
+    "operation": "negative_controls_rejected",
+    "N": 4,
+    "min_ms": 0.0,
+    "median_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0,
+    "max_observed_ms": 0.0,
+    "zero_ns_rows": 4,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "exclude from performance table unless separately justified measurement operation",
+    "numerical_eligibility_only": false,
+    "proposed_publication_use": "exclude from performance table unless separately justified measurement operation"
+  },
+  {
+    "cell": "slh128s-65536",
+    "operation": "sign",
+    "N": 100,
+    "min_ms": 232.9167,
+    "median_ms": 247.0687,
+    "p95_ms": 259.2089,
+    "p99_ms": 267.1894,
+    "max_observed_ms": 279.1235,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  },
+  {
+    "cell": "slh128s-65536",
+    "operation": "verify",
+    "N": 100,
+    "min_ms": 0.2902,
+    "median_ms": 0.319,
+    "p95_ms": 0.3577,
+    "p99_ms": 0.4362,
+    "max_observed_ms": 0.4455,
+    "zero_ns_rows": 0,
+    "sig_bytes_min": 7856,
+    "sig_bytes_max": 7856,
+    "sig_bytes_unique_count": 1,
+    "valid_all": true,
+    "completed_all": true,
+    "pinned_all": true,
+    "files": [
+      "slh128s-65536.csv"
+    ],
+    "identities": [
+      [
+        "SLH-DSA-SHA2-128s",
+        "",
+        "65536"
+      ]
+    ],
+    "hash_calls_min": 0,
+    "hash_calls_max": 0,
+    "publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load",
+    "numerical_eligibility_only": true,
+    "proposed_publication_use": "eligible percell same-machine observation; unpaired message/key/run and uncontrolled foreign load"
+  }
+]

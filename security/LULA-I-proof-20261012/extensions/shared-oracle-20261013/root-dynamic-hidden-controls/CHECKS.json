@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXACT_DYNAMIC_OVERLAY_CONTROLS",
+  "scope": "Two salted FORS-like leaves; suffix-closure failure discriminator. Not full Rust or WOTS formalization.",
+  "worlds": 16384,
+  "ordinary_full_function_tables": 256,
+  "ordinary_marginal_exact": true,
+  "conditional_pre_post_quantum_state_groups": 44800,
+  "remaining_secret_conditional_states_identical": true,
+  "mean_hidden_query_mass_first": "1/2",
+  "mean_hidden_query_mass_after_reveal": "1/4",
+  "mean_local_norm_squared_first": "3/4",
+  "mean_local_norm_squared_second": "3/8",
+  "mean_final_norm_squared": "15/16",
+  "terminal_real_probability": "1/4",
+  "terminal_ideal_probability": "1/4",
+  "no_reconcile_revealed_point_mismatch": "3/4",
+  "signed_node_only_missing_suffix_closure_learns_successor": "1",
+  "control_sha256": "61a0ccbcd04b15f9534831344d32ac0c8f14ee2e1d41fba29789e5f417aed81f"
+}

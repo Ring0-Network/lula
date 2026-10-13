@@ -1,0 +1,173 @@
+{
+  "outcome": "PASS_LAYOUT_AND_ABSTRACT_FACTORISATION_CONTROLS",
+  "scope": "No signature execution, no forged payload, no full cache allocation. The toy is an abstract factorization check, not source security proof.",
+  "library_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "driver_sha256": "a18799fba64ec1a6370e18e0d5d4b21108109cf9022fc8d7195e55d860a08c4b",
+  "script_sha256": "0fecf31bd8cf97da53ad243b55b251544cb5d828a0e1900bf020002e517b3245",
+  "height": 21,
+  "levels": [
+    {
+      "level": 0,
+      "offset_nodes": 0,
+      "count": 2097152,
+      "logical_offset_bytes": 0,
+      "bytes": 33554432
+    },
+    {
+      "level": 1,
+      "offset_nodes": 2097152,
+      "count": 1048576,
+      "logical_offset_bytes": 33554432,
+      "bytes": 16777216
+    },
+    {
+      "level": 2,
+      "offset_nodes": 3145728,
+      "count": 524288,
+      "logical_offset_bytes": 50331648,
+      "bytes": 8388608
+    },
+    {
+      "level": 3,
+      "offset_nodes": 3670016,
+      "count": 262144,
+      "logical_offset_bytes": 58720256,
+      "bytes": 4194304
+    },
+    {
+      "level": 4,
+      "offset_nodes": 3932160,
+      "count": 131072,
+      "logical_offset_bytes": 62914560,
+      "bytes": 2097152
+    },
+    {
+      "level": 5,
+      "offset_nodes": 4063232,
+      "count": 65536,
+      "logical_offset_bytes": 65011712,
+      "bytes": 1048576
+    },
+    {
+      "level": 6,
+      "offset_nodes": 4128768,
+      "count": 32768,
+      "logical_offset_bytes": 66060288,
+      "bytes": 524288
+    },
+    {
+      "level": 7,
+      "offset_nodes": 4161536,
+      "count": 16384,
+      "logical_offset_bytes": 66584576,
+      "bytes": 262144
+    },
+    {
+      "level": 8,
+      "offset_nodes": 4177920,
+      "count": 8192,
+      "logical_offset_bytes": 66846720,
+      "bytes": 131072
+    },
+    {
+      "level": 9,
+      "offset_nodes": 4186112,
+      "count": 4096,
+      "logical_offset_bytes": 66977792,
+      "bytes": 65536
+    },
+    {
+      "level": 10,
+      "offset_nodes": 4190208,
+      "count": 2048,
+      "logical_offset_bytes": 67043328,
+      "bytes": 32768
+    },
+    {
+      "level": 11,
+      "offset_nodes": 4192256,
+      "count": 1024,
+      "logical_offset_bytes": 67076096,
+      "bytes": 16384
+    },
+    {
+      "level": 12,
+      "offset_nodes": 4193280,
+      "count": 512,
+      "logical_offset_bytes": 67092480,
+      "bytes": 8192
+    },
+    {
+      "level": 13,
+      "offset_nodes": 4193792,
+      "count": 256,
+      "logical_offset_bytes": 67100672,
+      "bytes": 4096
+    },
+    {
+      "level": 14,
+      "offset_nodes": 4194048,
+      "count": 128,
+      "logical_offset_bytes": 67104768,
+      "bytes": 2048
+    },
+    {
+      "level": 15,
+      "offset_nodes": 4194176,
+      "count": 64,
+      "logical_offset_bytes": 67106816,
+      "bytes": 1024
+    },
+    {
+      "level": 16,
+      "offset_nodes": 4194240,
+      "count": 32,
+      "logical_offset_bytes": 67107840,
+      "bytes": 512
+    },
+    {
+      "level": 17,
+      "offset_nodes": 4194272,
+      "count": 16,
+      "logical_offset_bytes": 67108352,
+      "bytes": 256
+    },
+    {
+      "level": 18,
+      "offset_nodes": 4194288,
+      "count": 8,
+      "logical_offset_bytes": 67108608,
+      "bytes": 128
+    },
+    {
+      "level": 19,
+      "offset_nodes": 4194296,
+      "count": 4,
+      "logical_offset_bytes": 67108736,
+      "bytes": 64
+    },
+    {
+      "level": 20,
+      "offset_nodes": 4194300,
+      "count": 2,
+      "logical_offset_bytes": 67108800,
+      "bytes": 32
+    },
+    {
+      "level": 21,
+      "offset_nodes": 4194302,
+      "count": 1,
+      "logical_offset_bytes": 67108832,
+      "bytes": 16
+    }
+  ],
+  "node_bytes": 67108848,
+  "counter_bytes": 8388608,
+  "payload_bytes": 75497456,
+  "driver_framing_bytes": 117,
+  "driver_file_bytes": 75497573,
+  "toy_worlds": 256,
+  "toy_view_groups": 24,
+  "hidden_predecessor_uniform_in_every_toy_view": true,
+  "private_buffer_negative_control_nonuniform_in_every_view": true
+}

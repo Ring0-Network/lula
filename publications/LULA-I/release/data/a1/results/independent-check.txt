@@ -1,0 +1,28 @@
+lula1-fresh-32-0.vec.txt: exit=0 vectors_lula1-fresh-32-0.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-1.vec.txt: exit=0 vectors_lula1-fresh-32-1.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-2.vec.txt: exit=0 vectors_lula1-fresh-32-2.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-3.vec.txt: exit=0 vectors_lula1-fresh-32-3.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-4.vec.txt: exit=0 vectors_lula1-fresh-32-4.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-5.vec.txt: exit=0 vectors_lula1-fresh-32-5.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-6.vec.txt: exit=0 vectors_lula1-fresh-32-6.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-7.vec.txt: exit=0 vectors_lula1-fresh-32-7.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-8.vec.txt: exit=0 vectors_lula1-fresh-32-8.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-fresh-32-9.vec.txt: exit=0 vectors_lula1-fresh-32-9.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-hot-1024.vec.txt: exit=0 vectors_lula1-hot-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-hot-32.vec.txt: exit=0 vectors_lula1-hot-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-hot-65536.vec.txt: exit=0 vectors_lula1-hot-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+lula1-missing-32.vec.txt: exit=0 vectors_lula1-missing-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 

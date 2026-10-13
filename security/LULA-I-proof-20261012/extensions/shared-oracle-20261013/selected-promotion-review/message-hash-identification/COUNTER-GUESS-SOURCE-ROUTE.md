@@ -1,0 +1,7 @@
+# Chosen context tags do not add route entropy
+
+For the tagged H_free formulation,297 is ONLY the width of the virtual label(S,T,I):256 chosen/common context bits and41 actual source route bits. The source context is F/h-derived and fixed across source signatures. There is no uniform297-bit route law, no independent random-root replacement, and NO transfer of p_F(h=297) or any random450-bit family estimate. All source FORS formulas retain h41; no scalar file or probability cell is changed.
+
+Two explicit ordinary primitive formulations are possible. An untagged H_free output may expose only the source41-bit I plus17 indices, assuming security of a chosen-context family whose union could mix other contexts. This is a stronger property because its primitive coverage game can use cross-context targets. A tagged output includes(S,T) in coordinate identity and prevents that artificial mixing. Source B uses ONE actual context in either formulation, so on the selected source-covered event both produce the required ordinary ITSR witness. They are different precise primitive assumptions; neither gets a numerical hardness theorem for free.
+
+The acceptance filter remains part of B's actual source candidate check, not a source eighteenth secret or an extra output-coordinate requirement. The virtual family may evaluate every counter; correct guessed target counters supply the source's zero9 canonical rows. This distinction and the2^544 probability loss remain explicit.

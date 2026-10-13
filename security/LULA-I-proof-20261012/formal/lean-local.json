@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "bash",
+    "-lc",
+    "cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/formal/LulaLemmas.lean"
+  ],
+  "exit_code": 0,
+  "source_sha256": "9cb58d17c5c5d90e98f7bce0a0f2d1e364f89c17827f5a389ff8216ffbc9dbbd",
+  "stdout": "'Lula.fixed_sum_antichain' depends on axioms: [propext, Quot.sound]\n'Lula.sum_monotone' depends on axioms: [propext]\n'Lula.restored_cache_same' does not depend on any axioms\n'Lula.adaptive_transcript_equal' depends on axioms: [Quot.sound]\n'Lula.adaptive_restoration_equal' does not depend on any axioms\n'Lula.no_changed_success' does not depend on any axioms\n'Lula.equal_or_first_divergence' depends on axioms: [propext]\n",
+  "stderr": ""
+}

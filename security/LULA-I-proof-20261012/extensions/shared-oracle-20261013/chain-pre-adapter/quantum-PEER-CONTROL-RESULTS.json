@@ -1,0 +1,19 @@
+{
+  "status": "COMPUTED_FINITE_CHANNEL_CONTROL_NOT_FULL_QROM_PROOF",
+  "worlds": 8192,
+  "prefix_length": 2,
+  "N": 2,
+  "queries": 3,
+  "full_image_bits": 2,
+  "selected_function": [
+    0,
+    3
+  ],
+  "max_unused_prefix_support_error": 0.0,
+  "max_rms_vector_distance": 1.1180339887498947,
+  "max_per_slot_rms": 0.9999999999999999,
+  "per_slot_bound": 1.414213562373095,
+  "vector_bound": 2.0,
+  "negative_guess_after_prefix_disclosure": 1.0,
+  "D_cut": 1016949404336128
+}

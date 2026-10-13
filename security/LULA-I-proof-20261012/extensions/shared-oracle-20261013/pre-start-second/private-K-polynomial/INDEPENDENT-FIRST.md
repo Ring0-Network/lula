@@ -1,0 +1,61 @@
+# Independent first: the source REAL-F / ideal-F hidden-K hop
+
+**PROVED — manual, query-only conclusion; OPEN — promotion.** For every fixed nonzero public seed S, let N=2^128 and let A have a deterministic total cap Q_A on its public full256 random-oracle queries, including its pre-key phase. In the atomic source experiment specified below, the REAL private-F to independent private-F acceptance gap is at most
+
+`epsilon_K(Q_A)=min(1,4 Q_A^2/(N-4 Q_A^2))` if `4 Q_A^2<N`, and at most 1 otherwise.
+
+This bounds the particular source Win bit (and any marker-independent terminal decision on the same interface). It is not a trace-distance assertion for arbitrary K-dependent terminal tests. It does not bound the subsequent private-P hop, fixed SHA-256, a conventional independent-oracle PRF challenge, or the whole signature scheme. No previous scalar or theorem is replaced. The first derivation was saved before reading any new private-K proposal by root or another peer.
+
+## Source and experiment
+
+**COMPUTED — pin and direct source inspection.** Release `publications/LULA-I/release/code/lula1/src/lib.rs` has SHA256 `ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210`. Its byte words and private-field reads were inspected directly: lines 60–66 type constants; 121–147 th; 161–175 private functions and message hashes; 248–267 WOTS; 344–394 FORS; 451–454 LayerCache; 498–540 keygen; 601–667 signing; 672–729 verifier. A search for sk_seed/sk_prf confirms their cryptographic reads are Ctx::prf and Ctx::prf_msg respectively. This is source extraction, not a verified Rust interpreter.
+
+**ASSUMED — already stated source game, now explicit.** S,K,P are independent uniform 16-byte strings, with S fixed and nonzero for this conditional argument. O is one full256 random oracle on byte strings. Public A has coherent XOR access to that full word, plus classical initiated-message signing and honest logical cache/restore services. Setup releases the actual source-derived root and S only after completing. Before that, A may query O but receives neither S nor pk nor a private service. One total Q_A cap covers both phases; this cap is enforced on every branch of the interpolating simulator, not only the promised endpoint games. Source counter searches are bounded to their 2^32 distinct attempts, with exhaustion/noncompletion absorbing and nonwinning, without conditioning on successful completion or exposing partial responses. Source caches expose no seeds, private context bytes, internal trace or timing. Exposing the actual Signer.ctx or a seed-bearing persistence fixture would invalidate this model.
+
+**PROVED — byte languages.** For a valid source-private ADRS A22 of type 5 or 6, write `D(S,A,x)=S16||zero48||A22||x16`, length 102. Distinct (A,x) give distinct words. REAL F(A) is prefix128 O(D(S,A,K)); IDEAL F(A) is an independent persistent uniform Node128. The actual randomizer remains `prefix128 O(P16||S16||m)`, never an ideal J in this hop. All honest public typed calls have types 0–4 or 7. Inner message words `R16||S16||root16||m` and REAL randomizer words have bytes [16,32)=S, whereas every D word has those bytes zero. They are disjoint for S!=0, irrespective of P, R, message contents or length. Outer message words have length 52 and cannot equal a length-102 D word. Verification uses public typed hashes, inner/outer hashes and no private F/P callback. Arbitrary public A words can, of course, lie in D.
+
+## One marker, full-word completion
+
+**PROVED — exact interpolating construction.** Independently sample a base full-word function O0, a persistent full-word table W(A) on all valid type5/6 addresses, P, and all other marker-independent coins. W's prefix is the ideal Node128 F; its independent lower limb is retained for exact raw correlation. For any Boolean field b on the N possible 16-byte seed payloads, define
+
+`O_b(D(S,A,x)) = W(A)` if b(x)=1, else `O0(D(S,A,x))`.
+
+On every other raw byte word set `O_b(w)=O0(w)`. Invalid ADRS / type / framing words stay outside this intervention. Supply every honest private derivation by `secret(A)=prefix128 W(A)`, bypassing b altogether. Supply REAL randomizer by `prefix128 O0(P||S||m)` and every other honest hash by its exact O0 word. The byte exclusions above make these equal to evaluations of O_b where required. Context K is opaque and never used by an unadapted private call: WOTS start, FORS tree and repeated FORS signature secret accesses are all intercepted. Full F memoization survives repeated messages and honest restores. No simulator samples a guess for K.
+
+For b=0, raw O0 is independent of W, giving precisely the ideal-F / REAL-P game. For b=e_K at one uniform position K, raw O_b is a full random function for each fixed K: the single replaced cell for each A gets its independent W(A), all remaining cells retain independent O0 words. Its prefix at the actual secret word is secret(A), giving exactly the REAL-F / REAL-P game, including pre-key correlations and the unused lower128 raw limbs. The secret K has no additional effect on source state after interception. It is legitimate to sample its value only through the uniform singleton location.
+
+For marker weights above one, several seed cells share W(A); O_b need not be a random oracle there. This is harmless: each b still defines a physical, persistent full-word function and a normalized source/adversary experiment with acceptance between zero and one. Those bounded games supply the entire integer interpolation grid. Claiming that all grid games have ordinary RO law would be false.
+
+**PROVED — exact one-query full-output simulation.** Conditional on the independent auxiliary tables, let r0(w)=O0(w), r1(w)=W(A) on a D word and r1(w)=r0(w) outside it. Route its marker index to x on D and any fixed index outside D. In the Fourier basis z of the entire 256-bit response register, output XOR by O_b(w) requires phase
+
+`(-1)^( z dot r0(w) + b(x) [z dot (r0(w) xor r1(w))] )`.
+
+Reversibly compute `d=z dot (r0 xor r1)` into one clean scratch bit, Hadamard that bit, invoke the ordinary Boolean XOR oracle once, Hadamard back, and uncompute d. The scratch returns clean because the oracle supplies phase (-1)^(b(x)d) on its Hadamard state. Apply the independent r0 phase and undo the response Fourier transform. Outside D or when Delta=r0 xor r1 is zero, d=0 and the oracle acts identically on |+>, so no controlled-oracle assumption, reserved known-zero marker index, setup query or extra uncompute query is needed. This is exact on arbitrary superpositions and entanglement. Lower limbs appear in r0/r1 and the phase, not merely in the prefix.
+
+**PROVED — common honest source channels.** Conditional on the same O0/W/P auxiliary state, keygen root, cache nodes/counters, complete signature bytes, Seen bookkeeping, partiality and final verification are functions of classical requests and the shared auxiliary state, with no access to b. They are therefore the same channels for every marker field, although their actual request inputs may depend on past b-oracle replies. This distinction is necessary: marker-independent channel descriptions do not assert independent resulting transcripts. Purifying classical requests, source channels and measurements in private work registers yields common inter-query maps. Public pre-key A is run first with S withheld; the simulator knowing S for coherent routing does not leak it to A. Setup may fail, in which case it accepts 0. Signing releases only the final complete response. No source service counts as a marker query, and terminal Win requires no marker query: the source verifier is outside D even for adversarial signatures.
+
+## Polynomial and finite constant
+
+**CITED — primary degree result.** Beals, Buhrman, Cleve, Mosca and de Wolf, *Quantum Lower Bounds by Polynomials*, Lemmas 4.1/4.2 and 3.2 establish amplitude degree Q, decision probability degree at most 2Q, and symmetrization without degree increase: <https://arxiv.org/pdf/quant-ph/9802049>. Their proof uses common linear inter-query maps, so purification and adaptive classical services above preserve it. The acceptance polynomial applies to all Boolean fields, not just a promise.
+
+**PROVED — symmetrized endpoint identity.** Fix any finite, marker-independent auxiliary state (or average it afterward). Acceptance is a real multilinear polynomial a(b) of degree at most d=2Q_A. Average a(b) over uniform size-k subsets for each k in {0,...,N}. Every degree-j monomial averages to `(k)_j/(N)_j`, so the resulting p(k) is univariate degree at most d. p(k) lies in [0,1] at every integer k; p(0) is ideal acceptance and p(1) is REAL acceptance. Averages over auxiliary state preserve the degree and the grid bounds. No K-dependent advice, secret fixture or free evaluation of O_b can be put among the common maps.
+
+**CITED — analytic premise; PROVED — consequence.** Markov's first-derivative inequality on [-1,1] is `||f'||<=d^2||f||`. Its affine scaling is `||f'||_[0,N]<=2d^2 ||f||_[0,N]/N`. University author lecture notes state the corresponding rectangle version and integer-grid corollary (Theorem 5.13 / Corollary 5.14): <https://cs.uwaterloo.ca/~s4bendav/CS860/CS860S20week5.pdf>.
+
+Here is the constant derivation, without treating integer-grid boundedness as continuous boundedness. Let f=2p-1 and M=max_[0,N]|f|. At a maximizing point choose a nearest integer, distance at most 1/2. Its grid value has magnitude at most one, so
+
+`M <= 1 + (1/2)||f'|| <= 1 + (d^2/N) M`.
+
+If d^2<N, then `M<=N/(N-d^2)` and therefore
+
+`||p'||=(1/2)||f'||<=d^2/(N-d^2)`.
+
+By the mean value theorem `|p(1)-p(0)|<=d^2/(N-d^2)`, which gives the displayed 4Q_A^2 bound. Centering at 1/2 is essential for that numerator; blindly using the noncentered sup-norm argument incurs an unnecessary factor two. When Q_A=0, degree zero implies exact zero gap. When 4Q_A^2>=N the positive-denominator derivation does not apply and only the trivial bound is asserted. Even below that threshold the probability gap is capped at one. No optimality claim is made.
+
+## Resources and remaining boundaries
+
+**PROVED — marker-query account.** One Boolean query per public A raw query gives at most Q_A total, with pre-key included. Honest setup, initiated signing, REAL-P randomizers, cache operations and final verification consume zero Boolean marker queries. They still consume their entire ordinary local evaluation, circuit, time, space, message-byte and response-copy costs. The reviewed conservative honest whole-hash counts remain `H_setup=2^21(19505+2^32)-1`, `H_hot=82090+5*2^32`, `H_cold=8560574463+82090+6*2^32`, final3224, and at most q additional REAL-P evaluations. This is target-marker accounting for this specific construction, not a permission to apply unrelated random-Th bounds to a reduced budget.
+
+**ASSUMED / PROVED — finite representation qualification.** For every fixed finite adversarial circuit and bounded source experiment, messages/registers/counter spaces yield a finite relevant raw-word universe; one may eagerly fix independent auxiliary full-word tables there and W on the finite valid private namespace. These exact tables can be astronomically large and are charged to the local circuit/storage. An infinite RO can equivalently be treated by finite restrictions or finite-circuit limits; a claim for unbounded message hardware is not supplied. No cryptographic-size table was generated. Averaging exact independent full256 cells presents no nonbinary-modulo issue. This is an information-theoretic query proof, not an efficient reduction using succinct pseudorandom tables, not a runtime benchmark and not a verified whole-source/game declaration.
+
+**OPEN — scope outside the proof.** S=0 destroys the structural REAL-P exclusion; handle that seed in a separate composition with a single probability 1/N charge, not by claiming this conditional simulator works there. If cache payloads expose K or any K-dependent advice beyond the honest logical API, the common-channel premise fails. A subsequent P hop is not proved here because honest services really use P-derived private raw words. Combined tighter quantum signing capacity, fixed-h hardness and category claims remain open. Current reviewed old scalars remain authoritative pending peer review of this exact source simulator.

@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_ABSTRACT_ROW_POLICY_AND_CHAIN_COMPOSITION_CONTROLS",
+  "script_sha256": "997df53d43bf383456c6d1fb0eff3bc58dfac42d7e1556538d06316c45b55b29",
+  "first_derivation_sha256": "d7ac970151e21d76d9aa22d5bcfc50c6caac8977bc522610ace6f3e699c20c7e",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "counts": {
+    "tables": 256,
+    "no_accepted_counter": 144,
+    "different_accepted_counter": 16,
+    "rejected_cached_counter_recomputed": 48,
+    "same_vector_different_counter": 4
+  },
+  "p": "1/4",
+  "two_accepted_probability": "1/16",
+  "chain_composition_checks": 64,
+  "nonempty_acceptance_size_checks": 16,
+  "actual_hash_signature_or_cache_generated": false,
+  "full_shared_raw_source_probability_transfer_proved": false,
+  "fresh_message_forgery_or_security_failure_proved": false,
+  "scope": "Abstract row-law identities and deterministic chain composition only."
+}

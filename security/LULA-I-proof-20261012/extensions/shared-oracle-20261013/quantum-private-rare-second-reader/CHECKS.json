@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXACT_RATIONAL_CONTROLS",
+  "coherent_psd_claim_refuted": true,
+  "negative_witness_rho": "0",
+  "negative_witness_projected": "1/2",
+  "classical_environment_history_masks": 16,
+  "continued_private_support": "1/2",
+  "all_unnormalized_active_supports_dominated": true,
+  "normalized_active_support_can_be_one": true,
+  "marked_xor_phase_toy_hidden_keys": 16,
+  "toy_purified_gap_squared": "1/4",
+  "toy_real_first_alias_probability": "121/256",
+  "toy_real_no_alias_other_terminal_probability": "9/256",
+  "toy_joint_terminal_probability": "65/128",
+  "toy_joint_bound": "3/8+sqrt(2)/4",
+  "toy_second_slot_unnormalized_support": "1/16",
+  "toy_second_slot_normalized_support": "1/15",
+  "proof_scope": "Finite block/norm controls; not a source security proof"
+}

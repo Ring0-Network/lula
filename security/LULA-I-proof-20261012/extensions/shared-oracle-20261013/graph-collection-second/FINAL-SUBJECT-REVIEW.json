@@ -1,0 +1,18 @@
+{
+  "classification": "PROVED manual scoped review",
+  "graph_subject": "FIXED-H-GRAPH-COMPONENT.md",
+  "graph_subject_sha256": "576d4a6851439dc542d86d87ed3cd3d2c07bcba2b9f990bfef9838ba81d25c34",
+  "composition_subject": "FIXED-H-COMPOSITION-CANDIDATE.md",
+  "composition_subject_sha256": "70e13d5ab4792237354c528306dff21cc8f1fdd46b4b8fa53676979b1fff5b58",
+  "independent_first_sha256": "0f0a3dff439ed2131b1d65eec3f8c49cd1d996d866b8244552c5cba518dc8f6e",
+  "peer_review_sha256": "622cc592bd11002027d7ef50200da4dcaf200a62f8cd12e905f2728536c5f301",
+  "graph_verdict": "ACCEPT conditional ordinary fixed-public-h collection-SM-TCR graph component",
+  "composition_verdict": "ACCEPT deterministic pointwise cover import and conditional union-bound algebra; other primitive programs are premises",
+  "graph_member_bits_and_selector_bits": [[128,55],[256,55],[2048,21],[2176,41],[4096,42]],
+  "event_scope": "Old raw-header G_final restricted to nonzero S; B2 local zero-seed failure within unconditional ordinary primitive success; global canonical first witness",
+  "controls": {"classification":"COMPUTED","passed":20,"exit_code":0,"scope":"finite arithmetic and abstract predicates; no source signing or graph generation"},
+  "mandatory_weighted_replacement_binding": "The weighted terms must use the NEW class-selector constructed adversaries or applicable maximum insecurities, never the old common56 particular successes",
+  "remaining_open": ["whole interior-H_final ordinary PRE transfer","actual fixed-h/SHA primitive hardness values","source-to-model machine checking","opaque external full-RO/QROM identification","numeric level/category/capacity and repair"],
+  "not_reviewed": ["new public-message 2^544 candidate","independent rederivation of private-hop/coverage/type7 primitive programs"],
+  "write_boundary": "graph-collection-second only; no root/source/manuscript/oldproof edits"
+}

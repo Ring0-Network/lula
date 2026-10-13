@@ -1,0 +1,48 @@
+{
+  "classification": "FINITE_SUPPORTING_CONTROLS_NOT_SOURCE_GAME_CHECK",
+  "exit_code": 0,
+  "peer_reexecution_identical": true,
+  "peer_first_sha256": "ed747c50d39d6c301d55bb25fec8a590b48cb089f166b75360dc42d149123ab9",
+  "peer_clarification_sha256": "264fe13beb57743491165aad5090cc2bd088e5cff2f13a0ce5592be1bbc99302",
+  "peer_script_sha256": "db0baa2a084ffd2973f9ee33a80330471aef395273d2e291b8e7e8657c8ba043",
+  "peer_controls_sha256": "23d5d26a54f888b59989ce250bf89979c07fce84706ccc5f6910e619c38ac60b",
+  "toy_checks": [
+    {
+      "N": 2,
+      "inner_triple": "7/8",
+      "hidden_graph_double": "3/4",
+      "safe_suffix_groups": 6,
+      "unsafe_secret_advice_success": "1",
+      "surplus_postaccepted_metadata_hit": "1/2",
+      "postselected_next_guess": "1"
+    },
+    {
+      "N": 4,
+      "inner_triple": "37/64",
+      "hidden_graph_double": "7/16",
+      "safe_suffix_groups": 40,
+      "unsafe_secret_advice_success": "1",
+      "surplus_postaccepted_metadata_hit": "1/4",
+      "postselected_next_guess": "1/3"
+    },
+    {
+      "N": 8,
+      "inner_triple": "169/512",
+      "hidden_graph_double": "15/64",
+      "safe_suffix_groups": 288,
+      "unsafe_secret_advice_success": "1",
+      "surplus_postaccepted_metadata_hit": "1/8",
+      "postselected_next_guess": "1/7"
+    }
+  ],
+  "adaptive_coverage_negative": {
+    "actual": "781/16384",
+    "false_expected_cap_bound": "5/256",
+    "valid_pathwise_cap_bound": "5/64",
+    "pF": "1/64",
+    "expected_candidates": "1/4"
+  },
+  "new_source_game_declarations": 0,
+  "new_checked_declarations": 0,
+  "whole_goal_complete": false
+}

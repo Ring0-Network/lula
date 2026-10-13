@@ -1,0 +1,17 @@
+{
+  "status": "PASS_EXACT_FINITE_AND_ENCODING_CONTROLS_NOT_A_CRYPTOGRAPHIC_PROOF",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "unused_uniform_key_two_guess_probability": "1/8",
+  "no_hit_conditioned_next_guess_probability": "1/15",
+  "incorrect_unchanged_posterior_guess_probability": "1/16",
+  "one_leaked_bit_one_guess_probability": "1/8",
+  "nonzero_public_seed_hidden_families_disjoint_in_control": true,
+  "public_addressed_families_excluded_in_control": true,
+  "inner_alias_if_R_equals_P": true,
+  "outer_distinct_counter_inputs": 256,
+  "outer_distinct_prefix_key_candidates": 1,
+  "zero_public_seed_domain_overlap_control": true,
+  "continued_ideal_transcript_unchanged_across_bad_flags": true,
+  "full_32_byte_hidden_images_extend_consumed_prefixes": true,
+  "scope": "No signatures, cache construction, timing, source changes or remote uploads"
+}

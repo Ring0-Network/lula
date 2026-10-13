@@ -1,0 +1,45 @@
+{
+  "status": "PASS_EXACT_FINITE_INTERIOR_UD_PRE_CHANNEL_AND_SELECTOR_CONTROLS",
+  "scope": "Finite logical-channel/probability controls, no source-signature execution, actual hash hardness, timing, full namespace or kernel proof",
+  "script_sha256": "32b25d78c63d5186250e6b47e5e09a1af419dd0ec4aa453de9168ca51b4b4442",
+  "channel_relation_and_preimage_checks": 26,
+  "aggregate_event_probabilities": [
+    "1/64",
+    "1/32",
+    "1/32"
+  ],
+  "aggregate_PRE_candidate_success": "1/32",
+  "nonzero_filtered_aggregate_probabilities_unnormalized": [
+    "1/64",
+    "3/128",
+    "3/128"
+  ],
+  "nonzero_filtered_PRE_success_unnormalized": "3/128",
+  "original_toy_hidden_probability": "1/16",
+  "signed_selector_gap_equalities": true,
+  "opaque_literal_equality_counterexample": [
+    1,
+    0
+  ],
+  "PRE_any_matching_input_not_hidden_X_test": true,
+  "nonbalanced_prefix_distribution": {
+    "0": 2,
+    "1": 2
+  },
+  "stale_root_mismatch_worlds": 96,
+  "repeat_restore_consistent_and_natural_bottom_unnormalized": true,
+  "actual_geometry": {
+    "keys": [
+      2199023255552,
+      68719476736,
+      2147483648,
+      67108864,
+      2097152
+    ],
+    "WOTS_nonterminal": 1089588072284160,
+    "FORS_start": 19140298416324608,
+    "union": 20229886488608768,
+    "selector_bits": 55,
+    "UD_hops": 254
+  }
+}

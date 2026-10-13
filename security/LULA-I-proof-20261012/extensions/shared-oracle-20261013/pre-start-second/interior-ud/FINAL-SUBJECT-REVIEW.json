@@ -1,0 +1,83 @@
+{
+  "review_status": "ACCEPT_MANUAL_CONDITIONAL_ORDINARY_UD_PRE_INTERFACE",
+  "subject": "FIXED-H-HIDDEN-PREDECESSORS.md",
+  "subject_sha256": "d47b8a5ecc72a3d1ff7f52d3b3a16be6220f4acf5d0c08416f902939320dbb13",
+  "release_source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "own_first_before_peer_read_sha256": "51bde960a9b6388d5e3810bef78532135206434025219949320633fde5836e6b",
+  "root_candidate_review_sha256": "78a74e400665c5f131824c8303df9cc18bd1234c247c92a2ab082d54cfc29673",
+  "image_successor_review_sha256": "1f8b0c780e4834bf83476ed7814bd2857a72a6bb1d583936749362f0c7c3fcf6",
+  "outside_first_read_after_own_first_sha256": "11425f21cd72b464fc8b237f50d742be1e9c9e4e6b60dd92680b1fdd504f3059",
+  "checks": [
+    {
+      "name": "SOURCE_DAG_AND_CURRENT_ROOT_CACHE",
+      "status": "PROVED_MANUAL",
+      "evidence": "Selected endpoints feed ordered WOTS compression and trees; lower child values precede counters; pk.root only feeds later message hashing. Each game recomputes its actual root and cache without circular node dependence or stale-root transplant."
+    },
+    {
+      "name": "PERSISTENT_PRIVATE_PREFIX_LAW",
+      "status": "PROVED_MANUAL",
+      "evidence": "One persistent replacement coin per selected internal node; all designated honest consumers use the same trajectory. Real UD image gives G_r; random image gives G_r+1. At r>0 the input is uniform from previous replacements, not an original h-derived node asserted uniform."
+    },
+    {
+      "name": "ORDINARY_CHALLENGE_BEFORE_PARAMETER_RELEASE",
+      "status": "CITED_AND_PROVED_MANUAL",
+      "evidence": "HK22 Definitions 3, 4 and 7 permit the one-target interfaces. Geometry tweak selected before P release; exactly one target including dummy/inactive labels; zero stage-one collection calls. Source A pre-key phase is run inside B2 with S withheld from A."
+    },
+    {
+      "name": "UNKNOWN_INPUT_UNAVAILABLE_TO_PROGRAM",
+      "status": "PROVED_MANUAL",
+      "evidence": "Opaque private F start or replacement node is never materialized. Only known target image and suffix are consumed by endpoints, caches, root and unguarded signatures. No preceding public h cell is overwritten and no arbitrary actual h call is intercepted."
+    },
+    {
+      "name": "ATOMIC_COMPLETED_RESPONSE_GUARD",
+      "status": "PROVED_MANUAL",
+      "evidence": "Assemble opaque slots, complete all required rows, then fail before releasing an exposing complete response. Image-only setup/cache work is not exposure. Source natural noncompletion is absorbing, unnormalized and nonwinning. Unreleased fields never update Seen or permanent exposure."
+    },
+    {
+      "name": "FULL_PUBLIC_H_AND_QUANTUM_CONTINUATION",
+      "status": "PROVED_MANUAL_LOGICAL_GAME",
+      "evidence": "A computes the unchanged public full256 h, classically or coherently. Marginal classical API values give the correct source-facing channels. Reduction does not observe, measure, redirect, block or program A h computations. Final extraction is classical only."
+    },
+    {
+      "name": "OBSERVABLE_IMAGE_SUPERSET_AND_PRE",
+      "status": "PROVED_MANUAL",
+      "evidence": "Original selected hidden input implies final image equality. For active UD hops x_p+1 is a known suffix of Y, so C is decidable without earlier opaque values or a canonical-first-H test. In terminal PRE it is Y, so any qualifying final input is an accepted preimage; original-input equality is not tested."
+    },
+    {
+      "name": "SELECTOR_NAMESPACE_AND_254_SIGNED_HOPS",
+      "status": "COMPUTED_AND_PROVED_MANUAL",
+      "evidence": "D_H=20229886488608768 lies between 2^54 and 2^55. Source witness selected with probability 2^-55. Max eligible p is 254; 254 consecutive hops suffice. Inactive/FORS/dummy signed contributions cancel before absolute value, yielding one constructed UD advantage per hop."
+    },
+    {
+      "name": "SEED_ZERO_FORMULA",
+      "status": "PROVED_MANUAL",
+      "evidence": "Final subject puts S!=0 on the left and in C, matching local failure at P=0. Primitive success remains unconditional, including zero failure. Any parent source union pays zero-seed mass once externally."
+    },
+    {
+      "name": "RESOURCE_ACCOUNTING",
+      "status": "COMPUTED_AND_PROVED_SOURCE_RELATIVE_CAPS",
+      "evidence": "One target, zero stage-one collection calls, one source execution, <=254 extra typed hashes, <=4096 selected node bytes plus metadata; all source dictionaries/cache/messages, challenger work and coherent A gate/register/time costs remain separate charges. No practical-runtime or concrete-hardness conclusion."
+    },
+    {
+      "name": "TOY_CONTROL_REEXECUTION",
+      "status": "COMPUTED_EXIT_ZERO",
+      "evidence": "Copied root toy_channels.py byte-for-byte into authorized review directory and ran copy, so generated report stayed within write boundary. 64 binary-function worlds, 8 policies, 3072 exact relations; abstract literal-hit coupling plus terminal matching-image PRE inequalities, not whole-source/quantum verification."
+    }
+  ],
+  "toy_script_sha256": "23497c964823269fe0de8cc4720c05554bd3b18b55ea45bfe69ce1ebe2dd9173",
+  "toy_exit_code": 0,
+  "toy_checks": 3072,
+  "toy_worlds": 64,
+  "toy_policies_per_world": 8,
+  "pending_core_used": false,
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false,
+  "no_operational_source_attack_or_benchmark": true,
+  "limitations": [
+    "Manual logical-game interface proof; no machine-checked source-security theorem.",
+    "Honest logical nodes/counters and atomic API outputs only; no seed-bearing fixture or arbitrary secret-dependent timing disclosure.",
+    "Private F/J hybrid costs and all other event components remain separate obligations.",
+    "Actual family SM-UD/SM-PRE hardness and resource-suitable quantitative composition remain unestablished.",
+    "No SHA numeric bound, category/capacity claim, actual signer security promotion or old RO scalar transplant."
+  ]
+}

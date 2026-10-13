@@ -1,0 +1,54 @@
+{
+  "status": "ACCEPTED_MANUAL_ONE_QUERY_COMPLETION_SUCCESSOR",
+  "base_preserved": true,
+  "pins": {
+    "base_review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\PEER-REVIEW.md",
+      "sha256": "8260eada5056c869c564e38ed0cd707f4ac9f1a5f9fba1c5de690763f7dee0da"
+    },
+    "base_receipt": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\REVIEW-RECEIPT.json",
+      "sha256": "003e3f102ebfb903ca268c5ab64f01e1a974dc43b682c33641e6e20cc904ae44"
+    },
+    "root_proof": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-keyed-review\\ONE-QUERY-COMPLETION.md",
+      "sha256": "7def78f7f5e771e397373f7ad81c7977674669d2064a3b2ce1a31e13d31bf1f0"
+    },
+    "root_controls": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-keyed-review\\one_query_completion.py",
+      "sha256": "89128e32d5a3eeb7da92c4fe22fbcbc5de725e5c235f0625480832f9981cd9c1"
+    },
+    "review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\ONE-QUERY-REVIEW.md",
+      "sha256": "795cbc311f564b6550a1f33b5ea822820dc572280767a43b32c09b181adecbb1"
+    },
+    "own_controls": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\one_query_control.py",
+      "sha256": "eb18ba93c3624502bc038516a8a0280087c86295dca22e1182544c6b7db7b1b5"
+    },
+    "own_results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\ONE-QUERY-RESULTS.json",
+      "sha256": "1fb33cfa17b159d175db84efcd73a31e32ea2114f5cd2603e01bbdfd255f170e"
+    },
+    "terminated_exhaustive_source": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\one_query_control-exhaustive-terminated.py",
+      "sha256": "88eaa829246671511a8b1dcf8e0a292c70529b7f1282e3d3ec991a2df4a657a9"
+    }
+  },
+  "controls_exit_code": 0,
+  "completion_bound": "min(1,8*(M+1)^2/2^128)",
+  "old_adapter_M": "Q+1",
+  "new_stopping_extractor_M": "Q",
+  "basis_worlds": 256,
+  "clean_basis_checks": 8192,
+  "mixed_region_checks": 256,
+  "terminated_optional_exhaustive": {
+    "process_id": 26816,
+    "elapsed_seconds": 92.9564276,
+    "cpu_seconds": 88.5,
+    "process_exit_code": 1,
+    "completed_result": false,
+    "reason": "Parent requested bounded optional control"
+  },
+  "scope": "Manual exact circuit identity and restricted-row consequence, plus finite synthetic matrix tests. Zero new whole-source/kernel declarations; no old scalar or manuscript change."
+}

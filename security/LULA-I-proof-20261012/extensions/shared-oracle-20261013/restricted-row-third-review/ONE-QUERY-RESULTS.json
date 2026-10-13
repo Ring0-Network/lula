@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "arithmetic": "Exact Q(sqrt(2))",
+  "worlds": 256,
+  "clean_basis_checks": 8192,
+  "mixed_region_superposition_checks": 256,
+  "boolean_calls_per_full_xor": 1,
+  "outside_delta_zero": true,
+  "scope_selection": "Four f tables; two 3-bit affine completion sweeps; side words fixed 3 and 6; every clean basis and one fixed coherent vector per world",
+  "controls_sha256": "eb18ba93c3624502bc038516a8a0280087c86295dca22e1182544c6b7db7b1b5",
+  "scope": "Synthetic exact finite circuit matrices; general identity manual, no whole cryptographic game mechanization"
+}

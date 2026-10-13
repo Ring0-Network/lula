@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SCOPED_GRAPH_TARGET_LEMMA_SECOND_READER",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "independent_derivation_saved_before_peer_read": true,
+  "eager_completed_function_worlds": 64,
+  "eager_marginal_equals_ordinary_random_functions": true,
+  "complete_graph_views": 8,
+  "residual_joint_distribution_each_graph": "all8binary triples equally likely",
+  "target_domain_residual_given_graph_and_outside_function": "uniform1/2",
+  "fresh_second_query_given_graph_outside_function_and_first_reply_hit": "1/2",
+  "two_residual_query_union_given_graph_and_outside_function": "3/4",
+  "arbitrary_outside_query_input_can_reveal_residual": true,
+  "cyclic_non_DAG_sampler_function_counts": {
+    "(0, 0)": 1,
+    "(0, 1)": 2,
+    "(1, 1)": 1
+  },
+  "type7_first_accepted_target1_forces_other_reply0": true,
+  "selected_domain_counts": {
+    "type0": 1089588072284160,
+    "type1": 2269959421952,
+    "type2": 2199023255551,
+    "type3": 38243213437304832,
+    "type4": 2199023255552
+  },
+  "total_selected_domains": 39339469515522047,
+  "final_verifier_target_full_hash_calls_max": 3217,
+  "final_verifier_all_full_hash_calls_max": 3224,
+  "instrumented_compressions_at32B_not_RO_calls": 3265,
+  "with_prefix_compression_not_RO_calls": 3266,
+  "reviewed_peer_file_hashes": {
+    "DERIVATION.md": "3a61a88cbad28796c62ae94484d984ad3ed73320612f64469ad987c6e809346c",
+    "control.py": "fd6429c1335238ca43e8be18a2a4de8d70781984c79e915edde288a99bfcb73a",
+    "CONTROL-RESULTS.json": "a99682ed245dfcb42f8b8c55d769dfeb7f476abc7d9c8a5d7d7d713fb4a4f0b1"
+  },
+  "full_EUF_CMA_bound": null,
+  "quantum_bound": null,
+  "scope": "Source arithmetic and finite random-function controls; no fullgraph construction, signing, cache work or original-file edits.",
+  "script_sha256": "c7cea709215ee3a7b3868b47c4de4887f475b09685196e07b87136a6d9ca07e7"
+}

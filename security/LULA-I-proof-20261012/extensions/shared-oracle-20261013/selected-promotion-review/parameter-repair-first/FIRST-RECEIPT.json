@@ -1,0 +1,54 @@
+{
+  "status": "SOURCE_FIRST_T3_ANALYTIC_FRONTIER_FULL_REPAIR_CERTIFICATE_OPEN",
+  "subject_sha256": "869736c449aaff9ed24eb68e352fcff46bad784be4085b013c70c6db0ab7f842",
+  "checks": {
+    "both_full_original_goals_read": true,
+    "original_goal_n16_and_allowed_list_preserved": true,
+    "blind_first_before_new_peer_or_root_repair_read": true,
+    "three_literal_query_resource_interpretations_distinguished": true,
+    "no_parameter_invariant_bound_vacuity_to_impossibility_inference": true,
+    "source_u64_and_u32_shift_address_digest_guards_checked": true,
+    "ell_z_lfull_and_forced_zero_injectivity_checked": true,
+    "fixed_tail_buffer_guard_checked": true,
+    "new_H_G_and_joint_constant_computed_not_old_counts_reused": true,
+    "serialized_bytes_cache_payload_and_compression_formulas_derived": true,
+    "meaningful_completion_gate_not_aborting_game_vacuity": true,
+    "finite_counter_counts_not_actual_unconditional_runtime": true,
+    "three_smallest_metrics_explicit": true,
+    "n_extension_named_separately_not_adopted": true,
+    "source_and_old_scalars_preserved": true
+  },
+  "own_artifacts": {
+    "selected-promotion-review/parameter-repair-first/INDEPENDENT-FIRST.md": "869736c449aaff9ed24eb68e352fcff46bad784be4085b013c70c6db0ab7f842",
+    "selected-promotion-review/parameter-repair-first/COMPLETENESS-AND-COST-CLARIFICATION.md": "d65845b45629aa2c3fc3bb8f15f6405bc5a81e4e517ef89fbbb15a5d99ffd190",
+    "selected-promotion-review/parameter-repair-first/analytic_controls.py": "50dd4b185ae0389f9b5974e4c1ea8ce707c2c7dd28462b39722aa42f8e701e09",
+    "selected-promotion-review/parameter-repair-first/ANALYTIC-CONTROLS.json": "db2a01539262764d7f24dedbd8c3b58c2fdc8fc6b21cfcad74d65fe5dd285be9",
+    "selected-promotion-review/parameter-repair-first/ALTERNATIVES.md": "feefa52f9f37a9f7b081f9d7336d649f0b41b1cb880a6187d12bcb5629b8a92b",
+    "selected-promotion-review/parameter-repair-first/finalize_first.py": "8f89aca0326837b6c8b87f7b0b3512267ce43fb0de3a490fb11d667acd6ed474"
+  },
+  "original_goal_pins": {
+    "C:/Users/angel/.codex/attachments/032bcc59-5956-41c6-88fb-1d3d3779005f/pasted-text-1.txt": "655c5344c76c16d6e22d15ab169847385154a147dd28d0d31f1bbe86b465ee2f",
+    "C:/Users/angel/.codex/attachments/7ca7dd75-961c-425a-94a2-2bc006720d14/pasted-text-1.txt": "ccdcfbc8b10de3d10546573ea9d92c0f906b182dcb34ba2eb100225bb206a1e8"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "C:/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/publications/LULA-I/release/code/lula1/src/lib.rs": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  },
+  "finite_controls": {
+    "toy_coefficients_and_antichains": 42,
+    "invalid_geometry_cases": 6,
+    "analytic_alternatives": 7,
+    "exit_code": 0,
+    "source_or_signing_execution": false
+  },
+  "smallest_open_obligation": "Fix work/success/depth and meaningful completion criterion; then prove tighter parameter-uniform private/message/QROM composition or universal raw-to-AES attack-resource lower bridge before parameter optimization.",
+  "original_q40_conditional_use_target_preserved": true,
+  "fixed_n": 16,
+  "full_repair_certified": false,
+  "actual_attack_or_design_impossibility_proved": false,
+  "new_parameter_set_adopted": false,
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false
+}

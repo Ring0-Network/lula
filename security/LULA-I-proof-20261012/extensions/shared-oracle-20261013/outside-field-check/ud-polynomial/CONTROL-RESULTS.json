@@ -1,0 +1,41 @@
+{
+  "status": "PASS_EXACT_SMALL_QUERY_UD_POLYNOMIAL_CONTROLS",
+  "script_sha256": "62d7c22ade2bae71353a0c35f8c29b5c6686e11a386d00909435955c48f0e93b",
+  "marker_and_completion_checks": 537,
+  "nonsymmetric_polynomial_checks": 45,
+  "actual_entangled_phase_query_rows": [
+    {
+      "N": 2,
+      "Q": 1,
+      "signed_gap": "0",
+      "upper": "1"
+    },
+    {
+      "N": 4,
+      "Q": 1,
+      "signed_gap": "-3/16",
+      "upper": "1"
+    },
+    {
+      "N": 8,
+      "Q": 1,
+      "signed_gap": "-21/128",
+      "upper": "7/8"
+    }
+  ],
+  "binomial_controls": 12,
+  "grid_negative_control": {
+    "N": 32,
+    "degree": 4,
+    "epsilon": "49/16384",
+    "continuous_minimum": "-49/16335",
+    "endpoint_derivative": "8192/16335",
+    "incorrect_continuous_bound": "1/2",
+    "correct_grid_bound": "1"
+  },
+  "negative_auxiliary_controls": {
+    "free_marker_bit_Q0_gap": "15/256",
+    "independent_world_bit_different_joint_law_Q0_gap": "1"
+  },
+  "scope": "Finite exact marker/completion/acceptance/grid identities; no source signatures, actual hash attack, large function generation, optimality or kernel proof"
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Exact algebra/interface controls, no source signature or SHA security run",
+  "full_guess_vector_cases": 60,
+  "witness_bound": 17,
+  "exact_source_counter_loss_bits": 544,
+  "canonical_counter_match_probability": "L^-r for r<=17",
+  "logical_codewords_injective_count": 64,
+  "invalid_codes_total_completion_required": true,
+  "source_response_guess_independence_cases": 4,
+  "script_sha256": "faa4b74958e682e679ed1491043254f772fc6afe06b3016c1e8b1cce3e25a2fa",
+  "proposal_sha256": "9c1fadb8eedc8dbf19f20800a0950836433c00f0782297d9f315fca0328433ca",
+  "input_clarification_sha256": "6e871ffb0dbd9e715e4a1466ad756a649ec863b9370ae89818cc544c52ce4645"
+}

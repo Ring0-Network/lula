@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FINITE_DAG_AND_COUNTEREXAMPLE_CONTROLS_NOT_FULL_SECURITY",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "toy_worlds": 64,
+  "toy_complete_graph_groups": 8,
+  "fresh_second_query_hit_probability_each_graph_and_previous_reply": "1/2",
+  "two_fresh_query_hit_probability_each_exposed_graph": "3/4",
+  "self_dependent_target_one_query_hit_probability": "1",
+  "naive_one_query_bound_without_DAG_hypothesis": "1/2",
+  "self_dependent_target_counterexamples": 8,
+  "actual_symbolic_selected_domain_counts": {
+    "type0_chain_coordinates": 1089588072284160,
+    "type1_wots_endpoint_compressions": 2269959421952,
+    "type2_hypertree_internal_nodes": 2199023255551,
+    "type3_fors_leaves_and_internal_nodes": 38243213437304832,
+    "type4_fors_root_compressions": 2199023255552
+  },
+  "actual_symbolic_total_selected_domains": 39339469515522047,
+  "final_verifier_selected_domain_calls_max": 3217,
+  "final_verifier_full_hash_calls_valid": 3224,
+  "target_hash_domain_types": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_types": [
+    5,
+    6,
+    7
+  ],
+  "scope": "Exhaustive tiny random-function models and source arithmetic only; no source/manscript/proof-packet mutations, signature generation or source uploads."
+}

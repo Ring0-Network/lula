@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "bash",
+    "-lc",
+    "cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/formal-tree/AddressedMerkle.lean"
+  ],
+  "exit_code": 1,
+  "stdout": "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/formal-tree/AddressedMerkle.lean:70:4: warning: unused variable `current`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/formal-tree/AddressedMerkle.lean:111:66: error: Application type mismatch: The argument\n  rfl\nhas type\n  ?m.371 = ?m.371\nbut is expected to have type\n  True\nin the application\n  Or.inl rfl\n'LulaTree.split_fixed_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaTree.cancel_prefix' depends on axioms: [propext]\n'LulaTree.frame_children_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaTree.same_root_agreement_or_witness' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "source_sha256": "f45214fc5d7dd8d987178cc545bd059afd8e3bb11c6d672e9abc6eed144b06db"
+}

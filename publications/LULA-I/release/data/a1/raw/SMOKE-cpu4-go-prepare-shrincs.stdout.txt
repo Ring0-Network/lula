@@ -1,0 +1,1 @@
+{"candidate":"shrincs-go","keygen_ns":170516200,"pk_bytes":32,"slots":256,"stateful_body_first_bytes":324,"fallback_body_bytes":4052}

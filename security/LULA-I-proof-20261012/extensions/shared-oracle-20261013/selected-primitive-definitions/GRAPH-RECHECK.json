@@ -1,0 +1,28 @@
+{
+  "outcome": "PASS_TINY_ADDRESSED_CHALLENGE_CONTROLS_NOT_STANDARD_SPR_OR_SOURCE_REFINEMENT",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "toy_ordinary_worlds": 128,
+  "toy_selected_domains": 3,
+  "ordinary_joint_marginal_exact_for_each_selected_address": true,
+  "target_own_restriction_independence_checks": 1536,
+  "toy_G_probability": "65/128",
+  "toy_first_witness_selected_success_probability": "65/384",
+  "exact_loss_identity": "Pwin = PG / 3",
+  "toy_selection_wins_by_domain": [
+    40,
+    18,
+    7
+  ],
+  "source_symbolic_domain_counts": {
+    "type0": 1089588072284160,
+    "type1": 2269959421952,
+    "type2": 2199023255551,
+    "type3": 38243213437304832,
+    "type4": 2199023255552
+  },
+  "source_total_selected_domains": 39339469515522047,
+  "source_private_coordinate_count": 19212937084272640,
+  "finite_loss_factor": 39339469515522047,
+  "eager_graph_raw_data_byte_cap": 23303638348336201162,
+  "scope": "Tiny random-function DAG and integer inventory only; no source signature, attack, cache generation, timing, upload, or manuscript change."
+}

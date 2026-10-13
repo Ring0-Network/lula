@@ -1,0 +1,28 @@
+"""Preserve the reviewed cut and create an explicitly corrected successor."""
+from pathlib import Path
+import hashlib
+X=Path(__file__).resolve().parent
+p=X/'QUANTUM-COVERAGE-DRAFT.md'
+assert hashlib.sha256(p.read_bytes()).hexdigest()=='990aeb1067f9ac12235ef3982bc9d3d132cffeab5e704a7d0865a69d77e0c0ce'
+s=p.read_text(encoding='utf8')
+s=s.replace('# Sequential quantum coverage — synthesis candidate, not promoted','# Reviewed sequential quantum coverage in the source game')
+start=s.index('**OPEN — two source-derived reviews required.**')
+end=s.index('\n\n## 1.',start)
+s=s[:start]+'''**PROVED — manually reviewed scoped envelope.** The immutable draft990aeb… is preserved. Two source-derived reviews accept its nonce/source and full-row AR steps (`quantum-coverage-second-reader-code/SECOND_READER.md`, `quantum-fors-frontier/multicall/ROOT_REVIEW.md`). The independent search reader accepts the conditional final-event reductions and square-root algebra (`quantum-coverage-second-reader-search/SECOND_READER.md`). This successor resolves their two wording clarifications: every new-label collision reads the fresh row; BASE tables are sampled independently before adaptive selection. No equation changes. This is a finite information-theoretic event bound in ordinary HJ, not an efficient reduction or a category certificate. Full-forgery composition remains a separate review gate.'''+s[end:]
+old='Cached row values can serve repeated messages and known-row collisions without further reads; all external raw queries still consume at most Q row queries.'
+new='Each new-message reprogramming instruction, including a sampled collision with an old namespace, is followed by one whole-row read that updates the namespace-keyed cache. Later repeats use the latest cached row for their unchanged U and need no additional read. All external raw queries still consume at most Q row queries.'
+assert old in s;s=s.replace(old,new)
+old='If the final U is eligible and not any previously programmed namespace, its outer response is a BASE full256 image independent of T_q. Factor its covered predicate by iid Bernoulli marks of density p(T_q), with independent covered/noncovered full-value pairs.'
+new='The BASE outer function is sampled independently of T_q before adaptive selection. At a final eligible U outside all padded namespaces, the response comes from that BASE function; it need not be conditionally uniform after the adversary selects its input. Factor the entire pointwise BASE function into iid covered Bernoulli marks of density p(T_q), with independent covered/noncovered full-value pairs, before running the search algorithm.'
+assert old in s;s=s.replace(old,new)
+old='Thus its ghost inner image is a BASE uniform full256 image. Quantum search for either a lower half equal to S or a full image equal to one of the at most q latent programmed U_i has density at most1/N+q/N^2.'
+new='Thus its ghost inner image comes from the independently sampled BASE inner function. The selected response can be biased by adaptive quantum search. Factor that entire BASE function pointwise: the mark for a lower half equal to S or a full image equal to one of the at most q latent programmed U_i has density at most1/N+q/N^2 before adaptive selection.'
+assert old in s;s=s.replace(old,new)
+s=s.replace(' — source marginal candidate.',' — reviewed source marginal.').replace(' — guarded source controllers candidate.',' — reviewed guarded source controllers.').replace(' — candidate guard bound.',' — reviewed guard bound.').replace(' — lazy-U equivalence candidate.',' — reviewed lazy-U equivalence.').replace(' — row interface candidate.',' — reviewed row interface.').replace(' — indispensable honest-query ledger candidate.',' — reviewed honest-query ledger.').replace(' — programmed-game interpretation candidate.',' — reviewed programmed-game interpretation.').replace(' — tentative independent advice.',' — reviewed event-only independent advice.').replace(' — fresh outer branch candidate.',' — reviewed fresh outer branch.').replace(' — final inner exceptional branches candidate.',' — reviewed final inner exceptional branches.')
+s=s.replace('## 5. Candidate source coverage envelope and open gate','## 5. Reviewed source coverage envelope')
+s=s.replace('**OPEN — not yet promoted.**','**PROVED — manually reviewed source coverage envelope.**')
+s=s.replace('This is a candidate source-bound quantum FORS COVER event, not yet a full QROM forgery theorem. Every partial-completion/guard/late-reveal transition, the lazy-U law, the AR qhat contract, and the conditional search factorization must pass independent review before this term is summed with the already reviewed H/G/D7 events and the private-hop loss. Plain Grover reading, category certification and parameter repair are separate conclusions.','This is a reviewed source-bound quantum FORS COVER event in the stipulated finite HJ game. The source/AR and separate search reviews accept its partial-completion, guarded nonce, lazy-U, row-read and final-factorization conditions. Full-forgery common-game composition requires its separate review. Plain Grover reading, category certification and parameter repair remain separate conclusions.')
+s=s.replace('**OPEN — smallest review targets.** Validate','**PROVED — accepted review obligations.** The source and search reviews validate')
+s=s.replace('A failed item must leave the total null, not be replaced by zero.','The review subjects and scope are pinned in their separate receipts. None establishes a category or efficient source reduction.')
+(X/'QUANTUM-COVERAGE-THEOREM.md').write_text(s,encoding='utf8')
+print(hashlib.sha256((X/'QUANTUM-COVERAGE-THEOREM.md').read_bytes()).hexdigest())

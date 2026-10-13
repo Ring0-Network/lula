@@ -1,0 +1,17 @@
+{
+  "status": "PASS_FINITE_QUANTUM_CONTROLS_ONLY",
+  "keys_per_seed": 16,
+  "coherent_full_output_bits": 2,
+  "ancilla_dimension": 2,
+  "raw_points": 65,
+  "key_pairs_checked": 256,
+  "averaged_hidden_mass": 0.06155540433464724,
+  "eligible_mass_over_N": 0.061555404334647255,
+  "averaged_one_query_pure_trace_distance": 0.3108607295023955,
+  "conservative_bound_2_over_sqrtN": 0.5,
+  "grover_one_query_success_and_next_real_key_weight": "121/256",
+  "invalid_literal_query_plus_final_bound": "1/8",
+  "classical_two_nomination_channel_discrepancy": "1/8",
+  "known_key_negative_control_hidden_mass": 1.0,
+  "scope": "Finite state inequalities and generic search discriminator; no source attack, no full QROM security proof"
+}

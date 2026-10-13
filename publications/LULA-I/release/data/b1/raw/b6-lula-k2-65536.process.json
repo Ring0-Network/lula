@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/b1\\build\\m3_ra_key.exe",
+    "run",
+    "LULA-I",
+    "data/b1\\vectors\\lula1-key2.cache",
+    "prepared",
+    "65536",
+    "1000",
+    "data/b1\\raw\\b6-lula-k2-65536.csv",
+    "data/b1\\raw\\b6-lula-k2-65536.vec.txt"
+  ],
+  "cwd": "data/b1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 1800.0,
+  "start_utc": "2026-10-12T18:49:51Z",
+  "status": "completed",
+  "peak_working_set_bytes": 80998400,
+  "peak_private_bytes": 77455360,
+  "pid": 18036,
+  "exit_code": 0,
+  "wall_seconds": 9.87317219999386,
+  "end_utc": "2026-10-12T18:50:01Z"
+}

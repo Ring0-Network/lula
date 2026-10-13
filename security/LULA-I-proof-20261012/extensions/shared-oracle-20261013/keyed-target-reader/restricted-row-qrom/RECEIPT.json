@@ -1,0 +1,35 @@
+{
+  "verdict": "MANUAL RESTRICTED SOURCE-RO/QROM TARGETSEARCH LEMMA DERIVED; no peer acceptance claimed yet",
+  "first_saved_before_new_peer_quantitative_proposal": true,
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "primary_2022_778_sha256": "1d24bcee44b6a719004cf6da5fd22275a06e2dac8a3a72acd8f8caa823a29215",
+  "primary_theorem": "TheoremE.3 printedpage35:Succ_q<=8*lambda*(q+1)^2",
+  "derived_query_bound": "tau_kind*min(1,8*(2*Q_eff+1)^2/2^128)",
+  "Q_eff_nonzero_source": "Q_A_coherent_total+Q_A_classical_total+1selected_final_classical_call",
+  "target_success_mass": "tau_kind=1-(1-p_kind)^2^32; unnormalized bottom retained",
+  "proof_contract": [
+    "no pretarget Raw query by wrapper",
+    "pretarget collection restricted to classical type0..4 and independentF",
+    "one static full256 globalO throughout",
+    "condition independent side data BEFORE A raw calls; no no-hit conditioning",
+    "P!=0 for excluding honest unaddressed aliases",
+    "coherent ChangedDomain membership routing without support measurement",
+    "honest global costs remain separately charged",
+    "arbitrary interquery advice allowed by query theorem; no efficient table realization certified"
+  ],
+  "joint_state_reordering": "static O-controlled hiddenprecompute and Araw adaptive channel commute on disjoint work registers",
+  "control_execution_exit_code": 0,
+  "artifacts": {
+    "INDEPENDENT-FIRST.md": "44dcb6acf797cf27875eece1a9f52f6e8faf2c365a8a391d4d5a14812b1c419b",
+    "controls.py": "3a8d9ac5481fa74a1859e92082f25e840f40073629fd325d238c7a8ea092c9b5",
+    "CONTROL-RESULTS.json": "51c1a06550bb9a3a0bc9544efa3ac65b07c13b2a1838115f5255824f8606a700"
+  },
+  "not_claimed": [
+    "arbitrary HK collection conjecture",
+    "fixedSHA hardness",
+    "fullsource/kernel mechanization",
+    "efficient coherent outside table implementation",
+    "complete original security theorem",
+    "category capacity or parameters"
+  ]
+}

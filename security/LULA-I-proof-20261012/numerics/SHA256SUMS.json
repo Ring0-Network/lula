@@ -1,0 +1,42 @@
+{
+  "bounds.json": {
+    "bytes": 40746,
+    "sha256": "137002c0092a63e923840f3534e6bd68534b4b8bbdb4a44a959f0e5b7010a5d3"
+  },
+  "bounds.md": {
+    "bytes": 1295,
+    "sha256": "b8562cf42e8d5ee55ff62c8a9647f18ccab87ea998716f722e9d20c78718a351"
+  },
+  "bounds.py": {
+    "bytes": 14134,
+    "sha256": "a482536e402e39c970f675abcd3d595e6a3bd43a3ce94d1c2e1dfd4d6fdc0385"
+  },
+  "crosscheck_originals.py": {
+    "bytes": 3654,
+    "sha256": "b1b651e5a66a5ce5cafea083f515695f9eb197803ddedcf856a4fbd2bec936c2"
+  },
+  "DERIVATION.md": {
+    "bytes": 6148,
+    "sha256": "e9ca0927c2473ba7f03eb5368e497f51aa279b145df89796e92633f27bcc43e3"
+  },
+  "NUMERIC_REPORT.md": {
+    "bytes": 8848,
+    "sha256": "6f269fbbdfdd239bef825d150b29c2f7681c079b6d354156d609cf3a1a82c166"
+  },
+  "ORIGINAL_CROSSCHECK.json": {
+    "bytes": 4908,
+    "sha256": "a62121de6c6bf00e85e76b3ddcd91369f6b2ef210aeec29d0e70700aacb9789d"
+  },
+  "requirements.txt": {
+    "bytes": 14,
+    "sha256": "a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645"
+  },
+  "RUNS.md": {
+    "bytes": 1386,
+    "sha256": "44d0bc5ca46d24a8193a1a081d412195df6e811e80339fac60c445efb1ab37cd"
+  },
+  "ROOT_NUMERIC_REVIEW.md": {
+    "bytes": 5374,
+    "sha256": "75f8844472118ee3134ba4923c1d4da7dcc8d8f02f85ede57bc25a5d2f37ea76"
+  }
+}

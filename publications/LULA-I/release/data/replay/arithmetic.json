@@ -1,0 +1,14 @@
+{
+  "verify": 3265,
+  "sign_expected": 96857.70336115116,
+  "sign_tail_2m30": 112189.08287833282,
+  "keygen": 45204126089.67415,
+  "cache_bytes": 75497456,
+  "sig_bytes": 5720,
+  "d": 5,
+  "h": 41,
+  "uniform_coverage_attack_log2": -132.56341994411804,
+  "top_cache_exact_bytes": 75497456,
+  "exact_sign_fixed_compressions_m32": 96082,
+  "message_note": "historical model includes an extra +1 in the expected signing formula; exact code has G_F outer trials, not 1+G_F."
+}

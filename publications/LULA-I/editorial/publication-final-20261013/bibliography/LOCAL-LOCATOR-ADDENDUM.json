@@ -1,0 +1,34 @@
+{
+  "status": "PASS_REMAINING_FLUHRER_SECTION5_EQUATION1_LOCATOR_CLOSED",
+  "prior_report_sha256": "5d4c850898e5eff2fb0fda74aa5f3826e12da2263d01932a06f9a1fba112efb2",
+  "prior_receipt_sha256": "e3c80950c4fd14077e43a29e06c6076bd40b0f09df8ce707175354eb3f18e5c8",
+  "prior_report_and_receipt_unchanged": true,
+  "valid_primary": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R8\\R8B-immutable-authority\\refs\\eprint-2024-018.pdf",
+    "sha256": "5326a5144c0628ab82d9e036689b0269402b6976ab01798a8241b3032e245bc6",
+    "bytes": 701594,
+    "pages": 40,
+    "cover_date": "2025-01-14",
+    "archive_revision_metadata_date": "2025-01-16",
+    "remote_pdf_byte_identity_verified": false,
+    "section5_printed_page": 5,
+    "equation1_printed_page": 6,
+    "visual_inspection": true
+  },
+  "invalid_HTML_cache": {
+    "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\H-hash\\H5-combinatorial-compression\\refs\\smaller_sphincs_2024-018\\2024-018.pdf",
+    "sha256": "949d73f38570adab4d5afc61d3ba94f056c30c9792ff94ea0c9d96f580c360b7",
+    "bytes": 5442,
+    "not_a_pdf": true,
+    "text_stub_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\H-hash\\H5-combinatorial-compression\\refs\\smaller_sphincs_2024-018\\2024-018.pdf.txt",
+    "text_stub_sha256": "7ee0d3df13e90d668b8e8b49b043e6208e54df94882d4d75fa5965bbd67545e0"
+  },
+  "current_operating_model_sha256": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+  "cited_locator_correct": true,
+  "manuscript_repair_required": false,
+  "bibliography_repair_required": false,
+  "randomized_R_source_premise_does_not_establish_LULA_deterministic_distribution": true,
+  "protected_files_edited": false,
+  "primary_pdf_copied_into_release_or_uploaded": false,
+  "addendum_sha256": "4e41904f3eafbf42b62c4abf0a9b984e68e9e2017800e1b98315fc0cac6b9ab5"
+}

@@ -1,0 +1,10 @@
+{
+  "P_cone": 8560574462,
+  "V_cone": 33554432,
+  "P_extract": 8560653547,
+  "V_extract": 33567232,
+  "top_subtree_public_calls": 8560574463,
+  "lower_subtree_public_calls": 15423,
+  "fors_instance_public_calls": 17392,
+  "status": "independent exact integer arithmetic; no source execution"
+}

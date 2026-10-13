@@ -1,0 +1,68 @@
+{
+  "status": "PROMOTED_REVIEWED_SUBJECTS_CURRENT_INDEX_REVIEW_PENDING",
+  "subject_pins": {
+    "selected-graph-challenge/LOCALIZED-FINAL-SUCCESSOR.md": "db2de01bb6dbb5f4f7d6398f12e4763d258c54820a0b3186475cbf8e0c4e14df",
+    "selected-graph-challenge/LOCALIZED-SEED-SCOPE-CLARIFICATION.md": "7b95a336d715c093ca3f9831bcad9278d051de628bd875b896afc5a65ed65704",
+    "selected-primitive-definitions/D7-BASE-EXTRACTION.md": "bf9af934dc0c16b96e28dedcafb71cfc6590dc17f826ada2562d99f71eaf9776",
+    "selected-graph-challenge/D7-BASE-SECOND-READER.md": "a29f246ae1ba8730d2e84a9bc33f8ae8de3eca447ee6654b60b8d943c5562acf",
+    "selected-primitive-definitions/LOCALIZED-SECOND-READER.md": "e4de88f8e6126522486455e588456d1665fb0aa3e18cc1469c7900c488babfba"
+  },
+  "localized_scope_repairs": [
+    [
+      "This successor's unconditional reduction loss is2^56, not D.",
+      "This successor's selection loss in the fixed-nonzero-S component game is2^56, not D."
+    ],
+    [
+      "Sample the source's three uniform seed components, hiding them and j from A;",
+      "For the component experiment sample S uniformly from the nonzero16-byte strings (or fix nonzero S), and sample K/P independently uniformly, hiding them and j from A;"
+    ],
+    [
+      "`Pr[B_local wins] = 2^-56 * Pr[source Win AND G_final]`.",
+      "`Pr[B_cond wins] = 2^-56 * Pr[source Win AND G_final | S != 0]`."
+    ],
+    [
+      "The source full-forgery decomposition uses the displayed conjunction.",
+      "The source full-forgery decomposition uses the displayed conditional conjunction and one external seed-zero charge."
+    ],
+    [
+      "The local adapter's exact routing/marginal remain valid on this branch.",
+      "The local router remains correct on this branch, but the routed extractor does not establish the raw-header G_final identity on S=0."
+    ],
+    [
+      "the same2^-56 identity applies to `Win AND G_final` as a mathematical QROM adapter identity.",
+      "the same2^-56 conditional-nonzero-S identity applies to `Win AND G_final` as a mathematical QROM adapter identity."
+    ]
+  ],
+  "prior_documents": {
+    "PROOF.md": "cfe7434d48d21f562b552918806d0ac42000f8a46722bd8dd32829617c937ca5",
+    "OPEN.md": "f33c75f2973dfd942a59829754af3498a016d34b28cb8679038214f22845b89f",
+    "TERM-TABLE.md": "207936ee69c60054601af57f2e2a72a312d40d987094474c7e44d36c316ef186",
+    "REQUIREMENT-MAP.md": "a6d6bb3414954bdf5b7f826f6b138738127e791e106a2010077903f7fc388a74",
+    "HANDOFF.md": "e708f662580cb29889a5f6c83d5b828adf98132de9255730fa0283e2c3e3aa36",
+    "SECURITY-CRITERION.md": "d476a4f02d1ff9a797f958871bcc5bb89ef8ee79f5df7516f3169340d758a81e"
+  },
+  "current_documents": {
+    "PROOF.md": "b0c47fa7cb794cb8ee6ef26f9735576de00c78ccc276e7bf56b90d47e73909f8",
+    "OPEN.md": "945a2fe3a31713f57b5445dabf0e455487d5745b1311239e319e3949be04979f",
+    "TERM-TABLE.md": "e543e2cf26c2d1f57af819a48d944d876d173080ead59013ce260cb591529d83",
+    "REQUIREMENT-MAP.md": "692a32d89527c94440eb3e65aaf7e9146597dc5decf6570a44fc2f5affbeff30",
+    "HANDOFF.md": "fa973f9c53aa434db180eae1e0814891641bdba19c895618ee1d22d80fb08c06",
+    "SECURITY-CRITERION.md": "5e8137919a1785c89dbb2247e74d07df35a38830c622f56bdc9390c52977eef3"
+  },
+  "new_artifacts": {
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+  },
+  "preserved_scalar_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81"
+  },
+  "resource_review_receipt_sha256": "db9ad6a8897ee313a04043eaa3eca72cc3b588861b4a4cbdb6ead16b02d1885c",
+  "initial_promotion_subject_review_sha256": "8181253e018926432dda938e013d0e037ef6de577f708cfaff1a97632eada50f",
+  "level_category": "not established",
+  "manuscript_edits": 0
+}

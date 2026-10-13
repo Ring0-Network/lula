@@ -1,0 +1,12 @@
+{
+  "original": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\hidden-values\\control.py",
+  "source_sha256": "1ee8f066f09529c10a550b29e5a0209f4510851a07f5cd7374311f2183ba077c",
+  "unmodified_copy_sha256": "1ee8f066f09529c10a550b29e5a0209f4510851a07f5cd7374311f2183ba077c",
+  "exit_code": 0,
+  "command": [
+    "C:\\Users\\angel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-I",
+    "-B",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-recheck-hidden\\control.py"
+  ]
+}

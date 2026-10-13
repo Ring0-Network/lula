@@ -1,0 +1,20 @@
+{
+  "status": "BLIND_TO_ROOT_NEW_RESULTS_INDEPENDENT_FORMULA_FIRST",
+  "first_sha256": "a62931b2276769dc8fc63c4f27e8ac1a011aa8315c97de1c60a8d8baef0141cb",
+  "pins": {
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\QUANTUM-POLYNOMIAL-PRIVATE-COMPOSITION.md": "1a9c1896814c51e6f0810e52baf69f2845996b276edcdcea8b44b8d371973c28",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SOURCE-PRIVATE-K-POLYNOMIAL-QROM.md": "0e09f51fced6f4a5fc26c8121bfc4f5a91dc3de3af4e93fe4465491e3d03ca73",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SOURCE-PRIVATE-P-POLYNOMIAL-QROM.md": "72e214e7194c8892502212690ef98ea1996f21b3138708154de6ff0de600544b",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\query-resource-independent\\thresholds.py": "713cd9030c212e88948be1116ff6f8b1edae99f62b330ea446dbf56edc8b7da6",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\query-resource-independent\\SHA256SUMS.json": "9a356f24f5a07ecff0b3b24472e05c2939eb708e9a57f32c8b782753311224f1",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\classical-composition-numeric\\OWN-BOUNDS.json": "9859f7e201402d8b53539bb16144add8016c7f889d923add947289dad94e50fd",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\classical-composition-numeric\\bounds.py": "ed3a2351845082be22de6646fbe1251bd6f4abd34875d52ae09d08ede9a4071d",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\classical-composition-numeric\\SHA256SUMS.json": "eb5ba4c87c4cf47feba210fddbaba53ef025c514404866a4eab9f95837924e70"
+  },
+  "root_new_results_read": false,
+  "old_context_examples_seen": "q2^40/q2^64 illustrative OLD quantum/classical values in prior derivation; first two old classical CROSSCHECK entries; no new result used",
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false
+}

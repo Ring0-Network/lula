@@ -1,0 +1,49 @@
+{
+  "status": "REVIEWED_COHERENT_SUBJECT_PROMOTED_CURRENT_INDEX_REVIEW_PENDING",
+  "source_subjects": {
+    "quantum-INDEPENDENT-DERIVATION.md": "1ceca6be12a9d65e79db7ede3ce5e26bdc31fd3ebf326c245c8351cb6112a9ba",
+    "quantum-CLARIFICATION.md": "5d5d9ecdd0a4cdff65ca19596557293bbbdfac1f7113c5722bc5859793ddace9",
+    "quantum-RESOURCE-CLARIFICATION.md": "a40da999ae0f2cb6bd2e38e21203eb025c982696fd49a19792a2ee8492081bcd",
+    "quantum-control.py": "e81af2bd0584d0d50e8f863f0ff5bcb5e2d9717e9626fd5d87498041ff212453",
+    "quantum-CONTROL-RESULTS.json": "786c569b6447e35cd1ad3bc1c26fc6248669a64ec2ec95bf6e1b6d1b38977fb0"
+  },
+  "peer_successor_receipt_sha256": "b53a5a45a108e993f73abf44f35e86b73be033ee36dd8bd5ba75475833c43ac1",
+  "resource_algebra_receipt_sha256": "dba62fbc8e945687a9ea77f6615988d22c9e874523f900c031da24b0007d112c",
+  "prior_documents": {
+    "PROOF.md": "29a70e7b912c2491450598749dc81ee92da7202cbb8e228aa15d58d2f94e7812",
+    "OPEN.md": "cccd8d118c7fd8c76e77918c0945be652630784d555d2e869cb182f54f613d2b",
+    "TERM-TABLE.md": "8e71905922ca64f90c8aa218db76c63a881b8be8a92924fcc2eab6857f9e20a1",
+    "REQUIREMENT-MAP.md": "e0d88c8c3f54121278de52347fa5893a06f40a5a8816ddf6e3dadad965df29ea",
+    "HANDOFF.md": "18900c5ef886c0e3faad0e1d4c238de7709bf1de3cee2a38699e9c5834535848",
+    "SECURITY-CRITERION.md": "ab009d13a0d45cc5dc3ef5e37f2887a68ee380ed3ea7508c2188fb25dfd2de16"
+  },
+  "current_documents": {
+    "PROOF.md": "c9135bdbd5384c08f663b1d20b04da0264ac31d6f6684a8d66dca6cbe81e54fd",
+    "OPEN.md": "0320b94d36a4735250933bd379d2a5867df60c31aaf3c87ca80ca390d1415cbc",
+    "TERM-TABLE.md": "b44c2fc8b909b453999188c6d94cff76b11bd95b11abb2c339bd10c9dce9423d",
+    "REQUIREMENT-MAP.md": "c44302569e3b4c6cd46f0a3058bad2f65ef95dcddd31bbe4596dba19ad2939f9",
+    "HANDOFF.md": "9e3742dbf07d7e64f56939e5a0aa1ef376b0b17ef496de3ffc7cfddf7dbde00c",
+    "SECURITY-CRITERION.md": "5ad414e2b6b2e6e7fdc702cb4ff4117e592bc3862748bd45b87483f04d3a91d7"
+  },
+  "new_artifacts": {
+    "QUANTUM-PRE-REDUCTION.md": "59ca1bd7385d28b3983e4c8a5194d0d98b05223bb26e57976766a018d39f50a2"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "CLASSICAL-PRE-REDUCTION.md": "2df727576b70753a920b8c4757c2e4cfe6d3438ff881811d7d60c74563bfc162"
+  },
+  "source_game_declarations_machine_checked": 0,
+  "supporting_declarations_new": 7,
+  "supporting_declarations_total": 40,
+  "conventional_PRE": "OPEN",
+  "efficient_outside": "OPEN",
+  "level_category": "not established",
+  "manuscript_edits": 0
+}

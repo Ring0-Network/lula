@@ -1,0 +1,22 @@
+{
+  "status": "COMPUTED / mathematical controls only",
+  "source_binding": "No source-to-primitive reduction established by these controls",
+  "ordinary_rows": 64,
+  "successful_rows": 56,
+  "success_fraction": "7/8",
+  "residual_eligible": 48,
+  "residual_hits": 12,
+  "residual_hit_fraction": "1/4",
+  "counter_only_full_event_examples_excluded_by_base_message_game": 12,
+  "canonical_counts_by_counter": [
+    32,
+    16,
+    8
+  ],
+  "density_domination_checks": 560,
+  "script_sha256": "b4a4fccf9e78928bb79a97dd8bd034fc05b10c536f9559015fb6b74dc052e367",
+  "derivation_sha256": "8b8083bb8df53c8de5e9faa0d37e4bb5b30a44e73e147595981d6fd12b6208e9",
+  "primary_346_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+  "primary_778_sha256": "1d24bcee44b6a719004cf6da5fd22275a06e2dac8a3a72acd8f8caa823a29215",
+  "primary_2203_sha256": "3c58f81a6a0b7e8e040134be1a0013b3977edefdc889e1636d4dfe79cf0e225e"
+}

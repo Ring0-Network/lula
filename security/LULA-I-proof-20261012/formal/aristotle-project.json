@@ -1,0 +1,5 @@
+{
+  "project_id": "8088c406-8395-494b-a4d4-7f8642dc0bc8",
+  "status": "1",
+  "prompt": "Produce a small standalone Lean 4 file importing Mathlib with namespace IndependentLula.\nProve exactly:\ntheorem fixed_sum_antichain {x y : List Nat}\n (hle : List.Forall\u2082 (\u00b7 \u2264 \u00b7) x y) (hs : x.sum = y.sum) : x = y\nDo not weaken this statement or add assumptions. No axioms, sorry, admit or native_decide.\nInclude #print axioms IndependentLula.fixed_sum_antichain. An induction on Forall\u2082 and sum monotonicity suffices.\nThis is only abstract nonsecret mathematics, not a cryptographic security proof.\nSave the completed source as IndependentLula.lean. Record the exact Lean/Mathlib version used."
+}

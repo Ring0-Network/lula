@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "data/a1\\build\\m3_ra.exe",
+    "prepare",
+    "LULA-I",
+    "data/a1\\vectors\\lula1.cache"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 14400.0,
+  "start_utc": "2026-10-12T04:08:10Z",
+  "status": "completed",
+  "peak_working_set_bytes": 122789888,
+  "peak_private_bytes": 143585280,
+  "pid": 29560,
+  "exit_code": 0,
+  "wall_seconds": 2240.1789486000052,
+  "end_utc": "2026-10-12T04:45:30Z"
+}

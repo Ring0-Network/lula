@@ -1,0 +1,17 @@
+{
+  "worlds": 32768,
+  "conditional_views": 84,
+  "counter_masses": {
+    "0": "1/2",
+    "1": "1/4",
+    "2": "1/8",
+    "None": "1/8"
+  },
+  "fresh_residual_match_every_view": "1/4",
+  "full_target_image_law_given_counter": "uniform over four accepted full images",
+  "free_two_residual_answers_then_one_selected_query": "7/16",
+  "status": "PASS_FINITE_CONTROL_ONLY",
+  "top_accepted_count": "454918678781617793203528879683071744",
+  "top_probability": "1777026088990694504701284686261999/1329227995784915872903807060280344576",
+  "rigorous_top_noncompletion_upper_bound": "2^-5741859"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "PASS_FRESH357_PIN_CLASSICAL_JOINT_INDEX_TABLE24ROWS8CROSSINGS_AND_PRESERVATION",
+  "subject_sha256": "a55aff308f1d222cbcfe958e4fafda32cda2bb1a48029fc4fea00f974f1cbdb2",
+  "prior_subject_sha256": "0842a3545e806314f107d5a85f4587287827128c03729b1c0e7d2c29f9339172",
+  "current_pins": 357,
+  "prior_retained_pins": 321,
+  "new_pins": 36,
+  "checks": {
+    "357_actual_absolute_evidence_pins_match": true,
+    "321_prior_pins_retained_without_digest_changes": true,
+    "documents_all_actual_pins_match": true,
+    "artifacts_all_actual_pins_match": true,
+    "receipt_pins_all_actual_pins_match": true,
+    "six_backups_exact321_prior_current_cut": true,
+    "five_identical_append_only_additions_TERM_common_plus_table": true,
+    "simultaneous_source_and_rare_slot_overlap_scope_explicit": true,
+    "same_current_joint_subject_in_all_final_receipts": true,
+    "independent_final_receipts_all_checks_true": true,
+    "root24_row_dataset_script_peer_and_input_hashes_match": true,
+    "24_rows_numerators_enclosures_deltas_rootdisplays_and_Q128_caps": true,
+    "8_exact_half_success_adjacent_pairs_and16_gates_recomputed": true,
+    "TERM8_rounded_exponents_Q128caps_and_exact_Qpass_match": true,
+    "latest_quantum321_prior_current_index_and_formulas_preserved": true,
+    "quantum_private_full_rows64threshold_endpoint_artifacts_preserved": true,
+    "165_frozen_packet_files_and_protected_crypto_sources_preserved": true,
+    "7_current_paper_files_match_authorized_editorial_cut": true,
+    "47_existing_supporting_helper_sources_receipts_unchanged": true,
+    "48_historical_scalar_cells_receipts_preserved": true,
+    "32_old_resource_crossing_input_pins_preserved": true,
+    "joint_promoted_but_47helpers0newgame0sourcechange_and_goalopen": true
+  },
+  "documents": {
+    "PROOF.md": {
+      "current_sha256": "018309afe33a06c322d6effc8ab78f78e1b8a4a22edd7b1e04c9498becc3f793",
+      "prior_sha256": "79451a7c2d6ce34475badf7a99f43d99bf82b0a0ef28cea20bfe7f0ce29816c9",
+      "append_only_content_except_trailing_whitespace": true
+    },
+    "OPEN.md": {
+      "current_sha256": "4f6d97290f019c734a05d6bc95930ed4445b6ae10e0edbdbbefdfbd74df23dfc",
+      "prior_sha256": "f94f6075e4bb1c0796974fc12e61f2a03a8eb9069e8ad4be9e8321bea43be9a4",
+      "append_only_content_except_trailing_whitespace": true
+    },
+    "TERM-TABLE.md": {
+      "current_sha256": "a8a77bc7e71524f7786a3d1266cd21fc7145b05c07af085161cd0a5812f989ef",
+      "prior_sha256": "501994ae57ff767c1fbe2e8aada5caedd9c7b89cdef04f9103e2610e1a41e094",
+      "append_only_content_except_trailing_whitespace": true
+    },
+    "REQUIREMENT-MAP.md": {
+      "current_sha256": "e80eb79a35564164c7d74e5656a9ccdc6784422fc6059bfce592d2e12fa81f5a",
+      "prior_sha256": "5ce7a88dbb60fd4ab30bd1dc5ce85759f416042339733efd41f39cd2a1dee14f",
+      "append_only_content_except_trailing_whitespace": true
+    },
+    "HANDOFF.md": {
+      "current_sha256": "34e91105b2b5748d12277ef039220f633eb9da05e0f55613e3bd887d6879e27e",
+      "prior_sha256": "5ba66364b49befd34752e7af75f5d7e8bc99a23cc38ee3a10d1e9327312e84d3",
+      "append_only_content_except_trailing_whitespace": true
+    },
+    "SECURITY-CRITERION.md": {
+      "current_sha256": "92a88d27b64e45625000b82a3ebd0759b4c2e9e7188ba04718a61a769b101b4c",
+      "prior_sha256": "36e90c83f162784fa2e7fb9414ddf838d3249fe3760c084f8a75f62176b7f6f1",
+      "append_only_content_except_trailing_whitespace": true
+    }
+  },
+  "script_sha256": "f7c064a2a1f03bca22f6fd8421a2bdcbe112682c310630fea3511583f5d5e680",
+  "manual_diff_sha256": "0b4ec145bbea613a6376055ab131a022bbc623b4045fb10e1f7a04ff6c38426a",
+  "joint_subject_sha256": "4fa7c3b63a268bd7535a753813d109a2f768f0089df44b54223a6e34cfaf35f0",
+  "own24_dataset_sha256": "5ed3dc727662e042bdb46478cb5ed9941644422248673d6a8734a0b7cc3bc383",
+  "root24_check_sha256": "7f49f69da7fde070186ced134760d59caf156d0a8c3f4781e493a768c3e670cd",
+  "rows_recomputed": 24,
+  "crossings_recomputed": 8,
+  "TERM_table_rows": 8,
+  "publication_current_pins": {
+    "LULA-I.tex": "a33849e5eccf0d1895a3a035bd6a45de312bf783db200d986d0e5cd55699c6c1",
+    "LULA-I.pdf": "eec039da9ca57e4e2779a6d81ce8d1fee73cb7ea5d22f68d08b7217730f5d2de",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "stability-results.tex": "e6d6dfe69236cf86e0da3010eda8f3adeb5702e3816b5acaeb24cf5b58f6ecc7",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "replay-results.tex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4"
+  },
+  "new_source_game_declarations": 0,
+  "whole_goal_complete": false,
+  "core_or_mutating_root_validator_writes": false
+}

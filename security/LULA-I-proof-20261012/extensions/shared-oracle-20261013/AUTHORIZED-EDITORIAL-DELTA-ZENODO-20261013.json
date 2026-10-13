@@ -1,0 +1,19 @@
+{
+  "authorization": "User explicitly requested GitHub link after conclusion, removal of private hardware/OS identifiers, and 72MiB cache versus memory/security analysis before Zenodo upload.",
+  "patches_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-parameter-uniform-classical\\PRIOR-AUTHORIZED-PUBLICATION-CUT.json",
+  "patches_sha256": "08314af06fc8552e121dfcd82b047969051fcc6b1c761e34cbbcda2ba58b44c7",
+  "paper_changes": {
+    "LULA-I.tex": {
+      "before": "3ef61931c2feb57e05ae28171a693801c131a9b1edee59956e477384985d27c8",
+      "after": "7aab775544100ba0336d8539aaf13622e3a840981f3c567ca56f19fdc2a009bf"
+    },
+    "LULA-I.pdf": {
+      "before": "bc805dcfd00c4f8b489efba80311cb49fde8835618c719a4136b288484966110",
+      "after": "b036d61139ce8bc3d5cc0715e6e6b5e2174c80218c39d70e7bf6c5fa6cf48156"
+    },
+    "stability-results.tex": {
+      "before": "7bf5af933b82d89dab647d784d07598276c0c56693dc795001e4da1aec9671b7",
+      "after": "c9c1855c24f1d418ad53d4cef74d36a385145fd39644871687516ddcbe68e802"
+    }
+  }
+}

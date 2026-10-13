@@ -1,0 +1,45 @@
+{
+  "status": "ACCEPTED_MANUAL_RESTRICTED_ROW_QROM_TWO_QUERY_COMPONENT",
+  "provenance": "Both prior first proofs read before this third peer review; not blind rederivation.",
+  "scope": "Manual restricted static-global-fullRO proof and exact synthetic controls; no fullsource/game kernel declarations or numerical promotion.",
+  "pins": {
+    "reader_first": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\keyed-target-reader\\restricted-row-qrom\\INDEPENDENT-FIRST.md",
+      "sha256": "44dcb6acf797cf27875eece1a9f52f6e8faf2c365a8a391d4d5a14812b1c419b"
+    },
+    "author_first": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\standard-identification\\restricted-row-qrom\\INDEPENDENT-FIRST.md",
+      "sha256": "74d25d6b3a7332d866ac8c11d3a0b75b37390837b02e7abc05d72332f84a31c1"
+    },
+    "source": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+      "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+    },
+    "primary_pdf": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R2\\R2B-joint-constraints\\refs\\sphincsplusc_2022_778\\2022-778.pdf",
+      "sha256": "1d24bcee44b6a719004cf6da5fd22275a06e2dac8a3a72acd8f8caa823a29215"
+    },
+    "primary_text": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R2\\R2B-joint-constraints\\refs\\sphincsplusc_2022_778\\2022-778.txt",
+      "sha256": "833bcca0db93c57c3eff21e7982eb122aa386cdb2cdcdb696721d086cd406078"
+    },
+    "review": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\PEER-REVIEW.md",
+      "sha256": "8260eada5056c869c564e38ed0cd707f4ac9f1a5f9fba1c5de690763f7dee0da"
+    },
+    "controls": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\controls.py",
+      "sha256": "80fa317f691b162624dbb1c42a0f77ad965484971bbdf719be54edc4a2b7a95b"
+    },
+    "results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\CONTROL-RESULTS.json",
+      "sha256": "58604aa01c6b19ce4ccbd596ade241717a6770004053504d19e81ed8c803ddc3"
+    }
+  },
+  "controls_exit_code": 0,
+  "supporting_declarations_added": 0,
+  "base_bound": "min(1,8*(2*M+1)^2/2^128)",
+  "old_adapter_M": "Q+1",
+  "new_stopping_extractor_M": "Q",
+  "wording_clarification": "Two-call substitution does not exclude a separately established one-call oracle completion."
+}

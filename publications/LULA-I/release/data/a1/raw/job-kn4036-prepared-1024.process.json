@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\m3go_qpc.exe",
+    "bench",
+    "kn4036",
+    "data/a1\\vectors\\go-kn4036.json",
+    "prepared",
+    "1024",
+    "12",
+    "data/a1\\raw\\kn4036-prepared-1024.csv",
+    "data/a1\\raw\\kn4036-prepared-1024.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 3600.0,
+  "start_utc": "2026-10-12T14:26:22Z",
+  "status": "completed",
+  "peak_working_set_bytes": 57012224,
+  "peak_private_bytes": 95064064,
+  "pid": 28900,
+  "exit_code": 0,
+  "wall_seconds": 25.66732029999548,
+  "end_utc": "2026-10-12T14:26:48Z"
+}

@@ -1,0 +1,8 @@
+candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid,state_counter
+shrincs-c-b32,prepared,1024,0,fixture_load_or_restore,787900,,0,32,true,0
+shrincs-c-b32,prepared,1024,0,sign,64087500,,324,32,true,0
+shrincs-c-b32,prepared,1024,0,verify,153200,,324,32,true,0
+shrincs-c-b32,prepared,1024,1,sign,68892600,,340,32,true,1
+shrincs-c-b32,prepared,1024,1,verify,153600,,340,32,true,1
+shrincs-c-b32,prepared,1024,2,sign,89497000,,356,32,true,2
+shrincs-c-b32,prepared,1024,2,verify,158600,,356,32,true,2

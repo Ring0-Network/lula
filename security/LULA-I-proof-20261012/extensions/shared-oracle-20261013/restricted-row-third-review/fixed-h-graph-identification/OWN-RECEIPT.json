@@ -1,0 +1,58 @@
+{
+  "status": "OWN_FIRST_MANUAL_CONDITIONAL_COLLECTION_TCR_IDENTIFICATION",
+  "provenance": "Saved own derivation before reading any NEW peer graph proposal. Read only source, primary definitions and previously accepted graph/changed-child/PRE reductions.",
+  "pins": {
+    "own_first": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\fixed-h-graph-identification\\INDEPENDENT-FIRST.md",
+      "sha256": "991257503fc6d3f0bed2c03db64e4bbbe4e6c155c6da18ef4918ac7d8ffdbef2"
+    },
+    "source": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+      "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+    },
+    "selected_graph": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\SELECTED-GRAPH-REDUCTION.md",
+      "sha256": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad"
+    },
+    "changed_child": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\CHANGED-CHILD-EXTRACTION.md",
+      "sha256": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+    },
+    "classical_pre": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\CLASSICAL-PRE-REDUCTION.md",
+      "sha256": "2df727576b70753a920b8c4757c2e4cfe6d3438ff881811d7d60c74563bfc162"
+    },
+    "primary_pdf": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3"
+    },
+    "primary_text": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561"
+    },
+    "controls": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\fixed-h-graph-identification\\controls.py",
+      "sha256": "56033f625e0ec4ec6c6d184b44564d1db9242d4b02d8f3b177b70b3dcbe9d01f"
+    },
+    "results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\restricted-row-third-review\\fixed-h-graph-identification\\CONTROL-RESULTS.json",
+      "sha256": "d961bb8e6ff094158c19b7df8a0241222899d456e4f792d3b282c8a358c07396"
+    }
+  },
+  "controls_exit_code": 0,
+  "model": "HJ[h]: public fixed full256 algorithm; independent ideal private F/J",
+  "ordinary_game": "HK22 Definitions2/7, SM-TCR of fixed-length collection members with one challenge and other-tweak pre-release Col access",
+  "member_lengths_bits": [
+    128,
+    256,
+    2048,
+    2176,
+    4096
+  ],
+  "graph_bound": "Pr[Win AND G_final AND S!=0] <=2^56 sum_m Succ(B_m,p=1)",
+  "hardness": "ASSUMED, not quantified for actual SHA",
+  "remaining_PRE": "Same-input hidden preimage is not target collision; interior fixed-h predecessor law and unprogrammable previous-cell gap remain",
+  "new_source_or_game_kernel_declarations": 0,
+  "old_scalar_changes": 0,
+  "first_requires_peer_review": true
+}

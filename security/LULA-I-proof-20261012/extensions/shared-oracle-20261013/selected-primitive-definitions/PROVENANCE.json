@@ -1,0 +1,56 @@
+{
+  "formal_machine_check": "Not claimed",
+  "outcome": "PRIMARY_DEFINITION_AUDIT_AND_REVIEWED_POINTWISE_D7_BASE_REFINEMENT",
+  "repaired_accidental_outside_placeholder": "Briefly created then immediately removed own one-line placeholder X/GRAPH-SECOND-READER.md; no final outside artifact remains",
+  "control_exit_codes": [
+    0,
+    0
+  ],
+  "d7_reader": "selected-graph-challenge/D7-BASE-SECOND-READER.md",
+  "graph_review": "ACCEPT scoped addressed RO adapter, and localized nonzero-seed adapter with explicit selection loss",
+  "artifacts": [
+    {
+      "file": "INDEPENDENT_DERIVATION.md",
+      "sha256": "8b8083bb8df53c8de5e9faa0d37e4bb5b30a44e73e147595981d6fd12b6208e9"
+    },
+    {
+      "file": "D7-BASE-EXTRACTION-FIRST.md",
+      "sha256": "8b39805bea96f5c10a5d4e689355544cc1b82d3265121d60cca0733a16095c6d"
+    },
+    {
+      "file": "D7-BASE-EXTRACTION.md",
+      "sha256": "bf9af934dc0c16b96e28dedcafb71cfc6590dc17f826ada2562d99f71eaf9776"
+    },
+    {
+      "file": "GRAPH-SECOND-READER.md",
+      "sha256": "2b4df41c8cd22b66833fb5ce979b1fc64db610af0d4d05e0f87ff18f503bbcf5"
+    },
+    {
+      "file": "LOCALIZED-SECOND-READER.md",
+      "sha256": "e4de88f8e6126522486455e588456d1665fb0aa3e18cc1469c7900c488babfba"
+    },
+    {
+      "file": "controls.py",
+      "sha256": "b4a4fccf9e78928bb79a97dd8bd034fc05b10c536f9559015fb6b74dc052e367"
+    },
+    {
+      "file": "CONTROL-RESULTS.json",
+      "sha256": "46d421fe6b611d4e3123f8ba41219bb22031881ef90e76c92a5aeca2ecf2cafe"
+    },
+    {
+      "file": "graph-control-recheck.py",
+      "sha256": "c1fb4c14d3fdbf419e8581746f9b22fbea0de6cec498b078aa2c5af59af8623f"
+    },
+    {
+      "file": "GRAPH-RECHECK.json",
+      "sha256": "49232bff7487238c3ff83875712e5b90dbf3e366c8d609877723fd40754e7141"
+    },
+    {
+      "file": "LOCALIZED-COUNTS.json",
+      "sha256": "7520dcb373a9b9c66b2e0ba6f068d1b9606bc95e3481d179c258aaf1551fafa4"
+    }
+  ],
+  "d7_reader_sha256": "a29f246ae1ba8730d2e84a9bc33f8ae8de3eca447ee6654b60b8d943c5562acf",
+  "own_primary_derivation_saved_before_new_graph_candidate_read": true,
+  "primary_interface_conversion": "OPEN for ordinary general SHA-family PRE/SPR/TCR"
+}

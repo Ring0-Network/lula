@@ -1,0 +1,124 @@
+{
+  "verdict": "ACCEPT_MANUAL_CONDITIONAL_FIXED_PUBLIC_HASH_CANONICAL_COLLECTION_COMPONENT",
+  "current_index_review": false,
+  "subject_pins": {
+    "selected-promotion-review/standard-identification/INDEPENDENT-DERIVATION.md": "74e2106c6c18733d03864f844817d9685db07a867972721aec485bfc9ed04e57",
+    "selected-promotion-review/standard-identification/CLARIFICATION.md": "649ab0c00afa293ba64f0624338c49f2dd9c921fd2ac70d225143d308b58d289",
+    "selected-promotion-review/standard-identification/QUANTITATIVE-SCOPE.md": "6dc217953bcee82a0f9a8fe96e8e507c3207e2a12e297390c035a3ed6ebd1bb5",
+    "selected-promotion-review/standard-identification/COUNTERMODELS.py": "a1b500ed53cf378106099662e7425f36942b75fd7e973752080a7d3e4d148b7d",
+    "selected-promotion-review/standard-identification/COUNTERMODEL-RESULTS.json": "8956235b8b69ce003fec36032db9b566e0e953c52038672bb4091b371524792b",
+    "selected-promotion-review/standard-identification/PRIMARY-AND-STATUS.md": "35a64ee0f221a3f4b78785c209ff526e28f9f955ae49dcb07fae1633baf552aa",
+    "selected-promotion-review/standard-identification/OWN-RECEIPT.json": "d1b76e9e939cca50f8e00598df797805be579c5b97090be395beaa2dab1291cb",
+    "selected-promotion-review/standard-identification/SUCCESSOR-OWN-RECEIPT.json": "4734ec1315ebd5b611dc31b1554bea97b44ca25da1122f3dc9a29071a1da9c59",
+    "selected-promotion-review/standard-identification/PEER-REVIEW.md": "04ac9c3f499244c369437f8d697418288302a9706151ab000e810cf0516a9327",
+    "keyed-target-reader/INDEPENDENT-FIRST.md": "503b8eadc99e1495551b2e04e10c736317b5f129a827e2a3c9469160ed8361d4",
+    "keyed-target-reader/PEER-REVIEW.md": "253d70b38ba266d7a047dbedc43e486a1bbda75fce561a803d6bd22f8d25b60b",
+    "keyed-target-reader/REVIEW-RECEIPT.json": "d648ca93da1789e81cd8eea4b162258c1e179f706cc04e8a32494443ff815027",
+    "keyed-target-reader/controls.py": "4469c117282babdfc136856dfcd34d5f858933659e158ed06e4eb07cfffc42f9",
+    "keyed-target-reader/CONTROL-RESULTS.json": "79607619a0a3b5e6e7761f2a7793496f8785638909627ca22c19a20cb33d379d"
+  },
+  "author_provenance_sha256": "56220f1bf4dd3aa7e47c5da16a8d296c0c9a461fd83705a40af4fd56843b2339",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "primary_files": [
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+      "cached_text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "cached_text_sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561",
+      "primary_url": "https://eprint.iacr.org/2022/346",
+      "anchors": "Definitions2/7;collection discussion;Section8 quantitative conjecture"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R2\\R2B-joint-constraints\\refs\\sphincsplusc_2022_778\\2022-778.pdf",
+      "pdf_sha256": "1d24bcee44b6a719004cf6da5fd22275a06e2dac8a3a72acd8f8caa823a29215",
+      "cached_text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R2\\R2B-joint-constraints\\refs\\sphincsplusc_2022_778\\2022-778.txt",
+      "cached_text_sha256": "833bcca0db93c57c3eff21e7982eb122aa386cdb2cdcdb696721d086cd406078",
+      "primary_url": "https://eprint.iacr.org/2022/778",
+      "anchors": "Definition5.1;Section5.1/Algorithm5;DefinitionC.1 printed page30"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\private\\primary\\2025-2203.pdf",
+      "pdf_sha256": "3c58f81a6a0b7e8e040134be1a0013b3977edefdc889e1636d4dfe79cf0e225e",
+      "cached_text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\private\\primary\\2025-2203.txt",
+      "cached_text_sha256": "e4b0b3e8a996694ba5aff86deecf4f7ac4a343d69aeadbe49157e139285f8359",
+      "primary_url": "https://eprint.iacr.org/2025/2203",
+      "anchors": "Definitions2.2/2.3"
+    }
+  ],
+  "inherited_preserved_core_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "SELECTED-GRAPH-REDUCTION.md": "b8dc54eb0922bb1264274e6799846af41c97b8d45afce9d1bb6b544a1d19bfad",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "CLASSICAL-PRE-REDUCTION.md": "2df727576b70753a920b8c4757c2e4cfe6d3438ff881811d7d60c74563bfc162",
+    "QUANTUM-PRE-REDUCTION.md": "59ca1bd7385d28b3983e4c8a5194d0d98b05223bb26e57976766a018d39f50a2",
+    "TYPE7-REDUCTION-PROGRAM.md": "9de49e85de06364ffc007bd02de46fb5de4a7ad3abf84f29065b2d12710586bf"
+  },
+  "prior_outside_integration_sha256": "35346bde05f84480a006d5ab46ffbfd39380f3ad075e92943db62a6474f88cf9",
+  "manual_review_sha256": "1a95f16a7572a268e3b79179baf3aec64c6919ccbc9515996d4c4399d1b0c3ee",
+  "checker_sha256": "5620bfc8046670c1300e3462db604ab458a7c25955035a62dee3e223a5406796",
+  "kernel_pins": {
+    "root-keyed-review/CounterPolicy.lean": "514c092e67fce163b52628b396f7ba60a5fc8c9244101d89bcddcc073c75e88a",
+    "root-keyed-review/CounterPolicy.log": "0399ac3d7c158e4e6e251b1e949f6e029f8fd8b72291736649704cb63c332951",
+    "root-keyed-review/COUNTER-POLICY-CHECK.json": "9e75f0f57ad74d9980d330143790b49583addfbdc09d4c4840ebf9532aa0f4ab",
+    "outside-field-check/standard-component-review/CounterPolicy-recheck.log": "772faceaa0d1c7b6f4fad3291689901c4dc4bf916b718c20de78e2e5df605803"
+  },
+  "independent_kernel_reexecution": {
+    "exit_code": 0,
+    "toolchain": "Lean 4.28.0; existing WSL Ubuntu-24.04 Mathlib checkout",
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--cd",
+      "/root/jolt-lean-20261001/mathlib",
+      "--",
+      "/usr/bin/env",
+      "PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin",
+      "/root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake",
+      "env",
+      "lean",
+      "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-keyed-review/CounterPolicy.lean"
+    ],
+    "axioms": {
+      "LulaCounterPolicy.both_policies_accepted": [
+        "propext"
+      ],
+      "LulaCounterPolicy.canonical_policy_collision": [],
+      "LulaCounterPolicy.later_policy_no_changed_base_collision": [
+        "propext"
+      ],
+      "LulaCounterPolicy.no_finite_factor_from_zero_success": [
+        "propext"
+      ]
+    }
+  },
+  "checks": {
+    "canonical_first_legal_specialization_no_forall_policy_gate": true,
+    "r_security_parameter_construction_choice": true,
+    "hidden_parameter_other_tweak_child_computation": true,
+    "genuine_child_public_types0_to4_disjoint_type7": true,
+    "fixed_public_hash_prekey_may_start_after_parameter_release_withheld_from_a": true,
+    "lower42_top21_fixed_predicate_split": true,
+    "unconditioned_nonzero_event_no_eta_denominator": true,
+    "bottom_local_failure_not_global_normalization": true,
+    "same_full_public_hash_lower_limb_computation": true,
+    "external_global_raw_qrom_is_distinct_interface": true,
+    "all_honest_work_and_primitive_preprocessing_charged": true,
+    "hk_generic_collection_bounds_are_conjecture_not_proved": true,
+    "four_helpers_only_synthetic_policy_countermodel": true,
+    "new_restricted_qrom_candidates_not_reviewed_or_relied_upon": true
+  },
+  "new_supporting_checked_declarations": 4,
+  "potential_cumulative_supporting_checked_declarations": 44,
+  "new_source_game_security_checked_declarations": 0,
+  "quantitative_c1_bounds": "OPEN",
+  "HJ_fixed_hash_equals_HJ_random_oracle": "not asserted",
+  "fixed_sha_hardness": "not established",
+  "category_capacity": "not established",
+  "whole_goal_complete": false
+}

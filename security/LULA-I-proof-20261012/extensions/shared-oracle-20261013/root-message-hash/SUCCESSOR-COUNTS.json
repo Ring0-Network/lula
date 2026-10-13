@@ -1,0 +1,76 @@
+{
+  "classification": "COMPUTED exact integer accounting",
+  "graph_counts": {
+    "128": 20229886488608768,
+    "256": 19105114044235775,
+    "2048": 2097152,
+    "2176": 2199023255552,
+    "4096": 2269957324800
+  },
+  "graph_selector_bits": {
+    "128": 55,
+    "256": 55,
+    "2048": 21,
+    "2176": 41,
+    "4096": 42
+  },
+  "rows": [
+    {
+      "q_exponent": 24,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 952,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 30,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1054,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 38,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1190,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 40,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1224,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 41,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1241,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 44,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1292,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 50,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1394,
+      "fixed_h_security": "not established"
+    },
+    {
+      "q_exponent": 64,
+      "k": 17,
+      "dense_loss_log2": 544,
+      "sparse_loss_log2": 1632,
+      "fixed_h_security": "not established"
+    }
+  ],
+  "scope": "Reduction losses and selectors only; no new hardness, probability, capacity or category certificate"
+}

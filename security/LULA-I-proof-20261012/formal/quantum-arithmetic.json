@@ -1,0 +1,330 @@
+{
+  "numeric_input_sha256": "137002c0092a63e923840f3534e6bd68534b4b8bbdb4a44a959f0e5b7010a5d3",
+  "numeric_input_scope": "independent honest occupancy / fixed-instance random digest coverage",
+  "sm_tcr_coefficient_bits": 5.584962500721156,
+  "sm_tcr_constant_success_query_exponent_loss": 2.792481250360578,
+  "single_ideal_tcr_Q_exponent_for_upper_2minus64": 29.207518749639423,
+  "rows": [
+    {
+      "signing_exponent": 24,
+      "input_fors_per_try_bits": 178.4218201076853,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 89.21091005384265,
+      "conditional_average_search_log2_upper": -111.4218201070135,
+      "conditional_average_search_clipped_log2_upper": -111.4218201070135,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 24,
+      "input_fors_per_try_bits": 178.4218201076853,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 89.21091005384265,
+      "conditional_average_search_log2_upper": -95.42182010768268,
+      "conditional_average_search_clipped_log2_upper": -95.42182010768268,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 24,
+      "input_fors_per_try_bits": 178.4218201076853,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 89.21091005384265,
+      "conditional_average_search_log2_upper": -55.421820107685306,
+      "conditional_average_search_clipped_log2_upper": -55.421820107685306,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 24,
+      "input_fors_per_try_bits": 178.4218201076853,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 89.21091005384265,
+      "conditional_average_search_log2_upper": -47.421820107685306,
+      "conditional_average_search_clipped_log2_upper": -47.421820107685306,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 30,
+      "input_fors_per_try_bits": 167.77125372932468,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 83.88562686466234,
+      "conditional_average_search_log2_upper": -100.77125372865288,
+      "conditional_average_search_clipped_log2_upper": -100.77125372865288,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 30,
+      "input_fors_per_try_bits": 167.77125372932468,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 83.88562686466234,
+      "conditional_average_search_log2_upper": -84.77125372932205,
+      "conditional_average_search_clipped_log2_upper": -84.77125372932205,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 30,
+      "input_fors_per_try_bits": 167.77125372932468,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 83.88562686466234,
+      "conditional_average_search_log2_upper": -44.771253729324684,
+      "conditional_average_search_clipped_log2_upper": -44.771253729324684,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 30,
+      "input_fors_per_try_bits": 167.77125372932468,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 83.88562686466234,
+      "conditional_average_search_log2_upper": -36.771253729324684,
+      "conditional_average_search_clipped_log2_upper": -36.771253729324684,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 38,
+      "input_fors_per_try_bits": 143.26253858106296,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 71.63126929053148,
+      "conditional_average_search_log2_upper": -76.26253858039115,
+      "conditional_average_search_clipped_log2_upper": -76.26253858039115,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 38,
+      "input_fors_per_try_bits": 143.26253858106296,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 71.63126929053148,
+      "conditional_average_search_log2_upper": -60.262538581060326,
+      "conditional_average_search_clipped_log2_upper": -60.262538581060326,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 38,
+      "input_fors_per_try_bits": 143.26253858106296,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 71.63126929053148,
+      "conditional_average_search_log2_upper": -20.262538581062955,
+      "conditional_average_search_clipped_log2_upper": -20.262538581062955,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 38,
+      "input_fors_per_try_bits": 143.26253858106296,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 71.63126929053148,
+      "conditional_average_search_log2_upper": -12.262538581062955,
+      "conditional_average_search_clipped_log2_upper": -12.262538581062955,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 40,
+      "input_fors_per_try_bits": 132.56341994411804,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 66.28170997205902,
+      "conditional_average_search_log2_upper": -65.56341994344623,
+      "conditional_average_search_clipped_log2_upper": -65.56341994344623,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 40,
+      "input_fors_per_try_bits": 132.56341994411804,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 66.28170997205902,
+      "conditional_average_search_log2_upper": -49.56341994411541,
+      "conditional_average_search_clipped_log2_upper": -49.56341994411541,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 40,
+      "input_fors_per_try_bits": 132.56341994411804,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 66.28170997205902,
+      "conditional_average_search_log2_upper": -9.563419944118039,
+      "conditional_average_search_clipped_log2_upper": -9.563419944118039,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 40,
+      "input_fors_per_try_bits": 132.56341994411804,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 66.28170997205902,
+      "conditional_average_search_log2_upper": -1.5634199441180385,
+      "conditional_average_search_clipped_log2_upper": -1.5634199441180385,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 41,
+      "input_fors_per_try_bits": 125.90253038476634,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 62.95126519238317,
+      "conditional_average_search_log2_upper": -58.90253038409453,
+      "conditional_average_search_clipped_log2_upper": -58.90253038409453,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 41,
+      "input_fors_per_try_bits": 125.90253038476634,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 62.95126519238317,
+      "conditional_average_search_log2_upper": -42.90253038476371,
+      "conditional_average_search_clipped_log2_upper": -42.90253038476371,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 41,
+      "input_fors_per_try_bits": 125.90253038476634,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 62.95126519238317,
+      "conditional_average_search_log2_upper": -2.9025303847663366,
+      "conditional_average_search_clipped_log2_upper": -2.9025303847663366,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 41,
+      "input_fors_per_try_bits": 125.90253038476634,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 62.95126519238317,
+      "conditional_average_search_log2_upper": 5.097469615233663,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 44,
+      "input_fors_per_try_bits": 98.5212030506804,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 49.2606015253402,
+      "conditional_average_search_log2_upper": -31.521203050008594,
+      "conditional_average_search_clipped_log2_upper": -31.521203050008594,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 44,
+      "input_fors_per_try_bits": 98.5212030506804,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 49.2606015253402,
+      "conditional_average_search_log2_upper": -15.52120305067777,
+      "conditional_average_search_clipped_log2_upper": -15.52120305067777,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 44,
+      "input_fors_per_try_bits": 98.5212030506804,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 49.2606015253402,
+      "conditional_average_search_log2_upper": 24.4787969493196,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 44,
+      "input_fors_per_try_bits": 98.5212030506804,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 49.2606015253402,
+      "conditional_average_search_log2_upper": 32.4787969493196,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 50,
+      "input_fors_per_try_bits": 20.122193181815444,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 10.061096590907722,
+      "conditional_average_search_log2_upper": 46.87780681885636,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 50,
+      "input_fors_per_try_bits": 20.122193181815444,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 10.061096590907722,
+      "conditional_average_search_log2_upper": 62.87780681818718,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 50,
+      "input_fors_per_try_bits": 20.122193181815444,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 10.061096590907722,
+      "conditional_average_search_log2_upper": 102.87780681818455,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 50,
+      "input_fors_per_try_bits": 20.122193181815444,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 10.061096590907722,
+      "conditional_average_search_log2_upper": 110.87780681818455,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 64,
+      "input_fors_per_try_bits": 9.0,
+      "quantum_queries_exponent": 32,
+      "plain_grover_query_work_exponent": 4.5,
+      "conditional_average_search_log2_upper": 58.000000000671804,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -58.415037499054904,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 64,
+      "input_fors_per_try_bits": 9.0,
+      "quantum_queries_exponent": 40,
+      "plain_grover_query_work_exponent": 4.5,
+      "conditional_average_search_log2_upper": 74.00000000000263,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -42.41503749927797,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 64,
+      "input_fors_per_try_bits": 9.0,
+      "quantum_queries_exponent": 60,
+      "plain_grover_query_work_exponent": 4.5,
+      "conditional_average_search_log2_upper": 114.0,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": -2.4150374992788386,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    },
+    {
+      "signing_exponent": 64,
+      "input_fors_per_try_bits": 9.0,
+      "quantum_queries_exponent": 64,
+      "plain_grover_query_work_exponent": 4.5,
+      "conditional_average_search_log2_upper": 122.0,
+      "conditional_average_search_clipped_log2_upper": 0,
+      "ideal_sm_tcr_log2_upper": 5.584962500721161,
+      "status": "COMPUTED ARITHMETIC, ASSUMED MODEL, NOT LULA I BOUND"
+    }
+  ],
+  "no_certified_quantum_signing_limit": true
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_CURRENT_PACKAGES",
+  "main_pdf": {
+    "pages": 21,
+    "bytes": 629642,
+    "sha256": "eec039da9ca57e4e2779a6d81ce8d1fee73cb7ea5d22f68d08b7217730f5d2de"
+  },
+  "repository_files": 887,
+  "frozen_data_files_unchanged": 793,
+  "files": [
+    {
+      "name": "LULA-I.pdf",
+      "bytes": 629642,
+      "sha256": "eec039da9ca57e4e2779a6d81ce8d1fee73cb7ea5d22f68d08b7217730f5d2de"
+    },
+    {
+      "name": "LULA-I-source.zip",
+      "bytes": 94669,
+      "sha256": "0dcd8e4c9576cfcef95bc7e07c20ee86309d8bc65450e5a9202409de20c7abc2"
+    },
+    {
+      "name": "LULA-I-release.zip",
+      "bytes": 5499653,
+      "sha256": "7c631e5f8c93c1e90e46cdcdbc10356660f324665d1af8d31cc3a571c3dcb1d8"
+    }
+  ]
+}

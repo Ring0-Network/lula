@@ -1,0 +1,4 @@
+candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid
+LULA-I,fresh,32,0,fixture_load,5593419000,0,0,32,true
+LULA-I,fresh,32,0,sign,3541900,96438,5720,32,true
+LULA-I,fresh,32,0,verify,129900,3265,5720,32,true

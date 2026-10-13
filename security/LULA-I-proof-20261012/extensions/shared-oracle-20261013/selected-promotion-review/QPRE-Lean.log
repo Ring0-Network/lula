@@ -1,0 +1,7 @@
+'LulaQuantumSelector.sum_root_error_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LulaQuantumSelector.mixed_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LulaQuantumSelector.padded_root_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LulaQuantumSelector.cap_padded_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LulaQuantumSelector.interior_cut_count' depends on axioms: [propext]
+'LulaQuantumSelector.protected_union_count' depends on axioms: [propext]
+'LulaQuantumSelector.padded_namespace' depends on axioms: [propext]

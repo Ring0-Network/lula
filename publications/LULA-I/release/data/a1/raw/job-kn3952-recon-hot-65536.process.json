@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\kn3952.exe",
+    "run",
+    "x",
+    "data/a1\\vectors\\kn3952.state",
+    "hot",
+    "65536",
+    "12",
+    "data/a1\\raw\\kn3952-recon-hot-65536.csv",
+    "data/a1\\raw\\kn3952-recon-hot-65536.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 3600.0,
+  "start_utc": "2026-10-12T14:34:51Z",
+  "status": "completed",
+  "peak_working_set_bytes": 8425472,
+  "peak_private_bytes": 2560000,
+  "pid": 31632,
+  "exit_code": 0,
+  "wall_seconds": 41.36875799999689,
+  "end_utc": "2026-10-12T14:35:32Z"
+}

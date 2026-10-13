@@ -1,0 +1,43 @@
+{
+  "verdict": "ACCEPT_MANUAL_CORRELATED_WHOLE_MARKER_FINITE_SINGLE_PRE_DERIVATION",
+  "peer_pins": {
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/INDEPENDENT-FIRST.md": "618ea5b85ff695e76aa785a916e2dcee3abbd28edbc0f930cbd972b9fa14b3f2",
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/DERIVATION-RECEIPT.json": "c0778ff5d29962a167f3f34a1c6a66a8be30953d84ceeb761305d0349dacb34f",
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/finite_controls.py": "37b922d5aa8f98b5e63164afbea0c94f6819f859196800b1f316f42d18a9715b",
+    "pre-start-second/interior-ud/quantitative-boundary/activation/single-pre/FINITE-CONTROLS.json": "84e39ff5f81ccf9edbd8438aced0fc4855702f426589b5d759cb43f4e06996ad"
+  },
+  "own_pins": {
+    "INDEPENDENT-FIRST.md": "1cf6aca94fc1c6db16f0444fe0eb56c5ec04f011c30484609927ea7e62cf6b1f",
+    "REVIEW-RECEIPT.json": "50ceb5a479b19e9d82eb1d45b16c9346f2d7d5645d65a57eb31b9612eb69334d",
+    "PEER-REVIEW.md": "e7b1283d500de04cbbd6f3e5619e2c20adaf53221ed14ee78c21e7d4c5480aed",
+    "peer_finite_controls.py": "37b922d5aa8f98b5e63164afbea0c94f6819f859196800b1f316f42d18a9715b",
+    "FINITE-CONTROLS.json": "84e39ff5f81ccf9edbd8438aced0fc4855702f426589b5d759cb43f4e06996ad",
+    "whole_marker_controls.py": "86f8e830fb1b0fcc0d11ae9eeb6281bb1e40d5e5c1b4a56a3518b0c563be5c2c",
+    "WHOLE-MARKER-CONTROLS.json": "20be8d775ce5b4910764e40cd300665809bd88b600a92157dac5aaabe29fe4de",
+    "make_peer_receipt.py": "a31c9177ee18e36ae6b4bc701160987e5bcd6c9f2c4acaf423369d75f96dc570"
+  },
+  "whole_bound": "min(1,(2Q+1)^2*(2/N-1/N^2))",
+  "own_first_bound_preserved": "min(1,(12Q^2+20Q+9)/N)",
+  "checks": {
+    "own_first_saved_before_authorized_peer_read": true,
+    "exact_peer_first_receipt_pins": true,
+    "latent_X_only_generates_whole_marker_not_simulator_localdata": true,
+    "whole_field_independent_known_G_L_outside_tables_conditional_Y_P": true,
+    "correlated_coordinates_only_perpoint_marginal_mu_needed": true,
+    "zero_oracle_quantum_prefix_and_output_independent_entire_field": true,
+    "common_terminal_projector_norm_gap_2Qsqrtmu": true,
+    "one_Boolean_call_linear_or_Fourier_exact_with_clean_plus_masks": true,
+    "Q_final_candidate_no_digest_extra_query": true,
+    "fullword_lower_limb_extension_distribution_exact": true,
+    "literal_raw_aliases_cannot_be_free_outside": true,
+    "exact_Nminus1_sampling_not_binarymodulo": true,
+    "huge_tables_circuits_charged_no_efficiency_claim": true,
+    "Qzero_baseline_exact_valid_node": true,
+    "peer_controls_reexecution_exit0_byte_identical": true,
+    "own_correlated_fullword_negative_controls_exit0": true,
+    "no_source_target_router_or_actual_hardness_certification": true
+  },
+  "source_application": "SEPARATE_UNREVIEWED_CALLER_OBLIGATION",
+  "new_source_game_checked_declarations": 0,
+  "whole_goal_complete": false
+}

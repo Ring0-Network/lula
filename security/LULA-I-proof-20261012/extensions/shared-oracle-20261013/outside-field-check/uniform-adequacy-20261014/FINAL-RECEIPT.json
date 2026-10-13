@@ -1,0 +1,52 @@
+{
+  "verdict": "ACCEPT_CLASSICAL_NUMERICAL_FEASIBILITY_CONDITIONAL_ON_PINNED_SOURCE_THEOREM",
+  "scope": "Independent positive-moment certificate, guarded source-schema geometry and analytic cost witness. The source theorem is a cited manual premise; this receipt does not replace its separate full proof reviews.",
+  "pins": {
+    "own_blind_first": "5acd2d5b3da04ce286e0a324d0d9c2581af23174c9c3ccc27b26d8a3a526e1cc",
+    "own_first_provenance": "5257d0cef35b4eb19d4472429aa5c7bddde8906b8ba772253060e033df3e1f23",
+    "source_lib_rs": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+    "PARAMETER-UNIFORM-CLASSICAL-THEOREM.md": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b",
+    "CLASSICAL-FEASIBILITY.md": "b6d45d082346d55fbd3310c98ab820419bfd50c28d6f712ade2ac9a7ef053e26",
+    "controls.py": "63d59f4768b9ff5888ec00d09361b5fa4430cceb985e085d6d4a2e61a7056ebe",
+    "CONTROL-RESULTS.json": "cbf3cc500c5edee51be64d56de94df763595b1d7ea150796cc06b403c2ab8611",
+    "prior_criterion_verdict": "a20033dced8a6f215379a1165e8abaea4ac7d9a3d3db4c1d27c4d8ea1905a8ac",
+    "prior_baseline_only_bounds_py": "83c67dc2af5c47553a4cd91d9735e1beeba1a69666064d95861985267d83812e",
+    "original_goal_attachment_1": "655c5344c76c16d6e22d15ab169847385154a147dd28d0d31f1bbe86b465ee2f",
+    "original_goal_attachment_2": "ccdcfbc8b10de3d10546573ea9d92c0f906b182dcb34ba2eb100225bb206a1e8"
+  },
+  "checks": {
+    "own_derivation_saved_before_root_uniform_theorem_read": true,
+    "both_original_goals_read_fully": true,
+    "source_and_theorem_hash_guards_pass": true,
+    "exact_toy_binomial_moment_and_coverage_inequalities": 720,
+    "exact_full_classical_rows": 24,
+    "conditional_architecture_inequality_checks": 1,
+    "counted_total": 745,
+    "additional_guard_cost_and_positive_coefficient_assertions_pass": true,
+    "native_exit_code": 0,
+    "byte_identical_control_replay": true,
+    "touchard17_at_2": 18880288847750,
+    "full_grid_QH_2pow125_upper_strictly_below_47_over_125": true,
+    "numerical_certificate_representation": "Outward integer numerator over 2^256. Floating decimal displays are explicitly noncertificate illustrations.",
+    "terminal_H_G_C": [3017, 3256, 6281],
+    "signature_bytes": 6344,
+    "logical_top_cache_bytes": 75497456,
+    "top_only_keygen_fixed_tail_compressions": 2250573348863,
+    "top_cold_subtree_tail_compressions": 8602517503,
+    "cached_sign_fixed_tail_compressions": 3262542,
+    "variable_message_counter_and_prefix_work_separately_charged": true
+  },
+  "scientific_limits": {
+    "classical_source_schema_certificate": "Sufficient constant-success raw-query guarantee under the cited full-output ROM theorem, not a retuned executable or optimality statement.",
+    "parameter_uniform_classical_envelope_floor": "C_p>=11 throughout the strict guarded domain; this sufficient envelope cannot certify <=1/N even at Q=q=0, nor at full Q=N. This is not actual success lower bound or construction impossibility.",
+    "quantum_architecture_ceiling": "Conditional only on retaining current positive component formulas in a future source-uniform QROM theorem: Q>=2^61 cannot be half-success certified by that architecture.",
+    "retuned_QROM_source_proof": "OPEN; no retuned quantum full bound promoted",
+    "AES_category_and_original_128_target": "NOT_ESTABLISHED",
+    "smallest_repair": "NOT_CLAIMED; no specified ordering or exhaustive domain search",
+    "source_game_kernel": "No new checked declarations; finite controls do not mechanize the whole source proof"
+  },
+  "new_source_game_kernel_declarations": 0,
+  "whole_goal_complete": false,
+  "writes_scope": "Only outside-field-check/uniform-adequacy-20261014",
+  "no_source_manuscript_crypto_timing_remote_changes": true
+}

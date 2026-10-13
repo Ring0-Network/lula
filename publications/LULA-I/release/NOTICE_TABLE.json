@@ -1,0 +1,288 @@
+{
+  "utc": "2026-10-13T01:23:10.503957+00:00",
+  "rows": [
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/address.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/address.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "520491247ba1a493d7daa4ce7974d299b418683b42024947cfe0705136fd830d",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/hash.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/hash.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "549f00108b6911c57afcde172b4493d617a665b03880a963cd2c18cc284af3af",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/wots_c.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/wots_c.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "f50926e5163ec40b097d828ff90bb76eabd80eabb1567866aa6717f063bf3a5b",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/xmss.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/xmss.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "b83157e65ab5d591ba8f11ea0724574e89a74cf19b0b50b799ef0898395e7a3e",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/shrincs.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/shrincs.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "f456a157fb01d7f15eccbf2ccceddd38afd08c1428271668227cc0607af04e94",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/uxmss.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/uxmss.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "bf1f637e5bba21350d6daa842bfbd841f7e37d50166d0a9e7ef0b883ad7674f4",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "SHRINCS C experimental library",
+      "version_or_commit": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "exact_file": "sources/shrincs-c/src/pors_fp.c",
+      "url": "https://github.com/BlockstreamResearch/shrincs-c/blob/345b0a64ce8d00c16c35952375dea6d13ec48c85/src/pors_fp.c",
+      "license": "NO_LICENSE_FOUND_AT_PIN",
+      "sha256": "85d6d3859eeeb5a8ecf0a6d0be6854ce44e60115d1afe36c04bbb9f2504cc325",
+      "decision": "Excluded upstream source; wrappers do not grant license to the dependency",
+      "limit": "GitHub pinned tree200; license endpoint404; all 19 files reviewed for grants"
+    },
+    {
+      "name": "hashsig-go / andrepatta",
+      "version_or_commit": "da711b11f03c4af0d610996f89848e9e15770b73",
+      "exact_file": "sources/hashsig-go/LICENSE",
+      "url": "https://github.com/andrepatta/hashsig/blob/da711b11f03c4af0d610996f89848e9e15770b73/LICENSE",
+      "license": "MIT",
+      "sha256": "d28c0d76fa03d1919c3d839f521e075f2b273c8797cbc4cfcb11298b33a94492",
+      "decision": "Linked/imported dependency only; full sources not vendored",
+      "limit": "Copyright (c) 2026 andrepatta; preserve original MIT notice for copied/substantial portions"
+    },
+    {
+      "name": "Bitcoin Core portable crypto within hashsig C++",
+      "version_or_commit": "da711b11f03c4af0d610996f89848e9e15770b73",
+      "exact_file": "sources/hashsig-go/cpp/third_party/bitcoin_crypto/COPYING",
+      "url": "https://github.com/andrepatta/hashsig/blob/da711b11f03c4af0d610996f89848e9e15770b73/cpp/third_party/bitcoin_crypto/COPYING",
+      "license": "MIT",
+      "sha256": "f46a9be32a07f6cfc98472080c5565da8e5f08e344a96385cff7a670a74027db",
+      "decision": "Excluded; not part of Go CGO-disabled measurements",
+      "limit": "Nested source says Bitcoin Core v28.0, src/crypto; retain Bitcoin developer copyrights rather than substitute hashsig attribution"
+    },
+    {
+      "name": "UniValue within hashsig C++",
+      "version_or_commit": "da711b11f03c4af0d610996f89848e9e15770b73",
+      "exact_file": "sources/hashsig-go/cpp/third_party/univalue/COPYING",
+      "url": "https://github.com/andrepatta/hashsig/blob/da711b11f03c4af0d610996f89848e9e15770b73/cpp/third_party/univalue/COPYING",
+      "license": "MIT",
+      "sha256": "597a0e9d528081a29846f28a7ffba261b32f216379f7c19f091e42e90d60dc67",
+      "decision": "Excluded; not part of Go CGO-disabled measurements",
+      "limit": "Bitcoin Core v28.0 plus two jgarzik/univalue helper headers; exact jgarzik commit not recorded in this vendored notice"
+    },
+    {
+      "name": "SHRINCS BIP / draft specification",
+      "version_or_commit": "a5891ec5b360a732c097e1d6af1ae59515a2560a",
+      "exact_file": "sources/shrincs-bip/SHRINCS.md",
+      "url": "https://github.com/SHRINCS/shrincs-bip/blob/a5891ec5b360a732c097e1d6af1ae59515a2560a/SHRINCS.md#L3154",
+      "license": "CC0-1.0 OR MIT",
+      "sha256": "cb66a5b0dd37a7d893ca40a02730275fcd2c52d2e5a987eb5a4d7d111d2a849b",
+      "decision": "Referenced; full text/reference implementation excluded per author boundary",
+      "limit": "Grant covers this document and its reference code, not the separate unlicensed C repository"
+    },
+    {
+      "name": "Kudinov–Nick, Hash-based Signature Schemes for Bitcoin",
+      "version_or_commit": "ePrint2025/2203",
+      "exact_file": "sources/hashsig-go/spec/2025-2203.pdf",
+      "url": "https://eprint.iacr.org/2025/2203",
+      "license": "CC-BY-4.0 from current primary landing metadata",
+      "sha256": "3c58f81a6a0b7e8e040134be1a0013b3977edefdc889e1636d4dfe79cf0e225e",
+      "decision": "Referenced only; paper/text not copied into release",
+      "limit": "Primary license link resolves CC BY4.0; cached revision not hash-matched to live PDF; hashsig MIT does not relicense this paper"
+    },
+    {
+      "name": "OpenSSL",
+      "version_or_commit": "openssl-3.5.7",
+      "exact_file": "LICENSE.txt (primary pinned contents response)",
+      "url": "https://github.com/openssl/openssl/blob/openssl-3.5.7/LICENSE.txt",
+      "license": "Apache-2.0",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+      "hash_identity": "Primary pinned license file, not a runtime DLL",
+      "decision": "External dependency; no source/DLL/library binary bundled",
+      "limit": "License/source identity only; measured runtime DLL digest not retained/unbound in the reviewed a1/b1 environment and build records. No current installed DLL hash is substituted."
+    },
+    {
+      "name": "OpenSSL measured runtime DLL identity",
+      "version_or_commit": "Campaign identifies OpenSSL 3.5.7; exact loaded DLL bytes unbound",
+      "exact_file": "Runtime libcrypto DLL loaded during a1/b1 jobs",
+      "url": "https://github.com/openssl/openssl/tree/openssl-3.5.7",
+      "license": "Apache-2.0 (source distribution)",
+      "sha256": null,
+      "hash_identity": "UNBOUND: no retained measured-runtime DLL digest in reviewed records",
+      "decision": "Not bundled; no inferred historical binary digest",
+      "limit": "The executable hashes retained by the campaign do not bind a dynamically loaded DLL. Current or other frozen DLL copies cannot establish which bytes were loaded in those historical jobs."
+    },
+    {
+      "name": "OpenSSL ABI header referenced by Windows adaptation",
+      "version_or_commit": "openssl-3.5.7",
+      "exact_file": "include/openssl/sha.h",
+      "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.5.7/include/openssl/sha.h",
+      "license": "Apache-2.0",
+      "sha256": "7e006accd6565cc97dee672c097acc5e38482be7cd4fa1e0c316bf466425b895",
+      "decision": "No full upstream header; attribute any owned adaptation/diff",
+      "limit": "SHA256_CTX layout and SHA256/RAND declarations were explicitly taken from the API header"
+    },
+    {
+      "name": "OpenSSL ABI header referenced by Windows adaptation",
+      "version_or_commit": "openssl-3.5.7",
+      "exact_file": "include/openssl/rand.h",
+      "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.5.7/include/openssl/rand.h",
+      "license": "Apache-2.0",
+      "sha256": "cb240ffedfd9516ec7a8cd0796951d46a4707c0460f940371620c83f7bafd037",
+      "decision": "No full upstream header; attribute any owned adaptation/diff",
+      "limit": "SHA256_CTX layout and SHA256/RAND declarations were explicitly taken from the API header"
+    },
+    {
+      "name": "Rust crate block-buffer",
+      "version_or_commit": "0.10.4",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/block-buffer/0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate cfg-if",
+      "version_or_commit": "1.0.5",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/cfg-if/1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate cpufeatures",
+      "version_or_commit": "0.2.17",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/cpufeatures/0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "59ed5838eebb26a2bb2e58f6d5b5316989ae9d08bab10e0e6d103e656d1b0280",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate crypto-common",
+      "version_or_commit": "0.1.7",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/crypto-common/0.1.7",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "78c8292055d1c1df0cce5d180393dc8cce0abec0a7102adb6c7b1eef6016d60a",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate digest",
+      "version_or_commit": "0.10.7",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/digest/0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate generic-array",
+      "version_or_commit": "0.14.7",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/generic-array/0.14.7",
+      "license": "MIT",
+      "sha256": "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate libc",
+      "version_or_commit": "0.2.189",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/libc/0.2.189",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate sha2",
+      "version_or_commit": "0.10.9",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/sha2/0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate typenum",
+      "version_or_commit": "1.20.1",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/typenum/1.20.1",
+      "license": "MIT OR Apache-2.0",
+      "sha256": "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "Rust crate version_check",
+      "version_or_commit": "0.9.5",
+      "exact_file": "registry archive (Cargo.lock checksum)",
+      "url": "https://crates.io/crates/version_check/0.9.5",
+      "license": "MIT/Apache-2.0",
+      "sha256": "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a",
+      "decision": "External, locked dependency; no registry/vendor tree bundled",
+      "limit": "Primary registry checksum matches; cache LICENSE hashes in dependency evidence. A locked crate is not necessarily compiled on Windows."
+    },
+    {
+      "name": "mpmath",
+      "version_or_commit": "1.3.0",
+      "exact_file": "mpmath-1.3.0.dist-info/LICENSE",
+      "url": "https://github.com/mpmath/mpmath/blob/1.3.0/LICENSE",
+      "license": "BSD-3-Clause",
+      "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+      "decision": "External dependency; no installed package copied",
+      "limit": "mpmath1.3.0 recorded in model audit; Matplotlib version is current observed package, historical dependency not assumed unless frozen PDF producer agrees"
+    },
+    {
+      "name": "matplotlib",
+      "version_or_commit": "3.11.2",
+      "exact_file": "matplotlib-3.11.2.dist-info/LICENSE",
+      "url": "https://github.com/matplotlib/matplotlib/blob/v3.11.2/LICENSE/LICENSE",
+      "license": "Matplotlib license (PSF-based; embedded third-party notices retained in its LICENSE)",
+      "sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491",
+      "decision": "External dependency; no installed package copied",
+      "limit": "mpmath1.3.0 recorded in model audit; Matplotlib version is current observed package, historical dependency not assumed unless frozen PDF producer agrees"
+    }
+  ],
+  "full_file_index": "FILE_LICENSE_AUDIT.csv"
+}

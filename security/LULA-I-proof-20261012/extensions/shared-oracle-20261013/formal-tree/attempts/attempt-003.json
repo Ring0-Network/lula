@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "bash",
+    "-lc",
+    "cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/formal-tree/AddressedMerkle.lean"
+  ],
+  "exit_code": 0,
+  "stdout": "'LulaTree.split_fixed_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaTree.cancel_prefix' depends on axioms: [propext]\n'LulaTree.frame_children_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LulaTree.same_root_agreement_or_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "source_sha256": "cce57da1ac14ca43b9219b12531dac3891b8c0dc88aabcd4adb58c4e10793533"
+}

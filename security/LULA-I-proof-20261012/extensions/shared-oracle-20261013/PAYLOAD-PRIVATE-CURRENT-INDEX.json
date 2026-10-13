@@ -1,0 +1,14 @@
+{
+  "status": "CORRECTED_CURRENT_INDEX_PENDING_INDEPENDENT_RECHECK",
+  "documents": {
+    "PROOF.md": "cfe7434d48d21f562b552918806d0ac42000f8a46722bd8dd32829617c937ca5",
+    "OPEN.md": "f33c75f2973dfd942a59829754af3498a016d34b28cb8679038214f22845b89f",
+    "TERM-TABLE.md": "207936ee69c60054601af57f2e2a72a312d40d987094474c7e44d36c316ef186",
+    "REQUIREMENT-MAP.md": "a6d6bb3414954bdf5b7f826f6b138738127e791e106a2010077903f7fc388a74",
+    "HANDOFF.md": "e708f662580cb29889a5f6c83d5b828adf98132de9255730fa0283e2c3e3aa36",
+    "SECURITY-CRITERION.md": "d476a4f02d1ff9a797f958871bcc5bb89ef8ee79f5df7516f3169340d758a81e"
+  },
+  "prior_promotion_manifest": "PAYLOAD-PRIVATE-PROMOTION.json",
+  "numeric_formulas_changed": false,
+  "publication_or_crypto_changed": false
+}

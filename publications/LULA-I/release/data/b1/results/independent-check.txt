@@ -1,0 +1,79 @@
+b1-lula-k1-1024.vec.txt: exit=0 vectors_b1-lula-k1-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b1-lula-k1-32.vec.txt: exit=0 vectors_b1-lula-k1-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b1-lula-k1-65536.vec.txt: exit=0 vectors_b1-lula-k1-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b2-lula-k2-1024.vec.txt: exit=0 vectors_b2-lula-k2-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b2-lula-k2-32.vec.txt: exit=0 vectors_b2-lula-k2-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b2-lula-k2-65536.vec.txt: exit=0 vectors_b2-lula-k2-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b3-lula-k1-1024.vec.txt: exit=0 vectors_b3-lula-k1-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b3-lula-k1-32.vec.txt: exit=0 vectors_b3-lula-k1-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b3-lula-k1-65536.vec.txt: exit=0 vectors_b3-lula-k1-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b4-lula-k2-1024.vec.txt: exit=0 vectors_b4-lula-k2-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b4-lula-k2-32.vec.txt: exit=0 vectors_b4-lula-k2-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b4-lula-k2-65536.vec.txt: exit=0 vectors_b4-lula-k2-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b5-lula-k1-1024.vec.txt: exit=0 vectors_b5-lula-k1-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b5-lula-k1-32.vec.txt: exit=0 vectors_b5-lula-k1-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b5-lula-k1-65536.vec.txt: exit=0 vectors_b5-lula-k1-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b6-lula-k2-1024.vec.txt: exit=0 vectors_b6-lula-k2-1024.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b6-lula-k2-32.vec.txt: exit=0 vectors_b6-lula-k2-32.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+b6-lula-k2-65536.vec.txt: exit=0 vectors_b6-lula-k2-65536.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-cacheloss.vec.txt: exit=0 vectors_w1-cacheloss.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-fresh-0.vec.txt: exit=0 vectors_w1-fresh-0.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-fresh-1.vec.txt: exit=0 vectors_w1-fresh-1.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-fresh-2.vec.txt: exit=0 vectors_w1-fresh-2.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-fresh-3.vec.txt: exit=0 vectors_w1-fresh-3.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w1-fresh-4.vec.txt: exit=0 vectors_w1-fresh-4.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-cacheloss.vec.txt: exit=0 vectors_w2-cacheloss.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-fresh-0.vec.txt: exit=0 vectors_w2-fresh-0.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-fresh-1.vec.txt: exit=0 vectors_w2-fresh-1.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-fresh-2.vec.txt: exit=0 vectors_w2-fresh-2.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-fresh-3.vec.txt: exit=0 vectors_w2-fresh-3.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w2-fresh-4.vec.txt: exit=0 vectors_w2-fresh-4.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-cacheloss.vec.txt: exit=0 vectors_w3-cacheloss.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-fresh-0.vec.txt: exit=0 vectors_w3-fresh-0.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-fresh-1.vec.txt: exit=0 vectors_w3-fresh-1.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-fresh-2.vec.txt: exit=0 vectors_w3-fresh-2.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-fresh-3.vec.txt: exit=0 vectors_w3-fresh-3.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+w3-fresh-4.vec.txt: exit=0 vectors_w3-fresh-4.txt: verify=True flipped-msg=False flipped-sig=False (5720 B)
+ALL CHECKS PASS 
+verifier passed 36/36 vector files
+byte equality: key ac39eef4 msg 078a0d90: 1 distinct signature(s)
+byte equality: key ac39eef4 msg 67ea6df0: 1 distinct signature(s)
+byte equality: key ac39eef4 msg 078a0d90: 1 distinct signature(s)
+byte equality: key d3379deb msg 078a0d90: 1 distinct signature(s)
+byte equality: key d3379deb msg 67ea6df0: 1 distinct signature(s)
+byte equality: key d3379deb msg 078a0d90: 1 distinct signature(s)

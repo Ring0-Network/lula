@@ -1,0 +1,18 @@
+{
+  "DERIVATION.md": {
+    "bytes": 10666,
+    "sha256": "57c253dd940e8e090e3db865d3e7131f7d920bff557af59cb7a0952eb5607d70"
+  },
+  "coverage_checks.py": {
+    "bytes": 11177,
+    "sha256": "f4bfdb390e5ff303d7863a96d684841670b00f6bc4c8cc5ab1875f695fc4a4e1"
+  },
+  "CHECKS.json": {
+    "bytes": 5736,
+    "sha256": "3616a9bf23d9ef58644ae91f1b3d3e5275602880e42a69f4b36e91e97a6b3b42"
+  },
+  "RESULTS.md": {
+    "bytes": 6037,
+    "sha256": "12338d8ffaabc1fff2967460af365bdfff6bdc04a6d47f2be65a6f9e8b0269ba"
+  }
+}

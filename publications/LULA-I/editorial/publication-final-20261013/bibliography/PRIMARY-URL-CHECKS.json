@@ -1,0 +1,423 @@
+[
+  {
+    "url": "https://github.com/Ring0-Network/lula",
+    "status": 404,
+    "resolved_url": "https://github.com/Ring0-Network/lula",
+    "reason": "Not Found"
+  },
+  {
+    "url": "https://api.github.com/repos/Ring0-Network/lula",
+    "status": 404,
+    "resolved_url": "https://api.github.com/repos/Ring0-Network/lula",
+    "reason": "Not Found"
+  },
+  {
+    "url": "https://api.github.com/repos/BlockstreamResearch/shrincs-c/commits/345b0a64ce8d00c16c35952375dea6d13ec48c85",
+    "status": 200,
+    "resolved_url": "https://api.github.com/repos/BlockstreamResearch/shrincs-c/commits/345b0a64ce8d00c16c35952375dea6d13ec48c85",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 66545,
+    "sha": "345b0a64ce8d00c16c35952375dea6d13ec48c85",
+    "commit": {
+      "author": {
+        "name": "dmitriikj",
+        "email": "kurbatovdima2006@gmail.com",
+        "date": "2026-05-19T10:33:21Z"
+      },
+      "committer": {
+        "name": "dmitriikj",
+        "email": "kurbatovdima2006@gmail.com",
+        "date": "2026-05-19T10:33:21Z"
+      },
+      "message": "add shrincs_c",
+      "tree": {
+        "sha": "2f7c5d1fdb061d65c93ff37fe4d75aa37f30acc9",
+        "url": "https://api.github.com/repos/BlockstreamResearch/shrincs-c/git/trees/2f7c5d1fdb061d65c93ff37fe4d75aa37f30acc9"
+      },
+      "url": "https://api.github.com/repos/BlockstreamResearch/shrincs-c/git/commits/345b0a64ce8d00c16c35952375dea6d13ec48c85",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "html_url": "https://github.com/BlockstreamResearch/shrincs-c/commit/345b0a64ce8d00c16c35952375dea6d13ec48c85",
+    "files": [
+      ".gitignore",
+      "Makefile",
+      "example_main.c",
+      "include/address.h",
+      "include/constants.h",
+      "include/hash.h",
+      "include/pors_fp.h",
+      "include/shrincs.h",
+      "include/uxmss.h",
+      "include/wots_c.h",
+      "include/xmss.h",
+      "src/address.c",
+      "src/hash.c",
+      "src/pors_fp.c",
+      "src/shrincs.c",
+      "src/uxmss.c",
+      "src/wots_c.c",
+      "src/xmss.c"
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/andrepatta/hashsig/commits/da711b11f03c4af0d610996f89848e9e15770b73",
+    "status": 200,
+    "resolved_url": "https://api.github.com/repos/andrepatta/hashsig/commits/da711b11f03c4af0d610996f89848e9e15770b73",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 116587,
+    "sha": "da711b11f03c4af0d610996f89848e9e15770b73",
+    "commit": {
+      "author": {
+        "name": "andrepatta",
+        "email": "9854773+andrepatta@users.noreply.github.com",
+        "date": "2026-04-20T06:52:18Z"
+      },
+      "committer": {
+        "name": "andrepatta",
+        "email": "9854773+andrepatta@users.noreply.github.com",
+        "date": "2026-04-20T06:52:18Z"
+      },
+      "message": "start cpp impl",
+      "tree": {
+        "sha": "a8a843ac05d94e32756629b935e753fee04af60b",
+        "url": "https://api.github.com/repos/andrepatta/hashsig/git/trees/a8a843ac05d94e32756629b935e753fee04af60b"
+      },
+      "url": "https://api.github.com/repos/andrepatta/hashsig/git/commits/da711b11f03c4af0d610996f89848e9e15770b73",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQQ9aFClUWkERoJbf9+nWatTxtIOvgUCaeXNIgAKCRCnWatTxtIO\nvhk8APkBDyoxRM/Vtq5MmUdVUoSP1HGAImPNOF5U9Jvr8332nAD+L/A4ArZSVRH2\n+ag9VX4QBARlVGyOELpkqr1oWMkTLwc=\n=5VM9\n-----END PGP SIGNATURE-----",
+        "payload": "tree a8a843ac05d94e32756629b935e753fee04af60b\nparent d77b81c9b237b5ab173b1b8008ed66c136aab02b\nauthor andrepatta <9854773+andrepatta@users.noreply.github.com> 1776667938 -0300\ncommitter andrepatta <9854773+andrepatta@users.noreply.github.com> 1776667938 -0300\n\nstart cpp impl\n",
+        "verified_at": "2026-04-20T06:52:30Z"
+      }
+    },
+    "html_url": "https://github.com/andrepatta/hashsig/commit/da711b11f03c4af0d610996f89848e9e15770b73",
+    "files": [
+      "cpp/CMakeLists.txt",
+      "cpp/include/hashsig/hash/adrs.h",
+      "cpp/include/hashsig/hash/thash.h",
+      "cpp/src/hash/adrs.cpp",
+      "cpp/src/hash/thash.cpp",
+      "cpp/tests/CMakeLists.txt",
+      "cpp/tests/hash/CMakeLists.txt",
+      "cpp/tests/hash/vectors_hash.cpp",
+      "cpp/third_party/bitcoin_crypto/COPYING",
+      "cpp/third_party/bitcoin_crypto/common.h",
+      "cpp/third_party/bitcoin_crypto/hmac_sha256.cpp",
+      "cpp/third_party/bitcoin_crypto/hmac_sha256.h",
+      "cpp/third_party/bitcoin_crypto/hmac_sha512.cpp",
+      "cpp/third_party/bitcoin_crypto/hmac_sha512.h",
+      "cpp/third_party/bitcoin_crypto/sha256.cpp",
+      "cpp/third_party/bitcoin_crypto/sha256.h",
+      "cpp/third_party/bitcoin_crypto/sha512.cpp",
+      "cpp/third_party/bitcoin_crypto/sha512.h",
+      "cpp/third_party/univalue/COPYING",
+      "cpp/third_party/univalue/include/univalue.h",
+      "cpp/third_party/univalue/lib/univalue.cpp",
+      "cpp/third_party/univalue/lib/univalue_escapes.h",
+      "cpp/third_party/univalue/lib/univalue_get.cpp",
+      "cpp/third_party/univalue/lib/univalue_read.cpp",
+      "cpp/third_party/univalue/lib/univalue_utffilter.h",
+      "cpp/third_party/univalue/lib/univalue_write.cpp"
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/SHRINCS/shrincs-bip/commits/a5891ec5b360a732c097e1d6af1ae59515a2560a",
+    "status": 200,
+    "resolved_url": "https://api.github.com/repos/SHRINCS/shrincs-bip/commits/a5891ec5b360a732c097e1d6af1ae59515a2560a",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 127230,
+    "sha": "a5891ec5b360a732c097e1d6af1ae59515a2560a",
+    "commit": {
+      "author": {
+        "name": "conduition",
+        "email": "conduition@proton.me",
+        "date": "2026-09-27T19:37:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-27T19:37:55Z"
+      },
+      "message": "Merge pull request #64 from SHRINCS/address-types\n\nGive every ADRS type its own address type",
+      "tree": {
+        "sha": "cacef2f6329bae35dc114013f67775acb994fcf6",
+        "url": "https://api.github.com/repos/SHRINCS/shrincs-bip/git/trees/cacef2f6329bae35dc114013f67775acb994fcf6"
+      },
+      "url": "https://api.github.com/repos/SHRINCS/shrincs-bip/git/commits/a5891ec5b360a732c097e1d6af1ae59515a2560a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJquXCTCRC1aQ7uu5UhlAAAmVMQACHWMDkyR9BwVP7HnemTSktj\nW24cIfIDQaZ5UA9mJYUFeoSjkNg9opSyesS+G7f1qOlU/6q93CZpbD0ppmkTynLw\ncUFVzdUBTOEDbPtgAQKvfC+3eb9yuwcdaET7a2foZ6/DHnCGHkd3YFb7y9T7dDjc\n6klfgQeDDuqx+quNdfVH67GoPtjTe/KmgcUdGhKTv1+bIX7pzr90WsNXoEaQk5MM\n3aGmPVMMtNqlGhsS06yjSo57Pbzl5XBI0BV9YnIDem4q8uArrw++WkemOJrPxjez\nUNWsjd0Wi3KSY7isjXLB8qzvcbAkjtvIVKTngK0QMMj1K4B+8jfTmCFG/qlBMKx/\nVkfoyW286oVwo8KIRfiB6IlmXFD5IKz0B2jPb8eH9MzD9ryGT+6ejs/nkYrV7WqK\nRsjQP1ljTm3gn/ALoAB6jdYkxWstuOrqyGGShtSVMEOJHMTngZw8qiQDtNlt5tMo\nSfjQoDCryh7/WdjALOzIpSvS7e3nnDmRpUrDx0Cvw6Fq+xH8kfh2sFt6K3vlL/ic\nJDc+TITqPO/nGACAURHS9tq1BZV2EKVZuKLJ8xUbXFKI0FHPR5c/e7CXBLpzOfFk\n4h1FKk9tiLUwQu8bsR4MZs+YMENYMBIJReYCfetkiqR7QYdAwDhxwLd5JxNwNVxe\nLq8cWFtmhZsFoninuZc/\n=ejzA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cacef2f6329bae35dc114013f67775acb994fcf6\nparent 6ad6401ffb7e30d71880026cfd1ae58220aeeab1\nparent c7a400355ff74418fc4234739c443a3c4c16b674\nauthor conduition <conduition@proton.me> 1790537875 -0700\ncommitter GitHub <noreply@github.com> 1790537875 -0700\n\nMerge pull request #64 from SHRINCS/address-types\n\nGive every ADRS type its own address type",
+        "verified_at": "2026-09-27T19:37:56Z"
+      }
+    },
+    "html_url": "https://github.com/SHRINCS/shrincs-bip/commit/a5891ec5b360a732c097e1d6af1ae59515a2560a",
+    "files": [
+      "SHRINCS.md",
+      "impl/shrincs.py",
+      "impl/test.py",
+      "pydoc_insert.py"
+    ]
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1109/SP46215.2023.10179381",
+    "status": 200,
+    "resolved_url": "https://api.crossref.org/works/10.1109/SP46215.2023.10179381",
+    "content_type": "application/json",
+    "bytes": 5889,
+    "metadata": {
+      "title": [
+        "SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost"
+      ],
+      "author": [
+        {
+          "given": "Andreas",
+          "family": "H\u00fclsing",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "TU Eindhoven"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikhail",
+          "family": "Kudinov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TU Eindhoven"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eyal",
+          "family": "Ronen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tel Aviv University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eylon",
+          "family": "Yogev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bar-Ilan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "2023 IEEE Symposium on Security and Privacy (SP)"
+      ],
+      "page": "1435-1453",
+      "publisher": "IEEE",
+      "editor": null,
+      "volume": null,
+      "DOI": "10.1109/sp46215.2023.10179381",
+      "URL": "https://doi.org/10.1109/sp46215.2023.10179381"
+    }
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1007/978-3-319-76953-0_12",
+    "status": 429,
+    "resolved_url": "https://api.crossref.org/works/10.1007/978-3-319-76953-0_12",
+    "reason": "Too Many Requests"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1145/3319535.3363229",
+    "status": 200,
+    "resolved_url": "https://api.crossref.org/works/10.1145/3319535.3363229",
+    "content_type": "application/json",
+    "bytes": 25847,
+    "metadata": {
+      "title": [
+        "The SPHINCS\n                    <sup>+</sup>\n                    Signature Framework"
+      ],
+      "author": [
+        {
+          "given": "Daniel J.",
+          "family": "Bernstein",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Illinois at Chicago &amp; Ruhr University Bochum, Chicago, IL, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "H\u00fclsing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Eindhoven University of Technology, Eindhoven, Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stefan",
+          "family": "K\u00f6lbl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cybercrypt, Copenhagen, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruben",
+          "family": "Niederhagen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fraunhofer SIT, Darmstadt, Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joost",
+          "family": "Rijneveld",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Radboud University, Nijmegen, Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Schwabe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Radboud University, Nijmegen, Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security"
+      ],
+      "page": "2129-2146",
+      "publisher": "ACM",
+      "editor": null,
+      "volume": null,
+      "DOI": "10.1145/3319535.3363229",
+      "URL": "https://doi.org/10.1145/3319535.3363229"
+    }
+  },
+  {
+    "url": "https://doi.org/10.6028/NIST.FIPS.205",
+    "status": 200,
+    "resolved_url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1055752
+  },
+  {
+    "url": "https://doi.org/10.17487/RFC8391",
+    "status": 200,
+    "resolved_url": "https://www.rfc-editor.org/info/rfc8391/",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 652487
+  },
+  {
+    "url": "https://doi.org/10.6028/NIST.SP.800-230.ipd",
+    "status": 200,
+    "resolved_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-230.ipd.pdf",
+    "content_type": "application/pdf",
+    "bytes": 282069
+  }
+]

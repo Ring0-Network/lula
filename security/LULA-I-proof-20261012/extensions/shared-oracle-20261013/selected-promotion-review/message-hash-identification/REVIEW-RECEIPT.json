@@ -1,0 +1,79 @@
+{
+  "status": "ACCEPTED_MANUAL_NAMED_FIXED_H_COVERAGE_ADAPTER_WITH_PRIMARY_LIFTING_GAP_OPEN",
+  "own_first_and_context_lift_saved_before_new_peer_read": true,
+  "files": {
+    "INDEPENDENT-FIRST.md": "540ae17ba73ff61d178c3f8c96601bff18db857138c078f54b22ba10dfeb609f",
+    "CONTEXT-LIFT-CLARIFICATION.md": "514cc20605b3f6f3306ebf4cca87a32846b6ca596e27ba21434c345d809e5f41",
+    "controls.py": "2a69722d33113b2e8f3306412e958188af222cd1a37ee1699b531a9653c80257",
+    "CONTROL-RESULTS.json": "b217e4289c32cdef7cdf3fc41dd97a796ed233617068fc6e6168f5e7ed19a726",
+    "PEER-REVIEW.md": "4abcff0dcef23c0ef865acbcc9050ca29f7da139602ff9848c97f051f7085726",
+    "REVIEW-CLARIFICATION.md": "bed30f332a8345df8f95671aa51fad1459bc0df2e22ab16f7cc2f1c3bbd013d6",
+    "rerun-peer.py": "5b6480f85a261c679be20e0f8ec0315ebcb5c6f796a7d1d081fe6d94f88f2127",
+    "peer-rerun/CONTROL-RESULTS.json": "578d7aea2a86f2d5af9492566e2d7f11e25248d9465da3e0e60bf74e5e311b0e",
+    "archive-and-rerun-peer-successor.py": "32b470b1f8a808f1098d3dfd3f4b81f2e408b10c57736b35a7d2f3ba69d8b77b",
+    "peer-rerun-successor/CONTROL-RESULTS.json": "2c2503c53a4fb5635e99db815b70312ec2de032b3fccd99f9923acf7f985ad2f"
+  },
+  "peer_subject_pins": {
+    "outside-field-check/message-hash-identification/INDEPENDENT-FIRST.md": "b07700807df0f78be2272afd7a5372044603b92697b3760afaa8cdfac5a3a1df",
+    "outside-field-check/message-hash-identification/CLARIFICATION.md": "77b1c53d624b8980621f2366ec7ba41e9456955b58024e3cb227b85cfdb27891",
+    "outside-field-check/message-hash-identification/EVENT-BINDING.md": "bb8390406f4e0471b419dca1e65a91795e4d361d2caae56783e7ceeb8d870459",
+    "outside-field-check/message-hash-identification/controls.py": "8b982db26e6ab041b3dfcfbe31a38d409e3d059b31a80671acb1eed6b615dd7b",
+    "outside-field-check/message-hash-identification/CONTROL-RESULTS.json": "2c2503c53a4fb5635e99db815b70312ec2de032b3fccd99f9923acf7f985ad2f"
+  },
+  "primary_versions": [
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.pdf",
+      "pdf_sha256": "540968e4d58cb582d5f85636beed7a10894622ed8b99a7a863f85996869743c6",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.txt",
+      "text_sha256": "bf5a7bd2f93f4c166a5a479fb24b82a0f38d40b68922826ff78cc171e7878381",
+      "anchor": "official round3 Section9.1 printed48/PDF47"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.pdf",
+      "pdf_sha256": "1169896fff4160e7a294162b8a3e061ffdf1888f3925f5614532c28bd3473c4a",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.txt",
+      "text_sha256": "ddaf6d600a05c2e9b3bef113bf995827a79f76616f09f8e7b4cef0ba90e17323",
+      "anchor": "official r3.1 Section9.1 printed49/text1911-1935"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "text_sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561",
+      "anchor": "HK22 AppendixA Definition11 printed30/PDF29"
+    }
+  ],
+  "source_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "event_anchor": {
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c"
+  },
+  "event": "Win AND indexed C_cov:17 real routed-instance tuples from completed honest responses",
+  "conditional_inequality": "Pr_SrcFJideal_h[Win AND C_cov] <= Succ_named_CTAC_fixed_h(B)",
+  "checks": {
+    "primary_nonce_and_output_explicit_versions_pinned": true,
+    "no_invented_C_ITSR_citation": true,
+    "full256_same_h_inner_outer_and_aliases": true,
+    "source17real_zero9_and41route_correct": true,
+    "memoized_J_repaired_by_first_label_caching": true,
+    "source_root_F_jointlaw_not_independent_uniform_root": true,
+    "tagged_logical_context_decodes_exact_literal_sourcewords": true,
+    "B_retains_consistent_F_for_signature_auxiliaries": true,
+    "prekey_quantum_continuation_retained": true,
+    "canonical_target_free_valid_final_counter_gap_explicit": true,
+    "finite_BE32_bottom_unnormalized": true,
+    "superset_target_registration_or_absorbing_completion_no_false_exposure": true,
+    "safe_final_Win_fresh_Ccov_binding": true,
+    "own_controls_exit0": true,
+    "peer_controls_independent_rerun_exit0_byte_identical": true,
+    "all_challenger_local_runtime_bytes_circuits_charged": true,
+    "no_new_seedzero_charge_interface_identity": true,
+    "no_HJ_h_equals_HJ_O_or_uniform_lowerbit_inference": true
+  },
+  "ordinary_ITSR_quantitative_transfer": "OPEN",
+  "named_additional_property_hardness": "ASSUMED_WITHOUT_NUMERICAL_CERTIFICATE",
+  "new_kernel_declarations": 0,
+  "new_source_game_checked_declarations": 0,
+  "source_attack_benchmark_or_manuscript_change": false,
+  "whole_goal_complete": false
+}

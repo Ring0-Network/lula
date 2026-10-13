@@ -1,0 +1,32 @@
+{
+  "status": "PASS_EXACT_DYNAMIC_FORS_GHOST_AND_DISCLOSURE_CONTROLS",
+  "model": {
+    "secret_alphabet": 2,
+    "full_images": 4,
+    "leaf_domains": 2
+  },
+  "worlds": 16384,
+  "permutation_involution_basis_checks": 2097152,
+  "real_programmed_table_marginal_uniform": true,
+  "adaptive_classical_disclosure_histories": 26,
+  "remaining_secret_conditionally_uniform": true,
+  "undisclosed_finder_mass": "3/8 <= 1/2",
+  "disclosed_finder_mass": "0",
+  "static_unreconciled_prefix_control": {
+    "prefix_alphabet": 4,
+    "real_match": "1",
+    "ghost_match": "1/4",
+    "gap": "3/4"
+  },
+  "reconciled_disclosure_match": "1",
+  "wots_signed_node_only_control": {
+    "queries": 2,
+    "real_endpoint_match": "1",
+    "ghost_endpoint_match": "1/4",
+    "gap": "3/4"
+  },
+  "general_quantum_unused_variable_invariant": "manual proof, not established by finite classical controls alone",
+  "dynamic_source_bound": "proposed (2*(Q+17)+sqrt(17))^2/2^128, needs second-reader source/game review",
+  "full_QROM_security": null,
+  "script_sha256": "5d723fea2e244680cf7d8187c7b5621a0cd1f938dcc156e1572efe4d2b4c1e86"
+}

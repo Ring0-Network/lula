@@ -1,0 +1,133 @@
+--- root-docs-before-classical-joint/PROOF.md
++++ PROOF.md
+@@ -339,3 +339,17 @@
+ 
+ **OPEN — original adequate certification and repair.** The original level/category/capacity and successful smallest parameter repair remain "not established". Query certificates are sufficient model envelopes, not attacks or AES/circuit equivalence. Fixed-SHA hardness and whole compiler/kernel mechanization are separate from the requested random-oracle proof, not invented completion prerequisites. Old source/scalar artifacts,165 frozen files and publication files are unchanged;47 supporting checked declarations remain, newly checked whole-source/game declarations0. The simultaneous classical3Q candidate remains separate and unpromoted.
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++
+--- root-docs-before-classical-joint/OPEN.md
++++ OPEN.md
+@@ -90,3 +90,17 @@
+ 
+ **OPEN — original adequate certification and repair.** The original level/category/capacity and successful smallest parameter repair remain "not established". Query certificates are sufficient model envelopes, not attacks or AES/circuit equivalence. Fixed-SHA hardness and whole compiler/kernel mechanization are separate from the requested random-oracle proof, not invented completion prerequisites. Old source/scalar artifacts,165 frozen files and publication files are unchanged;47 supporting checked declarations remain, newly checked whole-source/game declarations0. The simultaneous classical3Q candidate remains separate and unpromoted.
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++
+--- root-docs-before-classical-joint/TERM-TABLE.md
++++ TERM-TABLE.md
+@@ -156,3 +156,30 @@
+ | 2^50 | 0.000000 | 1 (cap) | 265 |
+ | 2^64 | 0.000000 | 1 (cap) | 3 |
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++
++**COMPUTED — classical successor display.** Rounded exponents concern probability envelopes. Exact crossing certificates use rational intervals.
++
++| q | COMPUTED probability exponent atQ_H=2^64 | COMPUTED bound atQ_H=2^128 | COMPUTED sufficient Q_pass at success1/2 |
++|---:|---:|---:|---:|
++| 2^24 | 62.415037 | 1 (cap) | 56713727820156398043316804380891307502 |
++| 2^30 | 62.415037 | 1 (cap) | 56713727820136262824962946290330802379 |
++| 2^38 | 62.415025 | 1 (cap) | 56713246890748458312992479284880573657 |
++| 2^40 | 62.394841 | 1 (cap) | 55925302073878813864583541683133229382 |
++| 2^41 | 61.136145 | 1 (cap) | 23372386296550850092187855120026518292 |
++| 2^44 | 34.521203 | 1 (cap) | 227408833121512845089382593037 |
++| 2^50 | 0.000000 | 1 (cap) | 570627 |
++| 2^64 | 0.000000 | 1 (cap) | 254 |
++
+--- root-docs-before-classical-joint/REQUIREMENT-MAP.md
++++ REQUIREMENT-MAP.md
+@@ -105,3 +105,17 @@
+ 
+ **OPEN — original adequate certification and repair.** The original level/category/capacity and successful smallest parameter repair remain "not established". Query certificates are sufficient model envelopes, not attacks or AES/circuit equivalence. Fixed-SHA hardness and whole compiler/kernel mechanization are separate from the requested random-oracle proof, not invented completion prerequisites. Old source/scalar artifacts,165 frozen files and publication files are unchanged;47 supporting checked declarations remain, newly checked whole-source/game declarations0. The simultaneous classical3Q candidate remains separate and unpromoted.
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++
+--- root-docs-before-classical-joint/HANDOFF.md
++++ HANDOFF.md
+@@ -107,3 +107,17 @@
+ 
+ **OPEN — original adequate certification and repair.** The original level/category/capacity and successful smallest parameter repair remain "not established". Query certificates are sufficient model envelopes, not attacks or AES/circuit equivalence. Fixed-SHA hardness and whole compiler/kernel mechanization are separate from the requested random-oracle proof, not invented completion prerequisites. Old source/scalar artifacts,165 frozen files and publication files are unchanged;47 supporting checked declarations remain, newly checked whole-source/game declarations0. The simultaneous classical3Q candidate remains separate and unpromoted.
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++
+--- root-docs-before-classical-joint/SECURITY-CRITERION.md
++++ SECURITY-CRITERION.md
+@@ -82,3 +82,17 @@
+ 
+ **OPEN — original adequate certification and repair.** The original level/category/capacity and successful smallest parameter repair remain "not established". Query certificates are sufficient model envelopes, not attacks or AES/circuit equivalence. Fixed-SHA hardness and whole compiler/kernel mechanization are separate from the requested random-oracle proof, not invented completion prerequisites. Old source/scalar artifacts,165 frozen files and publication files are unchanged;47 supporting checked declarations remain, newly checked whole-source/game declarations0. The simultaneous classical3Q candidate remains separate and unpromoted.
+ 
++## Reviewed complete classical joint-ledger successor
++
++**PROVED — simultaneous source construction.** CLASSICAL-JOINT-RO-THEOREM.md and two source-first final reviews establish a single safe-surface graph/row/private/coverage ghost. Independent fullF/J maps, genuine designated graph cells, lower limbs and residual functions retain the actual REAL marginal; literal overlaps are handled by the common first bad. Only observed replies/honest computations agree before that bad, not complete functions at unqueried hidden points. Endpoint/leaf/public images and canonical rows are safe; hidden starts/interior coordinates, fullF and surplus row answers are not granted. Atomic unsigned-J scope and permanent forward disclosure are explicit. No old incompatible advice worlds are merged.
++
++**PROVED — full bound and unchanged interface.** Predictable raw slots carry rare weights1,2 or3 divided byN=2^128; inner privateP/nonce/endpoint risks overlap rather than create disjoint budgets. Expected role counts share one unflagged ghost and sum pathwise<=Q_H. Honest outer private aliases are contained in the already charged inner endpoint event. The fixed-nonzero constant is6241; seedzero is paid once to obtain
++
++`E_joint=min(1,(3Q_H+2q+6242)/N+(qQ_H+binom(q,2)+q)/N^2+q*(511/512)^(2^32)+(Q_H+1)*pF(q))`.
++
++Candidate coverage uses a deterministic bound, never expected eligible-query counts. The exact uncapped improvement from the old theorem is(3Q_H+q+1)/N. Honest atomic cache restoration transfers with zero probability/query loss. Corrupted/private/coherent/timing APIs remain outside this model.
++
++**COMPUTED — new complete rows and exact thresholds.** Independent24 rows cover all eightq values andQ_H2^32/2^64/REQUIRED2^128. Root exact Fraction checks confirm every interval, delta and all eight adjacent half-success boundaries. Atq2^40,Q_H2^64 the probability exponent is62.39484059815322, not a security work factor. Its sufficient half-successQpass is55925302073878813864583541683133229382. EveryQ_H2^128 row caps1. Positive exact-binomial outward brackets are inherited and independently reevaluated; finite-counter exhaustion is enclosed, not setzero.
++
++**OPEN — original certification and repair.** This is an improved complete classical source envelope, paired with the accepted polynomial-private QROM successor. It does not supply adequate128/category1 strength, a certified maximum signing capacity or a successful smallest parameter repair. All old theorem/calculator/48 scalar cells/32 threshold receipts are preserved. Source, manuscript and165 frozen files remain unchanged; supporting checked declarations47 and newly checked whole-source/game declarations0. The original printable adequacy statement remains "not established". Original criterion and analytic parameter-repair studies remain separately scoped pending their final reconciliation.
++

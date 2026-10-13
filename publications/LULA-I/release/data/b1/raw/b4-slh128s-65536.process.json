@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "data/b1\\build\\slhdsa_ossl.exe",
+    "SLH-DSA-SHA2-128s",
+    "65536",
+    "200",
+    "data/b1\\raw\\b4-slh128s-65536.csv"
+  ],
+  "cwd": "data/b1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 1800.0,
+  "start_utc": "2026-10-12T17:55:49Z",
+  "status": "completed",
+  "peak_working_set_bytes": 9850880,
+  "peak_private_bytes": 2379776,
+  "pid": 30616,
+  "exit_code": 0,
+  "wall_seconds": 46.98704179999186,
+  "end_utc": "2026-10-12T17:56:36Z"
+}

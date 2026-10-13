@@ -1,0 +1,47 @@
+{
+  "okay": true,
+  "content": "import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\n/- Abstract mathematical model only; no Rust refinement claim. -/\nnamespace Lula\n\ntheorem sum_monotone {x y : List Nat} (h : List.Forall\u2082 (\u00b7 \u2264 \u00b7) x y) : x.sum \u2264 y.sum := by\n  induction h with\n  | nil => simp\n  | cons hab htail ih => simpa only [List.sum_cons] using Nat.add_le_add hab ih\n\ntheorem fixed_sum_antichain {x y : List Nat}\n    (hle : List.Forall\u2082 (\u00b7 \u2264 \u00b7) x y) (hs : x.sum = y.sum) : x = y := by\n  induction hle with\n  | nil => rfl\n  | @cons a b xs ys hab htail ih =>\n      have ht : xs.sum \u2264 ys.sum := sum_monotone htail\n      simp only [List.sum_cons] at hs\n      have habEq : a = b := by omega\n      have hsum : xs.sum = ys.sum := by omega\n      subst b\n      exact congrArg (List.cons a) (ih hsum)\n\ndef consistent {M S C : Type} (ref : M \u2192 Option S)\n    (cached : M \u2192 C \u2192 Option S) (c : C) : Prop :=\n  \u2200 m, cached m c = ref m\n\ntheorem restored_cache_same {M S C : Type} (ref : M \u2192 Option S)\n    (cached : M \u2192 C \u2192 Option S) (old fresh : C)\n    (ho : consistent ref cached old) (hf : consistent ref cached fresh) :\n    \u2200 m, cached m old = cached m fresh := by\n  intro m\n  exact (ho m).trans (hf m).symm\n\n/- A sequential adaptive protocol chooses the next message from prior responses.\n   It is classical-query EUF-CMA, not superposition signing-oracle access. -/\ndef adaptiveRun {M S : Type} (oracle : M \u2192 Option S)\n    (choose : List (Option S) \u2192 M) : Nat \u2192 List (Option S) \u2192 List (Option S)\n  | 0, history => history\n  | n + 1, history => adaptiveRun oracle choose n (history ++ [oracle (choose history)])\n\ntheorem adaptive_transcript_equal {M S : Type} (o\u2081 o\u2082 : M \u2192 Option S)\n    (he : \u2200 m, o\u2081 m = o\u2082 m) (choose : List (Option S) \u2192 M)\n    (n : Nat) (history : List (Option S)) :\n    adaptiveRun o\u2081 choose n history = adaptiveRun o\u2082 choose n history := by\n  have ho : o\u2081 = o\u2082 := funext he\n  subst o\u2082\n  rfl\n\ndef restoredRun {M S C : Type} (cached : M \u2192 C \u2192 Option S)\n    (pick : List (Option S) \u2192 C) (choose : List (Option S) \u2192 M) :\n    Nat \u2192 List (Option S) \u2192 List (Option S)\n  | 0, history => history\n  | n + 1, history => restoredRun cached pick choose n\n      (history ++ [cached (choose history) (pick history)])\n\ntheorem adaptive_restoration_equal {M S C : Type} (ref : M \u2192 Option S)\n    (cached : M \u2192 C \u2192 Option S) (pick : List (Option S) \u2192 C)\n    (choose : List (Option S) \u2192 M)\n    (hc : \u2200 history, consistent ref cached (pick history))\n    (n : Nat) (history : List (Option S)) :\n    restoredRun cached pick choose n history = adaptiveRun ref choose n history := by\n  induction n generalizing history with\n  | zero => rfl\n  | succ n ih =>\n      simp only [restoredRun, adaptiveRun, hc history (choose history)]\n      exact ih _\n\n/- We deliberately permit abort on corruption. Returning a value must agree\n   with the reference; this property is an explicit hypothesis. -/\ndef outputSafe {M S C : Type} (ref : M \u2192 Option S)\n    (cached : M \u2192 C \u2192 Option S) : Prop :=\n  \u2200 m c s, cached m c = some s \u2192 ref m = some s\n\ntheorem no_changed_success {M S C : Type} (ref : M \u2192 Option S)\n    (cached : M \u2192 C \u2192 Option S) (hs : outputSafe ref cached)\n    (m : M) (c : C) (s : S) (hr : ref m \u2260 some s) : cached m c \u2260 some s := by\n  intro hc\n  exact hr (hs m c s hc)\n\ntheorem equal_or_first_divergence {A : Type} [DecidableEq A] (x y : List A) :\n    x = y \u2228 \u2203 i : Nat, x.take i = y.take i \u2227 x[i]? \u2260 y[i]? := by\n  induction x generalizing y with\n  | nil =>\n      cases y with\n      | nil => exact Or.inl rfl\n      | cons b ys => exact Or.inr \u27e80, rfl, by simp\u27e9\n  | cons a xs ih =>\n      cases y with\n      | nil => exact Or.inr \u27e80, rfl, by simp\u27e9\n      | cons b ys =>\n          by_cases hab : a = b\n          \u00b7 subst b\n            rcases ih ys with h | \u27e8i, hp, hd\u27e9\n            \u00b7 exact Or.inl (congrArg (List.cons a) h)\n            \u00b7 exact Or.inr \u27e8i + 1, by simpa using congrArg (List.cons a) hp, by simpa using hd\u27e9\n          \u00b7 exact Or.inr \u27e80, rfl, by simpa using hab\u27e9\n\n#print axioms fixed_sum_antichain\n#print axioms sum_monotone\n#print axioms restored_cache_same\n#print axioms adaptive_transcript_equal\n#print axioms adaptive_restoration_equal\n#print axioms no_changed_success\n#print axioms equal_or_first_divergence\nend Lula\n\n",
+  "lean_messages": {
+    "errors": [],
+    "warnings": [],
+    "infos": [
+      "-:99:0-99:6: info: 'Lula.fixed_sum_antichain' depends on axioms: [propext, Quot.sound]\n",
+      "-:100:0-100:6: info: 'Lula.sum_monotone' depends on axioms: [propext]\n",
+      "-:101:0-101:6: info: 'Lula.restored_cache_same' does not depend on any axioms\n",
+      "-:102:0-102:6: info: 'Lula.adaptive_transcript_equal' depends on axioms: [Quot.sound]\n",
+      "-:103:0-103:6: info: 'Lula.adaptive_restoration_equal' does not depend on any axioms\n",
+      "-:104:0-104:6: info: 'Lula.no_changed_success' does not depend on any axioms\n",
+      "-:105:0-105:6: info: 'Lula.equal_or_first_divergence' depends on axioms: [propext]\n"
+    ]
+  },
+  "tool_messages": {
+    "errors": [],
+    "warnings": [
+      "Mathlib.Tactic is a required import but is missing from the header imports. You may experience inconsistent and incorrect behavior. We highly recommend adding `import Mathlib.Tactic` to the header imports.",
+      "Note: you are not using the default header. Expected 'import Mathlib\n', got 'import Mathlib.Data.List.Forall2\nimport Mathlib.Data.List.TakeDrop\n\n/- Abstract mathematical model only; no Rust refinement claim. -/\n'. You may experience significant slowdowns. We encourage you to use the cached default header if possible, which will significantly speed up execution. Please enable `ignoreImports` to automatically override imports with the default header."
+    ],
+    "infos": []
+  },
+  "failed_declarations": [],
+  "timings": {
+    "parse_ms": 7933,
+    "total_ms": 7957
+  },
+  "info": {
+    "request_id": "ab6ceace-6fed-44df-9e7f-4600064f43b8",
+    "environment": "lean-4.28.0",
+    "total_request_time_ms": 8076,
+    "queue_time_ms": 2,
+    "execution_time_ms": 8073,
+    "cached_response": false,
+    "_executor_commit_sha": "4e4d05b692e56b4d928ac95c4f783f411eadabba",
+    "_executor_docker_image_id": "sha256:bef56e9c4dd4d8de7bfc8916c6d6199f6936e841100716b1b5ea9012b37cb86c",
+    "_executor_artifact_sha256": "c280cb9b47af4f5a8a952128ae00698ec9022c089500b7b23a511a6c9ba7a8da",
+    "environment_wait_time_us": 8,
+    "environment_total_time_us": 8070601,
+    "environment_pool_size": 64,
+    "_predicted_warmness": "warm",
+    "_actual_env_warm_state": "warm"
+  },
+  "source_sha256": "9cb58d17c5c5d90e98f7bce0a0f2d1e364f89c17827f5a389ff8216ffbc9dbbd"
+}

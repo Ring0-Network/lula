@@ -1,0 +1,13 @@
+# Query-bound scope and current status
+
+PROVED (manual, conditional finite-query derivation): the saved first1cf6aca9 derives min(1,(12Q^2+20Q+9)/2^128) for ONE challenge row with uniform128-bit input,128-bit image prefix, full256 public oracle answers, no public prequeries and ghost-side information independent of the unknown input. This is neither a new checked source/game declaration nor an actual fixed-SHA hardness value.
+
+PROVED (scope): row/outside classification is by the actual injectively encoded raw WORDS, not the names of routines. Every alias that evaluates frame(P,T,x) is a selected-row evaluation. Such a call cannot also be supplied by a free independent outside function. Independent lower limbs and truly outside full-word restrictions are retained. This rule also applies at zero public parameter; this primitive lemma adds no special source seed-zero mass. Source-level aliases, interquery services and resource exclusions require their separate route lemma.
+
+COMPUTED: controls exited0 with65,536 one-point overlay worlds,16,384 distinct real joint states,32 exact residual full-word mixture masses and8,192 response-basis checks in1,024 one-query completion worlds. The wrong-phase control fails on3,072 basis inputs. Tiny finite policies distinguish original-input and different-input success and check Q0 planted-target probability2/N-1/N^2. They do not verify the universal quantum norm bound or a source implementation.
+
+CITED: the different-input branch uses HK22 Section8.2 Definition9/Theorem4, attributing the8lambda(Q+1)^2 average-search result to HRS16. Exact cached text lines1027–1036 were read. The final candidate is output before its digest is checked, so the search program needsQ mark calls. Adding a digest evaluation would be a differentQ+1 program. The original-input branch is independently derived by a one-point overlay and terminal projector; its ghost event is at most1/N.
+
+OPEN (efficiency): exact non-Y miss values live in anN-1-sized alphabet. The proof permits huge independently conditioned finite tables and charges their local storage/gates separately. A binary polynomial2T-wise simulator is not a proven substitute for that alphabet. No full table is generated. A distribution-exact efficient finite-query replacement is a separate possible lemma, not acceptance evidence already supplied here.
+
+OPEN (application): a source target-only route must prove that its initial/interquery observer has the required ghost independence, count every selected-row evaluation and handle honest services/opaque values/atomic failures. This derivation does not reduce those costs or prove a UD estimate. Independent new peer review is not yet claimed. Whole-goal completion remains false.

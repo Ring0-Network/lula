@@ -1,0 +1,18 @@
+{
+  "INDEPENDENT_DERIVATION.md": {
+    "bytes": 7979,
+    "sha256": "206d719a2fba374e87d871afcc6487c3497743f51a0d95845aa43055537f3f2c"
+  },
+  "control.py": {
+    "bytes": 4950,
+    "sha256": "c7cea709215ee3a7b3868b47c4de4887f475b09685196e07b87136a6d9ca07e7"
+  },
+  "CHECKS.json": {
+    "bytes": 1929,
+    "sha256": "ee9f2327f729d86eb255a53aea711898fd6720cf046a9517093fe35d6f5b7a63"
+  },
+  "REVIEW.md": {
+    "bytes": 8443,
+    "sha256": "d55a716744a84bbccbee4587468ffe22637167ee3e69120c23cf21ed5a41d716"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ACCEPT_CONDITIONAL_PRIVATE_P_CANDIDATE_PENDING_FINAL_SUBJECT",
+  "subject_sha256": "6b451f36526ac4e49ade0eca99622d27f0f05bda473d5563c398f8967319b1db",
+  "pins": {
+    "PRIVATE-P-CANDIDATE.md": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-ud-polynomial\\PRIVATE-P-CANDIDATE.md",
+      "sha256": "6b451f36526ac4e49ade0eca99622d27f0f05bda473d5563c398f8967319b1db"
+    },
+    "INDEPENDENT-FIRST.md": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\INDEPENDENT-FIRST.md",
+      "sha256": "67fcfac99d1d87db4b954e8f5b232e33dc835f154c13d39cc4140a6dee94ed5f"
+    },
+    "FIRST-PROVENANCE.json": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\FIRST-PROVENANCE.json",
+      "sha256": "ff6f289419bee35de79822feb22fc6e16a71afcf56c100d8e13a9e8c819c62dd"
+    },
+    "controls.py": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\controls.py",
+      "sha256": "2c373a2617349a0a06f1ca1a6ae7656a8a51c006be55d618323819a57c460560"
+    },
+    "CONTROL-RESULTS.json": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\outside-field-check\\private-p-polynomial\\CONTROL-RESULTS.json",
+      "sha256": "60763a9eb904371db26d48648d378c6b52d6147dedd175fdc6d956ccebd9ef0e"
+    }
+  },
+  "checks": {
+    "blind_honest_genuine_coherent_overlay": "PASS",
+    "same_marker_independent_joint_local_law": "PASS",
+    "full_raw_suffix_256bit_completion": "PASS",
+    "source_real_blind_first_alias_equality": "PASS",
+    "zero_unnormalized_classical_block_domination": "PASS",
+    "zero_first_nomination_independence": "PASS",
+    "Q_A_only_decision_polynomial": "PASS",
+    "source_counter_and_partiality": "PASS",
+    "all_boolean_table_caps_totalization": "REQUIRE EXPLICIT FINAL WORDING",
+    "outer_alias_eligibility": "REQUIRE PRECISE FINAL WORDING OR EXPLICIT OVERCOUNT",
+    "finite_controls": "PASS actual exit0"
+  },
+  "new_source_game_declarations": 0,
+  "new_kernel_declarations": 0,
+  "whole_goal_complete": false,
+  "old_scalar_changes": false,
+  "review_md_sha256": "624e6b117420a9947473447493ba99559d3d0b4b405ff71143004ba5c9d1d5bb"
+}

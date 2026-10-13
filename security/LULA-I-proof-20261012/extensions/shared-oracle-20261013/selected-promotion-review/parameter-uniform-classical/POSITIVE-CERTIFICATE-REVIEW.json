@@ -1,0 +1,59 @@
+{
+  "status": "ACCEPTED_EXACT_RATIONAL_POSITIVE_CLASSICAL_CERTIFICATES",
+  "reviewed_at_utc": "2026-10-13T23:15:31.787861+00:00",
+  "subject": "root-parameter-uniform-classical/POSITIVE-CERTIFICATE.md",
+  "subject_sha256": "b1230dc86499e9b3be5dacb2115958178ffe3005ec923c0badeda4c06ed2d2ae",
+  "checks": {
+    "exact_note_script_two_certificates_and_tuple_read": true,
+    "positive_Touchard_upper_proved_not_Poisson_equality": true,
+    "independent_closed_form_Stirling_and_exact_fraction_arithmetic": true,
+    "tighter_binomial_factorial_moment_checked": true,
+    "all48_full_rows_exact_terms_caps_and_flags_checked": true,
+    "finite_counter_exponent_weakening_direction_and_q_retained": true,
+    "source_guards_fixed_n16_widths_strict_target_and_digest243": true,
+    "H3017_G3256_C6281_recomputed": true,
+    "signature6344_public32_topcache75497456_recomputed": true,
+    "T17_at2_exact_and_display_exponent_scope": true,
+    "all_q_through_2pow64_Q125_successhalf_by_monotonicity": true,
+    "Q128_cap_one_not_actual_attack": true,
+    "both_isolated_replays_exit0_and_byte_identical": true,
+    "no_original_outputs_overwritten": true,
+    "source_theorem_historical_and_prior_first_pins_preserved": true,
+    "no_availability_performance_minimality_128_category_or_QROM_claim": true,
+    "classical_query_certificate_not_gatecost_or_fixedSHA_hardness": true
+  },
+  "source_subjects": {
+    "root-parameter-uniform-classical/POSITIVE-CERTIFICATE.md": "b1230dc86499e9b3be5dacb2115958178ffe3005ec923c0badeda4c06ed2d2ae",
+    "root-parameter-uniform-classical/uniform_bounds.py": "7eb2d3d019c9c97a405876045a89e3b0a7f5283156fe5b17eddd41c34e1c9ccf",
+    "root-parameter-uniform-classical/BASELINE-CERTIFICATES.json": "f71d161493ab8ca605fd07f44dc619dcdcb382987427034d5fbf9d3cf217b904",
+    "root-parameter-uniform-classical/HEIGHT63-CERTIFICATES.json": "0e568cbed7f9a1b8117ed12f5de729742718e0e20f05820a0cb9c47845979ee1",
+    "root-parameter-uniform-classical/height63-illustration.json": "4b38081b225e303832861ad5e5c6c77fb6ac7436dad99b2f6a921627e81ab501",
+    "PARAMETER-UNIFORM-CLASSICAL-THEOREM.md": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b",
+    "selected-promotion-review/parameter-uniform-classical/FINAL-SUBJECT-REVIEW.json": "99313f8cb5bdf451c48e27f31ad9063e283f6f10e101d099c2637b3fae901056"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "CLASSICAL-JOINT-RO-THEOREM.md": "4fa7c3b63a268bd7535a753813d109a2f768f0089df44b54223a6e34cfaf35f0",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "C:/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/publications/LULA-I/release/code/lula1/src/lib.rs": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  },
+  "review_pins": {
+    "selected-promotion-review/parameter-uniform-classical/POSITIVE-CERTIFICATE-REVIEW.md": "1e95235ed21312c3ffea94a3410a28d460184578ae39b380cc32d3e3ede3fb05",
+    "selected-promotion-review/parameter-uniform-classical/POSITIVE-CERTIFICATE-CONTROLS.json": "9d72bdfdd0093cddc72fbe008e4099ec506f4ef22eb5d106eeaf3eac6272abc8",
+    "selected-promotion-review/parameter-uniform-classical/review_positive_certificate.py": "a1862f44c909c259da755147120e00b79d7aef7ca3adc432b031d17d47e24c9d"
+  },
+  "independent_exact_rows": 48,
+  "independent_small_binomial_cases": 756,
+  "independent_counter_cases": 55,
+  "new_checked_declarations": 0,
+  "new_source_game_declarations": 0,
+  "retuned_QROM_bound_established": false,
+  "parameter_repair_established": false,
+  "original_level_category_objective_established": false,
+  "whole_goal_complete": false
+}

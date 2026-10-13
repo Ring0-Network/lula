@@ -1,0 +1,128 @@
+{
+  "status": "PASS_EXACT_UNCONDITIONED_FULL_LIMB_ROW_AND_FRESH_DIFFERENT_BASE_CONTROLS",
+  "script_sha256": "805b74333c36197c8d8b30c248f1442bae045530a70cd6be308260be15ab6545",
+  "cases": [
+    {
+      "accepted_size": 1,
+      "worlds": 512,
+      "success_worlds": 224,
+      "bottom_probability": "9/16",
+      "first_counter_probabilities": {
+        "0": "1/4",
+        "1": "3/16"
+      },
+      "fresh_different_base_prefix_hit_given_success": "1/4",
+      "canonical_lower_limb_counts": {
+        "0": 112,
+        "1": 112
+      },
+      "rejected_points_checked": 96
+    },
+    {
+      "accepted_size": 2,
+      "worlds": 512,
+      "success_worlds": 384,
+      "bottom_probability": "1/4",
+      "first_counter_probabilities": {
+        "0": "1/2",
+        "1": "1/4"
+      },
+      "fresh_different_base_prefix_hit_given_success": "1/4",
+      "canonical_lower_limb_counts": {
+        "0": 192,
+        "1": 192
+      },
+      "rejected_points_checked": 128
+    },
+    {
+      "accepted_size": 3,
+      "worlds": 512,
+      "success_worlds": 480,
+      "bottom_probability": "1/16",
+      "first_counter_probabilities": {
+        "0": "3/4",
+        "1": "3/16"
+      },
+      "fresh_different_base_prefix_hit_given_success": "1/4",
+      "canonical_lower_limb_counts": {
+        "0": 240,
+        "1": 240
+      },
+      "rejected_points_checked": 96
+    }
+  ],
+  "source_slice_cardinalities": {
+    "lower32x16sum240": "5181241160064611531897369560287267312",
+    "top16x256sum2040": "454918678781617793203528879683071744"
+  },
+  "source_digest_space": "340282366920938463463374607431768211456",
+  "source_counter_cap": 4294967296,
+  "WOTS_rows": 2269959421952,
+  "selector_pad": 4398046511104,
+  "C_bottom_public": 17392,
+  "C_bottom_F": 8704,
+  "C_higher_public": 15423,
+  "C_higher_F": 1024,
+  "child_array_node_bytes_cap": 278256,
+  "q_resource_rows": [
+    {
+      "q_exponent": 24,
+      "hot_F_cap": 217197847040,
+      "cold_F_cap": 563166882832896,
+      "hot_honest_outside_plus_C": 369296587591012487,
+      "cold_honest_outside_plus_C": 584976788478775431
+    },
+    {
+      "q_exponent": 30,
+      "hot_F_cap": 13763256263168,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 23067525475762983047,
+      "cold_honest_outside_plus_C": 36871058332579811463
+    },
+    {
+      "q_exponent": 38,
+      "hot_F_cap": 3522837436441088,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 5902989675554597261447,
+      "cold_honest_outside_plus_C": 9436694086899705335943
+    },
+    {
+      "q_exponent": 40,
+      "hot_F_cap": 14091343202624000,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 23611931680497909911687,
+      "cold_honest_outside_plus_C": 37746749325878342209671
+    },
+    {
+      "q_exponent": 41,
+      "hot_F_cap": 19212937084272640,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 47223854353755660112007,
+      "cold_honest_outside_plus_C": 75493489644516524707975
+    },
+    {
+      "q_exponent": 44,
+      "hot_F_cap": 19212937084272640,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 377790771779364162916487,
+      "cold_honest_outside_plus_C": 603947854105451079684231
+    },
+    {
+      "q_exponent": 50,
+      "hot_F_cap": 19212937084272640,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 24178608826423176364839047,
+      "cold_honest_outside_plus_C": 38652662095292739037974663
+    },
+    {
+      "q_exponent": 64,
+      "hot_F_cap": 19212937084272640,
+      "cold_F_cap": 19212937084272640,
+      "hot_honest_outside_plus_C": 396142326864551706024971620487,
+      "cold_honest_outside_plus_C": 633285215621710620861625553031
+    }
+  ],
+  "challenge_preprocessing_calls_cap": 4294967296,
+  "simulator_selected_queries": "Q_H+1 or Q_q coherent plus1 final classical, when canonical searches/rechecks use supplied target",
+  "scope": "Finite sampler/count controls, not a complete source/challenger or conventional S-TCR proof."
+}

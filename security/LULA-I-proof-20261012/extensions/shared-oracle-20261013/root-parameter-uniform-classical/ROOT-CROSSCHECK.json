@@ -1,0 +1,17 @@
+{
+  "status": "PASS144_INDEPENDENT_UNIFORM_ROWS_AND48_ROOT_POSITIVE_CERTIFICATES",
+  "subject_sha256": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b",
+  "independent_data_sha256": "7b02308c51f114ea337062b05f1496fe763720b01e6b93b2f80ea2a6d787695b",
+  "independent_script_sha256": "d1f49575901fb93f3450ac9870cda95368b584a4232e0d1361535bd12abcb551",
+  "root_script_sha256": "7eb2d3d019c9c97a405876045a89e3b0a7f5283156fe5b17eddd41c34e1c9ccf",
+  "check_script_sha256": "f98090b45ade685af802f76197465895b665a82355ec3781083b9beeade404f4",
+  "independent_rows_checked": 144,
+  "positive_moment_checks": 144,
+  "root_exact_certificate_rows_checked": 48,
+  "baseline_old_rows_preserved": 24,
+  "baseline_old_crossings_preserved": 8,
+  "new_source_or_manuscript_edits": 0,
+  "QROM_retuning_established": false,
+  "original_128_category_minimal_repair": "not established",
+  "whole_goal_complete": false
+}

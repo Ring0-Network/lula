@@ -1,0 +1,9 @@
+{
+  "classification": "COMPUTED exact abstract finite channel control",
+  "fixed_function_worlds": 64,
+  "policies_per_world": 8,
+  "checks": 3072,
+  "exit_code": 0,
+  "source_sha256": "23497c964823269fe0de8cc4720c05554bd3b18b55ea45bfe69ce1ebe2dd9173",
+  "scope": "Three-edge binary stopped chain; no LULA signatures, source refinement, hardness or quantum-game mechanization"
+}

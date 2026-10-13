@@ -1,0 +1,6 @@
+{
+  "original_sha256": "dc5cb686efcd0d21982e6e4d61a62441497dd2fcc3778960d0e9cba409798e98",
+  "successor_sha256": "d5ed7d17dd8f7a2c5de76374a6894c6743b1b6b9205b10fe736237758f485336",
+  "corrected_by": "root review: pre-key phase omission; exact explicit totalization",
+  "numeric_formulas_changed": false
+}

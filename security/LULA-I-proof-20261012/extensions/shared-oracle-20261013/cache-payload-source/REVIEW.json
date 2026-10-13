@@ -1,0 +1,40 @@
+{
+  "verdict": "ACCEPT_MANUAL_EXACT_PUBLIC_LOGICAL_PAYLOAD_EXTENSION_WITH_UNCHANGED_FINITE_MODEL_BOUNDS",
+  "subject": "75,497,456-byte top logical nodes and canonical counters; no seed/context/work buffers",
+  "source_first": true,
+  "new_sibling_candidate_opened_after_own_derivation_saved": true,
+  "reviewed_entire_author_candidate": true,
+  "full_crypto_execution_or_cache_generation": false,
+  "efficient_pk_plus_oracle_simulator_established": false,
+  "fixed_sha_or_category_established": false,
+  "files": {
+    "prior_independent_source_derivation": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\cache-payload-source\\INDEPENDENT_DERIVATION.md",
+      "sha256": "e60e9585f7261cf77c3c51674345074867277632e0656c0d028c8adc4fc7d105"
+    },
+    "reviewed_author_candidate": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\cache-payload-math\\INDEPENDENT_DERIVATION.md",
+      "sha256": "4495d03709cc42e6ba1f2d3eed3ada18780c04ed0281939ab045f17d4b9faf8f"
+    },
+    "independent_second_reading": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\cache-payload-source\\SECOND_READER.md",
+      "sha256": "c7b38e4a66a770578a2357c83360b208f952ae8ea6753e9397b286c73b046296"
+    },
+    "layout_factorization_control": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\cache-payload-source\\control.py",
+      "sha256": "0fecf31bd8cf97da53ad243b55b251544cb5d828a0e1900bf020002e517b3245"
+    },
+    "control_results": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\cache-payload-source\\CONTROL-RESULTS.json",
+      "sha256": "74b7db0be3250489b7b284d48dffa2637e36c7f68e9e9b200bbad0630c0252ec"
+    },
+    "pinned_library": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\lib.rs",
+      "sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+    },
+    "private_fixture_serializer": {
+      "path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\release\\code\\lula1\\src\\bin\\lula1_driver_original.rs",
+      "sha256": "a18799fba64ec1a6370e18e0d5d4b21108109cf9022fc8d7195e55d860a08c4b"
+    }
+  }
+}

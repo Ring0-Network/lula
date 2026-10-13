@@ -1,0 +1,19 @@
+{
+  "authorization": "Explicit intervening user request to compare Li Crypto2025 structure and purge administrative prose. Five editorial register/header changes; no crypto or security packet changes.",
+  "patches_path": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\publications\\LULA-I\\editorial\\li-register-final-20261012\\PATCHES.json",
+  "patches_sha256": "6da6837b7ae0e50cd9a861e3b557610c4cc5d63956594187d61a0fdab5b27228",
+  "paper_changes": {
+    "LULA-I.tex": {
+      "before": "b8b3a21da5d16758203c5424ef91d640052671c96ec2a71b8f9e5b880e8d12e5",
+      "after": "ebcfa697cabfeb9389b1d4d360ed631040ba0a6b8d9aaca87942487108bd1fa7"
+    },
+    "LULA-I.pdf": {
+      "before": "23eeb6310b79b2a600fa2532d7f21756e94e5fe2deec8d13e944bb971f170d1e",
+      "after": "b5704bd3f8e94eb59cab04bb74f9fb0d58e1cdc80955256fa08ef65e9f06160a"
+    },
+    "comparison-results.tex": {
+      "before": "55afcc2948c92c43a97044c9ba15b689f25838424f277f1d38381b106fd9d0f1",
+      "after": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154"
+    }
+  }
+}

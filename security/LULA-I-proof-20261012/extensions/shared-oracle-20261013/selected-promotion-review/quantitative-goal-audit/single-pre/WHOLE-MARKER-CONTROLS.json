@@ -1,0 +1,26 @@
+{
+  "status": "PASS_CORRELATED_MARK_AND_FULLWORD_LAW",
+  "reports": [
+    {
+      "N": 2,
+      "mu": "3/4",
+      "marker_states": 3,
+      "prefix_states_with_mass": 3,
+      "fullword_states_with_mass": 12,
+      "independent_output_weightings": 3,
+      "correlated_advice_negative_success": "1"
+    },
+    {
+      "N": 4,
+      "mu": "7/16",
+      "marker_states": 15,
+      "prefix_states_with_mass": 175,
+      "fullword_states_with_mass": 2800,
+      "independent_output_weightings": 3,
+      "correlated_advice_negative_success": "1"
+    }
+  ],
+  "script_sha256": "86f8e830fb1b0fcc0d11ae9eeb6281bb1e40d5e5c1b4a56a3518b0c563be5c2c",
+  "scope": "Exact finite distribution/independence controls, not whole quantum/source theorem",
+  "whole_goal_complete": false
+}

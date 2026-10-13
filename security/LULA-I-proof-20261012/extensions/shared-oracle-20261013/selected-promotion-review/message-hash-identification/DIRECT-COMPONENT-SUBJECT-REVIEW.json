@@ -1,0 +1,31 @@
+{
+  "status": "ACCEPTED_EXACT_DIRECT_NAMED_MESSAGE_HASH_COMPONENT_SUBJECT",
+  "current_index_review": false,
+  "subject_pins": {
+    "MESSAGE-HASH-PRIMITIVE-COMPONENT.md": "1406428b0f8ab96e0b5aa923a372c0773067fbc4d79f0f6c2065fd17edfb0dff"
+  },
+  "own_pins": {
+    "DIRECT-COMPONENT-SUBJECT-REVIEW.md": "e5109cbdaaab783435bd0f4ca49145827f346ffa89bbd351f886e05499420f9c",
+    "INDEPENDENT-FIRST.md": "540ae17ba73ff61d178c3f8c96601bff18db857138c078f54b22ba10dfeb609f",
+    "CONTEXT-LIFT-CLARIFICATION.md": "514cc20605b3f6f3306ebf4cca87a32846b6ca596e27ba21434c345d809e5f41",
+    "REVIEW-RECEIPT.json": "5e755851cca232f5b543b25c9515679816baa16e3a4987f03e26616d25c8aae5",
+    "PROBABILISTIC-LIFT-REVIEW.json": "b3633fdc195e13bc39b914f31fb95e635900d2e963d0dddc15465c3f8d602b78"
+  },
+  "event": "Win AND indexed17 C_cov from completed signatures",
+  "checks": {
+    "exact_same_h_fullword_source_frames": true,
+    "actual_root_F_jointlaw_and_prekey": true,
+    "memoized_new_label_nonce_law": true,
+    "canonical_target_free_valid_finalcounter_explicit": true,
+    "bottom_unnormalized_absorbing": true,
+    "no_commit_or_false_source_exposure": true,
+    "no_new_seedzero_penalty_interface_only": true,
+    "logical_tags_not_source_hash_bytes": true,
+    "all_runtime_work_charged": true,
+    "primary_ITSR_numerical_hardness_unproved": true,
+    "ordinary_guess_candidates_separate_not_in_this_subject": true,
+    "old_scalar_source_manuscript_unchanged": true
+  },
+  "new_source_game_checked_declarations": 0,
+  "whole_goal_complete": false
+}

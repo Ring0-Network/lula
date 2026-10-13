@@ -1,0 +1,19 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "bash",
+    "-lc",
+    "cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/formal/IndependentLulaLocal.lean"
+  ],
+  "exit_code": 0,
+  "stdout": "'IndependentLula.fixed_sum_antichain' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "source_sha256": "19b44dcdd882db2d27f52c4b8b2f2c7287795d7cdf7123d599fc077e91e98cf1",
+  "local_changes": [
+    "aggregate import replaced by compiled narrow imports",
+    "generic le_rfl replaced by Nat.le_refl _; statement unchanged"
+  ]
+}

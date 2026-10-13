@@ -1,0 +1,7 @@
+# Final clarified private challenge subject — exact pin
+
+**PROVED — accepted final clarification.** After saving the original gap review and the corrected-successor acceptance, I read `private-challenge-program/FINAL-SUCCESSOR.md` in full. Its SHA-256 is `0bc80193e7696ef84cf95c883101ac078a7e0b48046f5be741198ef51c36fc11`. `FINAL-PROVENANCE.json` has SHA-256 `ca5c8e081bc6d5100b23a870d0076016159724ba0156478c4727748fa45c6542`. The earlier successor `d5ed7d17dd8f7a2c5de76374a6894c6743b1b6b9205b10fe736237758f485336` and both earlier reviews remain preserved.
+
+**PROVED — last interface detail closed.** Both programs now explicitly use `pre_key(Raw) -> continuation | abort`; abortion or halting before obligatory setup outputs nonwinning bit0. Raw tables and challenge handles are initialized first, S/pk are withheld, the complete adversary continuation survives setup, and one Q_H budget covers both phases. The mathematical counter-exhaustion totalization still exposes no feedback and makes no native Rust abort claim. All call, memoization, time, space and private-hop formulas are unchanged. The accepted source-relative, classical joint-access ROM scope and every OPEN certification/refinement boundary in `PRIVATE-CHALLENGE-SUCCESSOR-REVIEW.md` therefore continue to apply.
+
+**PROVED — final verdict.** `ACCEPT_MANUAL_JOINT_ACCESS_ROM_ADAPTER_IDENTITIES_AND_RESOURCE_CAPS` for this exact final subject. This is not conventional-PRF certification, efficient later primitive reductions, checked source execution or a category/level result.

@@ -1,0 +1,349 @@
+{
+  "status": "COMPUTED_EXACT_FINITE_CONTROLS_NOT_FULL_SOURCE_PROOF",
+  "fields": [
+    {
+      "degree": 1,
+      "alpha": 1,
+      "absolute_trace": 1,
+      "inverse_checks": 1,
+      "all_artin_schreier_inputs_tested": 2
+    },
+    {
+      "degree": 2,
+      "alpha": 2,
+      "absolute_trace": 1,
+      "inverse_checks": 3,
+      "all_artin_schreier_inputs_tested": 4
+    },
+    {
+      "degree": 4,
+      "alpha": 8,
+      "absolute_trace": 1,
+      "inverse_checks": 15,
+      "all_artin_schreier_inputs_tested": 16
+    },
+    {
+      "degree": 8,
+      "alpha": 128,
+      "absolute_trace": 1,
+      "inverse_checks": 255,
+      "all_artin_schreier_inputs_tested": 256
+    },
+    {
+      "degree": 16,
+      "alpha": 32768,
+      "absolute_trace": 1,
+      "inverse_checks": 64,
+      "all_artin_schreier_inputs_tested": 0
+    }
+  ],
+  "coefficient_seeds_affine": 16,
+  "coefficient_seeds_full": 256,
+  "complete_field_tables": 256,
+  "projected_tables_full": 16,
+  "one_query_full_Choi_equal": true,
+  "query_budget_negative": {
+    "honest_calls": 3,
+    "adversary_basis_calls": 1,
+    "wrong_Qonly": "1",
+    "RF_and_correct_total": "1/2"
+  },
+  "whole_postC_row_success": {
+    "RF": "3/16",
+    "correct_total_family": "3/16",
+    "wrong_Qonly_family": "3/8"
+  },
+  "whole_postC_row_joint_output_law_equal": true,
+  "valid_byte_words": 65793,
+  "invalid_register_states": 196351,
+  "source_encoding": [
+    0,
+    1,
+    257
+  ],
+  "static_budgets": [
+    {
+      "q_exp": 24,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 369296591885962645,
+      "T_ROW": 369296591885979783,
+      "T_PRE_classifier": 369296591885968645
+    },
+    {
+      "q_exp": 24,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 584976792773725589,
+      "T_ROW": 584976792773742727,
+      "T_PRE_classifier": 584976792773731589
+    },
+    {
+      "q_exp": 24,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 18816040661300546965,
+      "T_ROW": 18816040661300564103,
+      "T_PRE_classifier": 18816040661300552965
+    },
+    {
+      "q_exp": 24,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 19031720862188309909,
+      "T_ROW": 19031720862188327047,
+      "T_PRE_classifier": 19031720862188315909
+    },
+    {
+      "q_exp": 30,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 23067525480057933205,
+      "T_ROW": 23067525480057950343,
+      "T_PRE_classifier": 23067525480057939205
+    },
+    {
+      "q_exp": 30,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 36871058336874761621,
+      "T_ROW": 36871058336874778759,
+      "T_PRE_classifier": 36871058336874767621
+    },
+    {
+      "q_exp": 30,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 41514269549472517525,
+      "T_ROW": 41514269549472534663,
+      "T_PRE_classifier": 41514269549472523525
+    },
+    {
+      "q_exp": 30,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 55317802406289345941,
+      "T_ROW": 55317802406289363079,
+      "T_PRE_classifier": 55317802406289351941
+    },
+    {
+      "q_exp": 38,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 5902989675558892211605,
+      "T_ROW": 5902989675558892228743,
+      "T_PRE_classifier": 5902989675558892217605
+    },
+    {
+      "q_exp": 38,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 9436694086904000286101,
+      "T_ROW": 9436694086904000303239,
+      "T_PRE_classifier": 9436694086904000292101
+    },
+    {
+      "q_exp": 38,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 5921436419628306795925,
+      "T_ROW": 5921436419628306813063,
+      "T_PRE_classifier": 5921436419628306801925
+    },
+    {
+      "q_exp": 38,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 9455140830973414870421,
+      "T_ROW": 9455140830973414887559,
+      "T_PRE_classifier": 9455140830973414876421
+    },
+    {
+      "q_exp": 40,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 23611931680502204861845,
+      "T_ROW": 23611931680502204878983,
+      "T_PRE_classifier": 23611931680502204867845
+    },
+    {
+      "q_exp": 40,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 37746749325882637159829,
+      "T_ROW": 37746749325882637176967,
+      "T_PRE_classifier": 37746749325882637165829
+    },
+    {
+      "q_exp": 40,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 23630378424571619446165,
+      "T_ROW": 23630378424571619463303,
+      "T_PRE_classifier": 23630378424571619452165
+    },
+    {
+      "q_exp": 40,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 37765196069952051744149,
+      "T_ROW": 37765196069952051761287,
+      "T_PRE_classifier": 37765196069952051750149
+    },
+    {
+      "q_exp": 41,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 47223854353759955062165,
+      "T_ROW": 47223854353759955079303,
+      "T_PRE_classifier": 47223854353759955068165
+    },
+    {
+      "q_exp": 41,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 75493489644520819658133,
+      "T_ROW": 75493489644520819675271,
+      "T_PRE_classifier": 75493489644520819664133
+    },
+    {
+      "q_exp": 41,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 47242301097829369646485,
+      "T_ROW": 47242301097829369663623,
+      "T_PRE_classifier": 47242301097829369652485
+    },
+    {
+      "q_exp": 41,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 75511936388590234242453,
+      "T_ROW": 75511936388590234259591,
+      "T_PRE_classifier": 75511936388590234248453
+    },
+    {
+      "q_exp": 44,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 377790771779368457866645,
+      "T_ROW": 377790771779368457883783,
+      "T_PRE_classifier": 377790771779368457872645
+    },
+    {
+      "q_exp": 44,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 603947854105455374634389,
+      "T_ROW": 603947854105455374651527,
+      "T_PRE_classifier": 603947854105455374640389
+    },
+    {
+      "q_exp": 44,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 377809218523437872450965,
+      "T_ROW": 377809218523437872468103,
+      "T_PRE_classifier": 377809218523437872456965
+    },
+    {
+      "q_exp": 44,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 603966300849524789218709,
+      "T_ROW": 603966300849524789235847,
+      "T_PRE_classifier": 603966300849524789224709
+    },
+    {
+      "q_exp": 50,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 24178608826423180659789205,
+      "T_ROW": 24178608826423180659806343,
+      "T_PRE_classifier": 24178608826423180659795205
+    },
+    {
+      "q_exp": 50,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 38652662095292743332924821,
+      "T_ROW": 38652662095292743332941959,
+      "T_PRE_classifier": 38652662095292743332930821
+    },
+    {
+      "q_exp": 50,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 24178627273167250074373525,
+      "T_ROW": 24178627273167250074390663,
+      "T_PRE_classifier": 24178627273167250074379525
+    },
+    {
+      "q_exp": 50,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 38652680542036812747509141,
+      "T_ROW": 38652680542036812747526279,
+      "T_PRE_classifier": 38652680542036812747515141
+    },
+    {
+      "q_exp": 64,
+      "Q_exp": 32,
+      "mode": "hot",
+      "T_PRE": 396142326864551706029266570645,
+      "T_ROW": 396142326864551706029266587783,
+      "T_PRE_classifier": 396142326864551706029266576645
+    },
+    {
+      "q_exp": 64,
+      "Q_exp": 32,
+      "mode": "cold",
+      "T_PRE": 633285215621710620865920503189,
+      "T_ROW": 633285215621710620865920520327,
+      "T_PRE_classifier": 633285215621710620865920509189
+    },
+    {
+      "q_exp": 64,
+      "Q_exp": 64,
+      "mode": "hot",
+      "T_PRE": 396142326882998450098681154965,
+      "T_ROW": 396142326882998450098681172103,
+      "T_PRE_classifier": 396142326882998450098681160965
+    },
+    {
+      "q_exp": 64,
+      "Q_exp": 64,
+      "mode": "cold",
+      "T_PRE": 633285215640157364935335087509,
+      "T_ROW": 633285215640157364935335104647,
+      "T_PRE_classifier": 633285215640157364935335093509
+    }
+  ],
+  "profiles": [
+    {
+      "byte_bound": 0,
+      "field_degree": 256,
+      "bit_target": 256
+    },
+    {
+      "byte_bound": 2,
+      "field_degree": 256,
+      "bit_target": 256
+    },
+    {
+      "byte_bound": 598,
+      "field_degree": 8192,
+      "bit_target": 4785
+    },
+    {
+      "byte_bound": 1072,
+      "field_degree": 16384,
+      "bit_target": 8577
+    },
+    {
+      "byte_bound": 65584,
+      "field_degree": 1048576,
+      "bit_target": 524673
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXACT_DEPENDENCY_AND_ROOT_RESIDUAL_CONTROLS",
+  "completion_marginals": "31/32",
+  "completion_product": "961/1024",
+  "actual_joint_and_union_bound": "15/16",
+  "product_shortcut_refuted": true,
+  "root_table_worlds": 16,
+  "root_dependent_sigma_groups": 4,
+  "each_sigma_single_mark_probability": "1/2",
+  "residual_informed_selector_single_mark_probability": "3/8",
+  "success_constant_from_safe_joint_bound": "1/5",
+  "scope": "Finite dependency/framing controls, not an actual source forgery"
+}

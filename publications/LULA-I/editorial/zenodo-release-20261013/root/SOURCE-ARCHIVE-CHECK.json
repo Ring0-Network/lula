@@ -1,0 +1,52 @@
+{
+  "status": "PASS_ISOLATED_SOURCE_ARCHIVE_BUILD",
+  "source_archive_sha256": "9ee147b5b4b0df77cfcd94d07598af4bfd24f86e8986afe898f77f9389496439",
+  "delivered_files_unchanged": {
+    "LULA-I.tex": "7aab775544100ba0336d8539aaf13622e3a840981f3c567ca56f19fdc2a009bf",
+    "LULA-I.pdf": "b036d61139ce8bc3d5cc0715e6e6b5e2174c80218c39d70e7bf6c5fa6cf48156",
+    "LULA-I-source.zip": "9ee147b5b4b0df77cfcd94d07598af4bfd24f86e8986afe898f77f9389496439",
+    "LULA-I-release.zip": "1976d449bc64dbf5a6d481955b6767ef10c5d01249ec4f234ad3cc280abf4b61"
+  },
+  "commands": [
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "LULA-I.tex"
+      ],
+      "exit_code": 0,
+      "log_sha256": "d50457b3260da449f302f99c86c879c99423d5025baffef6e4b88b2059450317"
+    },
+    {
+      "command": [
+        "bibtex",
+        "LULA-I"
+      ],
+      "exit_code": 0,
+      "log_sha256": "fadb12e742689269f0ad8bc06f0c246b409dfe43a414d7886064cb8b3a099d4a"
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "LULA-I.tex"
+      ],
+      "exit_code": 0,
+      "log_sha256": "74c3c825a585aad84b67f0ba3745f6f826a1123f52499591e136309872ff878d"
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "LULA-I.tex"
+      ],
+      "exit_code": 0,
+      "log_sha256": "74c3c825a585aad84b67f0ba3745f6f826a1123f52499591e136309872ff878d"
+    }
+  ],
+  "pages": 22,
+  "every_page_extracted_text_exactly_matches_submission_pdf": true
+}

@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "data/a1\\build\\kn3952.exe",
+    "run",
+    "x",
+    "data/a1\\vectors\\kn3952.state",
+    "hot",
+    "32",
+    "2",
+    "data/a1\\raw\\SMOKE-cpu4-kn3952-run.csv",
+    "data/a1\\raw\\SMOKE-cpu4-kn3952-run.vec.json"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 4,
+  "affinity_mask": 16,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 900.0,
+  "start_utc": "2026-10-12T04:40:54Z",
+  "status": "completed",
+  "peak_working_set_bytes": 8425472,
+  "peak_private_bytes": 2523136,
+  "pid": 1164,
+  "exit_code": 0,
+  "wall_seconds": 4.727242400011164,
+  "end_utc": "2026-10-12T04:40:58Z"
+}

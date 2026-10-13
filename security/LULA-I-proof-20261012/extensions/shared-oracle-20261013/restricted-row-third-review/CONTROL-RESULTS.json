@@ -1,0 +1,19 @@
+{
+  "scope": "Exact synthetic finite interface and circuit checks; no source or SHA/QROM security certification",
+  "worlds": 32768,
+  "side_groups": 512,
+  "changed_pairs_per_group": 64,
+  "target_first_mass": [
+    "1/4",
+    "3/16"
+  ],
+  "bottom_mass": "9/16",
+  "offbase_prefix_equality": "1/4",
+  "full_reply_mass_each": "1/8",
+  "two_query_worlds": 9216,
+  "coherent_basis_checks": 294912,
+  "one_query_dirty_scratch_negative": 147456,
+  "joint_static_table_basis_commutation_checks": 64,
+  "controls_sha256": "80fa317f691b162624dbb1c42a0f77ad965484971bbdf719be54edc4a2b7a95b",
+  "status": "PASS"
+}

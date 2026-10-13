@@ -1,0 +1,62 @@
+{
+  "status": "READY_FOR_ROOT_PROMOTION_SCOPED_CLASSICAL_RO_RELATIVE",
+  "own_independence": "Initial WOTS source-first derivation saved before new peer reading; corrected only setup wording/type nomenclature. Combined FORS successor is explicitly attributed synthesis after peer reading.",
+  "subjects": {
+    "INDEPENDENT_DERIVATION.md": "61a8c1d673008b83ba61887d762ad0e51501de039ef870b8b5a43eae7b73e0fa",
+    "FORS-LOCALIZED-SUCCESSOR.md": "2026eba89ac1e884785e9c38b09c9bb347d7efd35f99cc534b988db1c71d1c0b",
+    "INDEPENDENT_DERIVATION-FIRST.md": "c038207a453f1ab4ce7047b20b8a35b47a6b397ffa82347c02b2f468f714bcb7"
+  },
+  "reader_receipt": {
+    "path": "chain-pre-independent/COMBINED-REVIEW.json",
+    "sha256": "35e2d8722c70409cf762f447a883b8cf5c762a4eee58da32f510e64ae62604f4"
+  },
+  "reader_review": {
+    "path": "chain-pre-independent/COMBINED-SECOND-READER.md",
+    "sha256": "2adfff2145211d668337e12132e5de761f962a31a1643167881c6dd43bd6423b"
+  },
+  "source_sha256": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210",
+  "bound": "Pr_HJ[H|fixed nonzero S] <= 2^55 Pr_selectedROuniformInputFull256PRE[B wins]",
+  "resources": {
+    "wots_selector_bits": 50,
+    "combined_selector_bits": 55,
+    "protected_wots": 1089588072284160,
+    "protected_fors": 19140298416324608,
+    "protected_combined": 20229886488608768,
+    "selected_calls": "Q_H+1",
+    "extra_public_hashes": 254,
+    "private_distinct": "min(N_D,1+2181038080+q U_mode)",
+    "additional_node_bytes": 4096
+  },
+  "controls": {
+    "own_worlds": 512,
+    "own_policies": 6,
+    "own_exit": 0,
+    "peer_reexecuted_worlds": 512,
+    "peer_reexecuted_policies": 6,
+    "peer_exit": 0,
+    "proof_status": "Finite controls only; whole manual theorem accepted independently"
+  },
+  "open": [
+    "conventional fixed-key/shared-seed PRE identification",
+    "coherent QROM stopped-cut embedding",
+    "level/category certification"
+  ],
+  "unchanged": [
+    "crypto source",
+    "manuscript",
+    "parameters",
+    "accepted direct RO/QROM scalar formulas"
+  ],
+  "files": {
+    "CONTROL-RESULTS.json": "e62bce956568980d646fa5b84549f494aff47d35d2d0bdd5d63e6cab3bdc236c",
+    "control.py": "9e2dc5cc85a33e54cab2cf9abbd1e8c4d3d5d50d3f9830901f466199c1fd96cb",
+    "finalize.py": "b21ae1db9c4de125ba04747b59ba8473f011396eed65a61ef87b2fc272994f42",
+    "FORS-LOCALIZED-SUCCESSOR.md": "2026eba89ac1e884785e9c38b09c9bb347d7efd35f99cc534b988db1c71d1c0b",
+    "INDEPENDENT_DERIVATION-FIRST.md": "c038207a453f1ab4ce7047b20b8a35b47a6b397ffa82347c02b2f468f714bcb7",
+    "INDEPENDENT_DERIVATION.md": "61a8c1d673008b83ba61887d762ad0e51501de039ef870b8b5a43eae7b73e0fa",
+    "peer-recheck/CONTROL-RESULTS.json": "598db1792c49be96de70bbb022e5f95dc63d80dc68e17365168427d1865e736c",
+    "peer-recheck/control.py": "6fc221978c489954ad77e5a7d41ff070bceb7a5b4e2a5f7d271d4a0bc4694e22",
+    "peer-recheck/stdout.txt": "598db1792c49be96de70bbb022e5f95dc63d80dc68e17365168427d1865e736c",
+    "PEER-SECOND-READER.md": "616dbb0907ccb99740ad79e53d6b40c58358e2fc35cc8e5efc3b94775a254ce5"
+  }
+}

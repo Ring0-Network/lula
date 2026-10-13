@@ -1,0 +1,91 @@
+{
+  "status": "CHECKED_FIXED_KEY_BLIND_CANDIDATE_LIST_MODEL_NOT_FULL_LULA_SECURITY",
+  "source_sha256": "f4bb3f768cf63722a8f108708617f6d31cc264bc19fad13a1e148c2284206b8f",
+  "checker_command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "/root/.opam/ec/bin/easycrypt",
+    "compile",
+    "-no-eco",
+    "-p",
+    "Z3",
+    "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SeedGuess.ec"
+  ],
+  "checker_exit": 0,
+  "easycrypt_git_hash": "r2026.07-1-g87b6f8b",
+  "why3_version": "Why3 platform, version 1.8.2",
+  "selected_smt_prover": "Z3",
+  "z3_version": "Z3 version 4.8.12 - 64 bit",
+  "direct_imports": [
+    "AllCore",
+    "List",
+    "Distr",
+    "DInterval"
+  ],
+  "dependencies": [
+    {
+      "path": "/root/.opam/ec/bin/easycrypt",
+      "sha256": "eab8838409474d78d084b594ccef5451f03ee8873e0a86c52ad24b1fd8faba91"
+    },
+    {
+      "path": "/root/.opam/ec/bin/why3",
+      "sha256": "a4cbfe6c28e39ba1ef8a000437b61ae5baa2eda844acad5010715088dddc8c7d"
+    },
+    {
+      "path": "/usr/bin/z3",
+      "sha256": "c05be002097e2f2106efeeac03e58032e3f5cca10104f95d7a0ddc0bd3f907cb"
+    },
+    {
+      "path": "/root/.config/easycrypt/why3.conf",
+      "sha256": "e06dbff7fd877caa89885929ba4f542d24b875b8711d1081ce0df80add67038f"
+    },
+    {
+      "path": "/root/.opam/ec/lib/easycrypt/theories/core/AllCore.ec",
+      "sha256": "129becdf69920921dd3e7c0da0be9f40d0fc4fd24fc884f1a70c038fa58e15ab"
+    },
+    {
+      "path": "/root/.opam/ec/lib/easycrypt/theories/datatypes/List.ec",
+      "sha256": "edd3c2c57087b25b00279d31bb9bab65d4026caaa1f8534c62aed2cbce7c7dc4"
+    },
+    {
+      "path": "/root/.opam/ec/lib/easycrypt/theories/distributions/Distr.ec",
+      "sha256": "bfdc6a7638bc1f3ac98b92487d2d1c972ae7130ad15eb808b27b15fa45e7bfdc"
+    },
+    {
+      "path": "/root/.opam/ec/lib/easycrypt/theories/distributions/DInterval.ec",
+      "sha256": "928d2aa63a2f79d921ebea73d29962e50a4c31ccc372b5827d6d70838b57db1e"
+    }
+  ],
+  "checked_declarations": [
+    {
+      "name": "uniform_atom_bound",
+      "statement": "(n x : int) :\n  0 < n => mu1 (dinter 0 (n-1)) x <= 1%r / n%r."
+    },
+    {
+      "name": "one_seed_hit_bound",
+      "statement": "(n : int) (candidates : int list) :\n  0 < n =>\n  mu (dinter 0 (n-1)) (mem candidates)\n  <= (size candidates)%r * (1%r / n%r)."
+    },
+    {
+      "name": "two_seed_hit_bound",
+      "statement": "(n : int) (prefixes suffixes : int list) :\n  0 < n =>\n  mu (dinter 0 (n-1) `*` dinter 0 (n-1))\n    (fun (keys : int * int) => keys.`1 \\in prefixes \\/ keys.`2 \\in suffixes)\n  <= (size prefixes + size suffixes)%r * (1%r / n%r)."
+    },
+    {
+      "name": "key_blind_game_bound",
+      "statement": "(n : int) (prefixes suffixes : int list) :\n  0 < n =>\n  phoare [KeyBlind.sample : arg = (prefixes,suffixes,n) ==> res]\n    <= ((size prefixes + size suffixes)%r * (1%r / n%r))."
+    }
+  ],
+  "custom_axioms_admits_aborts_added": false,
+  "proof_helpers": [
+    "dinter1E",
+    "mu_mem_le_mu1",
+    "le_dprod_or",
+    "weight_dinter",
+    "fromintD",
+    "RField.mulrDl"
+  ],
+  "scope": "Candidate lists and n are fixed as procedure inputs before uniform independent keys are sampled. No adaptive source transcript or RO coupling is encoded.",
+  "trusted_stack": "Installed EasyCrypt logic and official distribution/real/list libraries; Why3 1.8.2 and selected Z3 4.8.12 SMT proofs. No transitive axiom-minimization or full standard-library rebuild was performed.",
+  "repair": "Qualify real distributivity as RField.mulrDl, explicitly simplify interval weight from n>0, and parenthesize the intended full phoare numeric bound; no assumptions weakened."
+}

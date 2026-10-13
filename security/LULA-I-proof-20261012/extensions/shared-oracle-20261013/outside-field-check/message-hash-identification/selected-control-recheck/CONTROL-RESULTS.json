@@ -1,0 +1,18 @@
+{
+  "scope": "Abstract exact interface controls only; no actual h/source signature run",
+  "canonical_ITSR_fresh_pair_tests": 56,
+  "canonical_ITSR_hits": 0,
+  "arbitrary_accepted_counter_coverage_hits": 8,
+  "arbitrary_accepted_counter_target_worlds": 8,
+  "source17real_FORS_zero9_and41route_byte_map_checked": true,
+  "complete_memoized_nonce_functions_checked": 16,
+  "target_query_count_for5_requests": 2,
+  "pre_nonce_fixed_counter_accepts_of4": [
+    2,
+    2
+  ],
+  "post_nonce_canonical_accepts_of4": 4,
+  "logical_context_parse_preserves_actual_inner_bytes": true,
+  "context_cases": 12,
+  "script_sha256": "2a69722d33113b2e8f3306412e958188af222cd1a37ee1699b531a9653c80257"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS_SCOPED_FORMAL_CHECKS_FULL_SECURITY_OPEN",
+  "lean_declarations": {
+    "Lula.fixed_sum_antichain": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Lula.sum_monotone": [
+      "propext"
+    ],
+    "Lula.restored_cache_same": [],
+    "Lula.adaptive_transcript_equal": [
+      "Quot.sound"
+    ],
+    "Lula.adaptive_restoration_equal": [],
+    "Lula.no_changed_success": [],
+    "Lula.equal_or_first_divergence": [
+      "propext"
+    ]
+  },
+  "aristotle_project": "8088c406-8395-494b-a4d4-7f8642dc0bc8",
+  "aristotle_checked": "exact returned source with AXLE check and statement comparator; narrow local adaptation separately checked",
+  "easycrypt_lemmas": [
+    "consistent_equivalence",
+    "abort_or_reference",
+    "successful_response"
+  ],
+  "easycrypt_scope": "abstract guarded wrapper, not real corruption handling or security reduction",
+  "K": "UNCHECKED",
+  "complete_EUF_CMA": "OPEN",
+  "QROM": "OPEN",
+  "certified_quantum_signing_limit": null,
+  "source_hash_note": "local/source inventory hashes are actual file bytes; remote hashes are UTF-8 text transmitted, normalized LF by Python read_text",
+  "readme": "FORMAL_REPORT.md",
+  "quantum_report": "QUANTUM.md"
+}

@@ -1,0 +1,83 @@
+{
+  "status": "ACCEPTED_MANUAL_GUARDED_PARAMETER_UNIFORM_CLASSICAL_FINAL_SUBJECT",
+  "reviewed_at_utc": "2026-10-13T23:13:14.032287+00:00",
+  "subject": "PARAMETER-UNIFORM-CLASSICAL-THEOREM.md",
+  "subject_sha256": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b",
+  "checks": {
+    "exact_final_subject_hash_and_full_read": true,
+    "both_original_goals_reread_in_full": true,
+    "independent_source_first_precedes_new_peer_read": true,
+    "ex_ante_parameters_and_guarded_source_schema": true,
+    "source_shifts_addresses_buffer_and_full256_budget": true,
+    "fixed_lw4_8_and_full128_omitted_zero_filter": true,
+    "acceptance_coefficient_denominator_2pow128": true,
+    "strict_target_excludes_endpoint_only_unexposed_gap": true,
+    "one_genuine_child_and_acyclic_injective_graph": true,
+    "ordinary_complete_shared_raw_REAL_marginal_lower_limbs": true,
+    "canonical_first_counter_bottom_no_global_conditioning": true,
+    "safe_surface_no_full_secret_or_surplus_row_advice": true,
+    "one_unflagged_ghost_and_unused_remaining_coordinates": true,
+    "known_point_memo_firstbad_forward_exposure_closure": true,
+    "atomic_unsigned_J_and_absorbing_noncompletion": true,
+    "uniform_exhaustive_four_event_source_cover": true,
+    "simultaneous_3Q_2q_role_and_honest_fees": true,
+    "recomputed_variable_H_G_d_terminal_counts": true,
+    "single_outer_seedzero_fee_and_baseline6242": true,
+    "full256_message_bridge_and_repeated_nonce_handling": true,
+    "exact_finite_binomial_coverage_and_counter_bottom": true,
+    "same_world_independent_padding_pathwise_Qplus1": true,
+    "zero_height_B1_q0_and_full256_edges": true,
+    "honest_canonical_cache_transfer_only": true,
+    "certificate_limitation_not_attack_or_impossibility": true,
+    "no_retuned_QROM_category_or_repair_inference": true,
+    "controls_replayed_exit0_identical": true,
+    "all_source_historical_and_first_pins_unchanged": true,
+    "current_index_promotion_outside_this_receipt": true
+  },
+  "source_subjects": {
+    "PARAMETER-UNIFORM-CLASSICAL-THEOREM.md": "e5fc68bc269ca98672caa99ec70d5695d3d578095a62ebbfc0f99f9d8fbc394b"
+  },
+  "provenance_pins": {
+    "selected-promotion-review/parameter-uniform-classical/INDEPENDENT-FIRST.md": "e330e30759eac52adca83384ce5b9c95cfa9a491230376518cfa19302dd3bd67",
+    "root-parameter-uniform-classical/FIRST-DERIVATION.md": "833a46073c70f3e6f702a925360ed54279f438fa557cd0ef3e63473e58b571fe",
+    "selected-promotion-review/parameter-uniform-classical/PEER-REVIEW.md": "94a911fb26cefdf2293f4b61f76f366f6613e6241bf8630d4dac72f3493e2169",
+    "selected-promotion-review/parameter-uniform-classical/PEER-REVIEW.json": "e750b12f80b654ad06c35f92761f74f02e8fe932fba3bdd326c387dbbbfb490a",
+    "selected-promotion-review/parameter-uniform-classical/finite_controls.py": "6bd00e18433d80a1a98fcfccda2d045754932c9db802cd0c6de3797b6904119d",
+    "selected-promotion-review/parameter-uniform-classical/FINITE-CONTROLS.json": "63f604d2179e5e269fba1de0e6a8fc5b80e2d67916aa6eb44ba34fcf1c288ca9",
+    "selected-promotion-review/parameter-uniform-classical/finalize_peer_review.py": "a6de31e767636b9d8ad2cca9d4938a16694eb81522f4010f1cc06aadd45d9587"
+  },
+  "original_goal_pins": {
+    "C:/Users/angel/.codex/attachments/032bcc59-5956-41c6-88fb-1d3d3779005f/pasted-text-1.txt": "655c5344c76c16d6e22d15ab169847385154a147dd28d0d31f1bbe86b465ee2f",
+    "C:/Users/angel/.codex/attachments/7ca7dd75-961c-425a-94a2-2bc006720d14/pasted-text-1.txt": "ccdcfbc8b10de3d10546573ea9d92c0f906b182dcb34ba2eb100225bb206a1e8"
+  },
+  "preserved_artifacts": {
+    "CLASSICAL-RO-THEOREM.md": "3ff8d3c0457ce0525a5af416472f7188e75e20c52cc06d2220b4273a1db752fe",
+    "CLASSICAL-JOINT-RO-THEOREM.md": "4fa7c3b63a268bd7535a753813d109a2f768f0089df44b54223a6e34cfaf35f0",
+    "QUANTUM-RO-THEOREM.md": "94c8f29121760d1a09358257720bb123613084f07a645db9ba9296a43e49a607",
+    "QUANTUM-COVERAGE-THEOREM.md": "24a031417b42ba03d266c638a4c3f94dae8887ffd8cf13f584b21387e6d01217",
+    "QUANTUM-EVENT-SPECIFIC-THEOREM.md": "d28e99570c0b6819f7a45169882252ffedc6e31cfad150751f7084a9fdea02f1",
+    "CHANGED-CHILD-EXTRACTION.md": "03b11cebd09f26ba07bcf686b0e28521d7d89a636877217421a59774d3a0991c",
+    "bounds.py": "2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd",
+    "bounds-event-specific.py": "4f06f80befae967479a582fb644d4d24bcb40b9051324709f529abcf683a8a81",
+    "C:/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/publications/LULA-I/release/code/lula1/src/lib.rs": "ac8e67f05af68dd8e1291c5909847f74103903fb7ffa2c70f500c6ec48f14210"
+  },
+  "review_pins": {
+    "selected-promotion-review/parameter-uniform-classical/RESUMED-DOMAIN-AUDIT.md": "c1ec7adce4a659711245d52c18e1fd23ed5ddc8faba86ae5d3357a43cc45b0a4",
+    "selected-promotion-review/parameter-uniform-classical/FINAL-SUBJECT-REVIEW.md": "df9ab12424000e281907ba39e628cb6c6cb1a8a7b54dcce4b29c9d04bf9a52aa",
+    "selected-promotion-review/parameter-uniform-classical/final_subject_review.py": "4d178b90f19f5c14e53ddc8c81f410ec9b554e0d277aae9f782931c7f1fd842e"
+  },
+  "control_replay": {
+    "exit_code": 0,
+    "stdout": "{\"exit_code\": 0, \"coverage_cases\": 36, \"chain_cases\": 98, \"parent_schedule_cases\": 1280, \"route_cases\": 91, \"controls_sha256\": \"63f604d2179e5e269fba1de0e6a8fc5b80e2d67916aa6eb44ba34fcf1c288ca9\"}",
+    "script_sha256": "6bd00e18433d80a1a98fcfccda2d045754932c9db802cd0c6de3797b6904119d",
+    "output_sha256": "63f604d2179e5e269fba1de0e6a8fc5b80e2d67916aa6eb44ba34fcf1c288ca9",
+    "byte_identical_to_preserved_controls": true
+  },
+  "final_subject_only_not_index_integration": true,
+  "new_checked_declarations": 0,
+  "new_source_game_declarations": 0,
+  "retuned_QROM_bound_established": false,
+  "parameter_repair_established": false,
+  "original_level_category_objective_established": false,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,272 @@
+{
+  "active_inputs": [
+    "LULA-I.tex",
+    "operating-model.tex",
+    "stability-results.tex",
+    "comparison-results.tex"
+  ],
+  "entries": [
+    {
+      "key": "fips205",
+      "line": 1
+    },
+    {
+      "key": "kn",
+      "line": 9
+    },
+    {
+      "key": "sphincsc",
+      "line": 17
+    },
+    {
+      "key": "gravity",
+      "line": 28
+    },
+    {
+      "key": "variable",
+      "line": 43
+    },
+    {
+      "key": "sphincs",
+      "line": 51
+    },
+    {
+      "key": "xmss",
+      "line": 62
+    },
+    {
+      "key": "reset",
+      "line": 72
+    },
+    {
+      "key": "openssl",
+      "line": 80
+    },
+    {
+      "key": "shrincsc",
+      "line": 88
+    },
+    {
+      "key": "shrincsdraft",
+      "line": 96
+    },
+    {
+      "key": "hashsiggo",
+      "line": 104
+    },
+    {
+      "key": "sp800230",
+      "line": 112
+    },
+    {
+      "key": "fluhrer",
+      "line": 124
+    }
+  ],
+  "citations": [
+    {
+      "file": "LULA-I.tex",
+      "line": 59,
+      "keys": [
+        "sphincs"
+      ],
+      "quote": "Stateless hash-based signatures, their caches, and counter-based compression are established techniques. SPHINCS+ supplies the underlying FORS/hypertree architecture~\\cite{sphincs}; SPHINCS+C supplies compressed component designs~\\cite{sphincsc}; Gravity-SPHINCS already uses secret-key caching~\\cite{gravity}. LULA I combines these components with canonical counters and a reusable top-tree cache."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 59,
+      "keys": [
+        "sphincsc"
+      ],
+      "quote": "Stateless hash-based signatures, their caches, and counter-based compression are established techniques. SPHINCS+ supplies the underlying FORS/hypertree architecture~\\cite{sphincs}; SPHINCS+C supplies compressed component designs~\\cite{sphincsc}; Gravity-SPHINCS already uses secret-key caching~\\cite{gravity}. LULA I combines these components with canonical counters and a reusable top-tree cache."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 59,
+      "keys": [
+        "gravity"
+      ],
+      "quote": "Stateless hash-based signatures, their caches, and counter-based compression are established techniques. SPHINCS+ supplies the underlying FORS/hypertree architecture~\\cite{sphincs}; SPHINCS+C supplies compressed component designs~\\cite{sphincsc}; Gravity-SPHINCS already uses secret-key caching~\\cite{gravity}. LULA I combines these components with canonical counters and a reusable top-tree cache."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 79,
+      "keys": [
+        "xmss"
+      ],
+      "quote": "XMSS authenticates one-time keys with Merkle paths and requires that an index not be reused~\\cite[Sections~4.1 and 4.1.9]{xmss}. SPHINCS+ uses a few-time component selected by a message digest and certifies it through a hypertree~\\cite{sphincs}. SLH-DSA standardizes this architecture with specified hash functions and parameters~\\cite{fips205}. LULA I follows the stateless architecture, rather than attempting to make a consumption index survive restoration."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 79,
+      "keys": [
+        "sphincs"
+      ],
+      "quote": "XMSS authenticates one-time keys with Merkle paths and requires that an index not be reused~\\cite[Sections~4.1 and 4.1.9]{xmss}. SPHINCS+ uses a few-time component selected by a message digest and certifies it through a hypertree~\\cite{sphincs}. SLH-DSA standardizes this architecture with specified hash functions and parameters~\\cite{fips205}. LULA I follows the stateless architecture, rather than attempting to make a consumption index survive restoration."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 79,
+      "keys": [
+        "fips205"
+      ],
+      "quote": "XMSS authenticates one-time keys with Merkle paths and requires that an index not be reused~\\cite[Sections~4.1 and 4.1.9]{xmss}. SPHINCS+ uses a few-time component selected by a message digest and certifies it through a hypertree~\\cite{sphincs}. SLH-DSA standardizes this architecture with specified hash functions and parameters~\\cite{fips205}. LULA I follows the stateless architecture, rather than attempting to make a consumption index survive restoration."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 82,
+      "keys": [
+        "sphincsc"
+      ],
+      "quote": "SPHINCS+C searches for digest subsets that permit shorter WOTS and FORS evidence~\\cite{sphincsc}. A fixed digit sum replaces a conventional checksum in the WOTS+C component considered here. Kudinov and Nick analyze alternative component choices~\\cite[Sections 5 and 13]{kn}. Qin, Sun, and Zheng consider varying heights and chain lengths across layers~\\cite{variable}. LULA I uses different heights and widths at different layers; these choices define the concrete signing function whose cache behavior we study."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 82,
+      "keys": [
+        "kn"
+      ],
+      "quote": "SPHINCS+C searches for digest subsets that permit shorter WOTS and FORS evidence~\\cite{sphincsc}. A fixed digit sum replaces a conventional checksum in the WOTS+C component considered here. Kudinov and Nick analyze alternative component choices~\\cite[Sections 5 and 13]{kn}. Qin, Sun, and Zheng consider varying heights and chain lengths across layers~\\cite{variable}. LULA I uses different heights and widths at different layers; these choices define the concrete signing function whose cache behavior we study."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 82,
+      "keys": [
+        "variable"
+      ],
+      "quote": "SPHINCS+C searches for digest subsets that permit shorter WOTS and FORS evidence~\\cite{sphincsc}. A fixed digit sum replaces a conventional checksum in the WOTS+C component considered here. Kudinov and Nick analyze alternative component choices~\\cite[Sections 5 and 13]{kn}. Qin, Sun, and Zheng consider varying heights and chain lengths across layers~\\cite{variable}. LULA I uses different heights and widths at different layers; these choices define the concrete signing function whose cache behavior we study."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 85,
+      "keys": [
+        "gravity"
+      ],
+      "quote": "Gravity-SPHINCS demonstrates that caching can change signing cost and the parameter tradeoff~\\cite{gravity}. Ristenpart and Yilek analyze virtual-machine reset vulnerabilities and hedging against randomness failures~\\cite{reset}. Our deterministic signer consumes no online random-generator state. It therefore avoids dependence on a restored generator, conditional on the security of its message-dependent derivation. This does not establish that determinism alone implies security."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 85,
+      "keys": [
+        "reset"
+      ],
+      "quote": "Gravity-SPHINCS demonstrates that caching can change signing cost and the parameter tradeoff~\\cite{gravity}. Ristenpart and Yilek analyze virtual-machine reset vulnerabilities and hedging against randomness failures~\\cite{reset}. Our deterministic signer consumes no online random-generator state. It therefore avoids dependence on a restored generator, conditional on the security of its message-dependent derivation. This does not establish that determinism alone implies security."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 88,
+      "keys": [
+        "sp800230"
+      ],
+      "quote": "NIST SP 800-230's initial public draft proposes additional SLH-DSA parameter sets with a $2^{24}$ lifetime signature limit and permits hypertree caching~\\cite[Table~1 and Section~3]{sp800230}. Its 3,856-byte SHA2-128-24 signatures illustrate why query limits must accompany size comparisons. Fluhrer and Dang analyze FORS coverage using an occupancy model~\\cite[Section~5]{fluhrer}; \\Cref{sec:operating} states the additional modeling assumptions used for LULA I."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 88,
+      "keys": [
+        "fluhrer"
+      ],
+      "quote": "NIST SP 800-230's initial public draft proposes additional SLH-DSA parameter sets with a $2^{24}$ lifetime signature limit and permits hypertree caching~\\cite[Table~1 and Section~3]{sp800230}. Its 3,856-byte SHA2-128-24 signatures illustrate why query limits must accompany size comparisons. Fluhrer and Dang analyze FORS coverage using an occupancy model~\\cite[Section~5]{fluhrer}; \\Cref{sec:operating} states the additional modeling assumptions used for LULA I."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 91,
+      "keys": [
+        "hashsiggo"
+      ],
+      "quote": "The third-party Go implementation uses the smallest valid WOTS+C counter~\\cite{hashsiggo}. LULA I likewise requires canonical selection so that cache reconstruction returns the same counter as preparation. Its contribution is the specified integration and the conditional rollback-transfer argument, rather than a new hardness assumption or a general security property of stateless signatures."
+    },
+    {
+      "file": "LULA-I.tex",
+      "line": 171,
+      "keys": [
+        "fips205"
+      ],
+      "quote": "These functions differ from standardized SLH-DSA's HMAC-based message randomizer, message expansion, and external context interface~\\cite[Sections~10.2, 10.3, and 11.2]{fips205}. LULA I is not SLH-DSA conformant. Its raw-message interface provides no standardized application-context or prehash wrapper."
+    },
+    {
+      "file": "operating-model.tex",
+      "line": 4,
+      "keys": [
+        "fluhrer"
+      ],
+      "quote": "The model considers a generic classical FORS coverage attack, following the occupancy analysis of Fluhrer and Dang~\\cite[Section~5, Equation~(1)]{fluhrer}. It assumes independent uniform address and tree-index selections. For LULA I, with $\\rho=2^{-41}$, $r=1-2^{-9}$ and $N$ exposures at one address, coverage of the 17 real trees has probability $(1-r^N)^{17}$. A raw candidate must also satisfy the nine-bit zero condition. Expanding the power gives"
+    },
+    {
+      "file": "stability-results.tex",
+      "line": 2,
+      "keys": [
+        "openssl"
+      ],
+      "quote": "The cost reduction is reflected in the selected elapsed-time observations in \\Cref{tab:eval-warm}. These measurements used one pinned logical processor on an Intel Core Ultra 7 255U with 32 GiB RAM and Windows 11 Pro. LULA I used Rust with \\texttt{sha2} 0.10.9; SLH-DSA used OpenSSL 3.5.7 with default hedged signing~\\cite{openssl}. The hash backends were not matched, the physical core was not isolated, and repeated calls are not independent key trials. The 32-byte inputs are raw messages, not a standardized prehash mode. The LULA I $2^{40}$-query objective is conditional; the SLH-DSA sets have published $2^{64}$-query targets. These timings therefore do not establish a common-security ranking."
+    },
+    {
+      "file": "comparison-results.tex",
+      "line": 2,
+      "keys": [
+        "shrincsc"
+      ],
+      "quote": "\\Cref{tab:eval-aux} gives separate observations of upstream SHRINCS C B32~\\cite{shrincsc} and two compact implementations motivated by Kudinov--Nick~\\cite{kn}. The latter are our C reconstruction and third-party Go code~\\cite{hashsiggo}, rather than the authors' optimized implementation; we have not established a security reduction for their exact encodings. The different workload, state and preprocessing assumptions preclude pooling these timings with \\Cref{tab:eval-warm}."
+    },
+    {
+      "file": "comparison-results.tex",
+      "line": 2,
+      "keys": [
+        "kn"
+      ],
+      "quote": "\\Cref{tab:eval-aux} gives separate observations of upstream SHRINCS C B32~\\cite{shrincsc} and two compact implementations motivated by Kudinov--Nick~\\cite{kn}. The latter are our C reconstruction and third-party Go code~\\cite{hashsiggo}, rather than the authors' optimized implementation; we have not established a security reduction for their exact encodings. The different workload, state and preprocessing assumptions preclude pooling these timings with \\Cref{tab:eval-warm}."
+    },
+    {
+      "file": "comparison-results.tex",
+      "line": 2,
+      "keys": [
+        "hashsiggo"
+      ],
+      "quote": "\\Cref{tab:eval-aux} gives separate observations of upstream SHRINCS C B32~\\cite{shrincsc} and two compact implementations motivated by Kudinov--Nick~\\cite{kn}. The latter are our C reconstruction and third-party Go code~\\cite{hashsiggo}, rather than the authors' optimized implementation; we have not established a security reduction for their exact encodings. The different workload, state and preprocessing assumptions preclude pooling these timings with \\Cref{tab:eval-warm}."
+    }
+  ],
+  "cited_keys": [
+    "fips205",
+    "fluhrer",
+    "gravity",
+    "hashsiggo",
+    "kn",
+    "openssl",
+    "reset",
+    "shrincsc",
+    "sp800230",
+    "sphincs",
+    "sphincsc",
+    "variable",
+    "xmss"
+  ],
+  "compiled_bbl_keys": [
+    "hashsiggo",
+    "gravity",
+    "sphincs",
+    "shrincsc",
+    "sp800230",
+    "fluhrer",
+    "xmss",
+    "sphincsc",
+    "kn",
+    "fips205",
+    "openssl",
+    "variable",
+    "reset"
+  ],
+  "undefined_cites": [],
+  "uncited_bib_entries": [
+    "shrincsdraft"
+  ],
+  "read_sha256": {
+    "LULA-I.tex": "a33849e5eccf0d1895a3a035bd6a45de312bf783db200d986d0e5cd55699c6c1",
+    "operating-model.tex": "9b81563bdee219dd741cc1db49270437290ef2ba9ca07721b153c62da2885add",
+    "stability-results.tex": "e6d6dfe69236cf86e0da3010eda8f3adeb5702e3816b5acaeb24cf5b58f6ecc7",
+    "comparison-results.tex": "c39b253e080e46eb7d740ca05b892920298ada873421722b19887f4984074154",
+    "references.bib": "4525ba08f0afe73e01d3fa7ca48d026f0a3e7b7c29128de7249cbb8bfc9821d4",
+    "LULA-I.bbl": "19566ca1f8eb3f5bf07597926eb20134153c28228cf8b1ca122ed28e0a80fd52",
+    "release\\README.md": "e6044b189f988a25324a1641bdda4f35de86297284a5f410dde7768269046225",
+    "release\\LICENSE": "08cde3e1946ef6fe9bc44c76cc64b5c967e3f6d0168461edaa2581917403e366"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "data/a1\\build\\cargo-target-ra\\release\\m3_ra_snap.exe",
+    "snap",
+    "data/a1\\vectors\\lula1.cache",
+    "0",
+    "50",
+    "1024",
+    "data/a1\\raw\\lula1-snapA-1024.txt"
+  ],
+  "cwd": "data/a1",
+  "logical_cpu": 10,
+  "affinity_mask": 1024,
+  "priority": "BelowNormal",
+  "memory_limit_bytes": 2952790016,
+  "timeout_seconds": 1800.0,
+  "start_utc": "2026-10-12T14:38:18Z",
+  "status": "completed",
+  "peak_working_set_bytes": 80351232,
+  "peak_private_bytes": 76595200,
+  "pid": 28844,
+  "exit_code": 0,
+  "wall_seconds": 10.96219689999998,
+  "end_utc": "2026-10-12T14:38:29Z"
+}

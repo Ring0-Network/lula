@@ -1,0 +1,18 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "/root/.opam/ec/bin/easycrypt",
+    "compile",
+    "-no-eco",
+    "-p",
+    "Z3",
+    "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SeedGuess.ec"
+  ],
+  "exit_code": 1,
+  "source_sha256": "9d6822c3fddbce47e5256981391d229ff5db005271ffe4164a8dba8b67cb7431",
+  "stdout": "",
+  "stderr": "[-] [0002] 2.7% (-1.0B / [frag -1.0B])\n[\\] [0008] 16.4% (-1.0B / [frag -1.0B])\n[|] [0009] 16.8% (-1.0B / [frag -1.0B])\n[/] [0010] 17.6% (-1.0B / [frag -1.0B])\n[-] [0011] 18.7% (-1.0B / [frag -1.0B])\n[\\] [0012] 21.1% (-1.0B / [frag -1.0B])\n[|] [0013] 22.9% (-1.0B / [frag -1.0B])\n[/] [0014] 23.2% (-1.0B / [frag -1.0B])\n[-] [0019] 32.3% (-1.0B / [frag -1.0B])\n[\\] [0020] 32.7% (-1.0B / [frag -1.0B])\n[|] [0021] 33.5% (-1.0B / [frag -1.0B])\n[/] [0022] 34.9% (-1.0B / [frag -1.0B])\n[-] [0023] 37.3% (-1.0B / [frag -1.0B])\n[\\] [0024] 37.6% (-1.0B / [frag -1.0B])\n[|] [0030] 52.7% (-1.0B / [frag -1.0B])\n[/] [0031] 53.1% (-1.0B / [frag -1.0B])\n[-] [0032] 53.9% (-1.0B / [frag -1.0B])\n[\\] [0033] 56.7% (-1.0B / [frag -1.0B])\n[|] [0034] 59.5% (-1.0B / [frag -1.0B])\n[/] [0036] 65.1% (-1.0B / [frag -1.0B])\n[-] [0037] 66.3% (-1.0B / [frag -1.0B])\n[\\] [0038] 67.0% (-1.0B / [frag -1.0B])\n[|] [0039] 68.5% (-1.0B / [frag -1.0B])\n[/] [0040] 69.1% (-1.0B / [frag -1.0B])\n                                                   \n                                                   \n[critical] [/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SeedGuess.ec: line 39 (0-8)] cannot prove goal (strict)\n[-] [0040] 69.1% (-1.0B / [frag -1.0B])\n[\\] [0040] 69.1% (-1.0B / [frag -1.0B])\n"
+}

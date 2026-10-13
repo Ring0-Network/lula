@@ -1,0 +1,34 @@
+{
+  "outcome": "ACCEPT_LOCALIZED_ADDRESSED_RO_ADAPTER_WITH_NONZERO_SEED_SCOPE",
+  "independent_derivation_precedes_new_candidate_read": true,
+  "subject_pins": {
+    "selected-graph-challenge/INDEPENDENT_DERIVATION.md": "5aec62289171609df8d35c5ddd1ad3caa2f248351341d4422af6ce2addfb30f0",
+    "selected-graph-challenge/RESOURCE-AND-SCOPE-ADDENDUM.md": "d06544adc48d877a2cfac760a81e332dfada2200ae05bf9a6d1d1b0a8af9d6e8",
+    "selected-graph-challenge/LOCALIZED-FINAL-SUCCESSOR.md": "db2de01bb6dbb5f4f7d6398f12e4763d258c54820a0b3186475cbf8e0c4e14df",
+    "selected-graph-challenge/LOCALIZED-SEED-SCOPE-CLARIFICATION.md": "7b95a336d715c093ca3f9831bcad9278d051de628bd875b896afc5a65ed65704"
+  },
+  "own_pins": {
+    "INDEPENDENT_DERIVATION.md": "1117a7ba4afdabc7acb7e8e74ac4af4b6c35339b001d51df71958ef67f0762b9",
+    "INVENTORY.json": "8d2264ff13a3a76a00c50768149d4864d86093e57a5f48bdaac21673c07fe202",
+    "CANDIDATE-REVIEW.md": "538e3064704f4aff031afd37b8a29639ff77ad26b8e3bf231ddffe5c99c28684",
+    "LOCALIZED-SECOND-READER.md": "c39798fe64183a6eb4b042e0d0b24637420fea61b588e0b8518f0b6c4905c4f1",
+    "LOCALIZED-SCOPE-ACCEPTANCE.md": "8b61575166bf51c49cf618449acf25850c86bfd80608a1cefd0bd6b153c8c9c2",
+    "LOCAL-RESOURCES.json": "785897d25eac5c4afa133335b6852f0ed9232702d740a2287d7cc4b696591567"
+  },
+  "numeric_receipts": {
+    "inventory_script_exit_code": 0,
+    "local_resources_script_exit_code": 0,
+    "full_graph_nodes": 39339469515522047,
+    "private_namespace": 19212937084272640,
+    "qrows": 8,
+    "selected_dependency_rows": 372,
+    "strict_predecessor_public_max": 8560574462,
+    "strict_predecessor_private_max": 33554432,
+    "final_route_public": 8560653547,
+    "final_route_private": 33567232,
+    "padded_selector_loss": 72057594037927936
+  },
+  "classical_selected_handle_cap": "Q_H+2q+4 for nonzero S without requiring selected-target response memoization",
+  "identity": "Pr[B_cond wins] = 2^-56 Pr[source Win AND G_final | S != 0]",
+  "open": ["conventional primitive game equivalence", "PPT parameter-family certification", "Rust refinement", "fixed SHA security", "NIST level or category"]
+}

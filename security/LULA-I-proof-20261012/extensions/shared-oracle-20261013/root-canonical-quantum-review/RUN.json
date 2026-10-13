@@ -1,0 +1,12 @@
+{
+  "original": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\quantum-canonical-targets\\control.py",
+  "source_sha256": "49d8bea2d8facae9eb66e6d0aa1c6bb88157c952732b4c2d9eeb4b79e7d176a9",
+  "unmodified_copy_sha256": "49d8bea2d8facae9eb66e6d0aa1c6bb88157c952732b4c2d9eeb4b79e7d176a9",
+  "exit_code": 0,
+  "command": [
+    "C:\\Users\\angel\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-I",
+    "-B",
+    "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\root-canonical-quantum-review\\control.py"
+  ]
+}

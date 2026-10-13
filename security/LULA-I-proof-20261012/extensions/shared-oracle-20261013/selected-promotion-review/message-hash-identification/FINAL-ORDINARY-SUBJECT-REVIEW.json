@@ -1,0 +1,69 @@
+{
+  "status": "ACCEPTED_EXACT_FINAL_MANUAL_ORDINARY_ITSR_LOSS_AWARE_SUBJECT",
+  "current_index_review": false,
+  "subject_pins": {
+    "MESSAGE-HASH-ORDINARY-LIFT.md": "72a398e9a2d991b83de02c7982eae1ca6bdbb4c59d684b86094865ff03ef04cc",
+    "MESSAGE-HASH-PRIMITIVE-COMPONENT.md": "1406428b0f8ab96e0b5aa923a372c0773067fbc4d79f0f6c2065fd17edfb0dff"
+  },
+  "own_pins": {
+    "FINAL-ORDINARY-SUBJECT-REVIEW.md": "225565d85a49c8e973bf1c5a3278e8f3d4e2bdd993c3e2637c4a35aa5498ed09",
+    "COUNTER-GUESS-LIFT.md": "9c1fadb8eedc8dbf19f20800a0950836433c00f0782297d9f315fca0328433ca",
+    "COUNTER-GUESS-INPUT-COMPLETION.md": "6e871ffb0dbd9e715e4a1466ad756a649ec863b9370ae89818cc544c52ce4645",
+    "COUNTER-GUESS-MAP-CLARIFICATION.md": "d32aefb13490819ec189b27a574f2ec4daf7793c916bad640a3b1a3c0e735412",
+    "COUNTER-GUESS-SOURCE-ROUTE.md": "11802ed2fc14d754f3199103f828b7f7a37bafc31c721040ebea4347528f5b6a",
+    "PROBABILISTIC-LIFT-PEER-REVIEW.md": "c43480c9504cd91d603a65cc4098cb6143b0397178463261715e17727d959568",
+    "PROBABILISTIC-LIFT-REVIEW.json": "b3633fdc195e13bc39b914f31fb95e635900d2e963d0dddc15465c3f8d602b78",
+    "REVIEW-RECEIPT.json": "5e755851cca232f5b543b25c9515679816baa16e3a4987f03e26616d25c8aae5",
+    "LIFT-COMPARISON-CONTROLS.json": "2eac3044cd6b75a7e54738a28bea7d43f2559685663fe843a20ea08d5856d645"
+  },
+  "peer_pins": {
+    "outside-field-check/message-hash-identification/PROBABILISTIC-LIFT-FIRST.md": "c558399bc390589efddc4176bf45a90be0df04562e5e7395798108878d4c08c8",
+    "outside-field-check/message-hash-identification/PROBABILISTIC-LIFT-REVIEW.md": "669184e4695cf891184e3c01464d11d18c2a5e57707febc1914deeac4bbab6f5",
+    "outside-field-check/message-hash-identification/PROBABILISTIC-LIFT-REVIEW.json": "7bed93dfadde9b5f9cd0b06e7f27bde91f27297d1ba2787b39cd1254c5771573",
+    "outside-field-check/message-hash-identification/FINAL-ORDINARY-SUBJECT-REVIEW.md": "e21d0115f235d39bc2f2797258cec6ee70f3f19dc11d43616fea77f1608fba31",
+    "outside-field-check/message-hash-identification/FINAL-ORDINARY-SUBJECT-REVIEW.json": "4e68cd7627208ffffd983a7bbee8c1d4b6c130bebb90128159aeef2351ae751a"
+  },
+  "primary_versions": [
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.pdf",
+      "pdf_sha256": "540968e4d58cb582d5f85636beed7a10894622ed8b99a7a863f85996869743c6",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\security\\LULA-I-proof-20261012\\extensions\\shared-oracle-20261013\\selected-promotion-review\\message-hash-identification\\sphincs-round3-specification.txt",
+      "text_sha256": "bf5a7bd2f93f4c166a5a479fb24b82a0f38d40b68922826ff78cc171e7878381",
+      "anchor": "official round3 Section9.1 printed48/PDF47"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.pdf",
+      "pdf_sha256": "1169896fff4160e7a294162b8a3e061ffdf1888f3925f5614532c28bd3473c4a",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\R4\\R4B-rollback-tolerant-state\\refs\\sphincsplus_r31\\sphincs+-r3.1-specification.txt",
+      "text_sha256": "ddaf6d600a05c2e9b3bef113bf995827a79f76616f09f8e7b4cef0ba90e17323",
+      "anchor": "official r3.1 Section9.1 printed49/text1911-1935"
+    },
+    {
+      "pdf": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.pdf",
+      "pdf_sha256": "80dcd11e56448d07e2a2465a11ef1a9ca8f4561387abeb3fabdd6d40d4ffe3c3",
+      "text": "C:\\Users\\angel\\Desktop\\paper\\PAPERS\\LUGEL\\research\\lula22\\M-measure\\M2-sphincs-reparam\\refs\\eprint_2022_346_hulsing_kudinov_tight.txt",
+      "text_sha256": "be27fac74e2885f3d5fe4b7a24a09b3166ba82e4c726e988766527c29293c561",
+      "anchor": "HK22 AppendixA Definition11 printed30/PDF29"
+    }
+  ],
+  "checks": {
+    "total_rank_family_fully_specified": true,
+    "source_exante_bound_all_executions": true,
+    "rank_extra_domain_bplus1_hardness_named": true,
+    "same_h_exact_words_tag_metadata_only": true,
+    "dense_exact_source_channel_guess_independent": true,
+    "at_most17_completed_distinct_witnesses": true,
+    "sparse_matching_prefix_quantum_channels_not_unconditional_abortlaw": true,
+    "dense_qtargets_Lk_vs_sparse_ktargets_BordLk": true,
+    "nonce_memoization_freshness_bottom": true,
+    "no_uniform297route_or_pF297_transfer": true,
+    "optional18_no_extra_source_tree_or_loss": true,
+    "all_source_and_challenger_costs_explicit": true,
+    "prior_direct_component_unchanged": true,
+    "actual_primary_pins_rechecked": true,
+    "no_old_scalar_or_category_upgrade": true
+  },
+  "new_source_game_checked_declarations": 0,
+  "actual_family_hardness_or_numerical_adequacy": "NOT_ESTABLISHED",
+  "whole_goal_complete": false
+}

@@ -1,0 +1,25 @@
+\subsection{Latency consequences of caching}\label{sec:experiments}
+The cost reduction is reflected in the selected elapsed-time observations in \Cref{tab:eval-warm}. These measurements used one pinned logical processor on an Intel Core Ultra 7 255U with 32 GiB RAM and Windows 11 Pro. LULA I used Rust with \texttt{sha2} 0.10.9; SLH-DSA used OpenSSL 3.5.7 with default hedged signing~\cite{openssl}. The hash backends were not matched, the physical core was not isolated, and repeated calls are not independent key trials. The 32-byte inputs are raw messages, not a standardized prehash mode. The LULA I $2^{40}$-query objective is conditional; the SLH-DSA sets have published $2^{64}$-query targets. These timings therefore do not establish a common-security ranking.
+
+\begin{table}[t]
+\caption{Elapsed latencies in milliseconds for complete raw messages. $N$ counts repeated calls per operation, not independent keys. LULA I uses a prepared cache at a conditional $2^{40}$-query objective; SLH-DSA uses its published $2^{64}$-query targets.}\label{tab:eval-warm}
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrr}\toprule
+Implementation & Message & $N$ & Sign median & Sign p99 & Verify median & Verify p99\\\midrule
+LULA I &32 B&6000&3.5917&6.3176&0.1186&0.2040\\
+&1 KiB&6000&3.5610&4.9656&0.1194&0.2633\\
+&64 KiB&6000&3.6371&5.6228&0.1453&0.2703\\\midrule
+SHA2-128f &32 B&6000&10.7753&16.9220&0.6311&1.0835\\
+&1 KiB&6000&10.8329&20.1320&0.6326&1.1071\\
+&64 KiB&6000&10.8369&15.9241&0.6909&1.1457\\\midrule
+SHA2-128s &32 B&1200&232.1651&330.2543&0.2295&0.4604\\
+&1 KiB&1200&231.7642&324.0112&0.2278&0.4940\\
+&64 KiB&1200&231.1751&312.0871&0.2968&0.6498\\\bottomrule
+\end{tabular}
+\end{table}
+
+Results pool six blocks per message length, with 1,000 calls per operation in each block for LULA I and SHA2-128f and 200 for SHA2-128s; LULA I used two keys, three blocks each. The two SHA2-128s verification cells at 1 KiB and 64 KiB failed the repeatability criterion: their largest block p99/median ratios were 3.372 and 3.426, exceeding the threshold of three. Their pooled results remain in the table. Medians use the midpoint of the central observations and p99 uses nearest rank.
+
+Cache availability has a larger effect on first-use latency than on signature size. For one key and a 32-byte message, fifteen process restarts with a saved cache had a median of 5.7000569 seconds for loading plus first signing, excluding process launch; the first signing call alone had a median of 0.0035796 seconds. Three individual first signatures after complete cache loss took 331.8369642, 337.5630796 and 330.0493122 seconds. These are individual observations, not an estimated recovery distribution. A separate, single-worker observation of complete key generation with cache preparation took 2,216.118 seconds. None of these elapsed times is a guaranteed worst-case bound.
+
+\input{comparison-results}

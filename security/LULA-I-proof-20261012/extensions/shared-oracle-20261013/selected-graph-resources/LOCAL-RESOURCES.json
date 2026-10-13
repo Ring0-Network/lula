@@ -1,0 +1,223 @@
+{
+  "status": "COMPUTED_PROPOSED_LOCALIZED_CAPS_NOT_PROMOTED_SUCCESSOR",
+  "base_inventory_sha256": "8d2264ff13a3a76a00c50768149d4864d86093e57a5f48bdaac21673c07fe202",
+  "selected_predecessor_public_max": 8560574462,
+  "selected_predecessor_private_max": 33554432,
+  "final_route_public": 8560653547,
+  "final_route_private": 33567232,
+  "trace_payload_bytes": 2026710,
+  "final_route_node_array_bytes": 67391136,
+  "pre_root_node_array_bytes": 67108832,
+  "fixed_bit_selector_loss": 72057594037927936,
+  "selected_handle_cap": "1+Q_H+3217 for nonzero S with known target response reused",
+  "qrows": [
+    {
+      "log2_q": 24,
+      "q": 16777216,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 217264960000,
+          "HJ_public_Raw_minus_QH": 369296604712223105,
+          "REAL_total_Raw_minus_QH": 369296821993960321,
+          "B_K_Derive_cap": 217264960000,
+          "B_K_Raw_minus_QH": 369296604729000321,
+          "B_P_local_F_cap": 217264960000,
+          "B_P_Randomizer_cap": 16777216,
+          "B_P_Raw_minus_QH": 369296604712223105
+        },
+        "cold": {
+          "private_coordinate_cap": 563166949945856,
+          "HJ_public_Raw_minus_QH": 584976805599986049,
+          "REAL_total_Raw_minus_QH": 585539972566709121,
+          "B_K_Derive_cap": 563166949945856,
+          "B_K_Raw_minus_QH": 584976805616763265,
+          "B_P_local_F_cap": 563166949945856,
+          "B_P_Randomizer_cap": 16777216,
+          "B_P_Raw_minus_QH": 584976805599986049
+        }
+      }
+    },
+    {
+      "log2_q": 30,
+      "q": 1073741824,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 13763323376128,
+          "HJ_public_Raw_minus_QH": 23067525492884193665,
+          "REAL_total_Raw_minus_QH": 23067539257281311617,
+          "B_K_Derive_cap": 13763323376128,
+          "B_K_Raw_minus_QH": 23067525493957935489,
+          "B_P_local_F_cap": 13763323376128,
+          "B_P_Randomizer_cap": 1073741824,
+          "B_P_Raw_minus_QH": 23067525492884193665
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 36871058349701022081,
+          "REAL_total_Raw_minus_QH": 36890271287859036545,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 36871058350774763905,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 1073741824,
+          "B_P_Raw_minus_QH": 36871058349701022081
+        }
+      }
+    },
+    {
+      "log2_q": 38,
+      "q": 274877906944,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 3522837503554048,
+          "HJ_public_Raw_minus_QH": 5902989675571718472065,
+          "REAL_total_Raw_minus_QH": 5902993198684099933057,
+          "B_K_Derive_cap": 3522837503554048,
+          "B_K_Raw_minus_QH": 5902989675846596379009,
+          "B_P_local_F_cap": 3522837503554048,
+          "B_P_Randomizer_cap": 274877906944,
+          "B_P_Raw_minus_QH": 5902989675571718472065
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 9436694086916826546561,
+          "REAL_total_Raw_minus_QH": 9436713300128788726145,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 9436694087191704453505,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 274877906944,
+          "B_P_Raw_minus_QH": 9436694086916826546561
+        }
+      }
+    },
+    {
+      "log2_q": 40,
+      "q": 1099511627776,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 14091343269736960,
+          "HJ_public_Raw_minus_QH": 23611931680515031122305,
+          "REAL_total_Raw_minus_QH": 23611945772957812487041,
+          "B_K_Derive_cap": 14091343269736960,
+          "B_K_Raw_minus_QH": 23611931681614542750081,
+          "B_P_local_F_cap": 14091343269736960,
+          "B_P_Randomizer_cap": 1099511627776,
+          "B_P_Raw_minus_QH": 23611931680515031122305
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 37746749325895463420289,
+          "REAL_total_Raw_minus_QH": 37746768539932059320705,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 37746749326994975048065,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 1099511627776,
+          "B_P_Raw_minus_QH": 37746749325895463420289
+        }
+      }
+    },
+    {
+      "log2_q": 41,
+      "q": 2199023255552,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 47223854353772781322625,
+          "REAL_total_Raw_minus_QH": 47223873568908888850817,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 47223854355971804578177,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 2199023255552,
+          "B_P_Raw_minus_QH": 47223854353772781322625
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 75493489644533645918593,
+          "REAL_total_Raw_minus_QH": 75493508859669753446785,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 75493489646732669174145,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 2199023255552,
+          "B_P_Raw_minus_QH": 75493489644533645918593
+        }
+      }
+    },
+    {
+      "log2_q": 44,
+      "q": 17592186044416,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 377790771779381284127105,
+          "REAL_total_Raw_minus_QH": 377790791009910554444161,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 377790771796973470171521,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 17592186044416,
+          "B_P_Raw_minus_QH": 377790771779381284127105
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 603947854105468200894849,
+          "REAL_total_Raw_minus_QH": 603947873335997471211905,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 603947854123060386939265,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 17592186044416,
+          "B_P_Raw_minus_QH": 603947854105468200894849
+        }
+      }
+    },
+    {
+      "log2_q": 50,
+      "q": 1125899906842624,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 24178608826423193486049665,
+          "REAL_total_Raw_minus_QH": 24178608846762030477164929,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 24178608827549093392892289,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 1125899906842624,
+          "B_P_Raw_minus_QH": 24178608826423193486049665
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 38652662095292756159185281,
+          "REAL_total_Raw_minus_QH": 38652662115631593150300545,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 38652662096418656066027905,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 1125899906842624,
+          "B_P_Raw_minus_QH": 38652662095292756159185281
+        }
+      }
+    },
+    {
+      "log2_q": 64,
+      "q": 18446744073709551616,
+      "modes": {
+        "hot": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 396142326864551706042092831105,
+          "REAL_total_Raw_minus_QH": 396142326883017663052886655361,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 396142326882998450115802382721,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 18446744073709551616,
+          "B_P_Raw_minus_QH": 396142326864551706042092831105
+        },
+        "cold": {
+          "private_coordinate_cap": 19212937084272640,
+          "HJ_public_Raw_minus_QH": 633285215621710620878746763649,
+          "REAL_total_Raw_minus_QH": 633285215640176577889540587905,
+          "B_K_Derive_cap": 19212937084272640,
+          "B_K_Raw_minus_QH": 633285215640157364952456315265,
+          "B_P_local_F_cap": 19212937084272640,
+          "B_P_Randomizer_cap": 18446744073709551616,
+          "B_P_Raw_minus_QH": 633285215621710620878746763649
+        }
+      }
+    }
+  ]
+}

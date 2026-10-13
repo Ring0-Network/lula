@@ -1,0 +1,21 @@
+\subsection{Signing-query objective and FORS coverage}\label{sec:operating}
+We consider a use objective of $2^{40}$ signing queries across restored branches. It is conditional on the unresolved full reference-signer bound, rather than a certified signing capacity.
+
+The model considers a generic classical FORS coverage attack, following the occupancy analysis of Fluhrer and Dang~\cite[Section~5, Equation~(1)]{fluhrer}. It assumes independent uniform address and tree-index selections. For LULA I, with $\rho=2^{-41}$, $r=1-2^{-9}$ and $N$ exposures at one address, coverage of the 17 real trees has probability $(1-r^N)^{17}$. A raw candidate must also satisfy the nine-bit zero condition. Expanding the power gives
+\[
+ p_{\mathrm{raw}}=2^{-9}\sum_{j=0}^{17}(-1)^j\binom{17}{j}\,\mathbb E[r^{jN}].
+\]
+For Binomial occupancy, $N\sim\mathrm{Bin}(q_{\mathrm{sig}},\rho)$ and $\mathbb E[r^{jN}]=(1-\rho+\rho r^j)^{q_{\mathrm{sig}}}$. The Poisson approximation uses $\lambda=q_{\mathrm{sig}}\rho$ and $\mathbb E[r^{jN}]=\exp(\lambda(r^j-1))$. Both evaluations agree at the displayed precision for LULA I.
+
+\begin{table}[t]
+\caption{Classical FORS+C coverage-model exponents per raw digest candidate for the fixed LULA I parameters. Independent uniform selections are assumed. These component values are not full-signature security bounds.}\label{tab:security-model}
+\centering\small
+\begin{tabular}{lr}\toprule
+Signing queries & $-\log_2 p_{\mathrm{raw}}$\\\midrule
+$2^{38}$ &143.3\\
+$2^{40}$ &132.6\\
+$2^{41}$ &125.9\\\bottomrule
+\end{tabular}
+\end{table}
+
+At $2^{40}$ queries, 132.6 is a per-candidate FORS+C exponent, not a 128-bit bound for the complete signer. The calculation does not establish the selection distribution of the deterministic signer, control adaptive forged randomizers and counters, or close the hypertree and primitive reductions. Additional signing queries reduce the component exponent; no certified threshold follows from this model alone.

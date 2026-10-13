@@ -1,0 +1,96 @@
+{
+  "lean_pin": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--",
+      "bash",
+      "-lc",
+      "/root/jolt-lean-20261001/lean-4.28.0-linux/bin/lean --version; git -C /root/jolt-lean-20261001/mathlib rev-parse HEAD; sha256sum /root/jolt-lean-20261001/mathlib/lake-manifest.json /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lean"
+    ],
+    "exit_code": 0,
+    "stdout": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)\n8f9d9cff6bd728b17a24e163c9402775d9e6a365\na89b59a9c917d113c32b931cc82a6b919d50be80ec1a701612f571bcd34f245a  /root/jolt-lean-20261001/mathlib/lake-manifest.json\n3e0d0d3d801675359f2d4cf9815bfdb417b20b92fdd9d48b3b14c95bbae28bbf  /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lean\n",
+    "stderr": ""
+  },
+  "easycrypt_configuration": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--",
+      "/root/.opam/ec/bin/easycrypt",
+      "config"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "git-hash: r2026.07-1-g87b6f8b\nload-path:\n  <system>@/root/.opam/ec/lib/easycrypt/theories\n  <system>@/root/.opam/ec/lib/easycrypt/theories/tactics\n  <system>@/root/.opam/ec/lib/easycrypt/theories/structure\n  <system>@/root/.opam/ec/lib/easycrypt/theories/query_counting\n  <system>@/root/.opam/ec/lib/easycrypt/theories/modules\n  <system>@/root/.opam/ec/lib/easycrypt/theories/looping\n  <system>@/root/.opam/ec/lib/easycrypt/theories/encryption\n  <system>@/root/.opam/ec/lib/easycrypt/theories/distributions\n  <system>@/root/.opam/ec/lib/easycrypt/theories/datatypes\n  <system>@/root/.opam/ec/lib/easycrypt/theories/crypto\n  <system>@/root/.opam/ec/lib/easycrypt/theories/crypto/ske\n  <system>@/root/.opam/ec/lib/easycrypt/theories/crypto/prp_prf\n  <system>@/root/.opam/ec/lib/easycrypt/theories/crypto/pke\n  <system>@/root/.opam/ec/lib/easycrypt/theories/crypto/assumptions\n  <system>@/root/.opam/ec/lib/easycrypt/theories/core\n  <system>@/root/.opam/ec/lib/easycrypt/theories/analysis\n  <system>@/root/.opam/ec/lib/easycrypt/theories/algebra\n  <system>@/root/.opam/ec/lib/easycrypt/theories/prelude\nwhy3 configuration file\n  /root/.config/easycrypt/why3.conf\nEasyCrypt system configuration directory\n  /root/.opam/ec/lib/easycrypt/config\nEasyCrypt configuration file\n  <none>\nknown provers: Alt-Ergo@2.4.3, Alt-Ergo[FPA]@2.4.3, Z3@4.8.12, Z3[counterexamples]@4.8.12, Z3[noBV]@4.8.12\nCommands PATH: /root/.opam/ec/lib/easycrypt/commands\nSystem PATH:\n  /usr/local/sbin\n  /usr/local/bin\n  /usr/sbin\n  /usr/bin\n  /sbin\n  /bin\n  /usr/games\n  /usr/local/games\n  /usr/lib/wsl/lib\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell\n  /mnt/c/Users/angel/.codex/tmp/arg0/codex-arg0kfgHnJ\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/libheif/libheif/bin\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/jxrlib/jxrlib/bin\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override\n  /mnt/c/WINDOWS/system32\n  /mnt/c/WINDOWS\n  /mnt/c/WINDOWS/System32/Wbem\n  /mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/\n  /mnt/c/WINDOWS/System32/OpenSSH/\n  /mnt/c/Program Files/Git/cmd\n  /mnt/c/Program Files/dotnet/\n  /mnt/c/Program Files/GitHub CLI/\n  /mnt/c/Program Files/GnuPG/bin\n  /mnt/c/Program Files/CMake/bin\n  /mnt/c/Program Files/nodejs/\n  /mnt/c/Program Files/Docker/Docker/resources/bin\n  /mnt/c/Users/angel/AppData/Local/Programs/OpenAI/Codex/bin\n  /mnt/c/Users/angel/.cargo/bin\n  /mnt/c/Users/angel/AppData/Local/Programs/Python/Python313/Scripts/\n  /mnt/c/Users/angel/AppData/Local/Programs/Python/Python313/\n  /mnt/c/Users/angel/AppData/Local/Programs/Python/Launcher/\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell\n  /mnt/c/Users/angel/AppData/Local/Microsoft/WindowsApps\n  /mnt/c/Users/angel/.local/bin\n  /mnt/c/Users/angel/AppData/Local/Microsoft/WinGet/Links\n  /mnt/c/Users/angel/AppData/Local/Programs/MiKTeX/miktex/bin/x64/\n  /mnt/c/Users/angel/AppData/Roaming/npm\n  /mnt/c/Users/angel/.fly/bin\n  /mnt/c/Users/angel/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin\n  /mnt/c/Users/angel/AppData/Local/supabase\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin\n  /mnt/c/Users/angel/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd\n  /mnt/c/Users/angel/AppData/Local/OpenAI/Codex/bin/9a7ba4b9ea0c44a3\n  /mnt/c/Users/angel/AppData/Local/OpenAI/Codex/bin/2e5e00daee91c61d\n"
+  },
+  "easycrypt_final": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--",
+      "/root/.opam/ec/bin/easycrypt",
+      "compile",
+      "-no-eco",
+      "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/formal/CacheModel.ec"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "[-] [0002] 2.6% (-1.0B / [frag -1.0B])\n[\\] [0005] 15.1% (-1.0B / [frag -1.0B])\n[|] [0006] 18.4% (-1.0B / [frag -1.0B])\n[/] [0007] 21.0% (-1.0B / [frag -1.0B])\n[-] [0013] 29.8% (-1.0B / [frag -1.0B])\n[\\] [0025] 49.8% (-1.0B / [frag -1.0B])\n[|] [0028] 60.3% (-1.0B / [frag -1.0B])\n[/] [0029] 61.1% (-1.0B / [frag -1.0B])\n[-] [0030] 62.0% (-1.0B / [frag -1.0B])\n[\\] [0031] 63.6% (-1.0B / [frag -1.0B])\n[|] [0032] 64.1% (-1.0B / [frag -1.0B])\n[/] [0036] 76.6% (-1.0B / [frag -1.0B])\n[-] [0037] 77.4% (-1.0B / [frag -1.0B])\n[\\] [0038] 78.9% (-1.0B / [frag -1.0B])\n[|] [0039] 80.8% (-1.0B / [frag -1.0B])\n[/] [0040] 81.4% (-1.0B / [frag -1.0B])\n[-] [0044] 95.0% (-1.0B / [frag -1.0B])\n[\\] [0045] 95.8% (-1.0B / [frag -1.0B])\n[|] [0046] 97.5% (-1.0B / [frag -1.0B])\n[/] [0047] 99.5% (-1.0B / [frag -1.0B])\n[-] [0048] 100.0% (-1.0B / [frag -1.0B])\n[\\] [0048] 100.0% (-1.0B / [frag -1.0B])\n                                                   \n",
+    "checked_without_diagnostics": true
+  },
+  "solver_and_checker_hashes": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--",
+      "bash",
+      "-lc",
+      "/usr/bin/z3 --version; /root/.opam/ec/bin/alt-ergo --version; sha256sum /root/.opam/ec/bin/easycrypt /root/.config/easycrypt/why3.conf /usr/bin/z3 /root/.opam/ec/bin/alt-ergo"
+    ],
+    "exit_code": 0,
+    "stdout": "Z3 version 4.8.12 - 64 bit\n2.4.3\neab8838409474d78d084b594ccef5451f03ee8873e0a86c52ad24b1fd8faba91  /root/.opam/ec/bin/easycrypt\ne06dbff7fd877caa89885929ba4f542d24b875b8711d1081ce0df80add67038f  /root/.config/easycrypt/why3.conf\nc05be002097e2f2106efeeac03e58032e3f5cca10104f95d7a0ddc0bd3f907cb  /usr/bin/z3\n52ff50f7f68e83298efa268fb2aa5adfab355107c9c357a1c0e424f01386d660  /root/.opam/ec/bin/alt-ergo\n",
+    "stderr": ""
+  },
+  "K_available": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "--",
+      "bash",
+      "-lc",
+      "command -v kompile; command -v kprove"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "",
+    "verdict": "UNCHECKED K development; no install/configuration changes"
+  },
+  "source_hashes": {
+    "aristotle_task.py": "851c775b19f07c2b2d90b57def3aebb044e480a259c7ce442694225ef9a70aa7",
+    "CacheModel.ec": "8de755f99c03f7cd6da8cbb20d7386568c6cf54aff39a173ebf317465839e9d5",
+    "CacheSemantics.k": "26c80acf9e71d7299e43300740403277a063beb4e83aff6551e587f330800224",
+    "check_remote.py": "33f8a17671a428308ff7ba6fd528f88bf283f5e0a887c67b88e2647c0d386c8f",
+    "IndependentLula.lean": "d300535db7e1ca09f2acd78888dc72d75d543b34284d1200eb40ae0251591150",
+    "IndependentLulaLocal.lean": "19b44dcdd882db2d27f52c4b8b2f2c7287795d7cdf7123d599fc077e91e98cf1",
+    "LulaLemmas.lean": "9cb58d17c5c5d90e98f7bce0a0f2d1e364f89c17827f5a389ff8216ffbc9dbbd",
+    "quantum_arithmetic.py": "efc535d11f5111a792f7d3a66b3e86a57e9c17220938d70d4a04a23f3bab776c",
+    "recheck_aristotle.py": "eab98f1b35c8427fe05686e75879ed6db2cf2170e24bce61b6294c1d69e8b012",
+    "record_environment.py": "23e0b500e40b068633e77cd87e3e7d4062d80736147f4a39f14b57cdb5478267",
+    "run_local.py": "721590fb6a9575d2fb5b59782be8dec1fe110e28379e267b69903402ca740f60"
+  },
+  "sdk_versions": {
+    "aristotlelib": "2.1.0",
+    "axle": [
+      [
+        "axiom-axle",
+        "1.5.0"
+      ]
+    ]
+  }
+}

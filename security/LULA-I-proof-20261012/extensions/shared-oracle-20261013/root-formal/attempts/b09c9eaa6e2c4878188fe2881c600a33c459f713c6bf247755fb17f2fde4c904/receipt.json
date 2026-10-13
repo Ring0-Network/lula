@@ -1,0 +1,18 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--",
+    "/root/.opam/ec/bin/easycrypt",
+    "compile",
+    "-no-eco",
+    "-p",
+    "Z3",
+    "/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SeedGuess.ec"
+  ],
+  "exit_code": 1,
+  "source_sha256": "b09c9eaa6e2c4878188fe2881c600a33c459f713c6bf247755fb17f2fde4c904",
+  "stdout": "",
+  "stderr": "[-] [0002] 2.6% (-1.0B / [frag -1.0B])\n[\\] [0008] 15.9% (-1.0B / [frag -1.0B])\n[|] [0009] 16.3% (-1.0B / [frag -1.0B])\n[/] [0010] 17.1% (-1.0B / [frag -1.0B])\n[-] [0011] 18.2% (-1.0B / [frag -1.0B])\n[\\] [0012] 20.5% (-1.0B / [frag -1.0B])\n[|] [0013] 22.3% (-1.0B / [frag -1.0B])\n[/] [0014] 22.6% (-1.0B / [frag -1.0B])\n[-] [0019] 31.4% (-1.0B / [frag -1.0B])\n[\\] [0020] 31.8% (-1.0B / [frag -1.0B])\n[|] [0021] 32.6% (-1.0B / [frag -1.0B])\n[/] [0022] 33.9% (-1.0B / [frag -1.0B])\n[-] [0023] 36.3% (-1.0B / [frag -1.0B])\n[\\] [0024] 36.6% (-1.0B / [frag -1.0B])\n[|] [0030] 51.2% (-1.0B / [frag -1.0B])\n[/] [0031] 51.7% (-1.0B / [frag -1.0B])\n[-] [0032] 52.4% (-1.0B / [frag -1.0B])\n[\\] [0033] 55.1% (-1.0B / [frag -1.0B])\n[|] [0034] 57.9% (-1.0B / [frag -1.0B])\n[/] [0036] 63.3% (-1.0B / [frag -1.0B])\n[-] [0037] 65.3% (-1.0B / [frag -1.0B])\n[\\] [0038] 66.8% (-1.0B / [frag -1.0B])\n                                                   \n                                                   \n[critical] [/mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SeedGuess.ec: line 37 (18-25)] nothing to rewrite\n[|] [0038] 66.8% (-1.0B / [frag -1.0B])\n[/] [0038] 66.8% (-1.0B / [frag -1.0B])\n"
+}

@@ -1,9 +1,0 @@
-# Clarification of immutable interior first11425f21
-
-The first is preserved. In §2, the sentence beginning “The gate is also allowed at setup when a completed cached signature is not actually exposed” is misleading and is withdrawn. **Building endpoint/root/cache values is NOT honest adversarial exposure, and MUST NOT trigger the exposure gate.** The following sentences in that paragraph state the intended rule: stop only when processing an actual honest response that would expose the unavailable selected prefix. Natural source setup/search failure still absorbs normally. If the selected honest response would later fail, the original finite experiment likewise cannot win; if it completes at d_i<=p, the original selected hidden-input event cannot occur.
-
-In source-service simulation the gate may be recognized before constructing the unavailable response bytes, once the actual selected canonical row and its digit are known. This is an artificial reduction abort justified by the noncontributing branch, not a fabricated source completion or a no-hit condition on A's quantum public-h computation. It does not assert that full gated and ungated source transcript laws agree.
-
-The first's fixed-edge Route1 operates in SrcFJideal_h with independent ideal private starts. Transferring it to the literal private-prefix source requires the already separate private-PRF interface gaps. Its original source endpoint/root/cache law is exact at cut r=0 on allowed histories; later cut games intentionally change the selected prefix distribution and consistently recompute their own roots/ancestor rows. No old public root is held fixed across these hybrids.
-
-This clarification was saved after first11425f21 and before any newly authorized interior peer/root candidate was read. It does not change the per-edge PRE plus p UD inequality, actual same-h byte frames, source Win/image-match statistic, or the absence of any numerical security conclusion.

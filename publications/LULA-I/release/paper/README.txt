@@ -1,1 +1,0 @@
-Editable LULA I manuscript. Build: pdflatex, bibtex, pdflatex twice. See ../README.md for dependencies, dataset checks, license scope and scientific limitations. The repository copy omits the contact email; research content matches the main manuscript.

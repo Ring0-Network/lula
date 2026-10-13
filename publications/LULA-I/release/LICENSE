@@ -1,9 +1,0 @@
-# License scope
-
-Copyright 2026 Ring0 Labs contributors.
-
-Our software in code/ and our root Python entry points are licensed under Apache-2.0; see LICENSES/Apache-2.0.txt.
-Our manuscript text, figures, measurement data and documentation in paper/, data/ and docs/ are licensed under CC BY 4.0; see LICENSES/CC-BY-4.0.txt.
-Third-party software, standard specifications and cited works retain their own terms. The scope above does not license those external works. NOTICE.md identifies dependencies, evidence and exclusions.
-
-The published deterministic benchmark fixtures are public test material. They must never be used as operational signing keys. No private operational key or cache is included.

@@ -1,7 +1,0 @@
-'Lula.fixed_sum_antichain' depends on axioms: [propext, Quot.sound]
-'Lula.sum_monotone' depends on axioms: [propext]
-'Lula.restored_cache_same' does not depend on any axioms
-'Lula.adaptive_transcript_equal' depends on axioms: [Quot.sound]
-'Lula.adaptive_restoration_equal' does not depend on any axioms
-'Lula.no_changed_success' does not depend on any axioms
-'Lula.equal_or_first_divergence' depends on axioms: [propext]

@@ -1,7 +1,0 @@
-[package]
-name = "lula-code-cache-control"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-lula1 = { path = "../../../../publications/LULA-I/release/code/lula1" }

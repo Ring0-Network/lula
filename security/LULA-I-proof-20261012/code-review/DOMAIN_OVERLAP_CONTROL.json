@@ -1,8 +1,0 @@
-{
-  "status": "COMPUTED_ENCODING_COUNTEREXAMPLE_NOT_A_FORGERY",
-  "condition": "R equals secret sk_prf; m0=pk_root||m1",
-  "same_raw_sha256_input": true,
-  "same_first_16_output_bytes": true,
-  "attack_demonstrated": false,
-  "required_lemma": "single-RO bad-overlap/secret-query bound rather than unconditional independent named oracles"
-}

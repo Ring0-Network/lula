@@ -1,1 +1,0 @@
-{"candidate":"kn4036","keygen_ns":158999100,"sig_bytes":4036,"pk_bytes":32,"gomaxprocs":1}

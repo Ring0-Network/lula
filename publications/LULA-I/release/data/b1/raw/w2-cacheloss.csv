@@ -1,4 +1,0 @@
-candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid
-LULA-I,missing,32,0,fixture_load,136200,0,0,32,true
-LULA-I,missing,32,0,sign,337563079600,8602614321,5720,32,true
-LULA-I,missing,32,0,verify,132000,3265,5720,32,true

@@ -1,4 +1,0 @@
-candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid
-kn3952-recon,fresh,32,0,fixture_load,450400,,0,32,true
-kn3952-recon,fresh,32,0,sign,3338615300,,3952,32,true
-kn3952-recon,fresh,32,0,verify,695900,,3952,32,true

@@ -1,3 +1,0 @@
-'LulaDigestProjection.prefix_preserved' depends on axioms: [propext, Quot.sound]
-'LulaDigestProjection.route_all_zero' depends on axioms: [propext, Quot.sound]
-'LulaDigestProjection.filter_all_zero' depends on axioms: [propext, Quot.sound]

@@ -1,4 +1,0 @@
-candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid,alloc_bytes,mallocs,state_counter,body_bytes
-kn4036,fresh,32,0,fixture_load,939500,,0,32,true,0,0,0,0
-kn4036,fresh,32,0,sign,2170596200,,4036,32,true,1465140328,26305536,0,4036
-kn4036,fresh,32,0,verify,1044400,,4036,32,true,0,0,0,4036

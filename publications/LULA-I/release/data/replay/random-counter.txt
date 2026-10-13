@@ -1,3 +1,0 @@
-deterministic smallest counter (RA rule): {'start': 'det', 'signatures_on_leaf0': 6, 'distinct_top_counters': 1, 'forged': False, 'tries': 1048576}
-random-start lazy grinding             : {'start': 'random', 'signatures_on_leaf0': 6, 'distinct_top_counters': 6, 'forged': True, 'tries': 8}
-COUNTEREXAMPLE HOLDS

@@ -1,5 +1,0 @@
-{
-  "exit_code": 0,
-  "stdout": "{\n  \"outcome\": \"PASS_ALL_16_ROOT_ROWS_AND_CLASSICAL_TERM_LEDGER\",\n  \"rows\": 16,\n  \"identities\": {\n    \"own_bounds_sha256\": \"9859f7e201402d8b53539bb16144add8016c7f889d923add947289dad94e50fd\",\n    \"root-checks\\\\bounds-QH64\\\\bounds.json\": \"95588a3415ca5c328f3a7107cdb47a97f4319f4f7f7cfe842ab8fc4ba8a44593\",\n    \"root-checks\\\\bounds-QH128\\\\bounds.json\": \"fed0563b108525cf18a5569b10b87e8cab994f15cd236faa7ca44a4ffb188a59\",\n    \"root_script_sha256\": \"2e0849d60bde394397ef917d667d8a547c910868b571157d6a26f8140eb338cd\"\n  }\n}\n",
-  "stderr": ""
-}

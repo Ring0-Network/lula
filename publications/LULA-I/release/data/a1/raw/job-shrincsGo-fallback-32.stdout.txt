@@ -1,1 +1,0 @@
-{"candidate":"shrincs-go","all_verify":true}

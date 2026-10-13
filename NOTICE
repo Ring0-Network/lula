@@ -1,0 +1,7 @@
+LULA I supporting proofs and validation artifacts
+Developed by Ring0 Labs. Paper published by Lugel Labs.
+Paper: https://doi.org/10.5281/zenodo.23353281
+
+The independent Python verifier is carried from the LULA I reproducibility release. Public fixtures retain only public-key material, messages and signatures. Public test vectors must not be interpreted as operational key material.
+
+Lean/Mathlib, EasyCrypt, Why3, Z3 and mpmath are separate dependencies with their own licenses and trust boundaries. No full third-party source archive or reference document is redistributed here.

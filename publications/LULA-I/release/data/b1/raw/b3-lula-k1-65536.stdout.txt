@@ -1,1 +1,0 @@
-{"candidate":"LULA-I","scenario":"prepared","message_bytes":65536,"repetitions":1000,"all_verify":true,"negative_tests":"PASS"}

@@ -1,7 +1,0 @@
-{
-  "command": "wsl -d Ubuntu-24.04 -- bash -lc \"cd /root/jolt-lean-20261001/mathlib && env PATH=/root/jolt-lean-20261001/lean-4.28.0-linux/bin:/usr/bin:/bin /root/jolt-lean-20261001/lean-4.28.0-linux/bin/lake env lean /mnt/c/Users/angel/Desktop/paper/PAPERS/LUGEL/research/lula22/security/LULA-I-proof-20261012/extensions/shared-oracle-20261013/root-formal/SPRSeparation.lean\"",
-  "exit_code": 0,
-  "stdout": "'LulaSPRSeparation.identity_injective' does not depend on any axioms\n'LulaSPRSeparation.identity_chain' does not depend on any axioms\n'LulaSPRSeparation.identity_values_any_digits' depends on axioms: [propext, Quot.sound]\n'LulaSPRSeparation.identity_has_public_inverse' does not depend on any axioms\n",
-  "source_sha256": "bec31567ae07abbdf8ae868b2d2f804fe469dce276d938bf6fdd8a24e1a425da",
-  "scope": "Live independent local rerun of four algebraic declarations; no new source edit or cryptographic proof"
-}

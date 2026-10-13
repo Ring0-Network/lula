@@ -1,5 +1,0 @@
-'LulaTree.split_fixed_left' depends on axioms: [propext, Classical.choice, Quot.sound]
-'LulaTree.cancel_prefix' depends on axioms: [propext]
-'LulaTree.frame_children_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
-'LulaTree.same_root_agreement_or_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
-'LulaTree.changed_leaf_or_path_yields_witness' depends on axioms: [propext, Classical.choice, Quot.sound]

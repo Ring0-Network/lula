@@ -1,3 +1,0 @@
-# Preserve the bytes bound by the reproducibility manifest on clone/check-out.
-* -text
-*.pdf binary

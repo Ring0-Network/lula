@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "proof_scope": "Supporting mathematical components only; no complete source, signature-security game, Rust refinement, hash-hardness or category theorem.",
+  "expected_theorem_count": 38,
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "toolchain": "leanprover/lean4:v4.28.0",
+  "mathlib_revision": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+  "files": [
+    {
+      "file": "LulaProofs/AddressedMerkle.lean",
+      "sha256": "402996a51c0bcc4b9258c9598dc81b8aec3c174b842f648e3e72f9beaa6ad523",
+      "scope": "Fixed-address Merkle framing and equal-root witness extraction.",
+      "declarations": [
+        {
+          "name": "LulaTree.split_fixed_left",
+          "statement": "{A : Type} (left right otherLeft otherRight : List A)\n    (hlen : left.length = otherLeft.length)\n    (he : left ++ right = otherLeft ++ otherRight) :\n    left = otherLeft ∧ right = otherRight"
+        },
+        {
+          "name": "LulaTree.cancel_prefix",
+          "statement": "{A : Type} (header left right : List A)\n    (he : header ++ left = header ++ right) : left = right"
+        },
+        {
+          "name": "LulaTree.frame_children_injective",
+          "statement": "{Addr : Type} {n : Nat}\n    (header : Addr → List UInt8) (address : Addr)\n    (left right otherLeft otherRight : Node n)\n    (he : frame header address left right = frame header address otherLeft otherRight) :\n    left = otherLeft ∧ right = otherRight"
+        },
+        {
+          "name": "LulaTree.same_root_agreement_or_witness",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (path₁ path₂ : List (Step Addr n)) (leaf₁ leaf₂ : Node n)\n    (hs : schedule path₁ = schedule path₂)\n    (hr : root H header leaf₁ path₁ = root H header leaf₂ path₂) :\n    (leaf₁ = leaf₂ ∧ path₁ = path₂) ∨\n      ∃ address x y,\n        (address, x) ∈ trace H header leaf₁ path₁ ∧\n        (address, y) ∈ trace H header leaf₂ path₂ ∧\n        x ≠ y ∧ H x = H y"
+        },
+        {
+          "name": "LulaTree.changed_leaf_or_path_yields_witness",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (path₁ path₂ : List (Step Addr n)) (leaf₁ leaf₂ : Node n)\n    (hs : schedule path₁ = schedule path₂)\n    (hr : root H header leaf₁ path₁ = root H header leaf₂ path₂)\n    (hd : leaf₁ ≠ leaf₂ ∨ path₁ ≠ path₂) :\n    ∃ address x y,\n      (address, x) ∈ trace H header leaf₁ path₁ ∧\n      (address, y) ∈ trace H header leaf₂ path₂ ∧\n      x ≠ y ∧ H x = H y"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/ChainEvidence.lean",
+      "sha256": "453643faa6f720424819e0b48562bd857fd99929faa93c023b8baa074e4388d1",
+      "scope": "Labelled chain merger, concatenation, last-step dataflow and fixed-sum antichain.",
+      "declarations": [
+        {
+          "name": "LulaWots.cancel_header",
+          "statement": "{A : Type} (header left right : List A)\n    (h : header ++ left = header ++ right) : left = right"
+        },
+        {
+          "name": "LulaWots.raw_value_injective",
+          "statement": "{Addr : Type} {n : Nat}\n    (header : Addr → List UInt8) (address : Addr) (a b : Node n)\n    (h : raw header address a = raw header address b) : a = b"
+        },
+        {
+          "name": "LulaWots.chain_start_equal_or_witness",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (addresses : List Addr) (a b : Node n)\n    (h : run H header addresses a = run H header addresses b) :\n    a = b ∨ ∃ address x y,\n      (address,x) ∈ trace H header addresses a ∧\n      (address,y) ∈ trace H header addresses b ∧ x ≠ y ∧ H x = H y"
+        },
+        {
+          "name": "LulaWots.changed_chain_start_witness",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (addresses : List Addr) (a b : Node n)\n    (h : run H header addresses a = run H header addresses b) (hn : a ≠ b) :\n    ∃ address x y,\n      (address,x) ∈ trace H header addresses a ∧\n      (address,y) ∈ trace H header addresses b ∧ x ≠ y ∧ H x = H y"
+        },
+        {
+          "name": "LulaWots.run_append",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (before after : List Addr) (start : Node n) :\n    run H header (before ++ after) start = run H header after (run H header before start)"
+        },
+        {
+          "name": "LulaWots.last_step_preimage",
+          "statement": "{Addr : Type} {n : Nat}\n    (H : List UInt8 → Node n) (header : Addr → List UInt8)\n    (before : List Addr) (last : Addr) (start target : Node n)\n    (h : run H header (before ++ [last]) start = target) :\n    ∃ x, x = raw header last (run H header before start) ∧ H x = target"
+        },
+        {
+          "name": "LulaWots.sum_monotone",
+          "statement": "{x y : List Nat} (h : List.Forall₂ (· ≤ ·) x y) : x.sum ≤ y.sum"
+        },
+        {
+          "name": "LulaWots.fixed_sum_antichain",
+          "statement": "{x y : List Nat}\n    (hle : List.Forall₂ (· ≤ ·) x y) (hs : x.sum = y.sum) : x = y"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/SPRSeparation.lean",
+      "sha256": "bec31567ae07abbdf8ae868b2d2f804fe469dce276d938bf6fdd8a24e1a425da",
+      "scope": "Identity-function separation: second-preimage uniqueness alone does not imply inversion hardness.",
+      "declarations": [
+        {
+          "name": "LulaSPRSeparation.identity_injective",
+          "statement": ": Function.Injective (id : α → α)"
+        },
+        {
+          "name": "LulaSPRSeparation.identity_chain",
+          "statement": "(n : Nat) (x : α) : ((id : α → α)^[n]) x = x"
+        },
+        {
+          "name": "LulaSPRSeparation.identity_values_any_digits",
+          "statement": "{ell : Nat} (secret : Fin ell → α)\n    (e e' : Fin ell → Nat) : chainValues secret e = chainValues secret e'"
+        },
+        {
+          "name": "LulaSPRSeparation.identity_has_public_inverse",
+          "statement": ":\n    ∃ inv : α → α, ∀ x : α, inv ((id : α → α) x) = x"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/QueryThreshold.lean",
+      "sha256": "a209d49f4d1fb89238a9df4abce29c26500fb835c1b6775ada39f65f3a587b70",
+      "scope": "Abstract monotone order and adjacent-threshold facts, conditional on supplied monotonicity.",
+      "declarations": [
+        {
+          "name": "LulaQueryThreshold.cap_monotone",
+          "statement": "(f : Nat → α) (hf : Monotone f) (cap : α) :\n    Monotone (fun q => min cap (f q))"
+        },
+        {
+          "name": "LulaQueryThreshold.minimum_monotone",
+          "statement": "(f g : Nat → α) (hf : Monotone f) (hg : Monotone g) :\n    Monotone (fun q => min (f q) (g q))"
+        },
+        {
+          "name": "LulaQueryThreshold.cap_preserves_strict_failure",
+          "statement": "(target cap value : α)\n    (hcap : target < cap) (hvalue : target < value) :\n    target < min cap value"
+        },
+        {
+          "name": "LulaQueryThreshold.certified_prefix",
+          "statement": "(f : Nat → α) (hf : Monotone f) (target : α)\n    {q k : Nat} (hq : q ≤ k) (hk : Certified f target k) :\n    Certified f target q"
+        },
+        {
+          "name": "LulaQueryThreshold.failed_suffix",
+          "statement": "(f : Nat → α) (hf : Monotone f) (target : α)\n    {q k : Nat} (hk : target < f k) (hq : k ≤ q) : target < f q"
+        },
+        {
+          "name": "LulaQueryThreshold.adjacent_boundary",
+          "statement": "(f : Nat → α) (hf : Monotone f) (target : α)\n    (k : Nat) (hk : Certified f target k) (hnext : target < f (k + 1)) :\n    ∀ q, Certified f target q ↔ q ≤ k"
+        },
+        {
+          "name": "LulaQueryThreshold.no_certified_budget_if_zero_fails",
+          "statement": "(f : Nat → α) (hf : Monotone f)\n    (target : α) (hzero : target < f 0) :\n    ∀ q, ¬ Certified f target q"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/QuantumSelector.lean",
+      "sha256": "0f1ba12badf33e214499e861020657cffe071ff5d7f6f268a940dec450dc28b2",
+      "scope": "Finite selector algebra and coordinate arithmetic, conditional on supplied root-error inequalities.",
+      "declarations": [
+        {
+          "name": "LulaQuantumSelector.sum_root_error_square",
+          "statement": "(s : Finset ι) (a b e : ι → R)\n    (ha : ∀ i ∈ s, 0 ≤ a i) (hb : ∀ i ∈ s, 0 ≤ b i)\n    (he : ∀ i ∈ s, 0 ≤ e i) (h : ∀ i ∈ s, a i ≤ b i + e i) :\n    (∑ i ∈ s, (a i)^2) ≤\n      (∑ i ∈ s, (b i)^2) + 2*(∑ i ∈ s, b i*e i) + (∑ i ∈ s, (e i)^2)"
+        },
+        {
+          "name": "LulaQuantumSelector.mixed_sum_bound",
+          "statement": "(s : Finset ι) (b e : ι → R) (c : R)\n    (hc : 0 ≤ c)\n    (hcsq : c^2 = (∑ i ∈ s, (b i)^2)*(∑ i ∈ s, (e i)^2)) :\n    (∑ i ∈ s, b i*e i) ≤ c"
+        },
+        {
+          "name": "LulaQuantumSelector.padded_root_upper",
+          "statement": "(s : Finset ι) (a b e : ι → R)\n    (L bbar deltaCut cross : R)\n    (ha : ∀ i ∈ s, 0 ≤ a i) (hb : ∀ i ∈ s, 0 ≤ b i)\n    (he : ∀ i ∈ s, 0 ≤ e i) (h : ∀ i ∈ s, a i ≤ b i + e i)\n    (hB : (∑ i ∈ s, (b i)^2) = L*bbar)\n    (hD : (∑ i ∈ s, (e i)^2) = deltaCut)\n    (hc : 0 ≤ cross) (hcSq : cross^2 = L*bbar*deltaCut) :\n    (∑ i ∈ s, (a i)^2) ≤ L*bbar + 2*cross + deltaCut"
+        },
+        {
+          "name": "LulaQuantumSelector.cap_padded_probability",
+          "statement": "(P total envelope : R)\n    (hprob : P ≤ 1) (hsource : P ≤ total) (henvelope : total ≤ envelope) :\n    P ≤ min 1 envelope"
+        },
+        {
+          "name": "LulaQuantumSelector.interior_cut_count",
+          "statement": ":\n    32*14*(2^41+2^36+2^31+2^26 : Nat)+16*254*2^21 = 1016949404336128"
+        },
+        {
+          "name": "LulaQuantumSelector.protected_union_count",
+          "statement": ":\n    32*15*(2^41+2^36+2^31+2^26 : Nat)+16*255*2^21+2^41*17*512 =\n      20229886488608768"
+        },
+        {
+          "name": "LulaQuantumSelector.padded_namespace",
+          "statement": ":\n    (2^54 : Nat) < 20229886488608768 ∧ 20229886488608768 < 2^55"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/CounterPolicy.lean",
+      "sha256": "514c092e67fce163b52628b396f7ba60a5fc8c9244101d89bcddcc073c75e88a",
+      "scope": "Synthetic two-base counter-policy separation, not the construction hash predicate.",
+      "declarations": [
+        {
+          "name": "LulaCounterPolicy.both_policies_accepted",
+          "statement": "(base : Bool) :\n    accepts (toyHash base 0) ∧ accepts (toyHash base 1)"
+        },
+        {
+          "name": "LulaCounterPolicy.canonical_policy_collision",
+          "statement": "(base : Bool) :\n    (!base) ≠ base ∧ toyHash (!base) 0 = toyHash base 0"
+        },
+        {
+          "name": "LulaCounterPolicy.later_policy_no_changed_base_collision",
+          "statement": "(base other : Bool) (counter : Nat)\n    (hdiff : other ≠ base) : toyHash other counter ≠ toyHash base 1"
+        },
+        {
+          "name": "LulaCounterPolicy.no_finite_factor_from_zero_success",
+          "statement": "(factor : Nat) :\n    ¬ (1 ≤ factor * 0)"
+        }
+      ]
+    },
+    {
+      "file": "LulaProofs/DigestProjection.lean",
+      "sha256": "d7c171ccc604367805bb060d2968f94d2cc798c0674ccec80721157f0601d234",
+      "scope": "Same-word prefix preservation and two bit slices under a zero lower limb.",
+      "declarations": [
+        {
+          "name": "LulaDigestProjection.prefix_preserved",
+          "statement": "(d : Word256) : takePrefix (zeroLower d) = takePrefix d"
+        },
+        {
+          "name": "LulaDigestProjection.route_all_zero",
+          "statement": "(d : Word256) : route (zeroLower d) = fun _ => false"
+        },
+        {
+          "name": "LulaDigestProjection.filter_all_zero",
+          "statement": "(d : Word256) : filterBits (zeroLower d) = fun _ => false"
+        }
+      ]
+    }
+  ],
+  "statement_authority": "The pinned source, including ambient variables, typeclasses, preceding definitions and imported theories. Inventory statement strings are source-header excerpts, not independent closed formulas."
+}

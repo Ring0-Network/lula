@@ -1,0 +1,12 @@
+{
+  "easycrypt_git_hash": "r2026.07-1-g87b6f8b",
+  "why3_version": "Why3 platform, version 1.8.2",
+  "z3_version": "Z3 version 4.8.12 - 64 bit",
+  "selected_prover": "Z3",
+  "direct_library_sha256": {
+    "core/AllCore.ec": "129becdf69920921dd3e7c0da0be9f40d0fc4fd24fc884f1a70c038fa58e15ab",
+    "datatypes/List.ec": "edd3c2c57087b25b00279d31bb9bab65d4026caaa1f8534c62aed2cbce7c7dc4",
+    "distributions/Distr.ec": "bfdc6a7638bc1f3ac98b92487d2d1c972ae7130ad15eb808b27b15fa45e7bfdc",
+    "distributions/DInterval.ec": "928d2aa63a2f79d921ebea73d29962e50a4c31ccc372b5827d6d70838b57db1e"
+  }
+}

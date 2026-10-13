@@ -1,8 +1,0 @@
-'LulaWots.cancel_header' depends on axioms: [propext]
-'LulaWots.raw_value_injective' depends on axioms: [propext]
-'LulaWots.chain_start_equal_or_witness' depends on axioms: [propext]
-'LulaWots.changed_chain_start_witness' depends on axioms: [propext]
-'LulaWots.run_append' does not depend on any axioms
-'LulaWots.last_step_preimage' does not depend on any axioms
-'LulaWots.sum_monotone' depends on axioms: [propext]
-'LulaWots.fixed_sum_antichain' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "proof_scope": "Supporting ideal-list, abstract-procedure and integer lemmas only; no complete source-game security proof.",
+  "expected_lemma_count": 9,
+  "custom_axiom_declarations": 0,
+  "trusted_stack": "EasyCrypt logic and official libraries; Why3 and selected Z3 SMT proofs. No transitive library-axiom minimization or full library rebuild is claimed.",
+  "files": [
+    {
+      "file": "SeedGuess.ec",
+      "sha256": "f4bb3f768cf63722a8f108708617f6d31cc264bc19fad13a1e148c2284206b8f",
+      "scope": "Fixed candidate lists supplied before two independent uniform keys; not adaptive source-transcript security.",
+      "declarations": [
+        {
+          "name": "uniform_atom_bound",
+          "statement": "(n x : int) :\n  0 < n => mu1 (dinter 0 (n-1)) x <= 1%r / n%r."
+        },
+        {
+          "name": "one_seed_hit_bound",
+          "statement": "(n : int) (candidates : int list) :\n  0 < n =>\n  mu (dinter 0 (n-1)) (mem candidates)\n  <= (size candidates)%r * (1%r / n%r)."
+        },
+        {
+          "name": "two_seed_hit_bound",
+          "statement": "(n : int) (prefixes suffixes : int list) :\n  0 < n =>\n  mu (dinter 0 (n-1) `*` dinter 0 (n-1))\n    (fun (keys : int * int) => keys.`1 \\in prefixes \\/ keys.`2 \\in suffixes)\n  <= (size prefixes + size suffixes)%r * (1%r / n%r)."
+        },
+        {
+          "name": "key_blind_game_bound",
+          "statement": "(n : int) (prefixes suffixes : int list) :\n  0 < n =>\n  phoare [KeyBlind.sample : arg = (prefixes,suffixes,n) ==> res]\n    <= ((size prefixes + size suffixes)%r * (1%r / n%r))."
+        }
+      ]
+    },
+    {
+      "file": "AdapterCounts.ec",
+      "sha256": "f5c28d498152607f912a495c7373dea5f1578b1328f5627a99cd1b9a77f8f2ae",
+      "scope": "Two abstract reflexive routing equivalences and three integer resource inequalities; not the complete adapter or Rust model.",
+      "declarations": [
+        {
+          "name": "secret_adapter_equiv",
+          "statement": "(C <: PRIVATE) :\n  equiv [Adapter(C).secret ~ Adapter(C).secret :\n    ={arg, glob C} ==> ={res, glob C}]."
+        },
+        {
+          "name": "nonce_adapter_equiv",
+          "statement": "(C <: PRIVATE) :\n  equiv [Adapter(C).nonce ~ Adapter(C).nonce :\n    ={arg, glob C} ==> ={res, glob C}]."
+        },
+        {
+          "name": "private_cold_caps",
+          "statement": "(q : int) :\n  0 <= q =>\n  2181038080 + 33567232*q <= 2181038080 + 33567393*q."
+        },
+        {
+          "name": "private_hot_caps",
+          "statement": "(q : int) :\n  0 <= q =>\n  2181038080 + 12816*q <= 2181038080 + 12961*q."
+        },
+        {
+          "name": "private_hot_le_cold",
+          "statement": "(q : int) :\n  0 <= q =>\n  2181038080 + 12816*q <= 2181038080 + 33567232*q."
+        }
+      ]
+    }
+  ],
+  "statement_authority": "The pinned source, including ambient variables, typeclasses, preceding definitions and imported theories. Inventory statement strings are source-header excerpts, not independent closed formulas."
+}

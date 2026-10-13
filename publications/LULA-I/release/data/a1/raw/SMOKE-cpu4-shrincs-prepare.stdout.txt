@@ -1,1 +1,0 @@
-{"candidate":"shrincs-c-b32","keygen_ns":134638800,"pk_bytes":32,"sf_first_bytes":324,"fallback_bytes":3680}

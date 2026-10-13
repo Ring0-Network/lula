@@ -1,4 +1,0 @@
-candidate,scenario,message_bytes,rep,operation,ns,hash_calls,sig_bytes,pk_bytes,valid,state_counter
-shrincs-c-b32,fallback,32,0,fixture_load_or_restore,979700,,0,32,true,0
-shrincs-c-b32,fallback,32,0,sign,837330400,,3680,32,true,0
-shrincs-c-b32,fallback,32,0,verify,646100,,3680,32,true,0

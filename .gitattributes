@@ -1,1 +1,7 @@
-* -text
+# Preserve exact bytes of checked proof sources and public test vectors.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.sh text eol=lf
+*.yml text eol=lf
+*.lean linguist-language=Lean
+*.ec linguist-language=EasyCrypt
+tests/fixtures/** linguist-generated=true

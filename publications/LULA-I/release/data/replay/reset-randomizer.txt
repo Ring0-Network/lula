@@ -1,4 +1,0 @@
-{'randomizer': 'fresh', 'model': 'R', 'same_R_after_restore': True, 'collision_work': 2712, 'forged': True}
-{'randomizer': 'fresh', 'model': 'F', 'same_R_after_restore': False, 'collision_work': 2745, 'forged': False}
-{'randomizer': 'det', 'model': 'R', 'same_R_after_restore': False, 'collision_work': 528, 'forged': False}
-COUNTEREXAMPLE HOLDS

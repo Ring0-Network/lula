@@ -1,0 +1,7 @@
+License scope
+
+The independently authored Python verifier and model routines carried from the LULA I release retain the Apache License, Version 2.0, reproduced in LICENSES/Apache-2.0.txt.
+
+The retained public verification vectors retain Creative Commons Attribution 4.0 International terms, reproduced in LICENSES/CC-BY-4.0.txt. Attribution: Ring0 Labs, LULA I, DOI 10.5281/zenodo.23353281; published by Lugel Labs.
+
+This repository reorganization does not add a license grant to the formal proof sources or relicense third-party dependencies. Their existing terms remain applicable.

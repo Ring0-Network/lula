@@ -7,11 +7,13 @@ The mechanism paper is published on Zenodo: **[LULA I — DOI 10.5281/zenodo.233
 ## Read the paper
 
 - [Published main PDF](publications/LULA-I/LULA-I.pdf)
-- [Editable TeX](publications/LULA-I/LULA-I.tex) and [published source archive](publications/LULA-I/LULA-I-source.zip)
+- [Editable TeX](publications/LULA-I/LULA-I.tex) and [editable source archive](publications/LULA-I/LULA-I-source.zip)
 - [Curated reproducibility bundle](publications/LULA-I/release/README.md), including code, retained data, notices, and reproduction instructions
 - [Final publication reviews](publications/LULA-I/editorial/zenodo-release-20261013/technical/POSTEDIT-REVIEW.md)
 
 The main PDF contains the author's requested contact. The reproducibility bundle's repository-paper copy intentionally omits it. The paper proves honest-cache transparency and a conditional rollback-security transfer. It does not establish the full reference signer's 128-bit security, category 1, or a certified signing capacity.
+
+The accompanying English [research note on Lugel](https://lugel.org/blog/lula) explains cache restoration, the measured costs and the conditional security scope.
 
 ## Read the security research
 

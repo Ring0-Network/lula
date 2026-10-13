@@ -46,7 +46,7 @@ The EasyCrypt checker requires the exact installed EasyCrypt, Why3 and Z3 identi
 python -I -B proofs/easycrypt/check.py
 ```
 
-Use `--easycrypt`, `--why3`, `--z3` and `--why3-config` for installed tools outside PATH. These checkers do not install or reconfigure tools. An unavailable prerequisite is reported as unchecked, with a nonzero exit status. EasyCrypt checks depend on the pinned EasyCrypt/Why3/SMT trusted stack. Each formal checker runs explicitly.
+Use `--easycrypt`, `--why3`, `--z3` and `--why3-config` for installed tools outside PATH. These checkers do not install or reconfigure tools. An unavailable prerequisite is reported as unchecked, with a nonzero exit status. EasyCrypt checks depend on the pinned EasyCrypt/Why3/SMT trusted stack. GitHub Actions runs the Python and Lean checks; EasyCrypt has a separate explicit checker.
 
 ## Scope
 
